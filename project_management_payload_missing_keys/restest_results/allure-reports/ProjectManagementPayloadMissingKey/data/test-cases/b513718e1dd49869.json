@@ -1,0 +1,78 @@
+{
+  "uid" : "b513718e1dd49869",
+  "name" : "test_qe9v8xvnrtyc_deleteproject",
+  "fullName" : "ProjectManagementPayloadMissingKey.OasDbProjectManagementPayloadMissingKey_1h7fvnpty05rl.test_qe9v8xvnrtyc_deleteproject",
+  "historyId" : "2a9e4bbcf2b069bd618a396880141f16",
+  "time" : {
+    "start" : 1640929832163,
+    "stop" : 1640929832177,
+    "duration" : 14
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9d53a616080b47d8",
+      "name" : "Request",
+      "source" : "9d53a616080b47d8.html",
+      "type" : "text/html",
+      "size" : 279
+    }, {
+      "uid" : "b4002c124bff298a",
+      "name" : "HTTP/1.1 404 Not Found",
+      "source" : "b4002c124bff298a.html",
+      "type" : "text/html",
+      "size" : 675
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ProjectManagementPayloadMissingKey"
+  }, {
+    "name" : "testClass",
+    "value" : "ProjectManagementPayloadMissingKey.OasDbProjectManagementPayloadMissingKey_1h7fvnpty05rl"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_qe9v8xvnrtyc_deleteproject"
+  }, {
+    "name" : "suite",
+    "value" : "ProjectManagementPayloadMissingKey.OasDbProjectManagementPayloadMissingKey_1h7fvnpty05rl"
+  }, {
+    "name" : "host",
+    "value" : "Alexs-MacBook-Pro-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "56366@Alexs-MacBook-Pro-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b513718e1dd49869.json",
+  "parameterValues" : [ ]
+}

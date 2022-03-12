@@ -1,0 +1,97 @@
+{
+  "uid" : "d5ba81c0b421c076",
+  "name" : "test_uvgwu8taddf6_readproject",
+  "fullName" : "ProjectManagementPayloadExtraKey.OasDbProjectManagementPayloadExtraKey_t81atlkac0tz.test_uvgwu8taddf6_readproject",
+  "historyId" : "bcaa31bca729ba8d28b6f209f15b61b4",
+  "time" : {
+    "start" : 1640933531308,
+    "stop" : 1640933531320,
+    "duration" : 12
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5b1f436abc2ff8d9",
+      "name" : "Request",
+      "source" : "5b1f436abc2ff8d9.html",
+      "type" : "text/html",
+      "size" : 275
+    }, {
+      "uid" : "fe1ceb65de73acc4",
+      "name" : "HTTP/1.1 404 Not Found",
+      "source" : "fe1ceb65de73acc4.html",
+      "type" : "text/html",
+      "size" : 546
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ProjectManagementPayloadExtraKey"
+  }, {
+    "name" : "testClass",
+    "value" : "ProjectManagementPayloadExtraKey.OasDbProjectManagementPayloadExtraKey_t81atlkac0tz"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_uvgwu8taddf6_readproject"
+  }, {
+    "name" : "suite",
+    "value" : "ProjectManagementPayloadExtraKey.OasDbProjectManagementPayloadExtraKey_t81atlkac0tz"
+  }, {
+    "name" : "host",
+    "value" : "Alexs-MacBook-Pro-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "58538@Alexs-MacBook-Pro-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "2fbf31714f0ea2f9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640933531308,
+          "stop" : 1640933531320,
+          "duration" : 12
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d5ba81c0b421c076.json",
+  "parameterValues" : [ ]
+}

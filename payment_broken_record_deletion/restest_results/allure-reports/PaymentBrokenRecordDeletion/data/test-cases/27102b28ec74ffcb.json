@@ -1,0 +1,97 @@
+{
+  "uid" : "27102b28ec74ffcb",
+  "name" : "test_1ji77adf187ck_deletecharge",
+  "fullName" : "PaymentBrokenRecordDeletion.OasDbPaymentBrokenRecordDeletion_1ji4h4smhyofq.test_1ji77adf187ck_deletecharge",
+  "historyId" : "61c8ae169d67633ef0762c2d42633aff",
+  "time" : {
+    "start" : 1640952234015,
+    "stop" : 1640952234035,
+    "duration" : 20
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b58edeee6de22c92",
+      "name" : "Request",
+      "source" : "b58edeee6de22c92.html",
+      "type" : "text/html",
+      "size" : 263
+    }, {
+      "uid" : "e889b72bc937ee25",
+      "name" : "HTTP/1.1 404 Not Found",
+      "source" : "e889b72bc937ee25.html",
+      "type" : "text/html",
+      "size" : 546
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "PaymentBrokenRecordDeletion"
+  }, {
+    "name" : "testClass",
+    "value" : "PaymentBrokenRecordDeletion.OasDbPaymentBrokenRecordDeletion_1ji4h4smhyofq"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_1ji77adf187ck_deletecharge"
+  }, {
+    "name" : "suite",
+    "value" : "PaymentBrokenRecordDeletion.OasDbPaymentBrokenRecordDeletion_1ji4h4smhyofq"
+  }, {
+    "name" : "host",
+    "value" : "Alexs-MacBook-Pro-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "69421@Alexs-MacBook-Pro-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "e9dd9a8da02c1fe9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640952234015,
+          "stop" : 1640952234035,
+          "duration" : 20
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "27102b28ec74ffcb.json",
+  "parameterValues" : [ ]
+}

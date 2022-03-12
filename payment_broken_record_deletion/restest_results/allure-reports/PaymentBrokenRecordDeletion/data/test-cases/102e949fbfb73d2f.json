@@ -1,0 +1,78 @@
+{
+  "uid" : "102e949fbfb73d2f",
+  "name" : "test_uv8lg2mib0hl_updatecharge",
+  "fullName" : "PaymentBrokenRecordDeletion.OasDbPaymentBrokenRecordDeletion_1k1wpkn45e5o1.test_uv8lg2mib0hl_updatecharge",
+  "historyId" : "94fa5cd139c9375a068f11e9f8b548c8",
+  "time" : {
+    "start" : 1640952377496,
+    "stop" : 1640952377509,
+    "duration" : 13
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ab658e8d126f1181",
+      "name" : "Request",
+      "source" : "ab658e8d126f1181.html",
+      "type" : "text/html",
+      "size" : 731
+    }, {
+      "uid" : "80ff0ad51762d852",
+      "name" : "HTTP/1.1 404 Not Found",
+      "source" : "80ff0ad51762d852.html",
+      "type" : "text/html",
+      "size" : 546
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "PaymentBrokenRecordDeletion"
+  }, {
+    "name" : "testClass",
+    "value" : "PaymentBrokenRecordDeletion.OasDbPaymentBrokenRecordDeletion_1k1wpkn45e5o1"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_uv8lg2mib0hl_updatecharge"
+  }, {
+    "name" : "suite",
+    "value" : "PaymentBrokenRecordDeletion.OasDbPaymentBrokenRecordDeletion_1k1wpkn45e5o1"
+  }, {
+    "name" : "host",
+    "value" : "Alexs-MacBook-Pro-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "69421@Alexs-MacBook-Pro-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "102e949fbfb73d2f.json",
+  "parameterValues" : [ ]
+}

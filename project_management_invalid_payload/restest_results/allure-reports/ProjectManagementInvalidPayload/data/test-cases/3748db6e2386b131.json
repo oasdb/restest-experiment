@@ -1,0 +1,78 @@
+{
+  "uid" : "3748db6e2386b131",
+  "name" : "test_1iycppvducdwj_deleteproject",
+  "fullName" : "ProjectManagementInvalidPayload.OasDbProjectManagementInvalidPayload_qy4h18mrna78.test_1iycppvducdwj_deleteproject",
+  "historyId" : "f6de0304fe0a13b1b539c31a4e71bf1",
+  "time" : {
+    "start" : 1640937320642,
+    "stop" : 1640937320654,
+    "duration" : 12
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f231f553961dead",
+      "name" : "Request",
+      "source" : "f231f553961dead.html",
+      "type" : "text/html",
+      "size" : 239
+    }, {
+      "uid" : "8ee87af7e9e09307",
+      "name" : "HTTP/1.1 404 Not Found",
+      "source" : "8ee87af7e9e09307.html",
+      "type" : "text/html",
+      "size" : 546
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ProjectManagementInvalidPayload"
+  }, {
+    "name" : "testClass",
+    "value" : "ProjectManagementInvalidPayload.OasDbProjectManagementInvalidPayload_qy4h18mrna78"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_1iycppvducdwj_deleteproject"
+  }, {
+    "name" : "suite",
+    "value" : "ProjectManagementInvalidPayload.OasDbProjectManagementInvalidPayload_qy4h18mrna78"
+  }, {
+    "name" : "host",
+    "value" : "Alexs-MacBook-Pro-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "60711@Alexs-MacBook-Pro-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3748db6e2386b131.json",
+  "parameterValues" : [ ]
+}

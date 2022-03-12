@@ -1,0 +1,129 @@
+{
+  "uid" : "e55834c11645bf56",
+  "name" : "test_vf9p5dmznxgw_deletecharge",
+  "fullName" : "PaymentBrokenRecordDeletion.OasDbPaymentBrokenRecordDeletion_1jicuc4t16wyu.test_vf9p5dmznxgw_deletecharge",
+  "historyId" : "2271332ea479b3d2af1cb67169c431d0",
+  "time" : {
+    "start" : 1640951941846,
+    "stop" : 1640951941860,
+    "duration" : 14
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6927de4a54f0665b",
+      "name" : "Request",
+      "source" : "6927de4a54f0665b.html",
+      "type" : "text/html",
+      "size" : 265
+    }, {
+      "uid" : "ff0eb9c96e63a544",
+      "name" : "HTTP/1.1 404 Not Found",
+      "source" : "ff0eb9c96e63a544.html",
+      "type" : "text/html",
+      "size" : 546
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "PaymentBrokenRecordDeletion"
+  }, {
+    "name" : "testClass",
+    "value" : "PaymentBrokenRecordDeletion.OasDbPaymentBrokenRecordDeletion_1jicuc4t16wyu"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_vf9p5dmznxgw_deletecharge"
+  }, {
+    "name" : "suite",
+    "value" : "PaymentBrokenRecordDeletion.OasDbPaymentBrokenRecordDeletion_1jicuc4t16wyu"
+  }, {
+    "name" : "host",
+    "value" : "Alexs-MacBook-Pro-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "69421@Alexs-MacBook-Pro-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "8295dd518d2eee80",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640951941846,
+          "stop" : 1640951941860,
+          "duration" : 14
+        }
+      }, {
+        "uid" : "e39037284a07ffd7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640951941846,
+          "stop" : 1640951941860,
+          "duration" : 14
+        }
+      }, {
+        "uid" : "1268f8473dc16ed3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640951941846,
+          "stop" : 1640951941860,
+          "duration" : 14
+        }
+      }, {
+        "uid" : "91b9e296e7386cd6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640951941846,
+          "stop" : 1640951941860,
+          "duration" : 14
+        }
+      }, {
+        "uid" : "ef487fbf21998e3a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640951941846,
+          "stop" : 1640951941860,
+          "duration" : 14
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e55834c11645bf56.json",
+  "parameterValues" : [ ]
+}

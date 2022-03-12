@@ -1,0 +1,78 @@
+{
+  "uid" : "bbc1387069e0a355",
+  "name" : "test_1jeyvh2z5a71z_updateincident",
+  "fullName" : "IncidentResponsePayloadExtraKey.OasDbIncidentResponsePayloadExtraKey_1if0j9z8nmywl.test_1jeyvh2z5a71z_updateincident",
+  "historyId" : "7fe19a22737be5a16090a100fbc24143",
+  "time" : {
+    "start" : 1640938576327,
+    "stop" : 1640938576341,
+    "duration" : 14
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ae2e19995507ad23",
+      "name" : "Request",
+      "source" : "ae2e19995507ad23.html",
+      "type" : "text/html",
+      "size" : 659
+    }, {
+      "uid" : "c6d306980057b436",
+      "name" : "HTTP/1.1 404 Not Found",
+      "source" : "c6d306980057b436.html",
+      "type" : "text/html",
+      "size" : 679
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "IncidentResponsePayloadExtraKey"
+  }, {
+    "name" : "testClass",
+    "value" : "IncidentResponsePayloadExtraKey.OasDbIncidentResponsePayloadExtraKey_1if0j9z8nmywl"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_1jeyvh2z5a71z_updateincident"
+  }, {
+    "name" : "suite",
+    "value" : "IncidentResponsePayloadExtraKey.OasDbIncidentResponsePayloadExtraKey_1if0j9z8nmywl"
+  }, {
+    "name" : "host",
+    "value" : "Alexs-MacBook-Pro-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "61431@Alexs-MacBook-Pro-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bbc1387069e0a355.json",
+  "parameterValues" : [ ]
+}

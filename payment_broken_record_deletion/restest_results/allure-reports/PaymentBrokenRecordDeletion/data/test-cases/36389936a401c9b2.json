@@ -1,0 +1,78 @@
+{
+  "uid" : "36389936a401c9b2",
+  "name" : "test_1iuqgru4uiqg3_readcharge",
+  "fullName" : "PaymentBrokenRecordDeletion.OasDbPaymentBrokenRecordDeletion_1k1wpkn45e5o1.test_1iuqgru4uiqg3_readcharge",
+  "historyId" : "63c471f9c92d7cead1f5ddc40e45d8fb",
+  "time" : {
+    "start" : 1640952317214,
+    "stop" : 1640952317225,
+    "duration" : 11
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "41ad72e71d716ae8",
+      "name" : "Request",
+      "source" : "41ad72e71d716ae8.html",
+      "type" : "text/html",
+      "size" : 255
+    }, {
+      "uid" : "1aac1a395a7e5905",
+      "name" : "HTTP/1.1 404 Not Found",
+      "source" : "1aac1a395a7e5905.html",
+      "type" : "text/html",
+      "size" : 546
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "PaymentBrokenRecordDeletion"
+  }, {
+    "name" : "testClass",
+    "value" : "PaymentBrokenRecordDeletion.OasDbPaymentBrokenRecordDeletion_1k1wpkn45e5o1"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_1iuqgru4uiqg3_readcharge"
+  }, {
+    "name" : "suite",
+    "value" : "PaymentBrokenRecordDeletion.OasDbPaymentBrokenRecordDeletion_1k1wpkn45e5o1"
+  }, {
+    "name" : "host",
+    "value" : "Alexs-MacBook-Pro-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "69421@Alexs-MacBook-Pro-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "36389936a401c9b2.json",
+  "parameterValues" : [ ]
+}

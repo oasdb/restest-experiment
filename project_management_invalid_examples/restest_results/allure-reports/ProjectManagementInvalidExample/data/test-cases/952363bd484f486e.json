@@ -1,0 +1,97 @@
+{
+  "uid" : "952363bd484f486e",
+  "name" : "test_1hrmifx6f61r5_readproject",
+  "fullName" : "ProjectManagementInvalidExample.OasDbProjectManagementInvalidExample_1jyouwvdfn60m.test_1hrmifx6f61r5_readproject",
+  "historyId" : "de78f6c45441a2eb0acb7fe8915e4a14",
+  "time" : {
+    "start" : 1640950968194,
+    "stop" : 1640950968207,
+    "duration" : 13
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f962aa0def98c135",
+      "name" : "Request",
+      "source" : "f962aa0def98c135.html",
+      "type" : "text/html",
+      "size" : 283
+    }, {
+      "uid" : "bb20728a2c06b7d4",
+      "name" : "HTTP/1.1 404 Not Found",
+      "source" : "bb20728a2c06b7d4.html",
+      "type" : "text/html",
+      "size" : 546
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ProjectManagementInvalidExample"
+  }, {
+    "name" : "testClass",
+    "value" : "ProjectManagementInvalidExample.OasDbProjectManagementInvalidExample_1jyouwvdfn60m"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_1hrmifx6f61r5_readproject"
+  }, {
+    "name" : "suite",
+    "value" : "ProjectManagementInvalidExample.OasDbProjectManagementInvalidExample_1jyouwvdfn60m"
+  }, {
+    "name" : "host",
+    "value" : "Alexs-MacBook-Pro-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "68692@Alexs-MacBook-Pro-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "7942c18852252cac",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640950968194,
+          "stop" : 1640950968207,
+          "duration" : 13
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "952363bd484f486e.json",
+  "parameterValues" : [ ]
+}

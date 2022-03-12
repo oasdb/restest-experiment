@@ -1,0 +1,78 @@
+{
+  "uid" : "53cf84f91876f9ea",
+  "name" : "test_1iuw0bdw9ezhv_readcharge",
+  "fullName" : "PaymentInvalidExample.OasDbPaymentInvalidExample_s1b56mcqefxs.test_1iuw0bdw9ezhv_readcharge",
+  "historyId" : "1522f785987d21ae78a6b009e81a76dd",
+  "time" : {
+    "start" : 1640942318023,
+    "stop" : 1640942318037,
+    "duration" : 14
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f68c823936ee8932",
+      "name" : "Request",
+      "source" : "f68c823936ee8932.html",
+      "type" : "text/html",
+      "size" : 293
+    }, {
+      "uid" : "94b6711518a8682e",
+      "name" : "HTTP/1.1 404 Not Found",
+      "source" : "94b6711518a8682e.html",
+      "type" : "text/html",
+      "size" : 682
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "PaymentInvalidExample"
+  }, {
+    "name" : "testClass",
+    "value" : "PaymentInvalidExample.OasDbPaymentInvalidExample_s1b56mcqefxs"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_1iuw0bdw9ezhv_readcharge"
+  }, {
+    "name" : "suite",
+    "value" : "PaymentInvalidExample.OasDbPaymentInvalidExample_s1b56mcqefxs"
+  }, {
+    "name" : "host",
+    "value" : "Alexs-MacBook-Pro-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "63598@Alexs-MacBook-Pro-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "53cf84f91876f9ea.json",
+  "parameterValues" : [ ]
+}

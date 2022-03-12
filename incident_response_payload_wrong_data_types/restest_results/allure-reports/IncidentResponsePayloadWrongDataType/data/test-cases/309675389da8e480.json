@@ -1,0 +1,78 @@
+{
+  "uid" : "309675389da8e480",
+  "name" : "test_qhtd9kbum69e_readincident",
+  "fullName" : "IncidentResponsePayloadWrongDataType.OasDbIncidentResponsePayloadWrongDataType_us0pmra50myc.test_qhtd9kbum69e_readincident",
+  "historyId" : "18c29b5918b96089be70330a09f2539c",
+  "time" : {
+    "start" : 1640944844639,
+    "stop" : 1640944844650,
+    "duration" : 11
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7dfb40aefa5f4e60",
+      "name" : "Request",
+      "source" : "7dfb40aefa5f4e60.html",
+      "type" : "text/html",
+      "size" : 229
+    }, {
+      "uid" : "8869ca43962eb441",
+      "name" : "HTTP/1.1 404 Not Found",
+      "source" : "8869ca43962eb441.html",
+      "type" : "text/html",
+      "size" : 546
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "IncidentResponsePayloadWrongDataType"
+  }, {
+    "name" : "testClass",
+    "value" : "IncidentResponsePayloadWrongDataType.OasDbIncidentResponsePayloadWrongDataType_us0pmra50myc"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_qhtd9kbum69e_readincident"
+  }, {
+    "name" : "suite",
+    "value" : "IncidentResponsePayloadWrongDataType.OasDbIncidentResponsePayloadWrongDataType_us0pmra50myc"
+  }, {
+    "name" : "host",
+    "value" : "Alexs-MacBook-Pro-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "65099@Alexs-MacBook-Pro-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "309675389da8e480.json",
+  "parameterValues" : [ ]
+}

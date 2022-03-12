@@ -1,0 +1,78 @@
+{
+  "uid" : "a604798c4ba98ea6",
+  "name" : "test_s12tsloa7c53_deleteincident",
+  "fullName" : "IncidentResponseInvalidPayload.OasDbIncidentResponseInvalidPayload_qxyv58pfxzdx.test_s12tsloa7c53_deleteincident",
+  "historyId" : "a979c0c1133abffd9f3a658275322f4b",
+  "time" : {
+    "start" : 1640949851442,
+    "stop" : 1640949851455,
+    "duration" : 13
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "888d313754a0ee76",
+      "name" : "Request",
+      "source" : "888d313754a0ee76.html",
+      "type" : "text/html",
+      "size" : 255
+    }, {
+      "uid" : "712a8bc4329e793",
+      "name" : "HTTP/1.1 404 Not Found",
+      "source" : "712a8bc4329e793.html",
+      "type" : "text/html",
+      "size" : 546
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "IncidentResponseInvalidPayload"
+  }, {
+    "name" : "testClass",
+    "value" : "IncidentResponseInvalidPayload.OasDbIncidentResponseInvalidPayload_qxyv58pfxzdx"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_s12tsloa7c53_deleteincident"
+  }, {
+    "name" : "suite",
+    "value" : "IncidentResponseInvalidPayload.OasDbIncidentResponseInvalidPayload_qxyv58pfxzdx"
+  }, {
+    "name" : "host",
+    "value" : "Alexs-MacBook-Pro-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "67978@Alexs-MacBook-Pro-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a604798c4ba98ea6.json",
+  "parameterValues" : [ ]
+}

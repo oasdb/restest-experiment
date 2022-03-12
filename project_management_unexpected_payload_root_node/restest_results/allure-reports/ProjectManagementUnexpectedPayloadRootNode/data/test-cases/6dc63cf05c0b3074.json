@@ -1,0 +1,97 @@
+{
+  "uid" : "6dc63cf05c0b3074",
+  "name" : "test_vbmxtb80la2e_readproject",
+  "fullName" : "ProjectManagementUnexpectedPayloadRootNode.OasDbProjectManagementUnexpectedPayloadRootNode_t4f29pd7j7sh.test_vbmxtb80la2e_readproject",
+  "historyId" : "33f2b9aa2bc96794ee00a9d883896119",
+  "time" : {
+    "start" : 1640934786398,
+    "stop" : 1640934786412,
+    "duration" : 14
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3c790645d69bbbfb",
+      "name" : "Request",
+      "source" : "3c790645d69bbbfb.html",
+      "type" : "text/html",
+      "size" : 293
+    }, {
+      "uid" : "7c11c522863a553c",
+      "name" : "HTTP/1.1 404 Not Found",
+      "source" : "7c11c522863a553c.html",
+      "type" : "text/html",
+      "size" : 682
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ProjectManagementUnexpectedPayloadRootNode"
+  }, {
+    "name" : "testClass",
+    "value" : "ProjectManagementUnexpectedPayloadRootNode.OasDbProjectManagementUnexpectedPayloadRootNode_t4f29pd7j7sh"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_vbmxtb80la2e_readproject"
+  }, {
+    "name" : "suite",
+    "value" : "ProjectManagementUnexpectedPayloadRootNode.OasDbProjectManagementUnexpectedPayloadRootNode_t4f29pd7j7sh"
+  }, {
+    "name" : "host",
+    "value" : "Alexs-MacBook-Pro-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "59277@Alexs-MacBook-Pro-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "cf74c0dec5ddc6e1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640934786398,
+          "stop" : 1640934786412,
+          "duration" : 14
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "6dc63cf05c0b3074.json",
+  "parameterValues" : [ ]
+}

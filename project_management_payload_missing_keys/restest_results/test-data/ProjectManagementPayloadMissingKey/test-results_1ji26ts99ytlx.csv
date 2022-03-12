@@ -1,0 +1,17 @@
+testResultId,statusCode,responseBody,outputContentType,passed,failReason
+test_1ib99qgvo2q0h_deleteproject,404,,text/html;charset=utf-8,true,none
+test_1iephchashaut_createproject,422,,text/html;charset=utf-8,false,OAS disconformity: Response status 422 not defined for path '/projects'.
+test_1iv3sh1v0495t_deleteproject,404,,text/html;charset=utf-8,true,none
+test_qhqmnvt9lgdt_readproject,404,,text/html;charset=utf-8,true,none
+test_qxfj4p19r61w_createproject,500,<h1>Internal Server Error</h1>,text/html;charset=utf-8,false,Status code 5XX.
+test_r17u0n2xyr03_createproject,201,"{""id"":5}",application/json,true,none
+test_rl8ejhbs2pf6_updateproject,422,,text/html;charset=utf-8,false,OAS disconformity: Response status 422 not defined for path '/projects/{project_id}'.
+test_s1bntalyc6le_updateproject,422,,text/html;charset=utf-8,false,OAS disconformity: Response status 422 not defined for path '/projects/{project_id}'.
+test_s4p2t0hyw3tv_createproject,500,<h1>Internal Server Error</h1>,text/html;charset=utf-8,false,Status code 5XX.
+test_s4ru97obtsu1_readproject,404,,text/html;charset=utf-8,true,none
+test_s4se23xhdvee_updateproject,404,PUT /projects/%25%7D%5Ewzdm1/%28Ah,text/html;charset=utf-8,true,none
+test_toogg2i7mo2q_readproject,404,,text/html;charset=utf-8,true,none
+test_u7u2dep77xwj_updateproject,500,<h1>Internal Server Error</h1>,text/html;charset=utf-8,false,Status code 5XX.
+test_us085ka66c84_deleteproject,404,,text/html;charset=utf-8,true,none
+test_vbem40i0gns4_readproject,404,,text/html;charset=utf-8,true,none
+test_vbhwnsaf8852_deleteproject,404,,text/html;charset=utf-8,true,none

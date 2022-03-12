@@ -1,0 +1,78 @@
+{
+  "uid" : "e8f29f2d1a9c74b8",
+  "name" : "test_qxqlryczrktv_readcharge",
+  "fullName" : "PaymentPayloadExtraKey.OasDbPaymentPayloadExtraKey_t84m2v8zvs53.test_qxqlryczrktv_readcharge",
+  "historyId" : "62be314fd54aa127b35c983e625cb6b6",
+  "time" : {
+    "start" : 1640939827080,
+    "stop" : 1640939827094,
+    "duration" : 14
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "fc8e98098bddf739",
+      "name" : "Request",
+      "source" : "fc8e98098bddf739.html",
+      "type" : "text/html",
+      "size" : 261
+    }, {
+      "uid" : "b81d6e7f25e43217",
+      "name" : "HTTP/1.1 404 Not Found",
+      "source" : "b81d6e7f25e43217.html",
+      "type" : "text/html",
+      "size" : 666
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "PaymentPayloadExtraKey"
+  }, {
+    "name" : "testClass",
+    "value" : "PaymentPayloadExtraKey.OasDbPaymentPayloadExtraKey_t84m2v8zvs53"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_qxqlryczrktv_readcharge"
+  }, {
+    "name" : "suite",
+    "value" : "PaymentPayloadExtraKey.OasDbPaymentPayloadExtraKey_t84m2v8zvs53"
+  }, {
+    "name" : "host",
+    "value" : "Alexs-MacBook-Pro-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "62150@Alexs-MacBook-Pro-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e8f29f2d1a9c74b8.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,78 @@
+{
+  "uid" : "174b4b345526ac2f",
+  "name" : "test_s15l68icbfj6_createcharge",
+  "fullName" : "PaymentPayloadExtraKey.OasDbPaymentPayloadExtraKey_t84m2v8zvs53.test_s15l68icbfj6_createcharge",
+  "historyId" : "cdc08ca5f2973bc0d51001df46e0b8f2",
+  "time" : {
+    "start" : 1640939842140,
+    "stop" : 1640939842155,
+    "duration" : 15
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5ee19da848174fb8",
+      "name" : "Request",
+      "source" : "5ee19da848174fb8.html",
+      "type" : "text/html",
+      "size" : 745
+    }, {
+      "uid" : "c4136ca1db1c2b82",
+      "name" : "HTTP/1.1 201 Created",
+      "source" : "c4136ca1db1c2b82.html",
+      "type" : "text/html",
+      "size" : 466
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "PaymentPayloadExtraKey"
+  }, {
+    "name" : "testClass",
+    "value" : "PaymentPayloadExtraKey.OasDbPaymentPayloadExtraKey_t84m2v8zvs53"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_s15l68icbfj6_createcharge"
+  }, {
+    "name" : "suite",
+    "value" : "PaymentPayloadExtraKey.OasDbPaymentPayloadExtraKey_t84m2v8zvs53"
+  }, {
+    "name" : "host",
+    "value" : "Alexs-MacBook-Pro-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "62150@Alexs-MacBook-Pro-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "174b4b345526ac2f.json",
+  "parameterValues" : [ ]
+}

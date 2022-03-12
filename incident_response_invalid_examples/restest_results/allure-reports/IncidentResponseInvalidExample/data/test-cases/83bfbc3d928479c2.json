@@ -1,0 +1,188 @@
+{
+  "uid" : "83bfbc3d928479c2",
+  "name" : "test_qxfh4cywkf92_createincident",
+  "fullName" : "IncidentResponseInvalidExample.OasDbIncidentResponseInvalidExample_1jenrzo51wi0o.test_qxfh4cywkf92_createincident",
+  "historyId" : "838aeafb882687fb9e7176867b93f503",
+  "time" : {
+    "start" : 1640947705800,
+    "stop" : 1640947705819,
+    "duration" : 19
+  },
+  "status" : "failed",
+  "statusMessage" : "OAS disconformity: Response status 422 not defined for path '/incidents'.",
+  "statusTrace" : "java.lang.AssertionError: OAS disconformity: Response status 422 not defined for path '/incidents'.\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat IncidentResponseInvalidExample.OasDbIncidentResponseInvalidExample_1jenrzo51wi0o.test_qxfh4cywkf92_createincident(OasDbIncidentResponseInvalidExample_1jenrzo51wi0o.java:171)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:115)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:105)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:94)\n\tat es.us.isa.restest.runners.RESTestRunner.testExecution(RESTestRunner.java:127)\n\tat es.us.isa.restest.runners.RESTestRunner.run(RESTestRunner.java:72)\n\tat es.us.isa.restest.main.TestGenerationAndExecution.main(TestGenerationAndExecution.java:148)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "OAS disconformity: Response status 422 not defined for path '/incidents'.",
+    "statusTrace" : "java.lang.AssertionError: OAS disconformity: Response status 422 not defined for path '/incidents'.\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat IncidentResponseInvalidExample.OasDbIncidentResponseInvalidExample_1jenrzo51wi0o.test_qxfh4cywkf92_createincident(OasDbIncidentResponseInvalidExample_1jenrzo51wi0o.java:171)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:115)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:105)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:94)\n\tat es.us.isa.restest.runners.RESTestRunner.testExecution(RESTestRunner.java:127)\n\tat es.us.isa.restest.runners.RESTestRunner.run(RESTestRunner.java:72)\n\tat es.us.isa.restest.main.TestGenerationAndExecution.main(TestGenerationAndExecution.java:148)\n",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "fb6b72500c0f86ed",
+      "name" : "Request",
+      "source" : "fb6b72500c0f86ed.html",
+      "type" : "text/html",
+      "size" : 509
+    }, {
+      "uid" : "667d6fb5aa557025",
+      "name" : "HTTP/1.1 422 Unprocessable Entity",
+      "source" : "667d6fb5aa557025.html",
+      "type" : "text/html",
+      "size" : 546
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "IncidentResponseInvalidExample"
+  }, {
+    "name" : "testClass",
+    "value" : "IncidentResponseInvalidExample.OasDbIncidentResponseInvalidExample_1jenrzo51wi0o"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_qxfh4cywkf92_createincident"
+  }, {
+    "name" : "suite",
+    "value" : "IncidentResponseInvalidExample.OasDbIncidentResponseInvalidExample_1jenrzo51wi0o"
+  }, {
+    "name" : "host",
+    "value" : "Alexs-MacBook-Pro-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "67256@Alexs-MacBook-Pro-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "SEVERITY 1: Disconformity with OAS",
+      "messageRegex" : "OAS disconformity.*",
+      "matchedStatuses" : [ "failed" ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 11,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 11
+      },
+      "items" : [ {
+        "uid" : "4bd66b1d12c827a4",
+        "status" : "failed",
+        "statusDetails" : "OAS disconformity: Response status 422 not defined for path '/incidents'.",
+        "time" : {
+          "start" : 1640947705800,
+          "stop" : 1640947705819,
+          "duration" : 19
+        }
+      }, {
+        "uid" : "e46eac88b7635960",
+        "status" : "failed",
+        "statusDetails" : "OAS disconformity: Response status 422 not defined for path '/incidents'.",
+        "time" : {
+          "start" : 1640947705800,
+          "stop" : 1640947705819,
+          "duration" : 19
+        }
+      }, {
+        "uid" : "41f3d8622c73790",
+        "status" : "failed",
+        "statusDetails" : "OAS disconformity: Response status 422 not defined for path '/incidents'.",
+        "time" : {
+          "start" : 1640947705800,
+          "stop" : 1640947705819,
+          "duration" : 19
+        }
+      }, {
+        "uid" : "76c2a590103436aa",
+        "status" : "failed",
+        "statusDetails" : "OAS disconformity: Response status 422 not defined for path '/incidents'.",
+        "time" : {
+          "start" : 1640947705800,
+          "stop" : 1640947705819,
+          "duration" : 19
+        }
+      }, {
+        "uid" : "6e573bfda9cbf3ec",
+        "status" : "failed",
+        "statusDetails" : "OAS disconformity: Response status 422 not defined for path '/incidents'.",
+        "time" : {
+          "start" : 1640947705800,
+          "stop" : 1640947705819,
+          "duration" : 19
+        }
+      }, {
+        "uid" : "ede257c9a5644bb4",
+        "status" : "failed",
+        "statusDetails" : "OAS disconformity: Response status 422 not defined for path '/incidents'.",
+        "time" : {
+          "start" : 1640947705800,
+          "stop" : 1640947705819,
+          "duration" : 19
+        }
+      }, {
+        "uid" : "6c88977ecdeef0b8",
+        "status" : "failed",
+        "statusDetails" : "OAS disconformity: Response status 422 not defined for path '/incidents'.",
+        "time" : {
+          "start" : 1640947705800,
+          "stop" : 1640947705819,
+          "duration" : 19
+        }
+      }, {
+        "uid" : "956397d49b704352",
+        "status" : "failed",
+        "statusDetails" : "OAS disconformity: Response status 422 not defined for path '/incidents'.",
+        "time" : {
+          "start" : 1640947705800,
+          "stop" : 1640947705819,
+          "duration" : 19
+        }
+      }, {
+        "uid" : "b2ee0774cfbf1e2b",
+        "status" : "failed",
+        "statusDetails" : "OAS disconformity: Response status 422 not defined for path '/incidents'.",
+        "time" : {
+          "start" : 1640947705800,
+          "stop" : 1640947705819,
+          "duration" : 19
+        }
+      }, {
+        "uid" : "706fe9ea81d6fc5a",
+        "status" : "failed",
+        "statusDetails" : "OAS disconformity: Response status 422 not defined for path '/incidents'.",
+        "time" : {
+          "start" : 1640947705800,
+          "stop" : 1640947705819,
+          "duration" : 19
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "83bfbc3d928479c2.json",
+  "parameterValues" : [ ]
+}

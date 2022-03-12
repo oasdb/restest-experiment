@@ -1,0 +1,17 @@
+testResultId,statusCode,responseBody,outputContentType,passed,failReason
+test_1h82107qk24pw_readincident,404,,text/html;charset=utf-8,true,none
+test_1hv37lbif22pi_updateincident,404,,text/html;charset=utf-8,true,none
+test_1ibeakxkg3fw1_createincident,422,,text/html;charset=utf-8,false,OAS disconformity: Response status 422 not defined for path '/incidents'.
+test_1ibhl24cn4w8j_readincident,404,,text/html;charset=utf-8,true,none
+test_1if0itdekdgdt_createincident,422,,text/html;charset=utf-8,false,OAS disconformity: Response status 422 not defined for path '/incidents'.
+test_1iyq0dzou0rc2_readincident,404,,text/html;charset=utf-8,true,none
+test_1jewk5byt35gh_deleteincident,404,DELETE /incidents/%23/Rk8s%25fRl%27/%3C%7DQRn,text/html;charset=utf-8,true,none
+test_1k1r76whnyg6c_updateincident,422,,text/html;charset=utf-8,false,OAS disconformity: Response status 422 not defined for path '/incidents/{incident_id}'.
+test_1k25lxs54q81e_readincident,200,"{""service_id"":9223372036854775808,""title"":""rNkF!zyj8*@4ltmTK{i"",""assignee_id"":4294967296,""id"":1}",application/json,false,"OAS disconformity: Instance failed to match all required schemas (matched only 0 out of 2) --- Object instance has properties which are not allowed by the schema: [""assignee_id"";""id"";""service_id"";""title""]"
+test_rh5hbjxsx17n_updateincident,422,,text/html;charset=utf-8,false,OAS disconformity: Response status 422 not defined for path '/incidents/{incident_id}'.
+test_rhrpjgcfiqg6_createincident,422,,text/html;charset=utf-8,false,OAS disconformity: Response status 422 not defined for path '/incidents'.
+test_s4mu498291yo_deleteincident,404,,text/html;charset=utf-8,true,none
+test_skstm99xue05_createincident,422,,text/html;charset=utf-8,false,OAS disconformity: Response status 422 not defined for path '/incidents'.
+test_ts575dfq1wl1_updateincident,422,,text/html;charset=utf-8,false,OAS disconformity: Response status 422 not defined for path '/incidents/{incident_id}'.
+test_urme00hl05yw_deleteincident,404,,text/html;charset=utf-8,true,none
+test_vf3ou2u5663q_deleteincident,404,,text/html;charset=utf-8,true,none

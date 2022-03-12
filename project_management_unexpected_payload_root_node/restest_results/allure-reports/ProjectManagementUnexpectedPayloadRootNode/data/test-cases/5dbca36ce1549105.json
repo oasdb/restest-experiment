@@ -1,0 +1,97 @@
+{
+  "uid" : "5dbca36ce1549105",
+  "name" : "test_rlan83130yet_deleteproject",
+  "fullName" : "ProjectManagementUnexpectedPayloadRootNode.OasDbProjectManagementUnexpectedPayloadRootNode_t4f29pd7j7sh.test_rlan83130yet_deleteproject",
+  "historyId" : "1b6a9a70f37b83f25776c562a8b0f376",
+  "time" : {
+    "start" : 1640934751265,
+    "stop" : 1640934751279,
+    "duration" : 14
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a948436ea5b6466a",
+      "name" : "Request",
+      "source" : "a948436ea5b6466a.html",
+      "type" : "text/html",
+      "size" : 291
+    }, {
+      "uid" : "583b4d5b7aa3292b",
+      "name" : "HTTP/1.1 404 Not Found",
+      "source" : "583b4d5b7aa3292b.html",
+      "type" : "text/html",
+      "size" : 681
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ProjectManagementUnexpectedPayloadRootNode"
+  }, {
+    "name" : "testClass",
+    "value" : "ProjectManagementUnexpectedPayloadRootNode.OasDbProjectManagementUnexpectedPayloadRootNode_t4f29pd7j7sh"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_rlan83130yet_deleteproject"
+  }, {
+    "name" : "suite",
+    "value" : "ProjectManagementUnexpectedPayloadRootNode.OasDbProjectManagementUnexpectedPayloadRootNode_t4f29pd7j7sh"
+  }, {
+    "name" : "host",
+    "value" : "Alexs-MacBook-Pro-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "59277@Alexs-MacBook-Pro-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "1617695ca1ae249b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640934751265,
+          "stop" : 1640934751279,
+          "duration" : 14
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "5dbca36ce1549105.json",
+  "parameterValues" : [ ]
+}

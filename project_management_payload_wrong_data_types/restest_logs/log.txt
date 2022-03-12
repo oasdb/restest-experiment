@@ -1,0 +1,4843 @@
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2021-12-31 02:49:00 INFO  TestGenerationAndExecution:308 - Loading configuration parameter values
+2021-12-31 02:49:00 INFO  TestGenerationAndExecution:311 - Generator: FT
+2021-12-31 02:49:00 INFO  TestGenerationAndExecution:314 - OAS path: /Users/alexbrahastoll/Projects/mestrado/oas_db/restest_experiment/experiment_run_1640926129/project_management_payload_wrong_data_types/samples/project_management_payload_wrong_data_types.json
+2021-12-31 02:49:00 INFO  TestGenerationAndExecution:317 - Test configuration path: null
+2021-12-31 02:49:00 INFO  TestGenerationAndExecution:320 - Target dir for test classes: /Users/alexbrahastoll/Projects/mestrado/oas_db/restest_experiment/experiment_run_1640926129/project_management_payload_wrong_data_types/restest_tests
+2021-12-31 02:49:00 INFO  TestGenerationAndExecution:323 - Experiment name: ProjectManagementPayloadWrongDataType
+2021-12-31 02:49:00 INFO  TestGenerationAndExecution:329 - Experiment execution: true
+2021-12-31 02:49:00 INFO  TestGenerationAndExecution:334 - Allure reports: true
+2021-12-31 02:49:00 INFO  TestGenerationAndExecution:341 - Proxy: null
+2021-12-31 02:49:00 INFO  TestGenerationAndExecution:345 - Check test cases: false
+2021-12-31 02:49:00 INFO  TestGenerationAndExecution:348 - Test class name: OasDbProjectManagementPayloadWrongDataType
+2021-12-31 02:49:00 INFO  TestGenerationAndExecution:352 - Number of test cases per operation: 4
+2021-12-31 02:49:00 INFO  TestGenerationAndExecution:356 - Max number of test cases: 224
+2021-12-31 02:49:00 INFO  TestGenerationAndExecution:360 - Time delay: -1
+2021-12-31 02:49:00 INFO  TestGenerationAndExecution:364 - Input data reloading  (CBT): 100
+2021-12-31 02:49:00 INFO  TestGenerationAndExecution:368 - Max input test data (CBT): 1000
+2021-12-31 02:49:00 INFO  TestGenerationAndExecution:372 - Input coverage: true
+2021-12-31 02:49:00 INFO  TestGenerationAndExecution:376 - Output coverage: true
+2021-12-31 02:49:00 INFO  TestGenerationAndExecution:380 - CSV statistics: false
+2021-12-31 02:49:00 INFO  TestGenerationAndExecution:384 - Delete previous results: true
+2021-12-31 02:49:00 INFO  TestGenerationAndExecution:388 - Similarity metric: LEVENSHTEIN
+2021-12-31 02:49:00 INFO  TestGenerationAndExecution:392 - Number of candidates: 100
+2021-12-31 02:49:00 INFO  TestGenerationAndExecution:396 - Faulty ratio: 0.5
+2021-12-31 02:49:00 INFO  TestGenerationAndExecution:400 - Faulty dependency ratio: 0.5
+2021-12-31 02:49:00 INFO  TestGenerationAndExecution:405 - Learn Regular expressions: false
+2021-12-31 02:49:00 INFO  TestGenerationAndExecution:409 - Second Predicate Search: false
+2021-12-31 02:49:00 INFO  TestGenerationAndExecution:413 - Maximum number of predicates: 3
+2021-12-31 02:49:00 INFO  TestGenerationAndExecution:417 - Minimum valid and invalid values: 5
+2021-12-31 02:49:00 INFO  TestGenerationAndExecution:421 - Metric to use: match recall
+2021-12-31 02:49:00 INFO  TestGenerationAndExecution:425 - Minimum value of metric: 0.9
+2021-12-31 02:49:00 INFO  TestGenerationAndExecution:429 - Maximum number of tries to generate a regular expression: 2
+2021-12-31 02:49:00 INFO  TestGenerationAndExecution:168 - No testConf specified. Generating one
+2021-12-31 02:49:00 INFO  CreateTestConf:58 - Test configuration file generated in path /Users/alexbrahastoll/Projects/mestrado/oas_db/restest_experiment/experiment_run_1640926129/project_management_payload_wrong_data_types/samples/testConf.yaml
+2021-12-31 02:49:00 INFO  TestGenerationAndExecution:174 - Created testConf in '/Users/alexbrahastoll/Projects/mestrado/oas_db/restest_experiment/experiment_run_1640926129/project_management_payload_wrong_data_types/samples/testConf.yaml'
+2021-12-31 02:49:00 INFO  RESTestRunner:105 - Generating tests
+2021-12-31 02:49:00 INFO  RESTestRunner:116 - Writing 16 test cases to test class /Users/alexbrahastoll/Projects/mestrado/oas_db/restest_experiment/experiment_run_1640926129/project_management_payload_wrong_data_types/restest_tests/OasDbProjectManagementPayloadWrongDataType_1hb7nrlvhx4q8.java
+2021-12-31 02:49:00 INFO  RESTestRunner:70 - Running tests
+2021-12-31 02:49:00 INFO  RESTestRunner:98 - Compiling and loading test class ProjectManagementPayloadWrongDataType.OasDbProjectManagementPayloadWrongDataType_1hb7nrlvhx4q8.java
+Request method:	POST
+Request URI:	http://localhost:3000/projects
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": "\\0",
+    "name": "\\0"
+}
+HTTP/1.1 201 Created
+Content-Type: application/json
+Content-Length: 8
+X-Content-Type-Options: nosniff
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:49:12 GMT
+Connection: Keep-Alive
+
+{
+    "id": 1
+}
+Test passed.
+Request method:	DELETE
+Request URI:	http://localhost:3000/projects/null
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=null
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:49:17 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	PUT
+Request URI:	http://localhost:3000/projects/-9223372036854775808
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=-9223372036854775808
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Wo](o:fVv!5w+GAD"
+}
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:49:22 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	PUT
+Request URI:	http://localhost:3000/projects/-2147483648
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=-2147483648
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "\\0"
+}
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:49:28 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	PUT
+Request URI:	http://localhost:3000/projects/-9223372036854775808
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=-9223372036854775808
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": null
+}
+Status code 5XX.
+Request method:	DELETE
+Request URI:	http://localhost:3000/projects/9223372036854775808
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=9223372036854775808
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:49:38 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	POST
+Request URI:	http://localhost:3000/projects
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": "?+a2@l\\bGOF",
+    "name": ""
+}
+Status code 5XX.
+Request method:	GET
+Request URI:	http://localhost:3000/projects/Eg2%24*Y4%20B0g%3F%27Pwo%5CN%20
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=Eg2$*Y4 B0g?'Pwo\N 
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+X-Cascade: pass
+Content-Type: text/html;charset=utf-8
+Content-Length: 43
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:49:48 GMT
+Connection: Keep-Alive
+
+<html>
+  <body>GET /projects/Eg2%24*Y4%20B0g%3F%27Pwo/N%20</body>
+</html>
+Test passed.
+Request method:	DELETE
+Request URI:	http://localhost:3000/projects/null
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=null
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:49:53 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	GET
+Request URI:	http://localhost:3000/projects/PxHkCj%2B%5EU%21Dq3%7CYk
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=PxHkCj+^U!Dq3|Yk
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:49:58 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	POST
+Request URI:	http://localhost:3000/projects
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "one space"
+}
+OAS disconformity: Response status 422 not defined for path '/projects'.
+Request method:	GET
+Request URI:	http://localhost:3000/projects/18446744073709551616
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=18446744073709551616
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:50:08 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	PUT
+Request URI:	http://localhost:3000/projects/_AkFf%7Ehup2cI%3E2_J
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=_AkFf~hup2cI>2_J
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    
+}
+OAS disconformity: Response status 422 not defined for path '/projects/{project_id}'.
+Request method:	POST
+Request URI:	http://localhost:3000/projects
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "randomString"
+}
+OAS disconformity: Response status 422 not defined for path '/projects'.
+Request method:	GET
+Request URI:	http://localhost:3000/projects/randomString
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=randomString
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:50:23 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	DELETE
+Request URI:	http://localhost:3000/projects/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=1
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:50:28 GMT
+Connection: Keep-Alive
+Test passed.
+2021-12-31 02:50:28 INFO  RESTestRunner:130 - 16 tests run in 87 seconds. Successful: 11, Failures: 5, Ignored: 0
+2021-12-31 02:50:28 INFO  RESTestRunner:85 - Generating test report
+2021-12-31 02:50:35 INFO  RESTestRunner:90 - Generating CSV data
+2021-12-31 02:50:35 INFO  StatsReportManager:233 - Coverage report a priori generated.
+2021-12-31 02:50:35 INFO  StatsReportManager:238 - Coverage report a posteriori generated.
+2021-12-31 02:50:35 INFO  TestGenerationAndExecution:150 - Iteration 1. 16 test cases generated.
+2021-12-31 02:50:35 INFO  RESTestRunner:105 - Generating tests
+2021-12-31 02:50:35 INFO  RESTestRunner:116 - Writing 16 test cases to test class /Users/alexbrahastoll/Projects/mestrado/oas_db/restest_experiment/experiment_run_1640926129/project_management_payload_wrong_data_types/restest_tests/OasDbProjectManagementPayloadWrongDataType_1iuvibpns4yud.java
+2021-12-31 02:50:35 INFO  RESTestRunner:70 - Running tests
+2021-12-31 02:50:35 INFO  RESTestRunner:98 - Compiling and loading test class ProjectManagementPayloadWrongDataType.OasDbProjectManagementPayloadWrongDataType_1iuvibpns4yud.java
+Request method:	PUT
+Request URI:	http://localhost:3000/projects/dyy%3E56%40rDm
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=dyy>56@rDm
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    
+}
+OAS disconformity: Response status 422 not defined for path '/projects/{project_id}'.
+Request method:	POST
+Request URI:	http://localhost:3000/projects
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": ""
+}
+OAS disconformity: Response status 422 not defined for path '/projects'.
+Request method:	DELETE
+Request URI:	http://localhost:3000/projects/dO%22o6%28%5E7%2FkZTSJ%7D7%25%21_
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=dO"o6(^7/kZTSJ}7%!_
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+X-Cascade: pass
+Content-Type: text/html;charset=utf-8
+Content-Length: 48
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:50:51 GMT
+Connection: Keep-Alive
+
+<html>
+  <body>DELETE /projects/dO%22o6%28%5E7/kZTSJ%7D7%25%21_</body>
+</html>
+Test passed.
+Request method:	DELETE
+Request URI:	http://localhost:3000/projects/1.1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=1.1
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:50:56 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	POST
+Request URI:	http://localhost:3000/projects
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    
+}
+OAS disconformity: Response status 422 not defined for path '/projects'.
+Request method:	PUT
+Request URI:	http://localhost:3000/projects/aI5%5CHOKK%2C5
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=aI5\HOKK,5
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    
+}
+HTTP/1.1 404 Not Found
+X-Cascade: pass
+Content-Type: text/html;charset=utf-8
+Content-Length: 26
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:51:06 GMT
+Connection: Keep-Alive
+
+<html>
+  <body>PUT /projects/aI5/HOKK%2C5</body>
+</html>
+Test passed.
+Request method:	POST
+Request URI:	http://localhost:3000/projects
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    
+}
+OAS disconformity: Response status 422 not defined for path '/projects'.
+Request method:	GET
+Request URI:	http://localhost:3000/projects/18446744073709551616
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=18446744073709551616
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:51:16 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	DELETE
+Request URI:	http://localhost:3000/projects/null
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=null
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:51:21 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	GET
+Request URI:	http://localhost:3000/projects/2%40a%5EDddZx%3FG0EtE
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=2@a^DddZx?G0EtE
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:51:26 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	PUT
+Request URI:	http://localhost:3000/projects/0
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=0
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "O./3'!3-Qah2j3]ei.O"
+}
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:51:31 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	DELETE
+Request URI:	http://localhost:3000/projects/%5DmVl%26Q7mf53G%7CFdqo46
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=]mVl&Q7mf53G|Fdqo46
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:51:36 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	GET
+Request URI:	http://localhost:3000/projects/-2147483648
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=-2147483648
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:51:41 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	POST
+Request URI:	http://localhost:3000/projects
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    
+}
+OAS disconformity: Response status 422 not defined for path '/projects'.
+Request method:	GET
+Request URI:	http://localhost:3000/projects/X%29pP%28%7D7ISNI
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=X)pP(}7ISNI
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:51:51 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	PUT
+Request URI:	http://localhost:3000/projects/TxImg%7C0%29%60%7Do%40C3%21%25pK
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=TxImg|0)`}o@C3!%pK
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "randomString"
+}
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:51:56 GMT
+Connection: Keep-Alive
+Test passed.
+2021-12-31 02:51:56 INFO  RESTestRunner:130 - 16 tests run in 80 seconds. Successful: 11, Failures: 5, Ignored: 0
+2021-12-31 02:51:56 INFO  RESTestRunner:85 - Generating test report
+2021-12-31 02:52:03 INFO  RESTestRunner:90 - Generating CSV data
+2021-12-31 02:52:03 INFO  StatsReportManager:233 - Coverage report a priori generated.
+2021-12-31 02:52:03 INFO  StatsReportManager:238 - Coverage report a posteriori generated.
+2021-12-31 02:52:03 INFO  TestGenerationAndExecution:150 - Iteration 2. 32 test cases generated.
+2021-12-31 02:52:03 INFO  RESTestRunner:105 - Generating tests
+2021-12-31 02:52:03 INFO  RESTestRunner:116 - Writing 16 test cases to test class /Users/alexbrahastoll/Projects/mestrado/oas_db/restest_experiment/experiment_run_1640926129/project_management_payload_wrong_data_types/restest_tests/OasDbProjectManagementPayloadWrongDataType_sksbogihjwpy.java
+2021-12-31 02:52:03 INFO  RESTestRunner:70 - Running tests
+2021-12-31 02:52:03 INFO  RESTestRunner:98 - Compiling and loading test class ProjectManagementPayloadWrongDataType.OasDbProjectManagementPayloadWrongDataType_sksbogihjwpy.java
+Request method:	PUT
+Request URI:	http://localhost:3000/projects/-9223372036854775808
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=-9223372036854775808
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    
+}
+OAS disconformity: Response status 422 not defined for path '/projects/{project_id}'.
+Request method:	PUT
+Request URI:	http://localhost:3000/projects/randomString
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=randomString
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Ec$jB(2 >#"
+}
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:52:13 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	PUT
+Request URI:	http://localhost:3000/projects/%25Pujp-A-j49%3DWHR%7EE
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=%Pujp-A-j49=WHR~E
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    
+}
+OAS disconformity: Response status 422 not defined for path '/projects/{project_id}'.
+Request method:	PUT
+Request URI:	http://localhost:3000/projects/18446744073709551616
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=18446744073709551616
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": "randomString"
+}
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:52:23 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	GET
+Request URI:	http://localhost:3000/projects/%5C0
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=\0
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:52:28 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	DELETE
+Request URI:	http://localhost:3000/projects/*%26o7iP1%604%2Br%3Esp
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=*&o7iP1`4+r>sp
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:52:33 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	DELETE
+Request URI:	http://localhost:3000/projects/mxXc%5Bq%20%29nsNBjyS0%2F
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=mxXc[q )nsNBjyS0/
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+X-Cascade: pass
+Content-Type: text/html;charset=utf-8
+Content-Length: 40
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:52:38 GMT
+Connection: Keep-Alive
+
+<html>
+  <body>DELETE /projects/mxXc%5Bq%20%29nsNBjyS0/</body>
+</html>
+Test passed.
+Request method:	POST
+Request URI:	http://localhost:3000/projects
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": "f*!0NbZ`'bX{"
+}
+OAS disconformity: Response status 422 not defined for path '/projects'.
+Request method:	POST
+Request URI:	http://localhost:3000/projects
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": ""
+}
+OAS disconformity: Response status 422 not defined for path '/projects'.
+Request method:	POST
+Request URI:	http://localhost:3000/projects
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": "one space"
+}
+OAS disconformity: Response status 422 not defined for path '/projects'.
+Request method:	DELETE
+Request URI:	http://localhost:3000/projects/%24%3A%21uDcqd%225B%2F%7EsR*X5%40
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=$:!uDcqd"5B/~sR*X5@
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+X-Cascade: pass
+Content-Type: text/html;charset=utf-8
+Content-Length: 48
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:52:59 GMT
+Connection: Keep-Alive
+
+<html>
+  <body>DELETE /projects/%24%3A%21uDcqd%225B/%7EsR*X5%40</body>
+</html>
+Test passed.
+Request method:	GET
+Request URI:	http://localhost:3000/projects/%24xCJ9%24MsVO%2F%7D%2BB
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=$xCJ9$MsVO/}+B
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+X-Cascade: pass
+Content-Type: text/html;charset=utf-8
+Content-Length: 36
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:53:04 GMT
+Connection: Keep-Alive
+
+<html>
+  <body>GET /projects/%24xCJ9%24MsVO/%7D%2BB</body>
+</html>
+Test passed.
+Request method:	GET
+Request URI:	http://localhost:3000/projects/%5B%5Dw%23-%3F67%2Bu8%27m2-2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=[]w#-?67+u8'm2-2
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:53:09 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	POST
+Request URI:	http://localhost:3000/projects
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "one space"
+}
+OAS disconformity: Response status 422 not defined for path '/projects'.
+Request method:	DELETE
+Request URI:	http://localhost:3000/projects/%3E%22ld%5E%28%20ZOMe_
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=>"ld^( ZOMe_
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:53:19 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	GET
+Request URI:	http://localhost:3000/projects/randomString
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=randomString
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:53:24 GMT
+Connection: Keep-Alive
+Test passed.
+2021-12-31 02:53:24 INFO  RESTestRunner:130 - 16 tests run in 80 seconds. Successful: 10, Failures: 6, Ignored: 0
+2021-12-31 02:53:24 INFO  RESTestRunner:85 - Generating test report
+2021-12-31 02:53:31 INFO  RESTestRunner:90 - Generating CSV data
+2021-12-31 02:53:31 INFO  StatsReportManager:233 - Coverage report a priori generated.
+2021-12-31 02:53:31 INFO  StatsReportManager:238 - Coverage report a posteriori generated.
+2021-12-31 02:53:31 INFO  TestGenerationAndExecution:150 - Iteration 3. 48 test cases generated.
+2021-12-31 02:53:31 INFO  RESTestRunner:105 - Generating tests
+2021-12-31 02:53:31 INFO  RESTestRunner:116 - Writing 16 test cases to test class /Users/alexbrahastoll/Projects/mestrado/oas_db/restest_experiment/experiment_run_1640926129/project_management_payload_wrong_data_types/restest_tests/OasDbProjectManagementPayloadWrongDataType_r1g4vr1oibzq.java
+2021-12-31 02:53:31 INFO  RESTestRunner:70 - Running tests
+2021-12-31 02:53:31 INFO  RESTestRunner:98 - Compiling and loading test class ProjectManagementPayloadWrongDataType.OasDbProjectManagementPayloadWrongDataType_r1g4vr1oibzq.java
+Request method:	GET
+Request URI:	http://localhost:3000/projects/%5C0
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=\0
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:53:36 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	GET
+Request URI:	http://localhost:3000/projects/_hoh%23TR0y%5E_FDN
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=_hoh#TR0y^_FDN
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:53:41 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	PUT
+Request URI:	http://localhost:3000/projects/MN8%5B%29Q%5Cc%2118cx
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=MN8[)Q\c!18cx
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    
+}
+HTTP/1.1 404 Not Found
+X-Cascade: pass
+Content-Type: text/html;charset=utf-8
+Content-Length: 33
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:53:46 GMT
+Connection: Keep-Alive
+
+<html>
+  <body>PUT /projects/MN8%5B%29Q/c%2118cx</body>
+</html>
+Test passed.
+Request method:	POST
+Request URI:	http://localhost:3000/projects
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": "one space",
+    "name": "\\0"
+}
+HTTP/1.1 201 Created
+Content-Type: application/json
+Content-Length: 8
+X-Content-Type-Options: nosniff
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:53:51 GMT
+Connection: Keep-Alive
+
+{
+    "id": 2
+}
+Test passed.
+Request method:	PUT
+Request URI:	http://localhost:3000/projects/Ms8_l4%3EW%3D.%5C%22%60Y0AWAu
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=Ms8_l4>W=.\"`Y0AWAu
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "E!sRi-D-`kh!lv"
+}
+HTTP/1.1 404 Not Found
+X-Cascade: pass
+Content-Type: text/html;charset=utf-8
+Content-Length: 41
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:53:56 GMT
+Connection: Keep-Alive
+
+<html>
+  <body>PUT /projects/Ms8_l4%3EW%3D./%22%60Y0AWAu</body>
+</html>
+Test passed.
+Request method:	DELETE
+Request URI:	http://localhost:3000/projects/null
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=null
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:54:01 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	GET
+Request URI:	http://localhost:3000/projects/9223372036854775808
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=9223372036854775808
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:54:06 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	DELETE
+Request URI:	http://localhost:3000/projects/null
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=null
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:54:11 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	DELETE
+Request URI:	http://localhost:3000/projects/k%7EYl%3C%3F%28X*%29%5Ee%3C5jW3
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=k~Yl<?(X*)^e<5jW3
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:54:16 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	POST
+Request URI:	http://localhost:3000/projects
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": "\\0",
+    "name": null
+}
+Status code 5XX.
+Request method:	PUT
+Request URI:	http://localhost:3000/projects/U6%24S6%2F%25Md%22%2Cp
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=U6$S6/%Md",p
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    
+}
+HTTP/1.1 404 Not Found
+X-Cascade: pass
+Content-Type: text/html;charset=utf-8
+Content-Length: 34
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:54:26 GMT
+Connection: Keep-Alive
+
+<html>
+  <body>PUT /projects/U6%24S6/%25Md%22%2Cp</body>
+</html>
+Test passed.
+Request method:	DELETE
+Request URI:	http://localhost:3000/projects/-9223372036854775808
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=-9223372036854775808
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:54:31 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	GET
+Request URI:	http://localhost:3000/projects/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=1
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:54:36 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	PUT
+Request URI:	http://localhost:3000/projects/0
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=0
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "one space"
+}
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:54:41 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	POST
+Request URI:	http://localhost:3000/projects
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": "ysI#]W\"IH7j3fDZWbn",
+    "name": "\\0"
+}
+HTTP/1.1 201 Created
+Content-Type: application/json
+Content-Length: 8
+X-Content-Type-Options: nosniff
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:54:46 GMT
+Connection: Keep-Alive
+
+{
+    "id": 3
+}
+Test passed.
+Request method:	POST
+Request URI:	http://localhost:3000/projects
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": ""
+}
+OAS disconformity: Response status 422 not defined for path '/projects'.
+2021-12-31 02:54:51 INFO  RESTestRunner:130 - 16 tests run in 80 seconds. Successful: 14, Failures: 2, Ignored: 0
+2021-12-31 02:54:51 INFO  RESTestRunner:85 - Generating test report
+2021-12-31 02:54:58 INFO  RESTestRunner:90 - Generating CSV data
+2021-12-31 02:54:58 INFO  StatsReportManager:233 - Coverage report a priori generated.
+2021-12-31 02:54:58 INFO  StatsReportManager:238 - Coverage report a posteriori generated.
+2021-12-31 02:54:58 INFO  TestGenerationAndExecution:150 - Iteration 4. 64 test cases generated.
+2021-12-31 02:54:58 INFO  RESTestRunner:105 - Generating tests
+2021-12-31 02:54:58 INFO  RESTestRunner:116 - Writing 16 test cases to test class /Users/alexbrahastoll/Projects/mestrado/oas_db/restest_experiment/experiment_run_1640926129/project_management_payload_wrong_data_types/restest_tests/OasDbProjectManagementPayloadWrongDataType_sl3edwo2kd2o.java
+2021-12-31 02:54:58 INFO  RESTestRunner:70 - Running tests
+2021-12-31 02:54:58 INFO  RESTestRunner:98 - Compiling and loading test class ProjectManagementPayloadWrongDataType.OasDbProjectManagementPayloadWrongDataType_sl3edwo2kd2o.java
+Request method:	POST
+Request URI:	http://localhost:3000/projects
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "wh^k&9jI%j=AgRW<n~"
+}
+OAS disconformity: Response status 422 not defined for path '/projects'.
+Request method:	POST
+Request URI:	http://localhost:3000/projects
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    
+}
+OAS disconformity: Response status 422 not defined for path '/projects'.
+Request method:	POST
+Request URI:	http://localhost:3000/projects
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": "randomString"
+}
+OAS disconformity: Response status 422 not defined for path '/projects'.
+Request method:	POST
+Request URI:	http://localhost:3000/projects
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "randomString"
+}
+OAS disconformity: Response status 422 not defined for path '/projects'.
+Request method:	DELETE
+Request URI:	http://localhost:3000/projects/2Qt%275T9BbR%60UW%7D%20%2CAZ%5E%29
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=2Qt'5T9BbR`UW} ,AZ^)
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:55:24 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	GET
+Request URI:	http://localhost:3000/projects/O.-zC7B4Py%3EaLX%2CoY0
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=O.-zC7B4Py>aLX,oY0
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:55:29 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	GET
+Request URI:	http://localhost:3000/projects/F%2B%20Qq%24%5Cc1A06_
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=F+ Qq$\c1A06_
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+X-Cascade: pass
+Content-Type: text/html;charset=utf-8
+Content-Length: 33
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:55:34 GMT
+Connection: Keep-Alive
+
+<html>
+  <body>GET /projects/F%2B%20Qq%24/c1A06_</body>
+</html>
+Test passed.
+Request method:	PUT
+Request URI:	http://localhost:3000/projects/7JfrGr%5D2ULx%7EBc%3A%3EU
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=7JfrGr]2ULx~Bc:>U
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": ""
+}
+Status code 5XX.
+Request method:	DELETE
+Request URI:	http://localhost:3000/projects/WZB%7CS%2Fh*19d%3E%7DBp4%7C
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=WZB|S/h*19d>}Bp4|
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+X-Cascade: pass
+Content-Type: text/html;charset=utf-8
+Content-Length: 42
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:55:44 GMT
+Connection: Keep-Alive
+
+<html>
+  <body>DELETE /projects/WZB%7CS/h*19d%3E%7DBp4%7C</body>
+</html>
+Test passed.
+Request method:	PUT
+Request URI:	http://localhost:3000/projects/B_xz%3AzV%2FAubQY3KmU.%5Dr
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=B_xz:zV/AubQY3KmU.]r
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": ""
+}
+HTTP/1.1 404 Not Found
+X-Cascade: pass
+Content-Type: text/html;charset=utf-8
+Content-Length: 38
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:55:49 GMT
+Connection: Keep-Alive
+
+<html>
+  <body>PUT /projects/B_xz%3AzV/AubQY3KmU.%5Dr</body>
+</html>
+Test passed.
+Request method:	GET
+Request URI:	http://localhost:3000/projects/randomString
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=randomString
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:55:54 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	PUT
+Request URI:	http://localhost:3000/projects/q%7D9%5C4%27%5Ba9%27%20v%60%25%23s
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=q}9\4'[a9' v`%#s
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "one space"
+}
+HTTP/1.1 404 Not Found
+X-Cascade: pass
+Content-Type: text/html;charset=utf-8
+Content-Length: 46
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:55:59 GMT
+Connection: Keep-Alive
+
+<html>
+  <body>PUT /projects/q%7D9/4%27%5Ba9%27%20v%60%25%23s</body>
+</html>
+Test passed.
+Request method:	PUT
+Request URI:	http://localhost:3000/projects/T%40iWv%2464kY%60-%7C6%29%3Fgt%7D%26
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=T@iWv$64kY`-|6)?gt}&
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": "randomString",
+    "name": ""
+}
+Status code 5XX.
+Request method:	GET
+Request URI:	http://localhost:3000/projects/LWggm%3Bx%60%5E%7Dx%21%25
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=LWggm;x`^}x!%
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:56:09 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	DELETE
+Request URI:	http://localhost:3000/projects/-9223372036854775808
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=-9223372036854775808
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:56:14 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	DELETE
+Request URI:	http://localhost:3000/projects/9223372036854775808
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=9223372036854775808
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:56:19 GMT
+Connection: Keep-Alive
+Test passed.
+2021-12-31 02:56:19 INFO  RESTestRunner:130 - 16 tests run in 80 seconds. Successful: 10, Failures: 6, Ignored: 0
+2021-12-31 02:56:19 INFO  RESTestRunner:85 - Generating test report
+2021-12-31 02:56:26 INFO  RESTestRunner:90 - Generating CSV data
+2021-12-31 02:56:26 INFO  StatsReportManager:233 - Coverage report a priori generated.
+2021-12-31 02:56:26 INFO  StatsReportManager:238 - Coverage report a posteriori generated.
+2021-12-31 02:56:26 INFO  TestGenerationAndExecution:150 - Iteration 5. 80 test cases generated.
+2021-12-31 02:56:26 INFO  RESTestRunner:105 - Generating tests
+2021-12-31 02:56:26 INFO  RESTestRunner:116 - Writing 16 test cases to test class /Users/alexbrahastoll/Projects/mestrado/oas_db/restest_experiment/experiment_run_1640926129/project_management_payload_wrong_data_types/restest_tests/OasDbProjectManagementPayloadWrongDataType_1jyjc7kr4pttl.java
+2021-12-31 02:56:26 INFO  RESTestRunner:70 - Running tests
+2021-12-31 02:56:26 INFO  RESTestRunner:98 - Compiling and loading test class ProjectManagementPayloadWrongDataType.OasDbProjectManagementPayloadWrongDataType_1jyjc7kr4pttl.java
+Request method:	POST
+Request URI:	http://localhost:3000/projects
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "randomString"
+}
+OAS disconformity: Response status 422 not defined for path '/projects'.
+Request method:	POST
+Request URI:	http://localhost:3000/projects
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": null,
+    "name": "d?\\+bnZeSjl"
+}
+Status code 5XX.
+Request method:	DELETE
+Request URI:	http://localhost:3000/projects/%5C0
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=\0
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:56:41 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	PUT
+Request URI:	http://localhost:3000/projects/18446744073709551616
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=18446744073709551616
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    
+}
+OAS disconformity: Response status 422 not defined for path '/projects/{project_id}'.
+Request method:	GET
+Request URI:	http://localhost:3000/projects/3%25F.T%22%5EY%26%5E
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=3%F.T"^Y&^
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:56:51 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	POST
+Request URI:	http://localhost:3000/projects
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    
+}
+OAS disconformity: Response status 422 not defined for path '/projects'.
+Request method:	GET
+Request URI:	http://localhost:3000/projects/FbvA%40kP%22.%3C%29.OV4W-*6%2B
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=FbvA@kP".<).OV4W-*6+
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:57:01 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	DELETE
+Request URI:	http://localhost:3000/projects/1.1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=1.1
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:57:06 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	DELETE
+Request URI:	http://localhost:3000/projects/lO%3DMQ%27g4%250Y%3C
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=lO=MQ'g4%0Y<
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:57:11 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	DELETE
+Request URI:	http://localhost:3000/projects/Dy%7CfU0g%5B%27Ctqy%27
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=Dy|fU0g['Ctqy'
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:57:16 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	GET
+Request URI:	http://localhost:3000/projects/FiE%262%7Cy%3A%7CCEYTt8
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=FiE&2|y:|CEYTt8
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:57:21 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	PUT
+Request URI:	http://localhost:3000/projects/I%7E%60d06c2lk.-yp%24%5C%3C%24P
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=I~`d06c2lk.-yp$\<$P
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": "one space",
+    "name": "\\0"
+}
+HTTP/1.1 404 Not Found
+X-Cascade: pass
+Content-Type: text/html;charset=utf-8
+Content-Length: 43
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:57:26 GMT
+Connection: Keep-Alive
+
+<html>
+  <body>PUT /projects/I%7E%60d06c2lk.-yp%24/%3C%24P</body>
+</html>
+Test passed.
+Request method:	PUT
+Request URI:	http://localhost:3000/projects/WnMMWGh%2F%7D%2B5%3Bmq%7C
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=WnMMWGh/}+5;mq|
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    
+}
+HTTP/1.1 404 Not Found
+X-Cascade: pass
+Content-Type: text/html;charset=utf-8
+Content-Length: 37
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:57:31 GMT
+Connection: Keep-Alive
+
+<html>
+  <body>PUT /projects/WnMMWGh/%7D%2B5%3Bmq%7C</body>
+</html>
+Test passed.
+Request method:	POST
+Request URI:	http://localhost:3000/projects
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": "Ei]6g/V7M yeM",
+    "name": null
+}
+Status code 5XX.
+Request method:	GET
+Request URI:	http://localhost:3000/projects/k1UY%3EH%3C%7EC%5B%28
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=k1UY>H<~C[(
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:57:41 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	PUT
+Request URI:	http://localhost:3000/projects/%5B8%40QFJdE%21mU%28Y%22W6vQ%21x
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=[8@QFJdE!mU(Y"W6vQ!x
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    
+}
+OAS disconformity: Response status 422 not defined for path '/projects/{project_id}'.
+2021-12-31 02:57:46 INFO  RESTestRunner:130 - 16 tests run in 80 seconds. Successful: 10, Failures: 6, Ignored: 0
+2021-12-31 02:57:46 INFO  RESTestRunner:85 - Generating test report
+2021-12-31 02:57:54 INFO  RESTestRunner:90 - Generating CSV data
+2021-12-31 02:57:54 INFO  StatsReportManager:233 - Coverage report a priori generated.
+2021-12-31 02:57:54 INFO  StatsReportManager:238 - Coverage report a posteriori generated.
+2021-12-31 02:57:54 INFO  TestGenerationAndExecution:150 - Iteration 6. 96 test cases generated.
+2021-12-31 02:57:54 INFO  RESTestRunner:105 - Generating tests
+2021-12-31 02:57:54 INFO  RESTestRunner:116 - Writing 16 test cases to test class /Users/alexbrahastoll/Projects/mestrado/oas_db/restest_experiment/experiment_run_1640926129/project_management_payload_wrong_data_types/restest_tests/OasDbProjectManagementPayloadWrongDataType_s4rvcwk0znli.java
+2021-12-31 02:57:54 INFO  RESTestRunner:70 - Running tests
+2021-12-31 02:57:54 INFO  RESTestRunner:98 - Compiling and loading test class ProjectManagementPayloadWrongDataType.OasDbProjectManagementPayloadWrongDataType_s4rvcwk0znli.java
+Request method:	GET
+Request URI:	http://localhost:3000/projects/9223372036854775808
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=9223372036854775808
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:57:59 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	GET
+Request URI:	http://localhost:3000/projects/1.1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=1.1
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:58:04 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	POST
+Request URI:	http://localhost:3000/projects
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": "randomString",
+    "name": "randomString"
+}
+HTTP/1.1 201 Created
+Content-Type: application/json
+Content-Length: 8
+X-Content-Type-Options: nosniff
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:58:09 GMT
+Connection: Keep-Alive
+
+{
+    "id": 4
+}
+Test passed.
+Request method:	DELETE
+Request URI:	http://localhost:3000/projects/b22b%7El.%40gYA%5Dj2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=b22b~l.@gYA]j2
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:58:14 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	PUT
+Request URI:	http://localhost:3000/projects/VScyY%3Dxtad%5C%21QV%5E5%23AQO
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=VScyY=xtad\!QV^5#AQO
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": "one space",
+    "name": ""
+}
+HTTP/1.1 404 Not Found
+X-Cascade: pass
+Content-Type: text/html;charset=utf-8
+Content-Length: 42
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:58:19 GMT
+Connection: Keep-Alive
+
+<html>
+  <body>PUT /projects/VScyY%3Dxtad/%21QV%5E5%23AQO</body>
+</html>
+Test passed.
+Request method:	PUT
+Request URI:	http://localhost:3000/projects/94z%3AI%23.c%3B
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=94z:I#.c;
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": ""
+}
+Status code 5XX.
+Request method:	PUT
+Request URI:	http://localhost:3000/projects/W8%23O%26%3D%3Dz%26bjEYP%21xn7r
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=W8#O&==z&bjEYP!xn7r
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": null,
+    "name": "randomString"
+}
+Status code 5XX.
+Request method:	POST
+Request URI:	http://localhost:3000/projects
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    
+}
+OAS disconformity: Response status 422 not defined for path '/projects'.
+Request method:	DELETE
+Request URI:	http://localhost:3000/projects/Q%22wLpfTSmd
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=Q"wLpfTSmd
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:58:39 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	GET
+Request URI:	http://localhost:3000/projects/s%2FBA%3A%5B%26q_HpGo%2640J41
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=s/BA:[&q_HpGo&40J41
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+X-Cascade: pass
+Content-Type: text/html;charset=utf-8
+Content-Length: 41
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:58:44 GMT
+Connection: Keep-Alive
+
+<html>
+  <body>GET /projects/s/BA%3A%5B%26q_HpGo%2640J41</body>
+</html>
+Test passed.
+Request method:	PUT
+Request URI:	http://localhost:3000/projects/9223372036854775808
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=9223372036854775808
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    
+}
+OAS disconformity: Response status 422 not defined for path '/projects/{project_id}'.
+Request method:	POST
+Request URI:	http://localhost:3000/projects
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": "",
+    "name": ""
+}
+Status code 5XX.
+Request method:	GET
+Request URI:	http://localhost:3000/projects/-9223372036854775808
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=-9223372036854775808
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:58:59 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	DELETE
+Request URI:	http://localhost:3000/projects/%26g4%7Eg%60HWMJUxl%2BA9%3Dl
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=&g4~g`HWMJUxl+A9=l
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:59:04 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	DELETE
+Request URI:	http://localhost:3000/projects/8X%7C5GuwdM6MUyE%20%3ES7
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=8X|5GuwdM6MUyE >S7
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:59:09 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	POST
+Request URI:	http://localhost:3000/projects
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": ""
+}
+OAS disconformity: Response status 422 not defined for path '/projects'.
+2021-12-31 02:59:14 INFO  RESTestRunner:130 - 16 tests run in 80 seconds. Successful: 10, Failures: 6, Ignored: 0
+2021-12-31 02:59:14 INFO  RESTestRunner:85 - Generating test report
+2021-12-31 02:59:22 INFO  RESTestRunner:90 - Generating CSV data
+2021-12-31 02:59:22 INFO  StatsReportManager:233 - Coverage report a priori generated.
+2021-12-31 02:59:22 INFO  StatsReportManager:238 - Coverage report a posteriori generated.
+2021-12-31 02:59:22 INFO  TestGenerationAndExecution:150 - Iteration 7. 112 test cases generated.
+2021-12-31 02:59:22 INFO  RESTestRunner:105 - Generating tests
+2021-12-31 02:59:22 INFO  RESTestRunner:116 - Writing 16 test cases to test class /Users/alexbrahastoll/Projects/mestrado/oas_db/restest_experiment/experiment_run_1640926129/project_management_payload_wrong_data_types/restest_tests/OasDbProjectManagementPayloadWrongDataType_s4pkqd5mjpt2.java
+2021-12-31 02:59:22 INFO  RESTestRunner:70 - Running tests
+2021-12-31 02:59:22 INFO  RESTestRunner:98 - Compiling and loading test class ProjectManagementPayloadWrongDataType.OasDbProjectManagementPayloadWrongDataType_s4pkqd5mjpt2.java
+Request method:	DELETE
+Request URI:	http://localhost:3000/projects/_BoaKmo4%26b33y%29%40Y
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=_BoaKmo4&b33y)@Y
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:59:27 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	GET
+Request URI:	http://localhost:3000/projects/1.1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=1.1
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:59:32 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	GET
+Request URI:	http://localhost:3000/projects/18446744073709551616
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=18446744073709551616
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:59:37 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	GET
+Request URI:	http://localhost:3000/projects/s2%2CLK3Yrm%2F._mYCCC7%2C
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=s2,LK3Yrm/._mYCCC7,
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+X-Cascade: pass
+Content-Type: text/html;charset=utf-8
+Content-Length: 37
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 04:59:42 GMT
+Connection: Keep-Alive
+
+<html>
+  <body>GET /projects/s2%2CLK3Yrm/._mYCCC7%2C</body>
+</html>
+Test passed.
+Request method:	POST
+Request URI:	http://localhost:3000/projects
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    
+}
+OAS disconformity: Response status 422 not defined for path '/projects'.
+Request method:	PUT
+Request URI:	http://localhost:3000/projects/2147483648
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=2147483648
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": ""
+}
+Status code 5XX.
+Request method:	POST
+Request URI:	http://localhost:3000/projects
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "randomString"
+}
+OAS disconformity: Response status 422 not defined for path '/projects'.
+Request method:	PUT
+Request URI:	http://localhost:3000/projects/9uU%2FtM%2F%5BaFl%60p37%3ESn%3F%2B
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=9uU/tM/[aFl`p37>Sn?+
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "one space"
+}
+HTTP/1.1 404 Not Found
+X-Cascade: pass
+Content-Type: text/html;charset=utf-8
+Content-Length: 44
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 05:00:02 GMT
+Connection: Keep-Alive
+
+<html>
+  <body>PUT /projects/9uU/tM/%5BaFl%60p37%3ESn%3F%2B</body>
+</html>
+Test passed.
+Request method:	PUT
+Request URI:	http://localhost:3000/projects/snviN%3Ed%23%29nB7.R%3F
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=snviN>d#)nB7.R?
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": "one space"
+}
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 05:00:07 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	POST
+Request URI:	http://localhost:3000/projects
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": null
+}
+OAS disconformity: Response status 422 not defined for path '/projects'.
+Request method:	POST
+Request URI:	http://localhost:3000/projects
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    
+}
+OAS disconformity: Response status 422 not defined for path '/projects'.
+Request method:	PUT
+Request URI:	http://localhost:3000/projects/tP2WafCkw%29
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=tP2WafCkw)
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    
+}
+OAS disconformity: Response status 422 not defined for path '/projects/{project_id}'.
+Request method:	DELETE
+Request URI:	http://localhost:3000/projects/bB%7D_LdReWgA%24E%40DVA%29
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=bB}_LdReWgA$E@DVA)
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 05:00:27 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	DELETE
+Request URI:	http://localhost:3000/projects/null
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=null
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 05:00:32 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	DELETE
+Request URI:	http://localhost:3000/projects/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=1
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 05:00:37 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	GET
+Request URI:	http://localhost:3000/projects/2147483648
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=2147483648
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 05:00:42 GMT
+Connection: Keep-Alive
+Test passed.
+2021-12-31 03:00:42 INFO  RESTestRunner:130 - 16 tests run in 80 seconds. Successful: 10, Failures: 6, Ignored: 0
+2021-12-31 03:00:42 INFO  RESTestRunner:85 - Generating test report
+2021-12-31 03:00:50 INFO  RESTestRunner:90 - Generating CSV data
+2021-12-31 03:00:50 INFO  StatsReportManager:233 - Coverage report a priori generated.
+2021-12-31 03:00:50 INFO  StatsReportManager:238 - Coverage report a posteriori generated.
+2021-12-31 03:00:50 INFO  TestGenerationAndExecution:150 - Iteration 8. 128 test cases generated.
+2021-12-31 03:00:50 INFO  RESTestRunner:105 - Generating tests
+2021-12-31 03:00:50 INFO  RESTestRunner:116 - Writing 16 test cases to test class /Users/alexbrahastoll/Projects/mestrado/oas_db/restest_experiment/experiment_run_1640926129/project_management_payload_wrong_data_types/restest_tests/OasDbProjectManagementPayloadWrongDataType_1k1u1at039u8y.java
+2021-12-31 03:00:50 INFO  RESTestRunner:70 - Running tests
+2021-12-31 03:00:50 INFO  RESTestRunner:98 - Compiling and loading test class ProjectManagementPayloadWrongDataType.OasDbProjectManagementPayloadWrongDataType_1k1u1at039u8y.java
+Request method:	DELETE
+Request URI:	http://localhost:3000/projects/%2BHlAzD%5D838z0H%22%5D%3B%28Q
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=+HlAzD]838z0H"];(Q
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 05:00:55 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	DELETE
+Request URI:	http://localhost:3000/projects/06A%28DGj%3F3ToR%5CUtE4vQ%3F
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=06A(DGj?3ToR\UtE4vQ?
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+X-Cascade: pass
+Content-Type: text/html;charset=utf-8
+Content-Length: 43
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 05:01:00 GMT
+Connection: Keep-Alive
+
+<html>
+  <body>DELETE /projects/06A%28DGj%3F3ToR/UtE4vQ%3F</body>
+</html>
+Test passed.
+Request method:	PUT
+Request URI:	http://localhost:3000/projects/W_H5%3Bj%25%7EH%3DSHhh
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=W_H5;j%~H=SHhh
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "randomString"
+}
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 05:01:05 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	GET
+Request URI:	http://localhost:3000/projects/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=1
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 05:01:10 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	GET
+Request URI:	http://localhost:3000/projects/xGnv%7EI%5E1k%5EYyVkmELzki
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=xGnv~I^1k^YyVkmELzki
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 05:01:15 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	PUT
+Request URI:	http://localhost:3000/projects/4gY8S%3DI%5Cpp%3EBkcW3r%243
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=4gY8S=I\pp>BkcW3r$3
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": "eq_v][!X?PB5\\-E",
+    "name": null
+}
+HTTP/1.1 404 Not Found
+X-Cascade: pass
+Content-Type: text/html;charset=utf-8
+Content-Length: 39
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 05:01:20 GMT
+Connection: Keep-Alive
+
+<html>
+  <body>PUT /projects/4gY8S%3DI/pp%3EBkcW3r%243</body>
+</html>
+Test passed.
+Request method:	POST
+Request URI:	http://localhost:3000/projects
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": "one space",
+    "name": "one space"
+}
+HTTP/1.1 201 Created
+Content-Type: application/json
+Content-Length: 8
+X-Content-Type-Options: nosniff
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 05:01:25 GMT
+Connection: Keep-Alive
+
+{
+    "id": 5
+}
+Test passed.
+Request method:	GET
+Request URI:	http://localhost:3000/projects/9223372036854775808
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=9223372036854775808
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 05:01:30 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	POST
+Request URI:	http://localhost:3000/projects
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    
+}
+OAS disconformity: Response status 422 not defined for path '/projects'.
+Request method:	POST
+Request URI:	http://localhost:3000/projects
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": "one space",
+    "name": null
+}
+Status code 5XX.
+Request method:	DELETE
+Request URI:	http://localhost:3000/projects/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=1
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 05:01:45 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	DELETE
+Request URI:	http://localhost:3000/projects/1.1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=1.1
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 05:01:50 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	POST
+Request URI:	http://localhost:3000/projects
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": ""
+}
+OAS disconformity: Response status 422 not defined for path '/projects'.
+Request method:	PUT
+Request URI:	http://localhost:3000/projects/%2B%3F%7CB%23Zy%5DGV
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=+?|B#Zy]GV
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "\\0"
+}
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 05:02:00 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	PUT
+Request URI:	http://localhost:3000/projects/FuCAzal%7E4QK.C
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=FuCAzal~4QK.C
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": "",
+    "name": "oS8R5Dr;6nvWa|@>D3_)"
+}
+Status code 5XX.
+Request method:	GET
+Request URI:	http://localhost:3000/projects/-9223372036854775808
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=-9223372036854775808
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 05:02:11 GMT
+Connection: Keep-Alive
+Test passed.
+2021-12-31 03:02:11 INFO  RESTestRunner:130 - 16 tests run in 80 seconds. Successful: 12, Failures: 4, Ignored: 0
+2021-12-31 03:02:11 INFO  RESTestRunner:85 - Generating test report
+2021-12-31 03:02:18 INFO  RESTestRunner:90 - Generating CSV data
+2021-12-31 03:02:18 INFO  StatsReportManager:233 - Coverage report a priori generated.
+2021-12-31 03:02:18 INFO  StatsReportManager:238 - Coverage report a posteriori generated.
+2021-12-31 03:02:18 INFO  TestGenerationAndExecution:150 - Iteration 9. 144 test cases generated.
+2021-12-31 03:02:18 INFO  RESTestRunner:105 - Generating tests
+2021-12-31 03:02:18 INFO  RESTestRunner:116 - Writing 16 test cases to test class /Users/alexbrahastoll/Projects/mestrado/oas_db/restest_experiment/experiment_run_1640926129/project_management_payload_wrong_data_types/restest_tests/OasDbProjectManagementPayloadWrongDataType_1hblkyrwcdzky.java
+2021-12-31 03:02:18 INFO  RESTestRunner:70 - Running tests
+2021-12-31 03:02:18 INFO  RESTestRunner:98 - Compiling and loading test class ProjectManagementPayloadWrongDataType.OasDbProjectManagementPayloadWrongDataType_1hblkyrwcdzky.java
+Request method:	GET
+Request URI:	http://localhost:3000/projects/9.*E%22%28%7C%2BnWL.%7CW7%60la6
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=9.*E"(|+nWL.|W7`la6
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 05:02:23 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	DELETE
+Request URI:	http://localhost:3000/projects/zgoWU%7CR%7E4%20cZsB
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=zgoWU|R~4 cZsB
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 05:02:28 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	PUT
+Request URI:	http://localhost:3000/projects/2147483648
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=2147483648
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": "\\0",
+    "name": null
+}
+Status code 5XX.
+Request method:	POST
+Request URI:	http://localhost:3000/projects
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "one space"
+}
+OAS disconformity: Response status 422 not defined for path '/projects'.
+Request method:	GET
+Request URI:	http://localhost:3000/projects/Os%28v8%3AVo%28%23A
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=Os(v8:Vo(#A
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 05:02:43 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	GET
+Request URI:	http://localhost:3000/projects/8%7E%5DxSxtc_oa%5D%20nVXX%5E
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=8~]xSxtc_oa] nVXX^
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 05:02:48 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	PUT
+Request URI:	http://localhost:3000/projects/n%21v%26yVW%40L%7D%2BIm
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=n!v&yVW@L}+Im
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "2o^.fRK10@0a"
+}
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 05:02:53 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	GET
+Request URI:	http://localhost:3000/projects/-%27C%22q%23%2Bwp%23rQqZt%22e
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=-'C"q#+wp#rQqZt"e
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 05:02:58 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	PUT
+Request URI:	http://localhost:3000/projects/%2FP3aiEw%3FujBoCPN
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=/P3aiEw?ujBoCPN
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": "",
+    "name": null
+}
+Status code 5XX.
+Request method:	POST
+Request URI:	http://localhost:3000/projects
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    
+}
+OAS disconformity: Response status 422 not defined for path '/projects'.
+Request method:	POST
+Request URI:	http://localhost:3000/projects
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    
+}
+OAS disconformity: Response status 422 not defined for path '/projects'.
+Request method:	POST
+Request URI:	http://localhost:3000/projects
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    
+}
+OAS disconformity: Response status 422 not defined for path '/projects'.
+Request method:	PUT
+Request URI:	http://localhost:3000/projects/p8%5DaXOvTeN%217g
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=p8]aXOvTeN!7g
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": null,
+    "name": ""
+}
+Status code 5XX.
+Request method:	DELETE
+Request URI:	http://localhost:3000/projects/null
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=null
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 05:03:29 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	DELETE
+Request URI:	http://localhost:3000/projects/0
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=0
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 05:03:34 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	DELETE
+Request URI:	http://localhost:3000/projects/0
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=0
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 05:03:39 GMT
+Connection: Keep-Alive
+Test passed.
+2021-12-31 03:03:39 INFO  RESTestRunner:130 - 16 tests run in 80 seconds. Successful: 9, Failures: 7, Ignored: 0
+2021-12-31 03:03:39 INFO  RESTestRunner:85 - Generating test report
+2021-12-31 03:03:46 INFO  RESTestRunner:90 - Generating CSV data
+2021-12-31 03:03:46 INFO  StatsReportManager:233 - Coverage report a priori generated.
+2021-12-31 03:03:46 INFO  StatsReportManager:238 - Coverage report a posteriori generated.
+2021-12-31 03:03:46 INFO  TestGenerationAndExecution:150 - Iteration 10. 160 test cases generated.
+2021-12-31 03:03:46 INFO  RESTestRunner:105 - Generating tests
+2021-12-31 03:03:46 INFO  RESTestRunner:116 - Writing 16 test cases to test class /Users/alexbrahastoll/Projects/mestrado/oas_db/restest_experiment/experiment_run_1640926129/project_management_payload_wrong_data_types/restest_tests/OasDbProjectManagementPayloadWrongDataType_vbppnzmr4qb7.java
+2021-12-31 03:03:46 INFO  RESTestRunner:70 - Running tests
+2021-12-31 03:03:46 INFO  RESTestRunner:98 - Compiling and loading test class ProjectManagementPayloadWrongDataType.OasDbProjectManagementPayloadWrongDataType_vbppnzmr4qb7.java
+Request method:	DELETE
+Request URI:	http://localhost:3000/projects/18446744073709551616
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=18446744073709551616
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 05:03:51 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	DELETE
+Request URI:	http://localhost:3000/projects/%7Du%3Ag9%7D%2B8Y*%7DJ
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=}u:g9}+8Y*}J
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 05:03:56 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	PUT
+Request URI:	http://localhost:3000/projects/-1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=-1
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    
+}
+OAS disconformity: Response status 422 not defined for path '/projects/{project_id}'.
+Request method:	PUT
+Request URI:	http://localhost:3000/projects/U%22t_%5EYInxH%7E%7D%23Qh%3BiQ
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=U"t_^YInxH~}#Qh;iQ
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": ""
+}
+Status code 5XX.
+Request method:	GET
+Request URI:	http://localhost:3000/projects/4294967296
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=4294967296
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 05:04:11 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	DELETE
+Request URI:	http://localhost:3000/projects/%7E%5E%2Bwq.OuN1IZ.G%2Fm%27D%7C
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=~^+wq.OuN1IZ.G/m'D|
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+X-Cascade: pass
+Content-Type: text/html;charset=utf-8
+Content-Length: 46
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 05:04:16 GMT
+Connection: Keep-Alive
+
+<html>
+  <body>DELETE /projects/%7E%5E%2Bwq.OuN1IZ.G/m%27D%7C</body>
+</html>
+Test passed.
+Request method:	POST
+Request URI:	http://localhost:3000/projects
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    
+}
+OAS disconformity: Response status 422 not defined for path '/projects'.
+Request method:	POST
+Request URI:	http://localhost:3000/projects
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": "\\0"
+}
+OAS disconformity: Response status 422 not defined for path '/projects'.
+Request method:	GET
+Request URI:	http://localhost:3000/projects/dwv*p%7Dc8K1%40
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=dwv*p}c8K1@
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 05:04:32 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	POST
+Request URI:	http://localhost:3000/projects
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": "one space"
+}
+OAS disconformity: Response status 422 not defined for path '/projects'.
+Request method:	DELETE
+Request URI:	http://localhost:3000/projects/null
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=null
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 05:04:42 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	PUT
+Request URI:	http://localhost:3000/projects/88fKD%3Fnf%5DN3w%2Cmh
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=88fKD?nf]N3w,mh
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "one space"
+}
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 05:04:47 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	PUT
+Request URI:	http://localhost:3000/projects/%24jUY%22%28Vl7*j%20ZF
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=$jUY"(Vl7*j ZF
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": "B.r4_en,>Uu+l",
+    "name": "\\0"
+}
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 05:04:52 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	GET
+Request URI:	http://localhost:3000/projects/18446744073709551616
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=18446744073709551616
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 05:04:57 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	POST
+Request URI:	http://localhost:3000/projects
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    
+}
+OAS disconformity: Response status 422 not defined for path '/projects'.
+Request method:	GET
+Request URI:	http://localhost:3000/projects/%26i%3Dga6%27k%2Cv%26
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=&i=ga6'k,v&
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 05:05:07 GMT
+Connection: Keep-Alive
+Test passed.
+2021-12-31 03:05:07 INFO  RESTestRunner:130 - 16 tests run in 80 seconds. Successful: 10, Failures: 6, Ignored: 0
+2021-12-31 03:05:07 INFO  RESTestRunner:85 - Generating test report
+2021-12-31 03:05:14 INFO  RESTestRunner:90 - Generating CSV data
+2021-12-31 03:05:14 INFO  StatsReportManager:233 - Coverage report a priori generated.
+2021-12-31 03:05:14 INFO  StatsReportManager:238 - Coverage report a posteriori generated.
+2021-12-31 03:05:14 INFO  TestGenerationAndExecution:150 - Iteration 11. 176 test cases generated.
+2021-12-31 03:05:14 INFO  RESTestRunner:105 - Generating tests
+2021-12-31 03:05:14 INFO  RESTestRunner:116 - Writing 16 test cases to test class /Users/alexbrahastoll/Projects/mestrado/oas_db/restest_experiment/experiment_run_1640926129/project_management_payload_wrong_data_types/restest_tests/OasDbProjectManagementPayloadWrongDataType_s4p4fff3cy0h.java
+2021-12-31 03:05:14 INFO  RESTestRunner:70 - Running tests
+2021-12-31 03:05:14 INFO  RESTestRunner:98 - Compiling and loading test class ProjectManagementPayloadWrongDataType.OasDbProjectManagementPayloadWrongDataType_s4p4fff3cy0h.java
+Request method:	DELETE
+Request URI:	http://localhost:3000/projects/%60dhz%60%20w%3B4F3ra
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=`dhz` w;4F3ra
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 05:05:20 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	PUT
+Request URI:	http://localhost:3000/projects/YQVmJu%23%237w%3A%229Hgvll%2Bg
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=YQVmJu##7w:"9Hgvll+g
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": null
+}
+Status code 5XX.
+Request method:	POST
+Request URI:	http://localhost:3000/projects
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": ";9OZOT*H*gKhT.AE@{"
+}
+OAS disconformity: Response status 422 not defined for path '/projects'.
+Request method:	POST
+Request URI:	http://localhost:3000/projects
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": "plJ|b Nw;Kj",
+    "name": "one space"
+}
+HTTP/1.1 201 Created
+Content-Type: application/json
+Content-Length: 8
+X-Content-Type-Options: nosniff
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 05:05:35 GMT
+Connection: Keep-Alive
+
+{
+    "id": 6
+}
+Test passed.
+Request method:	POST
+Request URI:	http://localhost:3000/projects
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": "",
+    "name": ""
+}
+Status code 5XX.
+Request method:	DELETE
+Request URI:	http://localhost:3000/projects/hkW%2C*g8%7C%5BN%2112cH%7EdyiA
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=hkW,*g8|[N!12cH~dyiA
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 05:05:45 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	PUT
+Request URI:	http://localhost:3000/projects/Siu40e3us0CXh%24vZ%22
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=Siu40e3us0CXh$vZ"
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": "one space"
+}
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 05:05:50 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	DELETE
+Request URI:	http://localhost:3000/projects/r%3FQcj%3C%3A-U%3C%5B4Lxj8%3AT
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=r?Qcj<:-U<[4Lxj8:T
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 05:05:55 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	PUT
+Request URI:	http://localhost:3000/projects/-2147483648
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=-2147483648
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": "randomString"
+}
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 05:06:00 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	GET
+Request URI:	http://localhost:3000/projects/-9223372036854775808
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=-9223372036854775808
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 05:06:05 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	GET
+Request URI:	http://localhost:3000/projects/2147483648
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=2147483648
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 05:06:10 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	PUT
+Request URI:	http://localhost:3000/projects/null
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=null
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": ""
+}
+Status code 5XX.
+Request method:	DELETE
+Request URI:	http://localhost:3000/projects/null
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=null
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 05:06:20 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	GET
+Request URI:	http://localhost:3000/projects/-1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=-1
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 05:06:25 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	GET
+Request URI:	http://localhost:3000/projects/18446744073709551616
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=18446744073709551616
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 05:06:30 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	POST
+Request URI:	http://localhost:3000/projects
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    
+}
+OAS disconformity: Response status 422 not defined for path '/projects'.
+2021-12-31 03:06:35 INFO  RESTestRunner:130 - 16 tests run in 80 seconds. Successful: 11, Failures: 5, Ignored: 0
+2021-12-31 03:06:35 INFO  RESTestRunner:85 - Generating test report
+2021-12-31 03:06:43 INFO  RESTestRunner:90 - Generating CSV data
+2021-12-31 03:06:43 INFO  StatsReportManager:233 - Coverage report a priori generated.
+2021-12-31 03:06:43 INFO  StatsReportManager:238 - Coverage report a posteriori generated.
+2021-12-31 03:06:43 INFO  TestGenerationAndExecution:150 - Iteration 12. 192 test cases generated.
+2021-12-31 03:06:43 INFO  RESTestRunner:105 - Generating tests
+2021-12-31 03:06:43 INFO  RESTestRunner:116 - Writing 16 test cases to test class /Users/alexbrahastoll/Projects/mestrado/oas_db/restest_experiment/experiment_run_1640926129/project_management_payload_wrong_data_types/restest_tests/OasDbProjectManagementPayloadWrongDataType_s18w47s2x3xz.java
+2021-12-31 03:06:43 INFO  RESTestRunner:70 - Running tests
+2021-12-31 03:06:43 INFO  RESTestRunner:98 - Compiling and loading test class ProjectManagementPayloadWrongDataType.OasDbProjectManagementPayloadWrongDataType_s18w47s2x3xz.java
+Request method:	POST
+Request URI:	http://localhost:3000/projects
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    
+}
+OAS disconformity: Response status 422 not defined for path '/projects'.
+Request method:	POST
+Request URI:	http://localhost:3000/projects
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "one space"
+}
+OAS disconformity: Response status 422 not defined for path '/projects'.
+Request method:	PUT
+Request URI:	http://localhost:3000/projects/%5C0
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=\0
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": ""
+}
+Status code 5XX.
+Request method:	DELETE
+Request URI:	http://localhost:3000/projects/%5C0
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=\0
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 05:07:03 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	GET
+Request URI:	http://localhost:3000/projects/null
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=null
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 05:07:08 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	GET
+Request URI:	http://localhost:3000/projects/B%60C-%60X8cE6%29
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=B`C-`X8cE6)
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 05:07:13 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	PUT
+Request URI:	http://localhost:3000/projects/0
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=0
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "KQgiEPff?V\",t"
+}
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 05:07:18 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	GET
+Request URI:	http://localhost:3000/projects/randomString
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=randomString
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 05:07:23 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	DELETE
+Request URI:	http://localhost:3000/projects/j1%7C5I%40%2C%264IFzJp
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=j1|5I@,&4IFzJp
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 05:07:28 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	DELETE
+Request URI:	http://localhost:3000/projects/zb%27%26Tz.%3D3%25CqWxD5%23%27
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=zb'&Tz.=3%CqWxD5#'
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 05:07:33 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	DELETE
+Request URI:	http://localhost:3000/projects/%5C0
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=\0
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 05:07:38 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	GET
+Request URI:	http://localhost:3000/projects/9223372036854775808
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=9223372036854775808
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 05:07:43 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	POST
+Request URI:	http://localhost:3000/projects
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "S'`9SY5|?Wvt9bPSH}7"
+}
+OAS disconformity: Response status 422 not defined for path '/projects'.
+Request method:	POST
+Request URI:	http://localhost:3000/projects
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    
+}
+OAS disconformity: Response status 422 not defined for path '/projects'.
+Request method:	PUT
+Request URI:	http://localhost:3000/projects/rcL%3Ds%7E*9U9Hmf%2C
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=rcL=s~*9U9Hmf,
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": "\\0",
+    "name": "IiAsfM^D7H\\&qsGd"
+}
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 05:07:58 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	PUT
+Request URI:	http://localhost:3000/projects/vq_gbAh%7C%5E5d%5BsW
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=vq_gbAh|^5d[sW
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": null
+}
+Status code 5XX.
+2021-12-31 03:08:03 INFO  RESTestRunner:130 - 16 tests run in 80 seconds. Successful: 10, Failures: 6, Ignored: 0
+2021-12-31 03:08:03 INFO  RESTestRunner:85 - Generating test report
+2021-12-31 03:08:11 INFO  RESTestRunner:90 - Generating CSV data
+2021-12-31 03:08:11 INFO  StatsReportManager:233 - Coverage report a priori generated.
+2021-12-31 03:08:11 INFO  StatsReportManager:238 - Coverage report a posteriori generated.
+2021-12-31 03:08:11 INFO  TestGenerationAndExecution:150 - Iteration 13. 208 test cases generated.
+2021-12-31 03:08:11 INFO  RESTestRunner:105 - Generating tests
+2021-12-31 03:08:11 INFO  RESTestRunner:116 - Writing 16 test cases to test class /Users/alexbrahastoll/Projects/mestrado/oas_db/restest_experiment/experiment_run_1640926129/project_management_payload_wrong_data_types/restest_tests/OasDbProjectManagementPayloadWrongDataType_somvb8tqz6g2.java
+2021-12-31 03:08:11 INFO  RESTestRunner:70 - Running tests
+2021-12-31 03:08:11 INFO  RESTestRunner:98 - Compiling and loading test class ProjectManagementPayloadWrongDataType.OasDbProjectManagementPayloadWrongDataType_somvb8tqz6g2.java
+Request method:	POST
+Request URI:	http://localhost:3000/projects
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": "one space"
+}
+OAS disconformity: Response status 422 not defined for path '/projects'.
+Request method:	DELETE
+Request URI:	http://localhost:3000/projects/%5C0
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=\0
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 05:08:21 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	DELETE
+Request URI:	http://localhost:3000/projects/0
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=0
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 05:08:26 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	POST
+Request URI:	http://localhost:3000/projects
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    
+}
+OAS disconformity: Response status 422 not defined for path '/projects'.
+Request method:	PUT
+Request URI:	http://localhost:3000/projects/MbMagZL%28JH%5C
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=MbMagZL(JH\
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    
+}
+HTTP/1.1 404 Not Found
+X-Cascade: pass
+Content-Type: text/html;charset=utf-8
+Content-Length: 27
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 05:08:36 GMT
+Connection: Keep-Alive
+
+<html>
+  <body>PUT /projects/MbMagZL%28JH/</body>
+</html>
+Test passed.
+Request method:	PUT
+Request URI:	http://localhost:3000/projects/jRpKq%2Cj%3Cf%21-FmxO%2BB
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=jRpKq,j<f!-FmxO+B
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": "]R}U[o)<bz"
+}
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 05:08:41 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	PUT
+Request URI:	http://localhost:3000/projects/T*ZO%40%2Fx%7CD%40
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=T*ZO@/x|D@
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": "randomString"
+}
+HTTP/1.1 404 Not Found
+X-Cascade: pass
+Content-Type: text/html;charset=utf-8
+Content-Length: 30
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 05:08:46 GMT
+Connection: Keep-Alive
+
+<html>
+  <body>PUT /projects/T*ZO%40/x%7CD%40</body>
+</html>
+Test passed.
+Request method:	DELETE
+Request URI:	http://localhost:3000/projects/C%3EvS7y%3E4w%24W%5E%3D%3DLPM
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=C>vS7y>4w$W^==LPM
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 05:08:51 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	POST
+Request URI:	http://localhost:3000/projects
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": "randomString"
+}
+OAS disconformity: Response status 422 not defined for path '/projects'.
+Request method:	GET
+Request URI:	http://localhost:3000/projects/0
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=0
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 05:09:01 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	POST
+Request URI:	http://localhost:3000/projects
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": "\\0",
+    "name": "AGe:1~G!oj7FI!1B"
+}
+HTTP/1.1 201 Created
+Content-Type: application/json
+Content-Length: 8
+X-Content-Type-Options: nosniff
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 05:09:06 GMT
+Connection: Keep-Alive
+
+{
+    "id": 7
+}
+Test passed.
+Request method:	GET
+Request URI:	http://localhost:3000/projects/null
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=null
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 05:09:11 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	PUT
+Request URI:	http://localhost:3000/projects/o%22%5CZ%27%7D%3A%3F0%24%2Bj5%2BvGd%5Dp
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=o"\Z'}:?0$+j5+vGd]p
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": null,
+    "name": "\\0"
+}
+HTTP/1.1 404 Not Found
+X-Cascade: pass
+Content-Type: text/html;charset=utf-8
+Content-Length: 51
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 05:09:16 GMT
+Connection: Keep-Alive
+
+<html>
+  <body>PUT /projects/o%22/Z%27%7D%3A%3F0%24%2Bj5%2BvGd%5Dp</body>
+</html>
+Test passed.
+Request method:	DELETE
+Request URI:	http://localhost:3000/projects/_y%5B009%24%27J%25zF9%3Bk%5E%2F
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=_y[009$'J%zF9;k^/
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+X-Cascade: pass
+Content-Type: text/html;charset=utf-8
+Content-Length: 46
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 05:09:21 GMT
+Connection: Keep-Alive
+
+<html>
+  <body>DELETE /projects/_y%5B009%24%27J%25zF9%3Bk%5E/</body>
+</html>
+Test passed.
+Request method:	GET
+Request URI:	http://localhost:3000/projects/%5C0
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=\0
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 05:09:26 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	GET
+Request URI:	http://localhost:3000/projects/2DLU%2Bv%297b7%60%26B0z%7C%20W
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	project_id=2DLU+v)7b7`&B0z| W
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 05:09:32 GMT
+Connection: Keep-Alive
+Test passed.
+2021-12-31 03:09:32 INFO  RESTestRunner:130 - 16 tests run in 80 seconds. Successful: 13, Failures: 3, Ignored: 0
+2021-12-31 03:09:32 INFO  RESTestRunner:85 - Generating test report
+2021-12-31 03:09:39 INFO  RESTestRunner:90 - Generating CSV data
+2021-12-31 03:09:39 INFO  StatsReportManager:233 - Coverage report a priori generated.
+2021-12-31 03:09:39 INFO  StatsReportManager:238 - Coverage report a posteriori generated.
+2021-12-31 03:09:39 INFO  TestGenerationAndExecution:150 - Iteration 14. 224 test cases generated.
+2021-12-31 03:09:39 INFO  TestGenerationAndExecution:283 - Time report generated.

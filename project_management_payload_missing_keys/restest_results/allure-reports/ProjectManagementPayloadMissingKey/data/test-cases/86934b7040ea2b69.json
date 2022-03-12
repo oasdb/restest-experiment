@@ -1,0 +1,188 @@
+{
+  "uid" : "86934b7040ea2b69",
+  "name" : "test_1h7fvl34qdv1g_createproject",
+  "fullName" : "ProjectManagementPayloadMissingKey.OasDbProjectManagementPayloadMissingKey_1jy4yk5b40fue.test_1h7fvl34qdv1g_createproject",
+  "historyId" : "7f6ac930125a31195a295db22c4f15a",
+  "time" : {
+    "start" : 1640928917085,
+    "stop" : 1640928917102,
+    "duration" : 17
+  },
+  "status" : "failed",
+  "statusMessage" : "Status code 5XX.",
+  "statusTrace" : "java.lang.AssertionError: Status code 5XX.\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat ProjectManagementPayloadMissingKey.OasDbProjectManagementPayloadMissingKey_1jy4yk5b40fue.test_1h7fvl34qdv1g_createproject(OasDbProjectManagementPayloadMissingKey_1jy4yk5b40fue.java:171)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:115)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:105)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:94)\n\tat es.us.isa.restest.runners.RESTestRunner.testExecution(RESTestRunner.java:127)\n\tat es.us.isa.restest.runners.RESTestRunner.run(RESTestRunner.java:72)\n\tat es.us.isa.restest.main.TestGenerationAndExecution.main(TestGenerationAndExecution.java:148)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Status code 5XX.",
+    "statusTrace" : "java.lang.AssertionError: Status code 5XX.\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat ProjectManagementPayloadMissingKey.OasDbProjectManagementPayloadMissingKey_1jy4yk5b40fue.test_1h7fvl34qdv1g_createproject(OasDbProjectManagementPayloadMissingKey_1jy4yk5b40fue.java:171)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:115)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:105)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:94)\n\tat es.us.isa.restest.runners.RESTestRunner.testExecution(RESTestRunner.java:127)\n\tat es.us.isa.restest.runners.RESTestRunner.run(RESTestRunner.java:72)\n\tat es.us.isa.restest.main.TestGenerationAndExecution.main(TestGenerationAndExecution.java:148)\n",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "229e7fb4bcc84b9a",
+      "name" : "Request",
+      "source" : "229e7fb4bcc84b9a.html",
+      "type" : "text/html",
+      "size" : 457
+    }, {
+      "uid" : "e6228c48764ffa59",
+      "name" : "HTTP/1.1 500 Internal Server Error",
+      "source" : "e6228c48764ffa59.html",
+      "type" : "text/html",
+      "size" : 651
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ProjectManagementPayloadMissingKey"
+  }, {
+    "name" : "testClass",
+    "value" : "ProjectManagementPayloadMissingKey.OasDbProjectManagementPayloadMissingKey_1jy4yk5b40fue"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_1h7fvl34qdv1g_createproject"
+  }, {
+    "name" : "suite",
+    "value" : "ProjectManagementPayloadMissingKey.OasDbProjectManagementPayloadMissingKey_1jy4yk5b40fue"
+  }, {
+    "name" : "host",
+    "value" : "Alexs-MacBook-Pro-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "56366@Alexs-MacBook-Pro-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "SEVERITY 2: Status 5XX",
+      "messageRegex" : "Status code 5XX.",
+      "matchedStatuses" : [ "failed" ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 11,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 11
+      },
+      "items" : [ {
+        "uid" : "6c5ba19a8bf82af0",
+        "status" : "failed",
+        "statusDetails" : "Status code 5XX.",
+        "time" : {
+          "start" : 1640928917085,
+          "stop" : 1640928917102,
+          "duration" : 17
+        }
+      }, {
+        "uid" : "284ce89ee9c183f2",
+        "status" : "failed",
+        "statusDetails" : "Status code 5XX.",
+        "time" : {
+          "start" : 1640928917085,
+          "stop" : 1640928917102,
+          "duration" : 17
+        }
+      }, {
+        "uid" : "ee505999610fb999",
+        "status" : "failed",
+        "statusDetails" : "Status code 5XX.",
+        "time" : {
+          "start" : 1640928917085,
+          "stop" : 1640928917102,
+          "duration" : 17
+        }
+      }, {
+        "uid" : "e4f18d00dd794e9e",
+        "status" : "failed",
+        "statusDetails" : "Status code 5XX.",
+        "time" : {
+          "start" : 1640928917085,
+          "stop" : 1640928917102,
+          "duration" : 17
+        }
+      }, {
+        "uid" : "5fcce66cfb3f93f6",
+        "status" : "failed",
+        "statusDetails" : "Status code 5XX.",
+        "time" : {
+          "start" : 1640928917085,
+          "stop" : 1640928917102,
+          "duration" : 17
+        }
+      }, {
+        "uid" : "6b0cebb405a185a5",
+        "status" : "failed",
+        "statusDetails" : "Status code 5XX.",
+        "time" : {
+          "start" : 1640928917085,
+          "stop" : 1640928917102,
+          "duration" : 17
+        }
+      }, {
+        "uid" : "cb46327e68b18cdc",
+        "status" : "failed",
+        "statusDetails" : "Status code 5XX.",
+        "time" : {
+          "start" : 1640928917085,
+          "stop" : 1640928917102,
+          "duration" : 17
+        }
+      }, {
+        "uid" : "35f25538be239494",
+        "status" : "failed",
+        "statusDetails" : "Status code 5XX.",
+        "time" : {
+          "start" : 1640928917085,
+          "stop" : 1640928917102,
+          "duration" : 17
+        }
+      }, {
+        "uid" : "bef568a95cb6ae58",
+        "status" : "failed",
+        "statusDetails" : "Status code 5XX.",
+        "time" : {
+          "start" : 1640928917085,
+          "stop" : 1640928917102,
+          "duration" : 17
+        }
+      }, {
+        "uid" : "556bb0d6eb3a7bd2",
+        "status" : "failed",
+        "statusDetails" : "Status code 5XX.",
+        "time" : {
+          "start" : 1640928917085,
+          "stop" : 1640928917102,
+          "duration" : 17
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "86934b7040ea2b69.json",
+  "parameterValues" : [ ]
+}

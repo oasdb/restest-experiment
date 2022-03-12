@@ -1,0 +1,17 @@
+testResultId,statusCode,responseBody,outputContentType,passed,failReason
+test_1h7zb6d6wo1m9_createincident,422,,text/html;charset=utf-8,false,OAS disconformity: Response status 422 not defined for path '/incidents'.
+test_1huzx1hcbinhh_readincident,200,"{""service_id"":9223372036854775808,""title"":""rNkF!zyj8*@4ltmTK{i"",""assignee_id"":1.100000023841858,""id"":1}",application/json,false,"OAS disconformity: Instance failed to match all required schemas (matched only 0 out of 2) --- Object instance has properties which are not allowed by the schema: [""assignee_id"";""id"";""service_id"";""title""]"
+test_1iemqo04aps1d_readincident,404,,text/html;charset=utf-8,true,none
+test_1jefyzl3jn3ue_readincident,404,GET /incidents/Qz1IAd%3BdU%7EOES%24S%5B/A,text/html;charset=utf-8,true,none
+test_1jeip78jnkda0_readincident,404,,text/html;charset=utf-8,true,none
+test_1jeytzix8mo8h_deleteincident,404,,text/html;charset=utf-8,true,none
+test_rhlm483hpoa8_createincident,201,"{""id"":2}",application/json,true,none
+test_skv2r33g37lh_deleteincident,404,,text/html;charset=utf-8,true,none
+test_soekowvw33vo_deleteincident,404,,text/html;charset=utf-8,true,none
+test_t4kmiom4t73o_updateincident,404,,text/html;charset=utf-8,true,none
+test_toalk7o69a9j_deleteincident,404,DELETE /incidents/YV/GI6%23%20z%22VE%20%3DaG%23*-d,text/html;charset=utf-8,true,none
+test_u7xcupp9j61y_updateincident,404,PUT /incidents/B%3ENphm/%29*5fg%3A*Qf,text/html;charset=utf-8,true,none
+test_ubrx9qkh5d29_createincident,422,,text/html;charset=utf-8,false,OAS disconformity: Response status 422 not defined for path '/incidents'.
+test_urguu6drl35i_createincident,422,,text/html;charset=utf-8,false,OAS disconformity: Response status 422 not defined for path '/incidents'.
+test_uv5v8dj2l0zd_updateincident,422,,text/html;charset=utf-8,false,OAS disconformity: Response status 422 not defined for path '/incidents/{incident_id}'.
+test_vb9l9g73q4bm_updateincident,422,,text/html;charset=utf-8,false,OAS disconformity: Response status 422 not defined for path '/incidents/{incident_id}'.

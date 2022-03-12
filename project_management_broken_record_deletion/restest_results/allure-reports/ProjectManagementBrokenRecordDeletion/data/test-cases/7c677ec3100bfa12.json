@@ -1,0 +1,97 @@
+{
+  "uid" : "7c677ec3100bfa12",
+  "name" : "test_to7bv4pqt9b8_deleteproject",
+  "fullName" : "ProjectManagementBrokenRecordDeletion.OasDbProjectManagementBrokenRecordDeletion_1hrdpyyiz01gi.test_to7bv4pqt9b8_deleteproject",
+  "historyId" : "2a8648f46ac47062af53c6d6fe90e588",
+  "time" : {
+    "start" : 1640947282083,
+    "stop" : 1640947282095,
+    "duration" : 12
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "412ee75ddc6cb1b6",
+      "name" : "Request",
+      "source" : "412ee75ddc6cb1b6.html",
+      "type" : "text/html",
+      "size" : 251
+    }, {
+      "uid" : "d52eaa9522d89326",
+      "name" : "HTTP/1.1 404 Not Found",
+      "source" : "d52eaa9522d89326.html",
+      "type" : "text/html",
+      "size" : 546
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ProjectManagementBrokenRecordDeletion"
+  }, {
+    "name" : "testClass",
+    "value" : "ProjectManagementBrokenRecordDeletion.OasDbProjectManagementBrokenRecordDeletion_1hrdpyyiz01gi"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_to7bv4pqt9b8_deleteproject"
+  }, {
+    "name" : "suite",
+    "value" : "ProjectManagementBrokenRecordDeletion.OasDbProjectManagementBrokenRecordDeletion_1hrdpyyiz01gi"
+  }, {
+    "name" : "host",
+    "value" : "Alexs-MacBook-Pro-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "66534@Alexs-MacBook-Pro-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "a08ab8f4f4fab3d5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640947282083,
+          "stop" : 1640947282095,
+          "duration" : 12
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "7c677ec3100bfa12.json",
+  "parameterValues" : [ ]
+}

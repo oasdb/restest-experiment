@@ -1,0 +1,97 @@
+{
+  "uid" : "fb264c23f866e973",
+  "name" : "test_vbmxi0rfihwx_updateincident",
+  "fullName" : "IncidentResponseUnexpectedPayloadRootNode.OasDbIncidentResponseUnexpectedPayloadRootNode_1jewl8gqlejqb.test_vbmxi0rfihwx_updateincident",
+  "historyId" : "c94a91e65b7037fd055580f0734fea5a",
+  "time" : {
+    "start" : 1640943536032,
+    "stop" : 1640943536047,
+    "duration" : 15
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9f093457f6e6818c",
+      "name" : "Request",
+      "source" : "9f093457f6e6818c.html",
+      "type" : "text/html",
+      "size" : 709
+    }, {
+      "uid" : "b1dd45406763d276",
+      "name" : "HTTP/1.1 404 Not Found",
+      "source" : "b1dd45406763d276.html",
+      "type" : "text/html",
+      "size" : 682
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "IncidentResponseUnexpectedPayloadRootNode"
+  }, {
+    "name" : "testClass",
+    "value" : "IncidentResponseUnexpectedPayloadRootNode.OasDbIncidentResponseUnexpectedPayloadRootNode_1jewl8gqlejqb"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_vbmxi0rfihwx_updateincident"
+  }, {
+    "name" : "suite",
+    "value" : "IncidentResponseUnexpectedPayloadRootNode.OasDbIncidentResponseUnexpectedPayloadRootNode_1jewl8gqlejqb"
+  }, {
+    "name" : "host",
+    "value" : "Alexs-MacBook-Pro-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "64315@Alexs-MacBook-Pro-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "fcaba201e67cb8ae",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640943536032,
+          "stop" : 1640943536047,
+          "duration" : 15
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "fb264c23f866e973.json",
+  "parameterValues" : [ ]
+}

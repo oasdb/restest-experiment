@@ -1,0 +1,97 @@
+{
+  "uid" : "a1103815de776aa9",
+  "name" : "test_1jensg8dh2m9c_deleteincident",
+  "fullName" : "IncidentResponseInvalidPayload.OasDbIncidentResponseInvalidPayload_u854dna9u541.test_1jensg8dh2m9c_deleteincident",
+  "historyId" : "886f0adf4447a2b1b1bc8d84ebb2f152",
+  "time" : {
+    "start" : 1640949727968,
+    "stop" : 1640949727981,
+    "duration" : 13
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "36d0c7bc0e0a347c",
+      "name" : "Request",
+      "source" : "36d0c7bc0e0a347c.html",
+      "type" : "text/html",
+      "size" : 257
+    }, {
+      "uid" : "90d7cb55a21aa27b",
+      "name" : "HTTP/1.1 404 Not Found",
+      "source" : "90d7cb55a21aa27b.html",
+      "type" : "text/html",
+      "size" : 546
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "IncidentResponseInvalidPayload"
+  }, {
+    "name" : "testClass",
+    "value" : "IncidentResponseInvalidPayload.OasDbIncidentResponseInvalidPayload_u854dna9u541"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_1jensg8dh2m9c_deleteincident"
+  }, {
+    "name" : "suite",
+    "value" : "IncidentResponseInvalidPayload.OasDbIncidentResponseInvalidPayload_u854dna9u541"
+  }, {
+    "name" : "host",
+    "value" : "Alexs-MacBook-Pro-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "67978@Alexs-MacBook-Pro-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "67082d93ea6cab03",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640949727968,
+          "stop" : 1640949727981,
+          "duration" : 13
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "a1103815de776aa9.json",
+  "parameterValues" : [ ]
+}

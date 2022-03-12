@@ -1,0 +1,17 @@
+testResultId,statusCode,responseBody,outputContentType,passed,failReason
+test_1h82kycmxh0f6_deleteincident,404,,text/html;charset=utf-8,true,none
+test_1hrud08mz0uar_readincident,404,,text/html;charset=utf-8,true,none
+test_1iay696q7su9h_createincident,500,<h1>Internal Server Error</h1>,text/html;charset=utf-8,false,Status code 5XX.
+test_1ibbieuc0zkmr_createincident,500,<h1>Internal Server Error</h1>,text/html;charset=utf-8,false,Status code 5XX.
+test_1iynak9eykboz_updateincident,500,<h1>Internal Server Error</h1>,text/html;charset=utf-8,false,Status code 5XX.
+test_1ji4imeb046k8_createincident,500,<h1>Internal Server Error</h1>,text/html;charset=utf-8,false,Status code 5XX.
+test_1jxzd265jabtv_readincident,404,,text/html;charset=utf-8,true,none
+test_1jy88nbbdgh2e_readincident,404,,text/html;charset=utf-8,true,none
+test_1jyis9b7g9g85_readincident,200,"{""service_id"":0,""title"":""\\0"",""assignee_id"":18446744073709551616,""id"":1}",application/json,false,"OAS disconformity: Instance failed to match all required schemas (matched only 0 out of 2) --- Object instance has properties which are not allowed by the schema: [""assignee_id"";""id"";""service_id"";""title""]"
+test_1k252wwxen31t_updateincident,404,PUT /incidents/ZH%21ryw1%5Dv/jdgc%21,text/html;charset=utf-8,true,none
+test_rkxbg9vee0c6_createincident,500,<h1>Internal Server Error</h1>,text/html;charset=utf-8,false,Status code 5XX.
+test_skv3upmk7xo8_deleteincident,404,,text/html;charset=utf-8,true,none
+test_t4ygolv67muc_updateincident,422,,text/html;charset=utf-8,false,OAS disconformity: Response status 422 not defined for path '/incidents/{incident_id}'.
+test_t81bnyzk7r5d_deleteincident,404,,text/html;charset=utf-8,true,none
+test_vey5olt6u9m9_deleteincident,404,,text/html;charset=utf-8,true,none
+test_vf6y5me86f5i_updateincident,500,<h1>Internal Server Error</h1>,text/html;charset=utf-8,false,Status code 5XX.

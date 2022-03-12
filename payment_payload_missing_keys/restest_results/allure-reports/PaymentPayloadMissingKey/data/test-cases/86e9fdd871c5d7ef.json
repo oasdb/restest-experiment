@@ -1,0 +1,78 @@
+{
+  "uid" : "86e9fdd871c5d7ef",
+  "name" : "test_1k1wr760wb6na_deletecharge",
+  "fullName" : "PaymentPayloadMissingKey.OasDbPaymentPayloadMissingKey_veynzu0dnb5f.test_1k1wr760wb6na_deletecharge",
+  "historyId" : "308d03d12e16ce7d30f32e9d64656137",
+  "time" : {
+    "start" : 1640928577156,
+    "stop" : 1640928577170,
+    "duration" : 14
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2bb5376bee678085",
+      "name" : "Request",
+      "source" : "2bb5376bee678085.html",
+      "type" : "text/html",
+      "size" : 273
+    }, {
+      "uid" : "3fbe43fed1c24934",
+      "name" : "HTTP/1.1 404 Not Found",
+      "source" : "3fbe43fed1c24934.html",
+      "type" : "text/html",
+      "size" : 672
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "PaymentPayloadMissingKey"
+  }, {
+    "name" : "testClass",
+    "value" : "PaymentPayloadMissingKey.OasDbPaymentPayloadMissingKey_veynzu0dnb5f"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_1k1wr760wb6na_deletecharge"
+  }, {
+    "name" : "suite",
+    "value" : "PaymentPayloadMissingKey.OasDbPaymentPayloadMissingKey_veynzu0dnb5f"
+  }, {
+    "name" : "host",
+    "value" : "Alexs-MacBook-Pro-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "55647@Alexs-MacBook-Pro-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "86e9fdd871c5d7ef.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,29 @@
+<div>PUT to http://localhost:3000/incidents/vg%7Dp%22%7EZX%7E%3C</div>
+
+<h4>Body</h4>
+<div>
+    <pre class="preformated-text">
+    {
+    &quot;service_id&quot;: &quot;randomString&quot;,
+    &quot;title&quot;: &quot;2Q^&gt;*B%AGOb&amp;h[h&amp;8ycv&quot;,
+    &quot;assignee_id&quot;: 18446744073709551616
+}
+    </pre>
+</div>
+
+<h4>Headers</h4>
+<div>
+        <div>Accept: */*</div>
+        <div>Content-Type: application/json; charset=UTF-8</div>
+</div>
+
+
+
+<h4>Curl</h4>
+<div>
+curl -v -X PUT &#39;http://localhost:3000/incidents/vg%7Dp%22%7EZX%7E%3C&#39; -H &#39;Accept: */*&#39; -H &#39;Content-Type: application/json; charset=UTF-8&#39; -d &#39;{
+    &quot;service_id&quot;: &quot;randomString&quot;,
+    &quot;title&quot;: &quot;2Q^&gt;*B%AGOb&amp;h[h&amp;8ycv&quot;,
+    &quot;assignee_id&quot;: 18446744073709551616
+}&#39;
+</div>

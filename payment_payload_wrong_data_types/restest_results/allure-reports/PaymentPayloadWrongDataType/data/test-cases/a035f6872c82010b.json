@@ -1,0 +1,78 @@
+{
+  "uid" : "a035f6872c82010b",
+  "name" : "test_1ibhkcou2wvok_readcharge",
+  "fullName" : "PaymentPayloadWrongDataType.OasDbPaymentPayloadWrongDataType_t4yyjnz4v12q.test_1ibhkcou2wvok_readcharge",
+  "historyId" : "afcab24f0ef3e4bf5f15c63f3041e87",
+  "time" : {
+    "start" : 1640946065328,
+    "stop" : 1640946065340,
+    "duration" : 12
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "52431a47ba6eea51",
+      "name" : "Request",
+      "source" : "52431a47ba6eea51.html",
+      "type" : "text/html",
+      "size" : 263
+    }, {
+      "uid" : "acf8dbd409f2d7fb",
+      "name" : "HTTP/1.1 404 Not Found",
+      "source" : "acf8dbd409f2d7fb.html",
+      "type" : "text/html",
+      "size" : 546
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "PaymentPayloadWrongDataType"
+  }, {
+    "name" : "testClass",
+    "value" : "PaymentPayloadWrongDataType.OasDbPaymentPayloadWrongDataType_t4yyjnz4v12q"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_1ibhkcou2wvok_readcharge"
+  }, {
+    "name" : "suite",
+    "value" : "PaymentPayloadWrongDataType.OasDbPaymentPayloadWrongDataType_t4yyjnz4v12q"
+  }, {
+    "name" : "host",
+    "value" : "Alexs-MacBook-Pro-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "65822@Alexs-MacBook-Pro-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a035f6872c82010b.json",
+  "parameterValues" : [ ]
+}

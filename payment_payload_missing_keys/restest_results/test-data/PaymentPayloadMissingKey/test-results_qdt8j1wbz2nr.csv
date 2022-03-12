@@ -1,0 +1,17 @@
+testResultId,statusCode,responseBody,outputContentType,passed,failReason
+test_1h7j6gfmv9mxu_readcharge,404,GET /charges/nv%3F%3AK%24FPN%2Byk/FiD%7CY_,text/html;charset=utf-8,true,none
+test_1h7zspxc8xyle_readcharge,404,,text/html;charset=utf-8,true,none
+test_1hbd8h5dmepmg_createcharge,500,<h1>Internal Server Error</h1>,text/html;charset=utf-8,false,Status code 5XX.
+test_1hbiqjexwoc36_readcharge,404,,text/html;charset=utf-8,true,none
+test_1iev1lyp4ye7a_updatecharge,500,<h1>Internal Server Error</h1>,text/html;charset=utf-8,false,Status code 5XX.
+test_1if0kr74rymur_createcharge,500,<h1>Internal Server Error</h1>,text/html;charset=utf-8,false,Status code 5XX.
+test_1jy26sfephovp_createcharge,500,<h1>Internal Server Error</h1>,text/html;charset=utf-8,false,Status code 5XX.
+test_1jyg0vqdiy7vn_updatecharge,404,,text/html;charset=utf-8,true,none
+test_s0x8ailra1r8_deletecharge,404,,text/html;charset=utf-8,true,none
+test_s15lkfxi2smd_deletecharge,404,,text/html;charset=utf-8,true,none
+test_s15mqdbv2545_deletecharge,404,DELETE /charges/%2B_9FNd/o%235,text/html;charset=utf-8,true,none
+test_s1dyik9ipsv7_updatecharge,500,<h1>Internal Server Error</h1>,text/html;charset=utf-8,false,Status code 5XX.
+test_sknbaxt2t83a_createcharge,500,<h1>Internal Server Error</h1>,text/html;charset=utf-8,false,Status code 5XX.
+test_t842zmdr5b38_readcharge,404,,text/html;charset=utf-8,true,none
+test_u8e0o89vpw6r_deletecharge,404,,text/html;charset=utf-8,true,none
+test_vbhwkvqaizc4_updatecharge,500,<h1>Internal Server Error</h1>,text/html;charset=utf-8,false,Status code 5XX.

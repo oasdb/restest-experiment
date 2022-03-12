@@ -1,0 +1,78 @@
+{
+  "uid" : "bfcb5360a8ab1db2",
+  "name" : "test_s1jevkakbk9v_deleteincident",
+  "fullName" : "IncidentResponseBrokenRecordDeletion.OasDbIncidentResponseBrokenRecordDeletion_qdybs1o7sldh.test_s1jevkakbk9v_deleteincident",
+  "historyId" : "a98f62a92b3d3b910e2a0d84d0278966",
+  "time" : {
+    "start" : 1640931087988,
+    "stop" : 1640931088000,
+    "duration" : 12
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5fa09bf4f545c564",
+      "name" : "Request",
+      "source" : "5fa09bf4f545c564.html",
+      "type" : "text/html",
+      "size" : 281
+    }, {
+      "uid" : "ea0b6f34475a187a",
+      "name" : "HTTP/1.1 404 Not Found",
+      "source" : "ea0b6f34475a187a.html",
+      "type" : "text/html",
+      "size" : 546
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "IncidentResponseBrokenRecordDeletion"
+  }, {
+    "name" : "testClass",
+    "value" : "IncidentResponseBrokenRecordDeletion.OasDbIncidentResponseBrokenRecordDeletion_qdybs1o7sldh"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_s1jevkakbk9v_deleteincident"
+  }, {
+    "name" : "suite",
+    "value" : "IncidentResponseBrokenRecordDeletion.OasDbIncidentResponseBrokenRecordDeletion_qdybs1o7sldh"
+  }, {
+    "name" : "host",
+    "value" : "Alexs-MacBook-Pro-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "57085@Alexs-MacBook-Pro-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bfcb5360a8ab1db2.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,78 @@
+{
+  "uid" : "9a4b487bbb9e9fda",
+  "name" : "test_1jelijeckipti_updatecharge",
+  "fullName" : "PaymentInvalidExample.OasDbPaymentInvalidExample_s1b56mcqefxs.test_1jelijeckipti_updatecharge",
+  "historyId" : "7bb41fe184a7ea3ee4969e74634c9402",
+  "time" : {
+    "start" : 1640942323042,
+    "stop" : 1640942323055,
+    "duration" : 13
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "94a2adc17fa0551e",
+      "name" : "Request",
+      "source" : "94a2adc17fa0551e.html",
+      "type" : "text/html",
+      "size" : 557
+    }, {
+      "uid" : "3e16e34f99baaa57",
+      "name" : "HTTP/1.1 404 Not Found",
+      "source" : "3e16e34f99baaa57.html",
+      "type" : "text/html",
+      "size" : 546
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "PaymentInvalidExample"
+  }, {
+    "name" : "testClass",
+    "value" : "PaymentInvalidExample.OasDbPaymentInvalidExample_s1b56mcqefxs"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_1jelijeckipti_updatecharge"
+  }, {
+    "name" : "suite",
+    "value" : "PaymentInvalidExample.OasDbPaymentInvalidExample_s1b56mcqefxs"
+  }, {
+    "name" : "host",
+    "value" : "Alexs-MacBook-Pro-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "63598@Alexs-MacBook-Pro-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9a4b487bbb9e9fda.json",
+  "parameterValues" : [ ]
+}

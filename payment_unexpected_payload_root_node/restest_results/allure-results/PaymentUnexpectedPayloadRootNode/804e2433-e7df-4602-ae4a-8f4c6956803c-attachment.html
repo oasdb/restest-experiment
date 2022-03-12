@@ -1,0 +1,27 @@
+<div>PUT to http://localhost:3000/charges/xxS%3CM%22s%3FeeG%24%60g.</div>
+
+<h4>Body</h4>
+<div>
+    <pre class="preformated-text">
+    {
+    &quot;amount&quot;: &quot;randomString&quot;,
+    &quot;credit_card_id&quot;: &quot;,$~83_K[U9XQ$M?pd&quot;
+}
+    </pre>
+</div>
+
+<h4>Headers</h4>
+<div>
+        <div>Accept: */*</div>
+        <div>Content-Type: application/json; charset=UTF-8</div>
+</div>
+
+
+
+<h4>Curl</h4>
+<div>
+curl -v -X PUT &#39;http://localhost:3000/charges/xxS%3CM%22s%3FeeG%24%60g.&#39; -H &#39;Accept: */*&#39; -H &#39;Content-Type: application/json; charset=UTF-8&#39; -d &#39;{
+    &quot;amount&quot;: &quot;randomString&quot;,
+    &quot;credit_card_id&quot;: &quot;,$~83_K[U9XQ$M?pd&quot;
+}&#39;
+</div>

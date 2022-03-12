@@ -1,0 +1,188 @@
+{
+  "uid" : "8d8b9087a34bcc99",
+  "name" : "test_qxqm8g92oeas_updatecharge",
+  "fullName" : "PaymentInvalidExample.OasDbPaymentInvalidExample_vbemkcgc6ste.test_qxqm8g92oeas_updatecharge",
+  "historyId" : "29e60aeadaab7c36ee29daecec4d3cc4",
+  "time" : {
+    "start" : 1640941462516,
+    "stop" : 1640941462532,
+    "duration" : 16
+  },
+  "status" : "failed",
+  "statusMessage" : "OAS disconformity: Response status 422 not defined for path '/charges/{charge_id}'.",
+  "statusTrace" : "java.lang.AssertionError: OAS disconformity: Response status 422 not defined for path '/charges/{charge_id}'.\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat PaymentInvalidExample.OasDbPaymentInvalidExample_vbemkcgc6ste.test_qxqm8g92oeas_updatecharge(OasDbPaymentInvalidExample_vbemkcgc6ste.java:435)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:115)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:105)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:94)\n\tat es.us.isa.restest.runners.RESTestRunner.testExecution(RESTestRunner.java:127)\n\tat es.us.isa.restest.runners.RESTestRunner.run(RESTestRunner.java:72)\n\tat es.us.isa.restest.main.TestGenerationAndExecution.main(TestGenerationAndExecution.java:148)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "OAS disconformity: Response status 422 not defined for path '/charges/{charge_id}'.",
+    "statusTrace" : "java.lang.AssertionError: OAS disconformity: Response status 422 not defined for path '/charges/{charge_id}'.\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat PaymentInvalidExample.OasDbPaymentInvalidExample_vbemkcgc6ste.test_qxqm8g92oeas_updatecharge(OasDbPaymentInvalidExample_vbemkcgc6ste.java:435)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:115)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:105)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:94)\n\tat es.us.isa.restest.runners.RESTestRunner.testExecution(RESTestRunner.java:127)\n\tat es.us.isa.restest.runners.RESTestRunner.run(RESTestRunner.java:72)\n\tat es.us.isa.restest.main.TestGenerationAndExecution.main(TestGenerationAndExecution.java:148)\n",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c0d5e0d68982da92",
+      "name" : "Request",
+      "source" : "c0d5e0d68982da92.html",
+      "type" : "text/html",
+      "size" : 497
+    }, {
+      "uid" : "de9439fd262ede77",
+      "name" : "HTTP/1.1 422 Unprocessable Entity",
+      "source" : "de9439fd262ede77.html",
+      "type" : "text/html",
+      "size" : 546
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "PaymentInvalidExample"
+  }, {
+    "name" : "testClass",
+    "value" : "PaymentInvalidExample.OasDbPaymentInvalidExample_vbemkcgc6ste"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_qxqm8g92oeas_updatecharge"
+  }, {
+    "name" : "suite",
+    "value" : "PaymentInvalidExample.OasDbPaymentInvalidExample_vbemkcgc6ste"
+  }, {
+    "name" : "host",
+    "value" : "Alexs-MacBook-Pro-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "63598@Alexs-MacBook-Pro-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "SEVERITY 1: Disconformity with OAS",
+      "messageRegex" : "OAS disconformity.*",
+      "matchedStatuses" : [ "failed" ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 11,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 11
+      },
+      "items" : [ {
+        "uid" : "f338747ab5e773cd",
+        "status" : "failed",
+        "statusDetails" : "OAS disconformity: Response status 422 not defined for path '/charges/{charge_id}'.",
+        "time" : {
+          "start" : 1640941462516,
+          "stop" : 1640941462532,
+          "duration" : 16
+        }
+      }, {
+        "uid" : "29a5fc1597eef3e5",
+        "status" : "failed",
+        "statusDetails" : "OAS disconformity: Response status 422 not defined for path '/charges/{charge_id}'.",
+        "time" : {
+          "start" : 1640941462516,
+          "stop" : 1640941462532,
+          "duration" : 16
+        }
+      }, {
+        "uid" : "7e3460fa98d2686",
+        "status" : "failed",
+        "statusDetails" : "OAS disconformity: Response status 422 not defined for path '/charges/{charge_id}'.",
+        "time" : {
+          "start" : 1640941462516,
+          "stop" : 1640941462532,
+          "duration" : 16
+        }
+      }, {
+        "uid" : "ed9ceb4bf620ddd3",
+        "status" : "failed",
+        "statusDetails" : "OAS disconformity: Response status 422 not defined for path '/charges/{charge_id}'.",
+        "time" : {
+          "start" : 1640941462516,
+          "stop" : 1640941462532,
+          "duration" : 16
+        }
+      }, {
+        "uid" : "411236d8472c74a",
+        "status" : "failed",
+        "statusDetails" : "OAS disconformity: Response status 422 not defined for path '/charges/{charge_id}'.",
+        "time" : {
+          "start" : 1640941462516,
+          "stop" : 1640941462532,
+          "duration" : 16
+        }
+      }, {
+        "uid" : "7fee5797bf548d2a",
+        "status" : "failed",
+        "statusDetails" : "OAS disconformity: Response status 422 not defined for path '/charges/{charge_id}'.",
+        "time" : {
+          "start" : 1640941462516,
+          "stop" : 1640941462532,
+          "duration" : 16
+        }
+      }, {
+        "uid" : "e97bcab431e1e229",
+        "status" : "failed",
+        "statusDetails" : "OAS disconformity: Response status 422 not defined for path '/charges/{charge_id}'.",
+        "time" : {
+          "start" : 1640941462516,
+          "stop" : 1640941462532,
+          "duration" : 16
+        }
+      }, {
+        "uid" : "a28287fad31f68f0",
+        "status" : "failed",
+        "statusDetails" : "OAS disconformity: Response status 422 not defined for path '/charges/{charge_id}'.",
+        "time" : {
+          "start" : 1640941462516,
+          "stop" : 1640941462532,
+          "duration" : 16
+        }
+      }, {
+        "uid" : "f9a6180be61d6f31",
+        "status" : "failed",
+        "statusDetails" : "OAS disconformity: Response status 422 not defined for path '/charges/{charge_id}'.",
+        "time" : {
+          "start" : 1640941462516,
+          "stop" : 1640941462532,
+          "duration" : 16
+        }
+      }, {
+        "uid" : "b828bed04234aa25",
+        "status" : "failed",
+        "statusDetails" : "OAS disconformity: Response status 422 not defined for path '/charges/{charge_id}'.",
+        "time" : {
+          "start" : 1640941462516,
+          "stop" : 1640941462532,
+          "duration" : 16
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "8d8b9087a34bcc99.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,78 @@
+{
+  "uid" : "2fbd454ddf60aa49",
+  "name" : "test_1iv3s372dqbec_readincident",
+  "fullName" : "IncidentResponseUnexpectedPayloadRootNode.OasDbIncidentResponseUnexpectedPayloadRootNode_uruq3cpp5u8x.test_1iv3s372dqbec_readincident",
+  "historyId" : "9455153666c2f924c4b61b28c41719b0",
+  "time" : {
+    "start" : 1640943579102,
+    "stop" : 1640943579114,
+    "duration" : 12
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3acfdd96c03b3f32",
+      "name" : "Request",
+      "source" : "3acfdd96c03b3f32.html",
+      "type" : "text/html",
+      "size" : 235
+    }, {
+      "uid" : "f426d4a108f6f0f",
+      "name" : "HTTP/1.1 404 Not Found",
+      "source" : "f426d4a108f6f0f.html",
+      "type" : "text/html",
+      "size" : 546
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "IncidentResponseUnexpectedPayloadRootNode"
+  }, {
+    "name" : "testClass",
+    "value" : "IncidentResponseUnexpectedPayloadRootNode.OasDbIncidentResponseUnexpectedPayloadRootNode_uruq3cpp5u8x"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_1iv3s372dqbec_readincident"
+  }, {
+    "name" : "suite",
+    "value" : "IncidentResponseUnexpectedPayloadRootNode.OasDbIncidentResponseUnexpectedPayloadRootNode_uruq3cpp5u8x"
+  }, {
+    "name" : "host",
+    "value" : "Alexs-MacBook-Pro-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "64315@Alexs-MacBook-Pro-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2fbd454ddf60aa49.json",
+  "parameterValues" : [ ]
+}

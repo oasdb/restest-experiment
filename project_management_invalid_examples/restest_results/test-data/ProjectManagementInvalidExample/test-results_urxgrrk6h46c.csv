@@ -1,0 +1,17 @@
+testResultId,statusCode,responseBody,outputContentType,passed,failReason
+test_1iynsf03dy7oh_deleteproject,404,,text/html;charset=utf-8,true,none
+test_1jekxy2gr7ign_updateproject,404,PUT /projects/7Y%24uE%7C6tm%3E/eTb,text/html;charset=utf-8,true,none
+test_qdvjxhkopisi_readproject,404,,text/html;charset=utf-8,true,none
+test_qhq5g27146sk_createproject,422,,text/html;charset=utf-8,false,OAS disconformity: Response status 422 not defined for path '/projects'.
+test_qxywpataiwc2_readproject,404,,text/html;charset=utf-8,true,none
+test_rkwurl9fgsvr_updateproject,404,,text/html;charset=utf-8,true,none
+test_s4ul8zb8utkh_createproject,422,,text/html;charset=utf-8,false,OAS disconformity: Response status 422 not defined for path '/projects'.
+test_sksbocx55vee_deleteproject,404,,text/html;charset=utf-8,true,none
+test_sl6q1d1mjgog_updateproject,422,,text/html;charset=utf-8,false,OAS disconformity: Response status 422 not defined for path '/projects/{project_id}'.
+test_u7u2rhrkvmn7_deleteproject,404,,text/html;charset=utf-8,true,none
+test_ubp5f3qwq8fr_readproject,404,,text/html;charset=utf-8,true,none
+test_urdzy5a0b882_deleteproject,404,DELETE /projects/%25%7E%3FntH9%40/4%21tZJ5%3EWtE,text/html;charset=utf-8,true,none
+test_vb9mfdxya9f9_createproject,422,,text/html;charset=utf-8,false,OAS disconformity: Response status 422 not defined for path '/projects'.
+test_vbce7ddsvx2o_readproject,404,,text/html;charset=utf-8,true,none
+test_vbhdvewnrkh0_createproject,422,,text/html;charset=utf-8,false,OAS disconformity: Response status 422 not defined for path '/projects'.
+test_vf97zyxtigqb_updateproject,422,,text/html;charset=utf-8,false,OAS disconformity: Response status 422 not defined for path '/projects/{project_id}'.

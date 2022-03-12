@@ -1,0 +1,17 @@
+testResultId,statusCode,responseBody,outputContentType,passed,failReason
+test_1h8226d1vjl0z_updateproject,422,,text/html;charset=utf-8,false,OAS disconformity: Response status 422 not defined for path '/projects/{project_id}'.
+test_1ib99f2i2ltf8_createproject,422,,text/html;charset=utf-8,false,OAS disconformity: Response status 422 not defined for path '/projects'.
+test_1iupygfo11rvm_createproject,422,,text/html;charset=utf-8,false,OAS disconformity: Response status 422 not defined for path '/projects'.
+test_1iv1k6njirs4x_deleteproject,404,,text/html;charset=utf-8,true,none
+test_1iv3qwxgqj145_readproject,200,"{""description"":""\\0"",""name"":""Qk^f+Sah>x`Lv("",""id"":1}",application/json,false,"OAS disconformity: Instance failed to match all required schemas (matched only 0 out of 2) --- Object instance has properties which are not allowed by the schema: [""description"";""id"";""name""]"
+test_1iyeyrukau5v7_createproject,422,,text/html;charset=utf-8,false,OAS disconformity: Response status 422 not defined for path '/projects'.
+test_1jy7ryykf7qyd_deleteproject,404,,text/html;charset=utf-8,true,none
+test_s0xtc0kgy7aa_updateproject,422,,text/html;charset=utf-8,false,OAS disconformity: Response status 422 not defined for path '/projects/{project_id}'.
+test_sl0n2qmqcdv6_updateproject,404,,text/html;charset=utf-8,true,none
+test_t49jt6g4rtk3_deleteproject,404,,text/html;charset=utf-8,true,none
+test_t4ctz8npugxc_createproject,422,,text/html;charset=utf-8,false,OAS disconformity: Response status 422 not defined for path '/projects'.
+test_t89oh83hcorp_updateproject,422,,text/html;charset=utf-8,false,OAS disconformity: Response status 422 not defined for path '/projects/{project_id}'.
+test_tocxqt539k54_readproject,404,,text/html;charset=utf-8,true,none
+test_u7wsz5jklmqp_readproject,200,"{""description"":""\\0"",""name"":""Qk^f+Sah>x`Lv("",""id"":1}",application/json,false,"OAS disconformity: Instance failed to match all required schemas (matched only 0 out of 2) --- Object instance has properties which are not allowed by the schema: [""description"";""id"";""name""]"
+test_u82ejp49ueyc_deleteproject,404,,text/html;charset=utf-8,true,none
+test_uvjqhlh9var6_readproject,404,,text/html;charset=utf-8,true,none

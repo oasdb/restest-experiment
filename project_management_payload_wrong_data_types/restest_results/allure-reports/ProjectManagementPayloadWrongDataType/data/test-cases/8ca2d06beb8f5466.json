@@ -1,0 +1,97 @@
+{
+  "uid" : "8ca2d06beb8f5466",
+  "name" : "test_1jy88c18nninr_readproject",
+  "fullName" : "ProjectManagementPayloadWrongDataType.OasDbProjectManagementPayloadWrongDataType_s18w47s2x3xz.test_1jy88c18nninr_readproject",
+  "historyId" : "612bab2a91e7e6fdf36779db856a2c13",
+  "time" : {
+    "start" : 1640927243326,
+    "stop" : 1640927243341,
+    "duration" : 15
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "dcbe06532616822c",
+      "name" : "Request",
+      "source" : "dcbe06532616822c.html",
+      "type" : "text/html",
+      "size" : 249
+    }, {
+      "uid" : "58b5a780c2f08376",
+      "name" : "HTTP/1.1 404 Not Found",
+      "source" : "58b5a780c2f08376.html",
+      "type" : "text/html",
+      "size" : 546
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ProjectManagementPayloadWrongDataType"
+  }, {
+    "name" : "testClass",
+    "value" : "ProjectManagementPayloadWrongDataType.OasDbProjectManagementPayloadWrongDataType_s18w47s2x3xz"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_1jy88c18nninr_readproject"
+  }, {
+    "name" : "suite",
+    "value" : "ProjectManagementPayloadWrongDataType.OasDbProjectManagementPayloadWrongDataType_s18w47s2x3xz"
+  }, {
+    "name" : "host",
+    "value" : "Alexs-MacBook-Pro-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "54924@Alexs-MacBook-Pro-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "effad84d6f691526",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640927243326,
+          "stop" : 1640927243341,
+          "duration" : 15
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "8ca2d06beb8f5466.json",
+  "parameterValues" : [ ]
+}

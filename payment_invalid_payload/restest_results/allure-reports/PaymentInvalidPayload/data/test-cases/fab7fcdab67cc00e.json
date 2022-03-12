@@ -1,0 +1,78 @@
+{
+  "uid" : "fab7fcdab67cc00e",
+  "name" : "test_t4l428286w6e_readcharge",
+  "fullName" : "PaymentInvalidPayload.OasDbPaymentInvalidPayload_t4cb70swg01h.test_t4l428286w6e_readcharge",
+  "historyId" : "7552e9113a774dbbb76387ec0204f098",
+  "time" : {
+    "start" : 1640941112492,
+    "stop" : 1640941112504,
+    "duration" : 12
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "af08f34e5513b063",
+      "name" : "Request",
+      "source" : "af08f34e5513b063.html",
+      "type" : "text/html",
+      "size" : 281
+    }, {
+      "uid" : "94127b9ba0270880",
+      "name" : "HTTP/1.1 404 Not Found",
+      "source" : "94127b9ba0270880.html",
+      "type" : "text/html",
+      "size" : 546
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "PaymentInvalidPayload"
+  }, {
+    "name" : "testClass",
+    "value" : "PaymentInvalidPayload.OasDbPaymentInvalidPayload_t4cb70swg01h"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_t4l428286w6e_readcharge"
+  }, {
+    "name" : "suite",
+    "value" : "PaymentInvalidPayload.OasDbPaymentInvalidPayload_t4cb70swg01h"
+  }, {
+    "name" : "host",
+    "value" : "Alexs-MacBook-Pro-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "62876@Alexs-MacBook-Pro-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fab7fcdab67cc00e.json",
+  "parameterValues" : [ ]
+}

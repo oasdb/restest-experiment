@@ -1,0 +1,78 @@
+{
+  "uid" : "a8a61a10288c45a",
+  "name" : "test_t4nvu9r76hpu_updatecharge",
+  "fullName" : "PaymentPayloadMissingKey.OasDbPaymentPayloadMissingKey_veynzu0dnb5f.test_t4nvu9r76hpu_updatecharge",
+  "historyId" : "e19b8b6e4496be59f3665cc765f98711",
+  "time" : {
+    "start" : 1640928602271,
+    "stop" : 1640928602285,
+    "duration" : 14
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5bb9f0859b74b16e",
+      "name" : "Request",
+      "source" : "5bb9f0859b74b16e.html",
+      "type" : "text/html",
+      "size" : 749
+    }, {
+      "uid" : "1129bb7b6b2aaeec",
+      "name" : "HTTP/1.1 404 Not Found",
+      "source" : "1129bb7b6b2aaeec.html",
+      "type" : "text/html",
+      "size" : 546
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "PaymentPayloadMissingKey"
+  }, {
+    "name" : "testClass",
+    "value" : "PaymentPayloadMissingKey.OasDbPaymentPayloadMissingKey_veynzu0dnb5f"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_t4nvu9r76hpu_updatecharge"
+  }, {
+    "name" : "suite",
+    "value" : "PaymentPayloadMissingKey.OasDbPaymentPayloadMissingKey_veynzu0dnb5f"
+  }, {
+    "name" : "host",
+    "value" : "Alexs-MacBook-Pro-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "55647@Alexs-MacBook-Pro-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a8a61a10288c45a.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,679 @@
+[2021-12-31 08:04:01] INFO  WEBrick 1.6.0
+[2021-12-31 08:04:01] INFO  ruby 2.7.2 (2020-10-01) [x86_64-darwin18]
+== Sinatra (v2.1.0) has taken the stage on 3000 for production with backup from WEBrick
+[2021-12-31 08:04:01] INFO  WEBrick::HTTPServer#start: pid=67969 port=3000
+127.0.0.1 - - [31/Dec/2021:08:04:23 -0300] "DELETE /incidents/-2147483648 HTTP/1.1" 404 - 0.0021
+127.0.0.1 - - [31/Dec/2021:08:04:23 -03] "DELETE /incidents/-2147483648 HTTP/1.1" 404 0
+- -> /incidents/-2147483648
+127.0.0.1 - - [31/Dec/2021:08:04:28 -0300] "DELETE /incidents/bu%2C%3Cr6%295HjM.L8qesQ%7Ep HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:04:28 -03] "DELETE /incidents/bu%2C%3Cr6%295HjM.L8qesQ%7Ep HTTP/1.1" 404 0
+- -> /incidents/bu%2C%3Cr6%295HjM.L8qesQ%7Ep
+127.0.0.1 - - [31/Dec/2021:08:04:33 -0300] "GET /incidents/1 HTTP/1.1" 404 - 0.0003
+127.0.0.1 - - [31/Dec/2021:08:04:33 -03] "GET /incidents/1 HTTP/1.1" 404 0
+- -> /incidents/1
+127.0.0.1 - - [31/Dec/2021:08:04:38 -0300] "GET /incidents/%23c%3F%3B%60zT%28%3FDN%5E HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:04:38 -03] "GET /incidents/%23c%3F%3B%60zT%28%3FDN%5E HTTP/1.1" 404 0
+- -> /incidents/%23c%3F%3B%60zT%28%3FDN%5E
+127.0.0.1 - - [31/Dec/2021:08:04:43 -0300] "PUT /incidents/%22%24%5Dd_%29%7D%217FuIs%22u%28o HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:04:43 -03] "PUT /incidents/%22%24%5Dd_%29%7D%217FuIs%22u%28o HTTP/1.1" 404 0
+- -> /incidents/%22%24%5Dd_%29%7D%217FuIs%22u%28o
+127.0.0.1 - - [31/Dec/2021:08:04:48 -0300] "PUT /incidents/RuT%2FQcEutq7bU%2Cl%25KY HTTP/1.1" 404 37 0.0022
+127.0.0.1 - - [31/Dec/2021:08:04:48 -03] "PUT /incidents/RuT%2FQcEutq7bU%2Cl%25KY HTTP/1.1" 404 37
+- -> /incidents/RuT%2FQcEutq7bU%2Cl%25KY
+127.0.0.1 - - [31/Dec/2021:08:04:53 -0300] "POST /incidents HTTP/1.1" 422 - 0.0003
+127.0.0.1 - - [31/Dec/2021:08:04:53 -03] "POST /incidents HTTP/1.1" 422 0
+- -> /incidents
+127.0.0.1 - - [31/Dec/2021:08:04:58 -0300] "PUT /incidents/BE%24Q6L%22fo%20%28%2B2%7ECLU%27 HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:04:58 -03] "PUT /incidents/BE%24Q6L%22fo%20%28%2B2%7ECLU%27 HTTP/1.1" 422 0
+- -> /incidents/BE%24Q6L%22fo%20%28%2B2%7ECLU%27
+127.0.0.1 - - [31/Dec/2021:08:05:03 -0300] "GET /incidents/9223372036854775808 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:05:03 -03] "GET /incidents/9223372036854775808 HTTP/1.1" 404 0
+- -> /incidents/9223372036854775808
+127.0.0.1 - - [31/Dec/2021:08:05:08 -0300] "DELETE /incidents/2*%5BHO9Kq%21%25%5BT%5Cv HTTP/1.1" 404 40 0.0003
+127.0.0.1 - - [31/Dec/2021:08:05:08 -03] "DELETE /incidents/2*%5BHO9Kq%21%25%5BT%5Cv HTTP/1.1" 404 40
+- -> /incidents/2*%5BHO9Kq%21%25%5BT%5Cv
+127.0.0.1 - - [31/Dec/2021:08:05:13 -0300] "PUT /incidents/m1%22o%5Bhv%294*aI%21 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:05:13 -03] "PUT /incidents/m1%22o%5Bhv%294*aI%21 HTTP/1.1" 404 0
+- -> /incidents/m1%22o%5Bhv%294*aI%21
+127.0.0.1 - - [31/Dec/2021:08:05:18 -0300] "POST /incidents HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:05:18 -03] "POST /incidents HTTP/1.1" 422 0
+- -> /incidents
+127.0.0.1 - - [31/Dec/2021:08:05:23 -0300] "GET /incidents/null HTTP/1.1" 404 - 0.0003
+127.0.0.1 - - [31/Dec/2021:08:05:23 -03] "GET /incidents/null HTTP/1.1" 404 0
+- -> /incidents/null
+127.0.0.1 - - [31/Dec/2021:08:05:28 -0300] "DELETE /incidents/null HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:05:28 -03] "DELETE /incidents/null HTTP/1.1" 404 0
+- -> /incidents/null
+127.0.0.1 - - [31/Dec/2021:08:05:33 -0300] "POST /incidents HTTP/1.1" 422 - 0.0003
+127.0.0.1 - - [31/Dec/2021:08:05:33 -03] "POST /incidents HTTP/1.1" 422 0
+- -> /incidents
+127.0.0.1 - - [31/Dec/2021:08:05:39 -0300] "POST /incidents HTTP/1.1" 422 - 0.0003
+127.0.0.1 - - [31/Dec/2021:08:05:39 -03] "POST /incidents HTTP/1.1" 422 0
+- -> /incidents
+127.0.0.1 - - [31/Dec/2021:08:05:51 -0300] "PUT /incidents/null HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:05:51 -03] "PUT /incidents/null HTTP/1.1" 422 0
+- -> /incidents/null
+127.0.0.1 - - [31/Dec/2021:08:05:56 -0300] "GET /incidents/%28%5EuyU%3B%2485j HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:05:56 -03] "GET /incidents/%28%5EuyU%3B%2485j HTTP/1.1" 404 0
+- -> /incidents/%28%5EuyU%3B%2485j
+127.0.0.1 - - [31/Dec/2021:08:06:01 -0300] "DELETE /incidents/V%25h0%3E4%20*%21r%2FMYG%7EwBQ HTTP/1.1" 404 46 0.0004
+127.0.0.1 - - [31/Dec/2021:08:06:01 -03] "DELETE /incidents/V%25h0%3E4%20*%21r%2FMYG%7EwBQ HTTP/1.1" 404 46
+- -> /incidents/V%25h0%3E4%20*%21r%2FMYG%7EwBQ
+127.0.0.1 - - [31/Dec/2021:08:06:06 -0300] "POST /incidents HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:06:06 -03] "POST /incidents HTTP/1.1" 422 0
+- -> /incidents
+127.0.0.1 - - [31/Dec/2021:08:06:11 -0300] "DELETE /incidents/0 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:06:11 -03] "DELETE /incidents/0 HTTP/1.1" 404 0
+- -> /incidents/0
+127.0.0.1 - - [31/Dec/2021:08:06:16 -0300] "PUT /incidents/%25f%60HWi3D*%248o.%24K%26mN HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:06:16 -03] "PUT /incidents/%25f%60HWi3D*%248o.%24K%26mN HTTP/1.1" 422 0
+- -> /incidents/%25f%60HWi3D*%248o.%24K%26mN
+127.0.0.1 - - [31/Dec/2021:08:06:21 -0300] "POST /incidents HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:06:21 -03] "POST /incidents HTTP/1.1" 422 0
+- -> /incidents
+127.0.0.1 - - [31/Dec/2021:08:06:26 -0300] "DELETE /incidents/%5C0 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:06:26 -03] "DELETE /incidents/%5C0 HTTP/1.1" 404 0
+- -> /incidents/%5C0
+127.0.0.1 - - [31/Dec/2021:08:06:31 -0300] "POST /incidents HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:06:31 -03] "POST /incidents HTTP/1.1" 422 0
+- -> /incidents
+127.0.0.1 - - [31/Dec/2021:08:06:36 -0300] "PUT /incidents/%5C0 HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:06:36 -03] "PUT /incidents/%5C0 HTTP/1.1" 422 0
+- -> /incidents/%5C0
+127.0.0.1 - - [31/Dec/2021:08:06:41 -0300] "DELETE /incidents/-1 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:06:41 -03] "DELETE /incidents/-1 HTTP/1.1" 404 0
+- -> /incidents/-1
+127.0.0.1 - - [31/Dec/2021:08:06:46 -0300] "GET /incidents/-1 HTTP/1.1" 404 - 0.0003
+127.0.0.1 - - [31/Dec/2021:08:06:46 -03] "GET /incidents/-1 HTTP/1.1" 404 0
+- -> /incidents/-1
+127.0.0.1 - - [31/Dec/2021:08:06:51 -0300] "GET /incidents/0 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:06:51 -03] "GET /incidents/0 HTTP/1.1" 404 0
+- -> /incidents/0
+127.0.0.1 - - [31/Dec/2021:08:06:56 -0300] "PUT /incidents/A%2Cds%5EH%60%3A*a%5B%22%2FruT HTTP/1.1" 404 43 0.0004
+127.0.0.1 - - [31/Dec/2021:08:06:56 -03] "PUT /incidents/A%2Cds%5EH%60%3A*a%5B%22%2FruT HTTP/1.1" 404 43
+- -> /incidents/A%2Cds%5EH%60%3A*a%5B%22%2FruT
+127.0.0.1 - - [31/Dec/2021:08:07:01 -0300] "GET /incidents/mM%5E%28XeXg%3Dv%7CBsZ%5C%40 HTTP/1.1" 404 41 0.0004
+127.0.0.1 - - [31/Dec/2021:08:07:01 -03] "GET /incidents/mM%5E%28XeXg%3Dv%7CBsZ%5C%40 HTTP/1.1" 404 41
+- -> /incidents/mM%5E%28XeXg%3Dv%7CBsZ%5C%40
+127.0.0.1 - - [31/Dec/2021:08:07:06 -0300] "POST /incidents HTTP/1.1" 422 - 0.0003
+127.0.0.1 - - [31/Dec/2021:08:07:06 -03] "POST /incidents HTTP/1.1" 422 0
+- -> /incidents
+127.0.0.1 - - [31/Dec/2021:08:07:18 -0300] "DELETE /incidents/null HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:07:18 -03] "DELETE /incidents/null HTTP/1.1" 404 0
+- -> /incidents/null
+127.0.0.1 - - [31/Dec/2021:08:07:23 -0300] "DELETE /incidents/%60q4W%27%60%3AX8s20rKOd0%29 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:07:23 -03] "DELETE /incidents/%60q4W%27%60%3AX8s20rKOd0%29 HTTP/1.1" 404 0
+- -> /incidents/%60q4W%27%60%3AX8s20rKOd0%29
+127.0.0.1 - - [31/Dec/2021:08:07:28 -0300] "GET /incidents/2147483648 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:07:28 -03] "GET /incidents/2147483648 HTTP/1.1" 404 0
+- -> /incidents/2147483648
+127.0.0.1 - - [31/Dec/2021:08:07:33 -0300] "PUT /incidents/iY7%247UXY_YZvO%5C- HTTP/1.1" 404 32 0.0004
+127.0.0.1 - - [31/Dec/2021:08:07:33 -03] "PUT /incidents/iY7%247UXY_YZvO%5C- HTTP/1.1" 404 32
+- -> /incidents/iY7%247UXY_YZvO%5C-
+127.0.0.1 - - [31/Dec/2021:08:07:38 -0300] "GET /incidents/X9%3FcKc35%20i HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:07:38 -03] "GET /incidents/X9%3FcKc35%20i HTTP/1.1" 404 0
+- -> /incidents/X9%3FcKc35%20i
+127.0.0.1 - - [31/Dec/2021:08:07:43 -0300] "PUT /incidents/randomString HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:07:43 -03] "PUT /incidents/randomString HTTP/1.1" 404 0
+- -> /incidents/randomString
+127.0.0.1 - - [31/Dec/2021:08:07:48 -0300] "POST /incidents HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:07:48 -03] "POST /incidents HTTP/1.1" 422 0
+- -> /incidents
+127.0.0.1 - - [31/Dec/2021:08:07:53 -0300] "GET /incidents/0 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:07:53 -03] "GET /incidents/0 HTTP/1.1" 404 0
+- -> /incidents/0
+127.0.0.1 - - [31/Dec/2021:08:07:58 -0300] "PUT /incidents/b%2FJhIq%25rZM-J.%5D%7DsA HTTP/1.1" 404 38 0.0005
+127.0.0.1 - - [31/Dec/2021:08:07:58 -03] "PUT /incidents/b%2FJhIq%25rZM-J.%5D%7DsA HTTP/1.1" 404 38
+- -> /incidents/b%2FJhIq%25rZM-J.%5D%7DsA
+127.0.0.1 - - [31/Dec/2021:08:08:03 -0300] "PUT /incidents/%20i%60g%5DFm%60xXjV%3Dr%2F_ HTTP/1.1" 404 41 0.0005
+127.0.0.1 - - [31/Dec/2021:08:08:03 -03] "PUT /incidents/%20i%60g%5DFm%60xXjV%3Dr%2F_ HTTP/1.1" 404 41
+- -> /incidents/%20i%60g%5DFm%60xXjV%3Dr%2F_
+127.0.0.1 - - [31/Dec/2021:08:08:08 -0300] "GET /incidents/P%5B4T%5C%3F%5D%28L.%3D%40%2373x%3D HTTP/1.1" 404 48 0.0004
+127.0.0.1 - - [31/Dec/2021:08:08:08 -03] "GET /incidents/P%5B4T%5C%3F%5D%28L.%3D%40%2373x%3D HTTP/1.1" 404 48
+- -> /incidents/P%5B4T%5C%3F%5D%28L.%3D%40%2373x%3D
+127.0.0.1 - - [31/Dec/2021:08:08:14 -0300] "POST /incidents HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:08:14 -03] "POST /incidents HTTP/1.1" 422 0
+- -> /incidents
+127.0.0.1 - - [31/Dec/2021:08:08:19 -0300] "DELETE /incidents/1 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:08:19 -03] "DELETE /incidents/1 HTTP/1.1" 404 0
+- -> /incidents/1
+127.0.0.1 - - [31/Dec/2021:08:08:24 -0300] "POST /incidents HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:08:24 -03] "POST /incidents HTTP/1.1" 422 0
+- -> /incidents
+127.0.0.1 - - [31/Dec/2021:08:08:29 -0300] "DELETE /incidents/18446744073709551616 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:08:29 -03] "DELETE /incidents/18446744073709551616 HTTP/1.1" 404 0
+- -> /incidents/18446744073709551616
+127.0.0.1 - - [31/Dec/2021:08:08:34 -0300] "POST /incidents HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:08:34 -03] "POST /incidents HTTP/1.1" 422 0
+- -> /incidents
+127.0.0.1 - - [31/Dec/2021:08:08:46 -0300] "PUT /incidents/%5C0 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:08:46 -03] "PUT /incidents/%5C0 HTTP/1.1" 404 0
+- -> /incidents/%5C0
+127.0.0.1 - - [31/Dec/2021:08:08:51 -0300] "PUT /incidents/null HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:08:51 -03] "PUT /incidents/null HTTP/1.1" 422 0
+- -> /incidents/null
+127.0.0.1 - - [31/Dec/2021:08:08:56 -0300] "POST /incidents HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:08:56 -03] "POST /incidents HTTP/1.1" 422 0
+- -> /incidents
+127.0.0.1 - - [31/Dec/2021:08:09:01 -0300] "POST /incidents HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:09:01 -03] "POST /incidents HTTP/1.1" 422 0
+- -> /incidents
+127.0.0.1 - - [31/Dec/2021:08:09:06 -0300] "DELETE /incidents/18446744073709551616 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:09:06 -03] "DELETE /incidents/18446744073709551616 HTTP/1.1" 404 0
+- -> /incidents/18446744073709551616
+127.0.0.1 - - [31/Dec/2021:08:09:11 -0300] "GET /incidents/TO%7C*-4%3Cy%20HVg HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:09:11 -03] "GET /incidents/TO%7C*-4%3Cy%20HVg HTTP/1.1" 404 0
+- -> /incidents/TO%7C*-4%3Cy%20HVg
+127.0.0.1 - - [31/Dec/2021:08:09:16 -0300] "DELETE /incidents/null HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:09:16 -03] "DELETE /incidents/null HTTP/1.1" 404 0
+- -> /incidents/null
+127.0.0.1 - - [31/Dec/2021:08:09:21 -0300] "GET /incidents/18446744073709551616 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:09:21 -03] "GET /incidents/18446744073709551616 HTTP/1.1" 404 0
+- -> /incidents/18446744073709551616
+127.0.0.1 - - [31/Dec/2021:08:09:26 -0300] "GET /incidents/a%7D%28B%20%3EUIanm%25A%5E9ib0 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:09:26 -03] "GET /incidents/a%7D%28B%20%3EUIanm%25A%5E9ib0 HTTP/1.1" 404 0
+- -> /incidents/a%7D%28B%20%3EUIanm%25A%5E9ib0
+127.0.0.1 - - [31/Dec/2021:08:09:31 -0300] "POST /incidents HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:09:31 -03] "POST /incidents HTTP/1.1" 422 0
+- -> /incidents
+127.0.0.1 - - [31/Dec/2021:08:09:36 -0300] "GET /incidents/0 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:09:36 -03] "GET /incidents/0 HTTP/1.1" 404 0
+- -> /incidents/0
+127.0.0.1 - - [31/Dec/2021:08:09:41 -0300] "PUT /incidents/1 HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:09:41 -03] "PUT /incidents/1 HTTP/1.1" 422 0
+- -> /incidents/1
+127.0.0.1 - - [31/Dec/2021:08:09:46 -0300] "PUT /incidents/null HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:09:46 -03] "PUT /incidents/null HTTP/1.1" 404 0
+- -> /incidents/null
+127.0.0.1 - - [31/Dec/2021:08:09:51 -0300] "DELETE /incidents/%60S1%7EN%5DMF%3C%3F HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:09:51 -03] "DELETE /incidents/%60S1%7EN%5DMF%3C%3F HTTP/1.1" 404 0
+- -> /incidents/%60S1%7EN%5DMF%3C%3F
+127.0.0.1 - - [31/Dec/2021:08:09:56 -0300] "DELETE /incidents/UV_-V%27hl%20%7CqihL HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:09:56 -03] "DELETE /incidents/UV_-V%27hl%20%7CqihL HTTP/1.1" 404 0
+- -> /incidents/UV_-V%27hl%20%7CqihL
+127.0.0.1 - - [31/Dec/2021:08:10:01 -0300] "POST /incidents HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:10:01 -03] "POST /incidents HTTP/1.1" 422 0
+- -> /incidents
+127.0.0.1 - - [31/Dec/2021:08:10:14 -0300] "GET /incidents/1.1 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:10:14 -03] "GET /incidents/1.1 HTTP/1.1" 404 0
+- -> /incidents/1.1
+127.0.0.1 - - [31/Dec/2021:08:10:19 -0300] "DELETE /incidents/9223372036854775808 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:10:19 -03] "DELETE /incidents/9223372036854775808 HTTP/1.1" 404 0
+- -> /incidents/9223372036854775808
+127.0.0.1 - - [31/Dec/2021:08:10:24 -0300] "POST /incidents HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:10:24 -03] "POST /incidents HTTP/1.1" 422 0
+- -> /incidents
+127.0.0.1 - - [31/Dec/2021:08:10:29 -0300] "PUT /incidents/-2147483648 HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:10:29 -03] "PUT /incidents/-2147483648 HTTP/1.1" 422 0
+- -> /incidents/-2147483648
+127.0.0.1 - - [31/Dec/2021:08:10:34 -0300] "POST /incidents HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:10:34 -03] "POST /incidents HTTP/1.1" 422 0
+- -> /incidents
+127.0.0.1 - - [31/Dec/2021:08:10:39 -0300] "POST /incidents HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:10:39 -03] "POST /incidents HTTP/1.1" 422 0
+- -> /incidents
+127.0.0.1 - - [31/Dec/2021:08:10:44 -0300] "POST /incidents HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:10:44 -03] "POST /incidents HTTP/1.1" 422 0
+- -> /incidents
+127.0.0.1 - - [31/Dec/2021:08:10:49 -0300] "DELETE /incidents/%5C0 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:10:49 -03] "DELETE /incidents/%5C0 HTTP/1.1" 404 0
+- -> /incidents/%5C0
+127.0.0.1 - - [31/Dec/2021:08:10:54 -0300] "PUT /incidents/-1 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:10:54 -03] "PUT /incidents/-1 HTTP/1.1" 404 0
+- -> /incidents/-1
+127.0.0.1 - - [31/Dec/2021:08:10:59 -0300] "PUT /incidents/%404ze%5DJ%27rG3G%7EY HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:10:59 -03] "PUT /incidents/%404ze%5DJ%27rG3G%7EY HTTP/1.1" 404 0
+- -> /incidents/%404ze%5DJ%27rG3G%7EY
+127.0.0.1 - - [31/Dec/2021:08:11:04 -0300] "GET /incidents/%3C.%60%5B%23eTQtdP%3A6G4%3F4%7C HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:11:04 -03] "GET /incidents/%3C.%60%5B%23eTQtdP%3A6G4%3F4%7C HTTP/1.1" 404 0
+- -> /incidents/%3C.%60%5B%23eTQtdP%3A6G4%3F4%7C
+127.0.0.1 - - [31/Dec/2021:08:11:09 -0300] "GET /incidents/18446744073709551616 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:11:09 -03] "GET /incidents/18446744073709551616 HTTP/1.1" 404 0
+- -> /incidents/18446744073709551616
+127.0.0.1 - - [31/Dec/2021:08:11:14 -0300] "DELETE /incidents/%5C0 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:11:14 -03] "DELETE /incidents/%5C0 HTTP/1.1" 404 0
+- -> /incidents/%5C0
+127.0.0.1 - - [31/Dec/2021:08:11:19 -0300] "GET /incidents/%7C%3E%5Bnw%28O%3B%40%7Ce%23y HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:11:19 -03] "GET /incidents/%7C%3E%5Bnw%28O%3B%40%7Ce%23y HTTP/1.1" 404 0
+- -> /incidents/%7C%3E%5Bnw%28O%3B%40%7Ce%23y
+127.0.0.1 - - [31/Dec/2021:08:11:24 -0300] "DELETE /incidents/%5C0 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:11:24 -03] "DELETE /incidents/%5C0 HTTP/1.1" 404 0
+- -> /incidents/%5C0
+127.0.0.1 - - [31/Dec/2021:08:11:29 -0300] "PUT /incidents/cf%40OytJ9iB HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:11:29 -03] "PUT /incidents/cf%40OytJ9iB HTTP/1.1" 404 0
+- -> /incidents/cf%40OytJ9iB
+127.0.0.1 - - [31/Dec/2021:08:11:41 -0300] "PUT /incidents/o%3F%3B%22%2F8%7DF%5DZSN HTTP/1.1" 404 37 0.0004
+127.0.0.1 - - [31/Dec/2021:08:11:41 -03] "PUT /incidents/o%3F%3B%22%2F8%7DF%5DZSN HTTP/1.1" 404 37
+- -> /incidents/o%3F%3B%22%2F8%7DF%5DZSN
+127.0.0.1 - - [31/Dec/2021:08:11:46 -0300] "DELETE /incidents/%3FKn%21GqR%218.%3B HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:11:46 -03] "DELETE /incidents/%3FKn%21GqR%218.%3B HTTP/1.1" 404 0
+- -> /incidents/%3FKn%21GqR%218.%3B
+127.0.0.1 - - [31/Dec/2021:08:11:51 -0300] "GET /incidents/7E%29%2CW%2B%60iLu-%28%2B HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:11:51 -03] "GET /incidents/7E%29%2CW%2B%60iLu-%28%2B HTTP/1.1" 404 0
+- -> /incidents/7E%29%2CW%2B%60iLu-%28%2B
+127.0.0.1 - - [31/Dec/2021:08:11:56 -0300] "GET /incidents/Q%60%2BH%27pY%2C%7Enr6KuS1 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:11:56 -03] "GET /incidents/Q%60%2BH%27pY%2C%7Enr6KuS1 HTTP/1.1" 404 0
+- -> /incidents/Q%60%2BH%27pY%2C%7Enr6KuS1
+127.0.0.1 - - [31/Dec/2021:08:12:01 -0300] "POST /incidents HTTP/1.1" 422 - 0.0006
+127.0.0.1 - - [31/Dec/2021:08:12:01 -03] "POST /incidents HTTP/1.1" 422 0
+- -> /incidents
+127.0.0.1 - - [31/Dec/2021:08:12:06 -0300] "DELETE /incidents/ejM%3C%40wYpz%25B%25TEW HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:12:06 -03] "DELETE /incidents/ejM%3C%40wYpz%25B%25TEW HTTP/1.1" 404 0
+- -> /incidents/ejM%3C%40wYpz%25B%25TEW
+127.0.0.1 - - [31/Dec/2021:08:12:11 -0300] "PUT /incidents/4294967296 HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:12:11 -03] "PUT /incidents/4294967296 HTTP/1.1" 422 0
+- -> /incidents/4294967296
+127.0.0.1 - - [31/Dec/2021:08:12:16 -0300] "DELETE /incidents/geSC%24%7C10h%3Fu5od%21T-%3BC* HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:12:16 -03] "DELETE /incidents/geSC%24%7C10h%3Fu5od%21T-%3BC* HTTP/1.1" 404 0
+- -> /incidents/geSC%24%7C10h%3Fu5od%21T-%3BC*
+127.0.0.1 - - [31/Dec/2021:08:12:21 -0300] "GET /incidents/-2147483648 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:12:21 -03] "GET /incidents/-2147483648 HTTP/1.1" 404 0
+- -> /incidents/-2147483648
+127.0.0.1 - - [31/Dec/2021:08:12:27 -0300] "PUT /incidents/null HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:12:27 -03] "PUT /incidents/null HTTP/1.1" 422 0
+- -> /incidents/null
+127.0.0.1 - - [31/Dec/2021:08:12:32 -0300] "GET /incidents/-9223372036854775808 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:12:32 -03] "GET /incidents/-9223372036854775808 HTTP/1.1" 404 0
+- -> /incidents/-9223372036854775808
+127.0.0.1 - - [31/Dec/2021:08:12:37 -0300] "PUT /incidents/r4fmb7Ra%2F.J%27 HTTP/1.1" 404 29 0.0004
+127.0.0.1 - - [31/Dec/2021:08:12:37 -03] "PUT /incidents/r4fmb7Ra%2F.J%27 HTTP/1.1" 404 29
+- -> /incidents/r4fmb7Ra%2F.J%27
+127.0.0.1 - - [31/Dec/2021:08:12:42 -0300] "DELETE /incidents/0r%3By*%25P.zd%25 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:12:42 -03] "DELETE /incidents/0r%3By*%25P.zd%25 HTTP/1.1" 404 0
+- -> /incidents/0r%3By*%25P.zd%25
+127.0.0.1 - - [31/Dec/2021:08:12:47 -0300] "POST /incidents HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:12:47 -03] "POST /incidents HTTP/1.1" 422 0
+- -> /incidents
+127.0.0.1 - - [31/Dec/2021:08:12:52 -0300] "POST /incidents HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:12:52 -03] "POST /incidents HTTP/1.1" 422 0
+- -> /incidents
+127.0.0.1 - - [31/Dec/2021:08:12:57 -0300] "POST /incidents HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:12:57 -03] "POST /incidents HTTP/1.1" 422 0
+- -> /incidents
+127.0.0.1 - - [31/Dec/2021:08:13:09 -0300] "POST /incidents HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:13:09 -03] "POST /incidents HTTP/1.1" 422 0
+- -> /incidents
+127.0.0.1 - - [31/Dec/2021:08:13:14 -0300] "GET /incidents/18446744073709551616 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:13:14 -03] "GET /incidents/18446744073709551616 HTTP/1.1" 404 0
+- -> /incidents/18446744073709551616
+127.0.0.1 - - [31/Dec/2021:08:13:19 -0300] "PUT /incidents/4294967296 HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:13:19 -03] "PUT /incidents/4294967296 HTTP/1.1" 422 0
+- -> /incidents/4294967296
+127.0.0.1 - - [31/Dec/2021:08:13:24 -0300] "DELETE /incidents/m%2C%24%25KQ*3%7D7zOG9%3A HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:13:24 -03] "DELETE /incidents/m%2C%24%25KQ*3%7D7zOG9%3A HTTP/1.1" 404 0
+- -> /incidents/m%2C%24%25KQ*3%7D7zOG9%3A
+127.0.0.1 - - [31/Dec/2021:08:13:29 -0300] "POST /incidents HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:13:29 -03] "POST /incidents HTTP/1.1" 422 0
+- -> /incidents
+127.0.0.1 - - [31/Dec/2021:08:13:34 -0300] "DELETE /incidents/7%21g%21qO%21ZKYm HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:13:34 -03] "DELETE /incidents/7%21g%21qO%21ZKYm HTTP/1.1" 404 0
+- -> /incidents/7%21g%21qO%21ZKYm
+127.0.0.1 - - [31/Dec/2021:08:13:39 -0300] "GET /incidents/%3CZHS_%2C%7EfgJrq HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:13:39 -03] "GET /incidents/%3CZHS_%2C%7EfgJrq HTTP/1.1" 404 0
+- -> /incidents/%3CZHS_%2C%7EfgJrq
+127.0.0.1 - - [31/Dec/2021:08:13:44 -0300] "POST /incidents HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:13:44 -03] "POST /incidents HTTP/1.1" 422 0
+- -> /incidents
+127.0.0.1 - - [31/Dec/2021:08:13:49 -0300] "PUT /incidents/-1 HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:13:49 -03] "PUT /incidents/-1 HTTP/1.1" 422 0
+- -> /incidents/-1
+127.0.0.1 - - [31/Dec/2021:08:13:54 -0300] "DELETE /incidents/4294967296 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:13:54 -03] "DELETE /incidents/4294967296 HTTP/1.1" 404 0
+- -> /incidents/4294967296
+127.0.0.1 - - [31/Dec/2021:08:13:59 -0300] "POST /incidents HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:13:59 -03] "POST /incidents HTTP/1.1" 422 0
+- -> /incidents
+127.0.0.1 - - [31/Dec/2021:08:14:04 -0300] "GET /incidents/j%5E3NK%5CWyIzLY%3BU.a HTTP/1.1" 404 35 0.0004
+127.0.0.1 - - [31/Dec/2021:08:14:04 -03] "GET /incidents/j%5E3NK%5CWyIzLY%3BU.a HTTP/1.1" 404 35
+- -> /incidents/j%5E3NK%5CWyIzLY%3BU.a
+127.0.0.1 - - [31/Dec/2021:08:14:09 -0300] "PUT /incidents/x%60%3A%3B%7C2%3AuZjFmy HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:14:09 -03] "PUT /incidents/x%60%3A%3B%7C2%3AuZjFmy HTTP/1.1" 404 0
+- -> /incidents/x%60%3A%3B%7C2%3AuZjFmy
+127.0.0.1 - - [31/Dec/2021:08:14:14 -0300] "GET /incidents/9223372036854775808 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:14:14 -03] "GET /incidents/9223372036854775808 HTTP/1.1" 404 0
+- -> /incidents/9223372036854775808
+127.0.0.1 - - [31/Dec/2021:08:14:19 -0300] "DELETE /incidents/T%2BvS%26v_B2%28%2B%5Blbu HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:14:19 -03] "DELETE /incidents/T%2BvS%26v_B2%28%2B%5Blbu HTTP/1.1" 404 0
+- -> /incidents/T%2BvS%26v_B2%28%2B%5Blbu
+127.0.0.1 - - [31/Dec/2021:08:14:24 -0300] "PUT /incidents/2147483648 HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:14:24 -03] "PUT /incidents/2147483648 HTTP/1.1" 422 0
+- -> /incidents/2147483648
+127.0.0.1 - - [31/Dec/2021:08:14:37 -0300] "PUT /incidents/p1FQDT%2234J0%25 HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:14:37 -03] "PUT /incidents/p1FQDT%2234J0%25 HTTP/1.1" 422 0
+- -> /incidents/p1FQDT%2234J0%25
+127.0.0.1 - - [31/Dec/2021:08:14:42 -0300] "POST /incidents HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:14:42 -03] "POST /incidents HTTP/1.1" 422 0
+- -> /incidents
+127.0.0.1 - - [31/Dec/2021:08:14:47 -0300] "PUT /incidents/UedGf%2C%2BZj%3B%5D%3EABbs4 HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:14:47 -03] "PUT /incidents/UedGf%2C%2BZj%3B%5D%3EABbs4 HTTP/1.1" 422 0
+- -> /incidents/UedGf%2C%2BZj%3B%5D%3EABbs4
+127.0.0.1 - - [31/Dec/2021:08:14:52 -0300] "POST /incidents HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:14:52 -03] "POST /incidents HTTP/1.1" 422 0
+- -> /incidents
+127.0.0.1 - - [31/Dec/2021:08:14:57 -0300] "GET /incidents/9223372036854775808 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:14:57 -03] "GET /incidents/9223372036854775808 HTTP/1.1" 404 0
+- -> /incidents/9223372036854775808
+127.0.0.1 - - [31/Dec/2021:08:15:02 -0300] "GET /incidents/18446744073709551616 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:15:02 -03] "GET /incidents/18446744073709551616 HTTP/1.1" 404 0
+- -> /incidents/18446744073709551616
+127.0.0.1 - - [31/Dec/2021:08:15:07 -0300] "POST /incidents HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:15:07 -03] "POST /incidents HTTP/1.1" 422 0
+- -> /incidents
+127.0.0.1 - - [31/Dec/2021:08:15:12 -0300] "DELETE /incidents/-2147483648 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:15:12 -03] "DELETE /incidents/-2147483648 HTTP/1.1" 404 0
+- -> /incidents/-2147483648
+127.0.0.1 - - [31/Dec/2021:08:15:17 -0300] "GET /incidents/e7%5E%7E%5B5%5D%3Adv HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:15:17 -03] "GET /incidents/e7%5E%7E%5B5%5D%3Adv HTTP/1.1" 404 0
+- -> /incidents/e7%5E%7E%5B5%5D%3Adv
+127.0.0.1 - - [31/Dec/2021:08:15:22 -0300] "GET /incidents/%24%2Bz%28_%23AWP-NZ%2FX%28r HTTP/1.1" 404 41 0.0005
+127.0.0.1 - - [31/Dec/2021:08:15:22 -03] "GET /incidents/%24%2Bz%28_%23AWP-NZ%2FX%28r HTTP/1.1" 404 41
+- -> /incidents/%24%2Bz%28_%23AWP-NZ%2FX%28r
+127.0.0.1 - - [31/Dec/2021:08:15:27 -0300] "POST /incidents HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:15:27 -03] "POST /incidents HTTP/1.1" 422 0
+- -> /incidents
+127.0.0.1 - - [31/Dec/2021:08:15:32 -0300] "PUT /incidents/0 HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:15:32 -03] "PUT /incidents/0 HTTP/1.1" 422 0
+- -> /incidents/0
+127.0.0.1 - - [31/Dec/2021:08:15:37 -0300] "DELETE /incidents/null HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:15:37 -03] "DELETE /incidents/null HTTP/1.1" 404 0
+- -> /incidents/null
+127.0.0.1 - - [31/Dec/2021:08:15:42 -0300] "DELETE /incidents/-9223372036854775808 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:15:42 -03] "DELETE /incidents/-9223372036854775808 HTTP/1.1" 404 0
+- -> /incidents/-9223372036854775808
+127.0.0.1 - - [31/Dec/2021:08:15:47 -0300] "DELETE /incidents/4294967296 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:15:47 -03] "DELETE /incidents/4294967296 HTTP/1.1" 404 0
+- -> /incidents/4294967296
+127.0.0.1 - - [31/Dec/2021:08:15:52 -0300] "PUT /incidents/%3DA%3CX%22vsZfn%7E*S%22m%2Ff%40* HTTP/1.1" 404 46 0.0004
+127.0.0.1 - - [31/Dec/2021:08:15:52 -03] "PUT /incidents/%3DA%3CX%22vsZfn%7E*S%22m%2Ff%40* HTTP/1.1" 404 46
+- -> /incidents/%3DA%3CX%22vsZfn%7E*S%22m%2Ff%40*
+127.0.0.1 - - [31/Dec/2021:08:16:05 -0300] "POST /incidents HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:16:05 -03] "POST /incidents HTTP/1.1" 422 0
+- -> /incidents
+127.0.0.1 - - [31/Dec/2021:08:16:10 -0300] "GET /incidents/u%25%7E%28PVT%202w%2F HTTP/1.1" 404 34 0.0005
+127.0.0.1 - - [31/Dec/2021:08:16:10 -03] "GET /incidents/u%25%7E%28PVT%202w%2F HTTP/1.1" 404 34
+- -> /incidents/u%25%7E%28PVT%202w%2F
+127.0.0.1 - - [31/Dec/2021:08:16:15 -0300] "PUT /incidents/2147483648 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:16:15 -03] "PUT /incidents/2147483648 HTTP/1.1" 404 0
+- -> /incidents/2147483648
+127.0.0.1 - - [31/Dec/2021:08:16:20 -0300] "POST /incidents HTTP/1.1" 201 8 0.0005
+127.0.0.1 - - [31/Dec/2021:08:16:20 -03] "POST /incidents HTTP/1.1" 201 8
+- -> /incidents
+127.0.0.1 - - [31/Dec/2021:08:16:25 -0300] "DELETE /incidents/%5C0 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:16:25 -03] "DELETE /incidents/%5C0 HTTP/1.1" 404 0
+- -> /incidents/%5C0
+127.0.0.1 - - [31/Dec/2021:08:16:30 -0300] "GET /incidents/B%22eOci%26pD5x4cE%5CS%2F HTTP/1.1" 404 36 0.0004
+127.0.0.1 - - [31/Dec/2021:08:16:30 -03] "GET /incidents/B%22eOci%26pD5x4cE%5CS%2F HTTP/1.1" 404 36
+- -> /incidents/B%22eOci%26pD5x4cE%5CS%2F
+127.0.0.1 - - [31/Dec/2021:08:16:35 -0300] "POST /incidents HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:16:35 -03] "POST /incidents HTTP/1.1" 422 0
+- -> /incidents
+127.0.0.1 - - [31/Dec/2021:08:16:40 -0300] "GET /incidents/1 HTTP/1.1" 200 82 0.0005
+127.0.0.1 - - [31/Dec/2021:08:16:40 -03] "GET /incidents/1 HTTP/1.1" 200 82
+- -> /incidents/1
+127.0.0.1 - - [31/Dec/2021:08:16:45 -0300] "DELETE /incidents/xjC4ZmHA%2F_%3B%251Xg%408 HTTP/1.1" 404 41 0.0004
+127.0.0.1 - - [31/Dec/2021:08:16:45 -03] "DELETE /incidents/xjC4ZmHA%2F_%3B%251Xg%408 HTTP/1.1" 404 41
+- -> /incidents/xjC4ZmHA%2F_%3B%251Xg%408
+127.0.0.1 - - [31/Dec/2021:08:16:50 -0300] "GET /incidents/%5C0 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:16:50 -03] "GET /incidents/%5C0 HTTP/1.1" 404 0
+- -> /incidents/%5C0
+127.0.0.1 - - [31/Dec/2021:08:16:55 -0300] "PUT /incidents/8rBbxS%5E.B.v%40Xy HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:16:55 -03] "PUT /incidents/8rBbxS%5E.B.v%40Xy HTTP/1.1" 404 0
+- -> /incidents/8rBbxS%5E.B.v%40Xy
+127.0.0.1 - - [31/Dec/2021:08:17:00 -0300] "POST /incidents HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:17:00 -03] "POST /incidents HTTP/1.1" 422 0
+- -> /incidents
+127.0.0.1 - - [31/Dec/2021:08:17:05 -0300] "DELETE /incidents/randomString HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:17:05 -03] "DELETE /incidents/randomString HTTP/1.1" 404 0
+- -> /incidents/randomString
+127.0.0.1 - - [31/Dec/2021:08:17:10 -0300] "DELETE /incidents/18446744073709551616 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:17:10 -03] "DELETE /incidents/18446744073709551616 HTTP/1.1" 404 0
+- -> /incidents/18446744073709551616
+127.0.0.1 - - [31/Dec/2021:08:17:15 -0300] "PUT /incidents/2147483648 HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:17:15 -03] "PUT /incidents/2147483648 HTTP/1.1" 422 0
+- -> /incidents/2147483648
+127.0.0.1 - - [31/Dec/2021:08:17:20 -0300] "PUT /incidents/1 HTTP/1.1" 200 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:17:20 -03] "PUT /incidents/1 HTTP/1.1" 200 0
+- -> /incidents/1
+127.0.0.1 - - [31/Dec/2021:08:17:33 -0300] "DELETE /incidents/rs%60%7EihY%29%3Ca%219bi92lJ HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:17:33 -03] "DELETE /incidents/rs%60%7EihY%29%3Ca%219bi92lJ HTTP/1.1" 404 0
+- -> /incidents/rs%60%7EihY%29%3Ca%219bi92lJ
+127.0.0.1 - - [31/Dec/2021:08:17:38 -0300] "POST /incidents HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:17:38 -03] "POST /incidents HTTP/1.1" 422 0
+- -> /incidents
+127.0.0.1 - - [31/Dec/2021:08:17:43 -0300] "POST /incidents HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:17:43 -03] "POST /incidents HTTP/1.1" 422 0
+- -> /incidents
+127.0.0.1 - - [31/Dec/2021:08:17:48 -0300] "DELETE /incidents/4294967296 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:17:48 -03] "DELETE /incidents/4294967296 HTTP/1.1" 404 0
+- -> /incidents/4294967296
+127.0.0.1 - - [31/Dec/2021:08:17:53 -0300] "POST /incidents HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:17:53 -03] "POST /incidents HTTP/1.1" 422 0
+- -> /incidents
+127.0.0.1 - - [31/Dec/2021:08:17:58 -0300] "DELETE /incidents/jX%7CTSanG_%29%204K-%28%2B1%20.%21 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:17:58 -03] "DELETE /incidents/jX%7CTSanG_%29%204K-%28%2B1%20.%21 HTTP/1.1" 404 0
+- -> /incidents/jX%7CTSanG_%29%204K-%28%2B1%20.%21
+127.0.0.1 - - [31/Dec/2021:08:18:03 -0300] "GET /incidents/-2147483648 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:18:03 -03] "GET /incidents/-2147483648 HTTP/1.1" 404 0
+- -> /incidents/-2147483648
+127.0.0.1 - - [31/Dec/2021:08:18:08 -0300] "PUT /incidents/-1 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:18:08 -03] "PUT /incidents/-1 HTTP/1.1" 404 0
+- -> /incidents/-1
+127.0.0.1 - - [31/Dec/2021:08:18:13 -0300] "PUT /incidents/M%21*.9mi-.%3DJ%5D%26dI HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:18:13 -03] "PUT /incidents/M%21*.9mi-.%3DJ%5D%26dI HTTP/1.1" 422 0
+- -> /incidents/M%21*.9mi-.%3DJ%5D%26dI
+127.0.0.1 - - [31/Dec/2021:08:18:18 -0300] "PUT /incidents/null HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:18:18 -03] "PUT /incidents/null HTTP/1.1" 422 0
+- -> /incidents/null
+127.0.0.1 - - [31/Dec/2021:08:18:23 -0300] "DELETE /incidents/%27j%2BI%24ryf%7EllXo%23-%27 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:18:23 -03] "DELETE /incidents/%27j%2BI%24ryf%7EllXo%23-%27 HTTP/1.1" 404 0
+- -> /incidents/%27j%2BI%24ryf%7EllXo%23-%27
+127.0.0.1 - - [31/Dec/2021:08:18:28 -0300] "GET /incidents/Loz%7D%3C%7E%3FX%2C%5D%21ePaT%28cD HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:18:28 -03] "GET /incidents/Loz%7D%3C%7E%3FX%2C%5D%21ePaT%28cD HTTP/1.1" 404 0
+- -> /incidents/Loz%7D%3C%7E%3FX%2C%5D%21ePaT%28cD
+127.0.0.1 - - [31/Dec/2021:08:18:33 -0300] "GET /incidents/t%20%29%5Cp0z1Qa%5D%7D2 HTTP/1.1" 404 36 0.0005
+127.0.0.1 - - [31/Dec/2021:08:18:33 -03] "GET /incidents/t%20%29%5Cp0z1Qa%5D%7D2 HTTP/1.1" 404 36
+- -> /incidents/t%20%29%5Cp0z1Qa%5D%7D2
+127.0.0.1 - - [31/Dec/2021:08:18:38 -0300] "GET /incidents/z%3F%5D_m%2095sX9.i%7EZJJW HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:18:38 -03] "GET /incidents/z%3F%5D_m%2095sX9.i%7EZJJW HTTP/1.1" 404 0
+- -> /incidents/z%3F%5D_m%2095sX9.i%7EZJJW
+127.0.0.1 - - [31/Dec/2021:08:18:43 -0300] "PUT /incidents/randomString HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:18:43 -03] "PUT /incidents/randomString HTTP/1.1" 404 0
+- -> /incidents/randomString
+127.0.0.1 - - [31/Dec/2021:08:18:48 -0300] "POST /incidents HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:18:48 -03] "POST /incidents HTTP/1.1" 422 0
+- -> /incidents
+127.0.0.1 - - [31/Dec/2021:08:19:01 -0300] "PUT /incidents/-1 HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:19:01 -03] "PUT /incidents/-1 HTTP/1.1" 422 0
+- -> /incidents/-1
+127.0.0.1 - - [31/Dec/2021:08:19:06 -0300] "GET /incidents/-9223372036854775808 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:19:06 -03] "GET /incidents/-9223372036854775808 HTTP/1.1" 404 0
+- -> /incidents/-9223372036854775808
+127.0.0.1 - - [31/Dec/2021:08:19:11 -0300] "PUT /incidents/%21%201of%40%5C%28%25m%7E0L HTTP/1.1" 404 40 0.0004
+127.0.0.1 - - [31/Dec/2021:08:19:11 -03] "PUT /incidents/%21%201of%40%5C%28%25m%7E0L HTTP/1.1" 404 40
+- -> /incidents/%21%201of%40%5C%28%25m%7E0L
+127.0.0.1 - - [31/Dec/2021:08:19:16 -0300] "GET /incidents/-1 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:19:16 -03] "GET /incidents/-1 HTTP/1.1" 404 0
+- -> /incidents/-1
+127.0.0.1 - - [31/Dec/2021:08:19:21 -0300] "GET /incidents/randomString HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:19:21 -03] "GET /incidents/randomString HTTP/1.1" 404 0
+- -> /incidents/randomString
+127.0.0.1 - - [31/Dec/2021:08:19:26 -0300] "DELETE /incidents/9223372036854775808 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:19:26 -03] "DELETE /incidents/9223372036854775808 HTTP/1.1" 404 0
+- -> /incidents/9223372036854775808
+127.0.0.1 - - [31/Dec/2021:08:19:31 -0300] "POST /incidents HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:19:31 -03] "POST /incidents HTTP/1.1" 422 0
+- -> /incidents
+127.0.0.1 - - [31/Dec/2021:08:19:36 -0300] "DELETE /incidents/2147483648 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:19:36 -03] "DELETE /incidents/2147483648 HTTP/1.1" 404 0
+- -> /incidents/2147483648
+127.0.0.1 - - [31/Dec/2021:08:19:41 -0300] "DELETE /incidents/McO-%3C%3DF%28%5Em%5E HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:19:41 -03] "DELETE /incidents/McO-%3C%3DF%28%5Em%5E HTTP/1.1" 404 0
+- -> /incidents/McO-%3C%3DF%28%5Em%5E
+127.0.0.1 - - [31/Dec/2021:08:19:46 -0300] "DELETE /incidents/2147483648 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:19:46 -03] "DELETE /incidents/2147483648 HTTP/1.1" 404 0
+- -> /incidents/2147483648
+127.0.0.1 - - [31/Dec/2021:08:19:51 -0300] "POST /incidents HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:19:51 -03] "POST /incidents HTTP/1.1" 422 0
+- -> /incidents
+127.0.0.1 - - [31/Dec/2021:08:19:56 -0300] "POST /incidents HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:19:56 -03] "POST /incidents HTTP/1.1" 422 0
+- -> /incidents
+127.0.0.1 - - [31/Dec/2021:08:20:01 -0300] "POST /incidents HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:20:01 -03] "POST /incidents HTTP/1.1" 422 0
+- -> /incidents
+127.0.0.1 - - [31/Dec/2021:08:20:06 -0300] "PUT /incidents/2147483648 HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:20:06 -03] "PUT /incidents/2147483648 HTTP/1.1" 422 0
+- -> /incidents/2147483648
+127.0.0.1 - - [31/Dec/2021:08:20:11 -0300] "GET /incidents/39c%238%2B%5DMP%7D*B HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:20:11 -03] "GET /incidents/39c%238%2B%5DMP%7D*B HTTP/1.1" 404 0
+- -> /incidents/39c%238%2B%5DMP%7D*B
+127.0.0.1 - - [31/Dec/2021:08:20:16 -0300] "PUT /incidents/%23o%5E7y%5EVpqh3 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:20:16 -03] "PUT /incidents/%23o%5E7y%5EVpqh3 HTTP/1.1" 404 0
+- -> /incidents/%23o%5E7y%5EVpqh3
+127.0.0.1 - - [31/Dec/2021:08:20:29 -0300] "PUT /incidents/-2147483648 HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:20:29 -03] "PUT /incidents/-2147483648 HTTP/1.1" 422 0
+- -> /incidents/-2147483648
+127.0.0.1 - - [31/Dec/2021:08:20:34 -0300] "PUT /incidents/-1 HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:20:34 -03] "PUT /incidents/-1 HTTP/1.1" 422 0
+- -> /incidents/-1
+127.0.0.1 - - [31/Dec/2021:08:20:39 -0300] "POST /incidents HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:20:39 -03] "POST /incidents HTTP/1.1" 422 0
+- -> /incidents
+127.0.0.1 - - [31/Dec/2021:08:20:44 -0300] "DELETE /incidents/-2147483648 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:20:44 -03] "DELETE /incidents/-2147483648 HTTP/1.1" 404 0
+- -> /incidents/-2147483648
+127.0.0.1 - - [31/Dec/2021:08:20:49 -0300] "DELETE /incidents/%5C0 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:20:49 -03] "DELETE /incidents/%5C0 HTTP/1.1" 404 0
+- -> /incidents/%5C0
+127.0.0.1 - - [31/Dec/2021:08:20:54 -0300] "DELETE /incidents/O%60%28%24-%24c%7EFGp%20%21Kdh%2B%3FF HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:20:54 -03] "DELETE /incidents/O%60%28%24-%24c%7EFGp%20%21Kdh%2B%3FF HTTP/1.1" 404 0
+- -> /incidents/O%60%28%24-%24c%7EFGp%20%21Kdh%2B%3FF
+127.0.0.1 - - [31/Dec/2021:08:20:59 -0300] "PUT /incidents/1 HTTP/1.1" 200 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:20:59 -03] "PUT /incidents/1 HTTP/1.1" 200 0
+- -> /incidents/1
+127.0.0.1 - - [31/Dec/2021:08:21:04 -0300] "POST /incidents HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:21:04 -03] "POST /incidents HTTP/1.1" 422 0
+- -> /incidents
+127.0.0.1 - - [31/Dec/2021:08:21:09 -0300] "POST /incidents HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:21:09 -03] "POST /incidents HTTP/1.1" 422 0
+- -> /incidents
+127.0.0.1 - - [31/Dec/2021:08:21:14 -0300] "POST /incidents HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:21:14 -03] "POST /incidents HTTP/1.1" 422 0
+- -> /incidents
+127.0.0.1 - - [31/Dec/2021:08:21:20 -0300] "GET /incidents/null HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:21:20 -03] "GET /incidents/null HTTP/1.1" 404 0
+- -> /incidents/null
+127.0.0.1 - - [31/Dec/2021:08:21:25 -0300] "DELETE /incidents/%5C%5C%7Ev-K%24S%3D%24%5CcaoLk1B HTTP/1.1" 404 42 0.0010
+127.0.0.1 - - [31/Dec/2021:08:21:25 -03] "DELETE /incidents/%5C%5C%7Ev-K%24S%3D%24%5CcaoLk1B HTTP/1.1" 404 42
+- -> /incidents/%5C%5C%7Ev-K%24S%3D%24%5CcaoLk1B
+127.0.0.1 - - [31/Dec/2021:08:21:30 -0300] "GET /incidents/46k%5Cn%3Cz%7Db%3B%3D HTTP/1.1" 404 34 0.0005
+127.0.0.1 - - [31/Dec/2021:08:21:30 -03] "GET /incidents/46k%5Cn%3Cz%7Db%3B%3D HTTP/1.1" 404 34
+- -> /incidents/46k%5Cn%3Cz%7Db%3B%3D
+127.0.0.1 - - [31/Dec/2021:08:21:35 -0300] "GET /incidents/null HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:21:35 -03] "GET /incidents/null HTTP/1.1" 404 0
+- -> /incidents/null
+127.0.0.1 - - [31/Dec/2021:08:21:40 -0300] "PUT /incidents/S%20%28%3B6p7%20ey HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:21:40 -03] "PUT /incidents/S%20%28%3B6p7%20ey HTTP/1.1" 404 0
+- -> /incidents/S%20%28%3B6p7%20ey
+127.0.0.1 - - [31/Dec/2021:08:21:45 -0300] "GET /incidents/%5C0 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:21:45 -03] "GET /incidents/%5C0 HTTP/1.1" 404 0
+- -> /incidents/%5C0
+127.0.0.1 - - [31/Dec/2021:08:21:57 -0300] "PUT /incidents/%5C0 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:21:57 -03] "PUT /incidents/%5C0 HTTP/1.1" 404 0
+- -> /incidents/%5C0
+127.0.0.1 - - [31/Dec/2021:08:22:02 -0300] "DELETE /incidents/1.1 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:22:02 -03] "DELETE /incidents/1.1 HTTP/1.1" 404 0
+- -> /incidents/1.1
+127.0.0.1 - - [31/Dec/2021:08:22:07 -0300] "DELETE /incidents/randomString HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:22:07 -03] "DELETE /incidents/randomString HTTP/1.1" 404 0
+- -> /incidents/randomString
+127.0.0.1 - - [31/Dec/2021:08:22:12 -0300] "GET /incidents/4294967296 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:22:12 -03] "GET /incidents/4294967296 HTTP/1.1" 404 0
+- -> /incidents/4294967296
+127.0.0.1 - - [31/Dec/2021:08:22:18 -0300] "GET /incidents/%5C0 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:22:18 -03] "GET /incidents/%5C0 HTTP/1.1" 404 0
+- -> /incidents/%5C0
+127.0.0.1 - - [31/Dec/2021:08:22:23 -0300] "DELETE /incidents/%29llb%2C%25%22%2F8uqL.H HTTP/1.1" 404 40 0.0005
+127.0.0.1 - - [31/Dec/2021:08:22:23 -03] "DELETE /incidents/%29llb%2C%25%22%2F8uqL.H HTTP/1.1" 404 40
+- -> /incidents/%29llb%2C%25%22%2F8uqL.H
+127.0.0.1 - - [31/Dec/2021:08:22:28 -0300] "PUT /incidents/1.1 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:22:28 -03] "PUT /incidents/1.1 HTTP/1.1" 404 0
+- -> /incidents/1.1
+127.0.0.1 - - [31/Dec/2021:08:22:33 -0300] "DELETE /incidents/U%24%23%7D%3D7zyOUPO0Yk HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:22:33 -03] "DELETE /incidents/U%24%23%7D%3D7zyOUPO0Yk HTTP/1.1" 404 0
+- -> /incidents/U%24%23%7D%3D7zyOUPO0Yk
+127.0.0.1 - - [31/Dec/2021:08:22:38 -0300] "GET /incidents/-wvEEU0Xf%21Z%5B%2C1q%5CR HTTP/1.1" 404 38 0.0004
+127.0.0.1 - - [31/Dec/2021:08:22:38 -03] "GET /incidents/-wvEEU0Xf%21Z%5B%2C1q%5CR HTTP/1.1" 404 38
+- -> /incidents/-wvEEU0Xf%21Z%5B%2C1q%5CR
+127.0.0.1 - - [31/Dec/2021:08:22:43 -0300] "PUT /incidents/dY%22wj%24%7D%3F4%5E9PT%5E%29N3tKc HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:22:43 -03] "PUT /incidents/dY%22wj%24%7D%3F4%5E9PT%5E%29N3tKc HTTP/1.1" 422 0
+- -> /incidents/dY%22wj%24%7D%3F4%5E9PT%5E%29N3tKc
+127.0.0.1 - - [31/Dec/2021:08:22:48 -0300] "POST /incidents HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:22:48 -03] "POST /incidents HTTP/1.1" 422 0
+- -> /incidents
+127.0.0.1 - - [31/Dec/2021:08:22:53 -0300] "POST /incidents HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:22:53 -03] "POST /incidents HTTP/1.1" 422 0
+- -> /incidents
+127.0.0.1 - - [31/Dec/2021:08:22:58 -0300] "POST /incidents HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:22:58 -03] "POST /incidents HTTP/1.1" 422 0
+- -> /incidents
+127.0.0.1 - - [31/Dec/2021:08:23:03 -0300] "PUT /incidents/DIFf%7E%40pqF%25Zt_ HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:23:03 -03] "PUT /incidents/DIFf%7E%40pqF%25Zt_ HTTP/1.1" 422 0
+- -> /incidents/DIFf%7E%40pqF%25Zt_
+127.0.0.1 - - [31/Dec/2021:08:23:08 -0300] "GET /incidents/randomString HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:23:08 -03] "GET /incidents/randomString HTTP/1.1" 404 0
+- -> /incidents/randomString
+127.0.0.1 - - [31/Dec/2021:08:23:13 -0300] "POST /incidents HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:23:13 -03] "POST /incidents HTTP/1.1" 422 0
+- -> /incidents
+127.0.0.1 - - [31/Dec/2021:08:23:26 -0300] "GET /incidents/%3C.%22*h%2BaJ%7EpEJ%3D HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:23:26 -03] "GET /incidents/%3C.%22*h%2BaJ%7EpEJ%3D HTTP/1.1" 404 0
+- -> /incidents/%3C.%22*h%2BaJ%7EpEJ%3D
+127.0.0.1 - - [31/Dec/2021:08:23:31 -0300] "DELETE /incidents/randomString HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:23:31 -03] "DELETE /incidents/randomString HTTP/1.1" 404 0
+- -> /incidents/randomString
+127.0.0.1 - - [31/Dec/2021:08:23:36 -0300] "GET /incidents/-9223372036854775808 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:23:36 -03] "GET /incidents/-9223372036854775808 HTTP/1.1" 404 0
+- -> /incidents/-9223372036854775808
+127.0.0.1 - - [31/Dec/2021:08:23:41 -0300] "DELETE /incidents/kd%22y%22Vwqhgt%3EPN HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:23:41 -03] "DELETE /incidents/kd%22y%22Vwqhgt%3EPN HTTP/1.1" 404 0
+- -> /incidents/kd%22y%22Vwqhgt%3EPN
+127.0.0.1 - - [31/Dec/2021:08:23:46 -0300] "GET /incidents/%5D%7E7E%3CFR%22B%3A4Ym HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:23:46 -03] "GET /incidents/%5D%7E7E%3CFR%22B%3A4Ym HTTP/1.1" 404 0
+- -> /incidents/%5D%7E7E%3CFR%22B%3A4Ym
+127.0.0.1 - - [31/Dec/2021:08:23:51 -0300] "POST /incidents HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:23:51 -03] "POST /incidents HTTP/1.1" 422 0
+- -> /incidents
+127.0.0.1 - - [31/Dec/2021:08:23:56 -0300] "PUT /incidents/%5C0 HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:23:56 -03] "PUT /incidents/%5C0 HTTP/1.1" 422 0
+- -> /incidents/%5C0
+127.0.0.1 - - [31/Dec/2021:08:24:01 -0300] "PUT /incidents/%3CD%3D%3C%23Vo%7Ch%2Cu%3A6%27J%27h HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:24:01 -03] "PUT /incidents/%3CD%3D%3C%23Vo%7Ch%2Cu%3A6%27J%27h HTTP/1.1" 404 0
+- -> /incidents/%3CD%3D%3C%23Vo%7Ch%2Cu%3A6%27J%27h
+127.0.0.1 - - [31/Dec/2021:08:24:06 -0300] "DELETE /incidents/%25uvJ%2C%5ESeV%27E%27%24X30 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:24:06 -03] "DELETE /incidents/%25uvJ%2C%5ESeV%27E%27%24X30 HTTP/1.1" 404 0
+- -> /incidents/%25uvJ%2C%5ESeV%27E%27%24X30
+127.0.0.1 - - [31/Dec/2021:08:24:11 -0300] "DELETE /incidents/-2147483648 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:24:11 -03] "DELETE /incidents/-2147483648 HTTP/1.1" 404 0
+- -> /incidents/-2147483648
+127.0.0.1 - - [31/Dec/2021:08:24:16 -0300] "POST /incidents HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:08:24:16 -03] "POST /incidents HTTP/1.1" 422 0
+- -> /incidents
+127.0.0.1 - - [31/Dec/2021:08:24:21 -0300] "PUT /incidents/-2147483648 HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:24:21 -03] "PUT /incidents/-2147483648 HTTP/1.1" 422 0
+- -> /incidents/-2147483648
+127.0.0.1 - - [31/Dec/2021:08:24:26 -0300] "GET /incidents/%2FHWNkeK%5D%21Nq%7DimkZ HTTP/1.1" 404 - 0.0010
+127.0.0.1 - - [31/Dec/2021:08:24:26 -03] "GET /incidents/%2FHWNkeK%5D%21Nq%7DimkZ HTTP/1.1" 404 0
+- -> /incidents/%2FHWNkeK%5D%21Nq%7DimkZ
+127.0.0.1 - - [31/Dec/2021:08:24:31 -0300] "POST /incidents HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:24:31 -03] "POST /incidents HTTP/1.1" 422 0
+- -> /incidents
+127.0.0.1 - - [31/Dec/2021:08:24:36 -0300] "POST /incidents HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:24:36 -03] "POST /incidents HTTP/1.1" 422 0
+- -> /incidents
+127.0.0.1 - - [31/Dec/2021:08:24:41 -0300] "PUT /incidents/wE_4x3%27%5Bw2RJ HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:08:24:41 -03] "PUT /incidents/wE_4x3%27%5Bw2RJ HTTP/1.1" 422 0
+- -> /incidents/wE_4x3%27%5Bw2RJ
+== Sinatra has ended his set (crowd applauds)
+[2021-12-31 08:24:50] INFO  going to shutdown ...
+[2021-12-31 08:24:50] INFO  WEBrick::HTTPServer#start done.

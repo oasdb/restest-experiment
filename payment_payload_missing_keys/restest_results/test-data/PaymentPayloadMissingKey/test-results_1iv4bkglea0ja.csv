@@ -1,0 +1,17 @@
+testResultId,statusCode,responseBody,outputContentType,passed,failReason
+test_1h7wj0apg7zhg_deletecharge,404,,text/html;charset=utf-8,true,none
+test_1h7z8uctc8fn7_readcharge,404,,text/html;charset=utf-8,true,none
+test_1ibjuwfm6hnxg_createcharge,500,<h1>Internal Server Error</h1>,text/html;charset=utf-8,false,Status code 5XX.
+test_1iukdqj339ovn_updatecharge,500,<h1>Internal Server Error</h1>,text/html;charset=utf-8,false,Status code 5XX.
+test_1ji1o4cobjvja_updatecharge,500,<h1>Internal Server Error</h1>,text/html;charset=utf-8,false,Status code 5XX.
+test_1ji27omq4xhyo_readcharge,404,,text/html;charset=utf-8,true,none
+test_qxiawmuwn6lx_createcharge,201,"{""id"":1}",application/json,true,none
+test_s1bnw7iajl2d_deletecharge,404,DELETE /charges/%3Fd%20/fg%24%22TT%3DEtJIW%3AZT,text/html;charset=utf-8,true,none
+test_skpjzd9wnsj4_readcharge,404,,text/html;charset=utf-8,true,none
+test_sl6o604z0fhe_createcharge,500,<h1>Internal Server Error</h1>,text/html;charset=utf-8,false,Status code 5XX.
+test_soempxexeag2_createcharge,500,<h1>Internal Server Error</h1>,text/html;charset=utf-8,false,Status code 5XX.
+test_t86urg91qss0_updatecharge,422,,text/html;charset=utf-8,false,OAS disconformity: Response status 422 not defined for path '/charges/{charge_id}'.
+test_to7un8m81f1h_deletecharge,404,,text/html;charset=utf-8,true,none
+test_ubjmpv3193jq_deletecharge,404,,text/html;charset=utf-8,true,none
+test_us0qsmn7gg2q_updatecharge,500,<h1>Internal Server Error</h1>,text/html;charset=utf-8,false,Status code 5XX.
+test_vevcf0cayd6g_readcharge,404,,text/html;charset=utf-8,true,none

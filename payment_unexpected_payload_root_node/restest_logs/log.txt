@@ -1,0 +1,4852 @@
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2021-12-31 05:14:54 INFO  TestGenerationAndExecution:308 - Loading configuration parameter values
+2021-12-31 05:14:54 INFO  TestGenerationAndExecution:311 - Generator: FT
+2021-12-31 05:14:54 INFO  TestGenerationAndExecution:314 - OAS path: /Users/alexbrahastoll/Projects/mestrado/oas_db/restest_experiment/experiment_run_1640926129/payment_unexpected_payload_root_node/samples/payment_unexpected_payload_root_node.json
+2021-12-31 05:14:54 INFO  TestGenerationAndExecution:317 - Test configuration path: null
+2021-12-31 05:14:54 INFO  TestGenerationAndExecution:320 - Target dir for test classes: /Users/alexbrahastoll/Projects/mestrado/oas_db/restest_experiment/experiment_run_1640926129/payment_unexpected_payload_root_node/restest_tests
+2021-12-31 05:14:54 INFO  TestGenerationAndExecution:323 - Experiment name: PaymentUnexpectedPayloadRootNode
+2021-12-31 05:14:54 INFO  TestGenerationAndExecution:329 - Experiment execution: true
+2021-12-31 05:14:54 INFO  TestGenerationAndExecution:334 - Allure reports: true
+2021-12-31 05:14:54 INFO  TestGenerationAndExecution:341 - Proxy: null
+2021-12-31 05:14:54 INFO  TestGenerationAndExecution:345 - Check test cases: false
+2021-12-31 05:14:54 INFO  TestGenerationAndExecution:348 - Test class name: OasDbPaymentUnexpectedPayloadRootNode
+2021-12-31 05:14:54 INFO  TestGenerationAndExecution:352 - Number of test cases per operation: 4
+2021-12-31 05:14:54 INFO  TestGenerationAndExecution:356 - Max number of test cases: 224
+2021-12-31 05:14:54 INFO  TestGenerationAndExecution:360 - Time delay: -1
+2021-12-31 05:14:54 INFO  TestGenerationAndExecution:364 - Input data reloading  (CBT): 100
+2021-12-31 05:14:54 INFO  TestGenerationAndExecution:368 - Max input test data (CBT): 1000
+2021-12-31 05:14:54 INFO  TestGenerationAndExecution:372 - Input coverage: true
+2021-12-31 05:14:54 INFO  TestGenerationAndExecution:376 - Output coverage: true
+2021-12-31 05:14:54 INFO  TestGenerationAndExecution:380 - CSV statistics: false
+2021-12-31 05:14:54 INFO  TestGenerationAndExecution:384 - Delete previous results: true
+2021-12-31 05:14:54 INFO  TestGenerationAndExecution:388 - Similarity metric: LEVENSHTEIN
+2021-12-31 05:14:54 INFO  TestGenerationAndExecution:392 - Number of candidates: 100
+2021-12-31 05:14:54 INFO  TestGenerationAndExecution:396 - Faulty ratio: 0.5
+2021-12-31 05:14:54 INFO  TestGenerationAndExecution:400 - Faulty dependency ratio: 0.5
+2021-12-31 05:14:54 INFO  TestGenerationAndExecution:405 - Learn Regular expressions: false
+2021-12-31 05:14:54 INFO  TestGenerationAndExecution:409 - Second Predicate Search: false
+2021-12-31 05:14:54 INFO  TestGenerationAndExecution:413 - Maximum number of predicates: 3
+2021-12-31 05:14:54 INFO  TestGenerationAndExecution:417 - Minimum valid and invalid values: 5
+2021-12-31 05:14:54 INFO  TestGenerationAndExecution:421 - Metric to use: match recall
+2021-12-31 05:14:54 INFO  TestGenerationAndExecution:425 - Minimum value of metric: 0.9
+2021-12-31 05:14:54 INFO  TestGenerationAndExecution:429 - Maximum number of tries to generate a regular expression: 2
+2021-12-31 05:14:54 INFO  TestGenerationAndExecution:168 - No testConf specified. Generating one
+2021-12-31 05:14:54 INFO  CreateTestConf:58 - Test configuration file generated in path /Users/alexbrahastoll/Projects/mestrado/oas_db/restest_experiment/experiment_run_1640926129/payment_unexpected_payload_root_node/samples/testConf.yaml
+2021-12-31 05:14:54 INFO  TestGenerationAndExecution:174 - Created testConf in '/Users/alexbrahastoll/Projects/mestrado/oas_db/restest_experiment/experiment_run_1640926129/payment_unexpected_payload_root_node/samples/testConf.yaml'
+2021-12-31 05:14:54 INFO  RESTestRunner:105 - Generating tests
+2021-12-31 05:14:54 INFO  RESTestRunner:116 - Writing 16 test cases to test class /Users/alexbrahastoll/Projects/mestrado/oas_db/restest_experiment/experiment_run_1640926129/payment_unexpected_payload_root_node/restest_tests/OasDbPaymentUnexpectedPayloadRootNode_qxtcg3nqnsc5.java
+2021-12-31 05:14:54 INFO  RESTestRunner:70 - Running tests
+2021-12-31 05:14:54 INFO  RESTestRunner:98 - Compiling and loading test class PaymentUnexpectedPayloadRootNode.OasDbPaymentUnexpectedPayloadRootNode_qxtcg3nqnsc5.java
+Request method:	PUT
+Request URI:	http://localhost:3000/charges/%3B%7D3%29eGa%22%2BPpW4eX
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=;}3)eGa"+PpW4eX
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "amount": 179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.000001,
+    "credit_card_id": null,
+    "currency": "one space"
+}
+OAS disconformity: Response status 422 not defined for path '/charges/{charge_id}'.
+Request method:	GET
+Request URI:	http://localhost:3000/charges/-1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=-1
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:15:11 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	POST
+Request URI:	http://localhost:3000/charges
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "amount": 2147483648,
+    "currency": "one space"
+}
+OAS disconformity: Response status 422 not defined for path '/charges'.
+Request method:	PUT
+Request URI:	http://localhost:3000/charges/H%3Fup7RE7.8nbNVl%27Ou
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=H?up7RE7.8nbNVl'Ou
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "currency": "d9X6sa//t4Tb1"
+}
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:15:21 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	DELETE
+Request URI:	http://localhost:3000/charges/%5C0
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=\0
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:15:26 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	PUT
+Request URI:	http://localhost:3000/charges/null
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=null
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "amount": null
+}
+OAS disconformity: Response status 422 not defined for path '/charges/{charge_id}'.
+Request method:	GET
+Request URI:	http://localhost:3000/charges/jSbcuT%2F%5D%29l
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=jSbcuT/])l
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+X-Cascade: pass
+Content-Type: text/html;charset=utf-8
+Content-Length: 27
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:15:36 GMT
+Connection: Keep-Alive
+
+<html>
+  <body>GET /charges/jSbcuT/%5D%29l</body>
+</html>
+Test passed.
+Request method:	DELETE
+Request URI:	http://localhost:3000/charges/-9223372036854775808
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=-9223372036854775808
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:15:42 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	GET
+Request URI:	http://localhost:3000/charges/cl%2Fkf%2Fwe%3E%5Bd%2CEoQ
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=cl/kf/we>[d,EoQ
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+X-Cascade: pass
+Content-Type: text/html;charset=utf-8
+Content-Length: 34
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:15:47 GMT
+Connection: Keep-Alive
+
+<html>
+  <body>GET /charges/cl/kf/we%3E%5Bd%2CEoQ</body>
+</html>
+Test passed.
+Request method:	POST
+Request URI:	http://localhost:3000/charges
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "credit_card_id": 1
+}
+OAS disconformity: Response status 422 not defined for path '/charges'.
+Request method:	DELETE
+Request URI:	http://localhost:3000/charges/SsZA3X2%3B%40Le%3FbBEp%29j%25L
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=SsZA3X2;@Le?bBEp)j%L
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:15:57 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	GET
+Request URI:	http://localhost:3000/charges/%5D%2B%7DmsD%25%7Cu%5DHe%200
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=]+}msD%|u]He 0
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:16:02 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	DELETE
+Request URI:	http://localhost:3000/charges/%24.Tm%28%60_L%5Ep8%5DSH
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=$.Tm(`_L^p8]SH
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:16:07 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	POST
+Request URI:	http://localhost:3000/charges
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "amount": 1.100000023841858,
+    "currency": "one space"
+}
+OAS disconformity: Response status 422 not defined for path '/charges'.
+Request method:	POST
+Request URI:	http://localhost:3000/charges
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    
+}
+OAS disconformity: Response status 422 not defined for path '/charges'.
+Request method:	PUT
+Request URI:	http://localhost:3000/charges/YUrnw%5B%7D.%40%5B1o%7CI%3A%404D%25j
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=YUrnw[}.@[1o|I:@4D%j
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "amount": "W18=`a$Ar%KsfC="
+}
+OAS disconformity: Response status 422 not defined for path '/charges/{charge_id}'.
+2021-12-31 05:16:22 INFO  RESTestRunner:130 - 16 tests run in 87 seconds. Successful: 9, Failures: 7, Ignored: 0
+2021-12-31 05:16:22 INFO  RESTestRunner:85 - Generating test report
+2021-12-31 05:16:29 INFO  RESTestRunner:90 - Generating CSV data
+2021-12-31 05:16:29 INFO  StatsReportManager:233 - Coverage report a priori generated.
+2021-12-31 05:16:29 INFO  StatsReportManager:238 - Coverage report a posteriori generated.
+2021-12-31 05:16:29 INFO  TestGenerationAndExecution:150 - Iteration 1. 16 test cases generated.
+2021-12-31 05:16:29 INFO  RESTestRunner:105 - Generating tests
+2021-12-31 05:16:29 INFO  RESTestRunner:116 - Writing 16 test cases to test class /Users/alexbrahastoll/Projects/mestrado/oas_db/restest_experiment/experiment_run_1640926129/payment_unexpected_payload_root_node/restest_tests/OasDbPaymentUnexpectedPayloadRootNode_1hrot2k5icjzn.java
+2021-12-31 05:16:29 INFO  RESTestRunner:70 - Running tests
+2021-12-31 05:16:29 INFO  RESTestRunner:98 - Compiling and loading test class PaymentUnexpectedPayloadRootNode.OasDbPaymentUnexpectedPayloadRootNode_1hrot2k5icjzn.java
+Request method:	PUT
+Request URI:	http://localhost:3000/charges/null
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=null
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "credit_card_id": ""
+}
+OAS disconformity: Response status 422 not defined for path '/charges/{charge_id}'.
+Request method:	GET
+Request URI:	http://localhost:3000/charges/%2CT8Z%25M%5DiEB.mcS%2B%2B-2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=,T8Z%M]iEB.mcS++-2
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:16:39 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	POST
+Request URI:	http://localhost:3000/charges
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "credit_card_id": "",
+    "currency": "one space"
+}
+OAS disconformity: Response status 422 not defined for path '/charges'.
+Request method:	DELETE
+Request URI:	http://localhost:3000/charges/randomString
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=randomString
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:16:49 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	POST
+Request URI:	http://localhost:3000/charges
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "credit_card_id": "WD.O1^BY\\vGW/q9 DLuO",
+    "currency": ""
+}
+OAS disconformity: Response status 422 not defined for path '/charges'.
+Request method:	DELETE
+Request URI:	http://localhost:3000/charges/null
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=null
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:16:59 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	DELETE
+Request URI:	http://localhost:3000/charges/0
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=0
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:17:04 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	PUT
+Request URI:	http://localhost:3000/charges/aLPBT%5B%5EshDa%3AV5u%26gS
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=aLPBT[^shDa:V5u&gS
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "amount": 179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.000001,
+    "credit_card_id": 0
+}
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:17:09 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	PUT
+Request URI:	http://localhost:3000/charges/%3DQFe%23hjGp%21
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id==QFe#hjGp!
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "currency": "\\0"
+}
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:17:14 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	POST
+Request URI:	http://localhost:3000/charges
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "amount": "randomString"
+}
+OAS disconformity: Response status 422 not defined for path '/charges'.
+Request method:	PUT
+Request URI:	http://localhost:3000/charges/-2147483648
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=-2147483648
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "amount": -179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.000001,
+    "currency": "one space"
+}
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:17:24 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	DELETE
+Request URI:	http://localhost:3000/charges/xfDu%25%28W%22qc7e%2Crm
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=xfDu%(W"qc7e,rm
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:17:29 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	GET
+Request URI:	http://localhost:3000/charges/%3F%3Fyv%26%20%205bURP%40
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=??yv&  5bURP@
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:17:34 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	POST
+Request URI:	http://localhost:3000/charges
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "amount": 9223372036854775808,
+    "credit_card_id": "randomString"
+}
+OAS disconformity: Response status 422 not defined for path '/charges'.
+Request method:	GET
+Request URI:	http://localhost:3000/charges/2147483648
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=2147483648
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:17:44 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	GET
+Request URI:	http://localhost:3000/charges/4294967296
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=4294967296
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:17:50 GMT
+Connection: Keep-Alive
+Test passed.
+2021-12-31 05:17:50 INFO  RESTestRunner:130 - 16 tests run in 80 seconds. Successful: 11, Failures: 5, Ignored: 0
+2021-12-31 05:17:50 INFO  RESTestRunner:85 - Generating test report
+2021-12-31 05:17:57 INFO  RESTestRunner:90 - Generating CSV data
+2021-12-31 05:17:57 INFO  StatsReportManager:233 - Coverage report a priori generated.
+2021-12-31 05:17:57 INFO  StatsReportManager:238 - Coverage report a posteriori generated.
+2021-12-31 05:17:57 INFO  TestGenerationAndExecution:150 - Iteration 2. 32 test cases generated.
+2021-12-31 05:17:57 INFO  RESTestRunner:105 - Generating tests
+2021-12-31 05:17:57 INFO  RESTestRunner:116 - Writing 16 test cases to test class /Users/alexbrahastoll/Projects/mestrado/oas_db/restest_experiment/experiment_run_1640926129/payment_unexpected_payload_root_node/restest_tests/OasDbPaymentUnexpectedPayloadRootNode_urxetobkyvs4.java
+2021-12-31 05:17:57 INFO  RESTestRunner:70 - Running tests
+2021-12-31 05:17:57 INFO  RESTestRunner:98 - Compiling and loading test class PaymentUnexpectedPayloadRootNode.OasDbPaymentUnexpectedPayloadRootNode_urxetobkyvs4.java
+Request method:	GET
+Request URI:	http://localhost:3000/charges/%23.yTS_KT55xqOf6
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=#.yTS_KT55xqOf6
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:18:02 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	GET
+Request URI:	http://localhost:3000/charges/%5C0
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=\0
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:18:07 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	GET
+Request URI:	http://localhost:3000/charges/%2FF%5ECq%27nK2CL
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=/F^Cq'nK2CL
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:18:12 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	DELETE
+Request URI:	http://localhost:3000/charges/0
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=0
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:18:17 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	DELETE
+Request URI:	http://localhost:3000/charges/18446744073709551616
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=18446744073709551616
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:18:22 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	PUT
+Request URI:	http://localhost:3000/charges/udP%20nG%3DNHYo%2F%5B%2F%2C
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=udP nG=NHYo/[/,
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "amount": 340282346638528860000000000000000000000.000001
+}
+HTTP/1.1 404 Not Found
+X-Cascade: pass
+Content-Type: text/html;charset=utf-8
+Content-Length: 36
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:18:27 GMT
+Connection: Keep-Alive
+
+<html>
+  <body>PUT /charges/udP%20nG%3DNHYo/%5B/%2C</body>
+</html>
+Test passed.
+Request method:	POST
+Request URI:	http://localhost:3000/charges
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "amount": -2147483648,
+    "credit_card_id": 0
+}
+OAS disconformity: Response status 422 not defined for path '/charges'.
+Request method:	POST
+Request URI:	http://localhost:3000/charges
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    
+}
+OAS disconformity: Response status 422 not defined for path '/charges'.
+Request method:	DELETE
+Request URI:	http://localhost:3000/charges/null
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=null
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:18:42 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	POST
+Request URI:	http://localhost:3000/charges
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    
+}
+OAS disconformity: Response status 422 not defined for path '/charges'.
+Request method:	POST
+Request URI:	http://localhost:3000/charges
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "amount": -9223372036854775808,
+    "credit_card_id": 1.100000023841858
+}
+OAS disconformity: Response status 422 not defined for path '/charges'.
+Request method:	PUT
+Request URI:	http://localhost:3000/charges/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=1
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "credit_card_id": 4294967296
+}
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:18:57 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	PUT
+Request URI:	http://localhost:3000/charges/Ez%29%3B%25-f%27%3E%3En%60nY%5CQ
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=Ez);%-f'>>n`nY\Q
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "credit_card_id": null,
+    "currency": "!DpHaehZr5TF?|Ac1%/"
+}
+HTTP/1.1 404 Not Found
+X-Cascade: pass
+Content-Type: text/html;charset=utf-8
+Content-Length: 43
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:19:02 GMT
+Connection: Keep-Alive
+
+<html>
+  <body>PUT /charges/Ez%29%3B%25-f%27%3E%3En%60nY/Q</body>
+</html>
+Test passed.
+Request method:	DELETE
+Request URI:	http://localhost:3000/charges/1.1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=1.1
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:19:07 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	PUT
+Request URI:	http://localhost:3000/charges/9223372036854775808
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=9223372036854775808
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "amount": 18446744073709551616,
+    "credit_card_id": -9223372036854775808
+}
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:19:12 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	GET
+Request URI:	http://localhost:3000/charges/-2147483648
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=-2147483648
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:19:17 GMT
+Connection: Keep-Alive
+Test passed.
+2021-12-31 05:19:17 INFO  RESTestRunner:130 - 16 tests run in 80 seconds. Successful: 12, Failures: 4, Ignored: 0
+2021-12-31 05:19:17 INFO  RESTestRunner:85 - Generating test report
+2021-12-31 05:19:24 INFO  RESTestRunner:90 - Generating CSV data
+2021-12-31 05:19:24 INFO  StatsReportManager:233 - Coverage report a priori generated.
+2021-12-31 05:19:24 INFO  StatsReportManager:238 - Coverage report a posteriori generated.
+2021-12-31 05:19:24 INFO  TestGenerationAndExecution:150 - Iteration 3. 48 test cases generated.
+2021-12-31 05:19:24 INFO  RESTestRunner:105 - Generating tests
+2021-12-31 05:19:24 INFO  RESTestRunner:116 - Writing 16 test cases to test class /Users/alexbrahastoll/Projects/mestrado/oas_db/restest_experiment/experiment_run_1640926129/payment_unexpected_payload_root_node/restest_tests/OasDbPaymentUnexpectedPayloadRootNode_1jym3j0ab4e9c.java
+2021-12-31 05:19:24 INFO  RESTestRunner:70 - Running tests
+2021-12-31 05:19:24 INFO  RESTestRunner:98 - Compiling and loading test class PaymentUnexpectedPayloadRootNode.OasDbPaymentUnexpectedPayloadRootNode_1jym3j0ab4e9c.java
+Request method:	DELETE
+Request URI:	http://localhost:3000/charges/-1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=-1
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:19:29 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	DELETE
+Request URI:	http://localhost:3000/charges/null
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=null
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:19:34 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	PUT
+Request URI:	http://localhost:3000/charges/6_9DVS%7EC%24%5Eydp%5E1w8%3EPW
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=6_9DVS~C$^ydp^1w8>PW
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "amount": 4294967296
+}
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:19:39 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	DELETE
+Request URI:	http://localhost:3000/charges/%5C0
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=\0
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:19:44 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	GET
+Request URI:	http://localhost:3000/charges/null
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=null
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:19:49 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	PUT
+Request URI:	http://localhost:3000/charges/%2FE%7DBso%3E%20vmHns%26%23Ijx
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=/E}Bso> vmHns&#Ijx
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "amount": "randomString",
+    "currency": "randomString"
+}
+OAS disconformity: Response status 422 not defined for path '/charges/{charge_id}'.
+Request method:	GET
+Request URI:	http://localhost:3000/charges/1.1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=1.1
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:19:59 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	PUT
+Request URI:	http://localhost:3000/charges/-1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=-1
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "amount": 2147483648
+}
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:20:04 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	POST
+Request URI:	http://localhost:3000/charges
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "credit_card_id": "",
+    "currency": "\\0"
+}
+OAS disconformity: Response status 422 not defined for path '/charges'.
+Request method:	POST
+Request URI:	http://localhost:3000/charges
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "amount": -2147483648,
+    "credit_card_id": -2147483648
+}
+OAS disconformity: Response status 422 not defined for path '/charges'.
+Request method:	PUT
+Request URI:	http://localhost:3000/charges/%3CFgxfyxzR39
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=<FgxfyxzR39
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    
+}
+OAS disconformity: Response status 422 not defined for path '/charges/{charge_id}'.
+Request method:	DELETE
+Request URI:	http://localhost:3000/charges/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=1
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:20:25 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	POST
+Request URI:	http://localhost:3000/charges
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "amount": 2147483648,
+    "currency": "\\0"
+}
+OAS disconformity: Response status 422 not defined for path '/charges'.
+Request method:	POST
+Request URI:	http://localhost:3000/charges
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "amount": "randomString"
+}
+OAS disconformity: Response status 422 not defined for path '/charges'.
+Request method:	GET
+Request URI:	http://localhost:3000/charges/%29k6%20%3Cdr%405LSv0fzt6-v*
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=)k6 <dr@5LSv0fzt6-v*
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:20:40 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	GET
+Request URI:	http://localhost:3000/charges/LFcy%2CfL_V%23%23V0vF%3B
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=LFcy,fL_V##V0vF;
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:20:45 GMT
+Connection: Keep-Alive
+Test passed.
+2021-12-31 05:20:45 INFO  RESTestRunner:130 - 16 tests run in 80 seconds. Successful: 10, Failures: 6, Ignored: 0
+2021-12-31 05:20:45 INFO  RESTestRunner:85 - Generating test report
+2021-12-31 05:20:52 INFO  RESTestRunner:90 - Generating CSV data
+2021-12-31 05:20:52 INFO  StatsReportManager:233 - Coverage report a priori generated.
+2021-12-31 05:20:52 INFO  StatsReportManager:238 - Coverage report a posteriori generated.
+2021-12-31 05:20:52 INFO  TestGenerationAndExecution:150 - Iteration 4. 64 test cases generated.
+2021-12-31 05:20:52 INFO  RESTestRunner:105 - Generating tests
+2021-12-31 05:20:52 INFO  RESTestRunner:116 - Writing 16 test cases to test class /Users/alexbrahastoll/Projects/mestrado/oas_db/restest_experiment/experiment_run_1640926129/payment_unexpected_payload_root_node/restest_tests/OasDbPaymentUnexpectedPayloadRootNode_t49ipng38yeq.java
+2021-12-31 05:20:52 INFO  RESTestRunner:70 - Running tests
+2021-12-31 05:20:52 INFO  RESTestRunner:98 - Compiling and loading test class PaymentUnexpectedPayloadRootNode.OasDbPaymentUnexpectedPayloadRootNode_t49ipng38yeq.java
+Request method:	PUT
+Request URI:	http://localhost:3000/charges/xxS%3CM%22s%3FeeG%24%60g.
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=xxS<M"s?eeG$`g.
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "amount": "randomString",
+    "credit_card_id": ",$~83_K[U9XQ$M?pd"
+}
+OAS disconformity: Response status 422 not defined for path '/charges/{charge_id}'.
+Request method:	GET
+Request URI:	http://localhost:3000/charges/YnSiELqaKeufH%7E
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=YnSiELqaKeufH~
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:21:02 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	PUT
+Request URI:	http://localhost:3000/charges/%3ALFt%7CJp8QC%7D%40bNU
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=:LFt|Jp8QC}@bNU
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    
+}
+OAS disconformity: Response status 422 not defined for path '/charges/{charge_id}'.
+Request method:	DELETE
+Request URI:	http://localhost:3000/charges/-9223372036854775808
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=-9223372036854775808
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:21:12 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	DELETE
+Request URI:	http://localhost:3000/charges/C6lX%22Z%27nVHdKt
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=C6lX"Z'nVHdKt
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:21:17 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	POST
+Request URI:	http://localhost:3000/charges
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "currency": ""
+}
+OAS disconformity: Response status 422 not defined for path '/charges'.
+Request method:	POST
+Request URI:	http://localhost:3000/charges
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "credit_card_id": 2147483648,
+    "currency": ""
+}
+OAS disconformity: Response status 422 not defined for path '/charges'.
+Request method:	DELETE
+Request URI:	http://localhost:3000/charges/C%27MUsm2QbdZK%3Duw2r
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=C'MUsm2QbdZK=uw2r
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:21:32 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	PUT
+Request URI:	http://localhost:3000/charges/%26n4KGb3%40tL%2F7%2C7
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=&n4KGb3@tL/7,7
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "currency": "\\0"
+}
+HTTP/1.1 404 Not Found
+X-Cascade: pass
+Content-Type: text/html;charset=utf-8
+Content-Length: 33
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:21:37 GMT
+Connection: Keep-Alive
+
+<html>
+  <body>PUT /charges/%26n4KGb3%40tL/7%2C7</body>
+</html>
+Test passed.
+Request method:	GET
+Request URI:	http://localhost:3000/charges/KZ0L%3ETsKF7%20v
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=KZ0L>TsKF7 v
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:21:42 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	GET
+Request URI:	http://localhost:3000/charges/_bl%23igbOPQ%3A%7E%21ye
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=_bl#igbOPQ:~!ye
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:21:47 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	PUT
+Request URI:	http://localhost:3000/charges/k%28%23sT%29sBL%7D
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=k(#sT)sBL}
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "amount": -340282346638528860000000000000000000000000001,
+    "credit_card_id": -9223372036854775808
+}
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:21:52 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	POST
+Request URI:	http://localhost:3000/charges
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "amount": 9223372036854775808
+}
+OAS disconformity: Response status 422 not defined for path '/charges'.
+Request method:	DELETE
+Request URI:	http://localhost:3000/charges/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=1
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:22:02 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	POST
+Request URI:	http://localhost:3000/charges
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    
+}
+OAS disconformity: Response status 422 not defined for path '/charges'.
+Request method:	GET
+Request URI:	http://localhost:3000/charges/U%27a%3Btih%60%5ClA%26xG%5C1scPe
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=U'a;tih`\lA&xG\1scPe
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+X-Cascade: pass
+Content-Type: text/html;charset=utf-8
+Content-Length: 41
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:22:12 GMT
+Connection: Keep-Alive
+
+<html>
+  <body>GET /charges/U%27a%3Btih%60/lA%26xG/1scPe</body>
+</html>
+Test passed.
+2021-12-31 05:22:12 INFO  RESTestRunner:130 - 16 tests run in 80 seconds. Successful: 10, Failures: 6, Ignored: 0
+2021-12-31 05:22:12 INFO  RESTestRunner:85 - Generating test report
+2021-12-31 05:22:20 INFO  RESTestRunner:90 - Generating CSV data
+2021-12-31 05:22:20 INFO  StatsReportManager:233 - Coverage report a priori generated.
+2021-12-31 05:22:20 INFO  StatsReportManager:238 - Coverage report a posteriori generated.
+2021-12-31 05:22:20 INFO  TestGenerationAndExecution:150 - Iteration 5. 80 test cases generated.
+2021-12-31 05:22:20 INFO  RESTestRunner:105 - Generating tests
+2021-12-31 05:22:20 INFO  RESTestRunner:116 - Writing 16 test cases to test class /Users/alexbrahastoll/Projects/mestrado/oas_db/restest_experiment/experiment_run_1640926129/payment_unexpected_payload_root_node/restest_tests/OasDbPaymentUnexpectedPayloadRootNode_t4ca3mi7k56g.java
+2021-12-31 05:22:20 INFO  RESTestRunner:70 - Running tests
+2021-12-31 05:22:20 INFO  RESTestRunner:98 - Compiling and loading test class PaymentUnexpectedPayloadRootNode.OasDbPaymentUnexpectedPayloadRootNode_t4ca3mi7k56g.java
+Request method:	PUT
+Request URI:	http://localhost:3000/charges/4294967296
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=4294967296
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    
+}
+OAS disconformity: Response status 422 not defined for path '/charges/{charge_id}'.
+Request method:	PUT
+Request URI:	http://localhost:3000/charges/wkh-eG%2BRZ-
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=wkh-eG+RZ-
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "amount": -9223372036854775808,
+    "credit_card_id": ""
+}
+OAS disconformity: Response status 422 not defined for path '/charges/{charge_id}'.
+Request method:	POST
+Request URI:	http://localhost:3000/charges
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "currency": "\\0"
+}
+OAS disconformity: Response status 422 not defined for path '/charges'.
+Request method:	DELETE
+Request URI:	http://localhost:3000/charges/%25%24%283LvXIJIh%5E%24%7C
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=%$(3LvXIJIh^$|
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:22:40 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	GET
+Request URI:	http://localhost:3000/charges/1.1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=1.1
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:22:45 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	PUT
+Request URI:	http://localhost:3000/charges/pBa%3E%279vcKV
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=pBa>'9vcKV
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "amount": 179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.000001,
+    "credit_card_id": 2147483648,
+    "currency": "randomString"
+}
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:22:50 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	GET
+Request URI:	http://localhost:3000/charges/randomString
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=randomString
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:22:55 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	GET
+Request URI:	http://localhost:3000/charges/randomString
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=randomString
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:23:00 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	GET
+Request URI:	http://localhost:3000/charges/zCr%3ATuGP%5B%274%7EE%2F%27O
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=zCr:TuGP['4~E/'O
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+X-Cascade: pass
+Content-Type: text/html;charset=utf-8
+Content-Length: 39
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:23:05 GMT
+Connection: Keep-Alive
+
+<html>
+  <body>GET /charges/zCr%3ATuGP%5B%274%7EE/%27O</body>
+</html>
+Test passed.
+Request method:	DELETE
+Request URI:	http://localhost:3000/charges/_v1F%5DUW%26ux.
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=_v1F]UW&ux.
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:23:10 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	POST
+Request URI:	http://localhost:3000/charges
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "currency": ""
+}
+OAS disconformity: Response status 422 not defined for path '/charges'.
+Request method:	DELETE
+Request URI:	http://localhost:3000/charges/2147483648
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=2147483648
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:23:20 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	POST
+Request URI:	http://localhost:3000/charges
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "currency": "\\0"
+}
+OAS disconformity: Response status 422 not defined for path '/charges'.
+Request method:	PUT
+Request URI:	http://localhost:3000/charges/ykLp%25M%7CHOq%3C6%3B%20bOi_
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=ykLp%M|HOq<6; bOi_
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "currency": "randomString"
+}
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:23:30 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	DELETE
+Request URI:	http://localhost:3000/charges/%5EC%2F%20mBm%3CKQ
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=^C/ mBm<KQ
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+X-Cascade: pass
+Content-Type: text/html;charset=utf-8
+Content-Length: 32
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:23:35 GMT
+Connection: Keep-Alive
+
+<html>
+  <body>DELETE /charges/%5EC/%20mBm%3CKQ</body>
+</html>
+Test passed.
+Request method:	POST
+Request URI:	http://localhost:3000/charges
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "amount": 340282346638528860000000000000000000000.000001,
+    "credit_card_id": 0,
+    "currency": "\\0"
+}
+HTTP/1.1 201 Created
+Content-Type: application/json
+Content-Length: 8
+X-Content-Type-Options: nosniff
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:23:40 GMT
+Connection: Keep-Alive
+
+{
+    "id": 1
+}
+Test passed.
+2021-12-31 05:23:40 INFO  RESTestRunner:130 - 16 tests run in 80 seconds. Successful: 11, Failures: 5, Ignored: 0
+2021-12-31 05:23:40 INFO  RESTestRunner:85 - Generating test report
+2021-12-31 05:23:47 INFO  RESTestRunner:90 - Generating CSV data
+2021-12-31 05:23:47 INFO  StatsReportManager:233 - Coverage report a priori generated.
+2021-12-31 05:23:47 INFO  StatsReportManager:238 - Coverage report a posteriori generated.
+2021-12-31 05:23:47 INFO  TestGenerationAndExecution:150 - Iteration 6. 96 test cases generated.
+2021-12-31 05:23:47 INFO  RESTestRunner:105 - Generating tests
+2021-12-31 05:23:47 INFO  RESTestRunner:116 - Writing 16 test cases to test class /Users/alexbrahastoll/Projects/mestrado/oas_db/restest_experiment/experiment_run_1640926129/payment_unexpected_payload_root_node/restest_tests/OasDbPaymentUnexpectedPayloadRootNode_1iuqfx6sxb3vo.java
+2021-12-31 05:23:47 INFO  RESTestRunner:70 - Running tests
+2021-12-31 05:23:47 INFO  RESTestRunner:98 - Compiling and loading test class PaymentUnexpectedPayloadRootNode.OasDbPaymentUnexpectedPayloadRootNode_1iuqfx6sxb3vo.java
+Request method:	DELETE
+Request URI:	http://localhost:3000/charges/4294967296
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=4294967296
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:23:53 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	POST
+Request URI:	http://localhost:3000/charges
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "amount": -9223372036854775808,
+    "credit_card_id": -9223372036854775808,
+    "currency": ""
+}
+OAS disconformity: Response status 422 not defined for path '/charges'.
+Request method:	PUT
+Request URI:	http://localhost:3000/charges/l%27B9%5EGn%23D%7DL%7Cs%3E
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=l'B9^Gn#D}L|s>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "amount": "3\\U8W5f(*i*#<5",
+    "credit_card_id": "randomString",
+    "currency": ""
+}
+OAS disconformity: Response status 422 not defined for path '/charges/{charge_id}'.
+Request method:	GET
+Request URI:	http://localhost:3000/charges/5%5E%3BeZ8%26%3C%23BRK12
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=5^;eZ8&<#BRK12
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:24:08 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	GET
+Request URI:	http://localhost:3000/charges/-9223372036854775808
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=-9223372036854775808
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:24:13 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	DELETE
+Request URI:	http://localhost:3000/charges/XEGj%7C%24xe%21rSIY%7E%5CRV
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=XEGj|$xe!rSIY~\RV
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+X-Cascade: pass
+Content-Type: text/html;charset=utf-8
+Content-Length: 41
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:24:18 GMT
+Connection: Keep-Alive
+
+<html>
+  <body>DELETE /charges/XEGj%7C%24xe%21rSIY%7E/RV</body>
+</html>
+Test passed.
+Request method:	POST
+Request URI:	http://localhost:3000/charges
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "amount": 9223372036854775808,
+    "credit_card_id": 18446744073709551616
+}
+OAS disconformity: Response status 422 not defined for path '/charges'.
+Request method:	POST
+Request URI:	http://localhost:3000/charges
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "amount": 0,
+    "credit_card_id": 9223372036854775808,
+    "currency": "one space"
+}
+HTTP/1.1 201 Created
+Content-Type: application/json
+Content-Length: 8
+X-Content-Type-Options: nosniff
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:24:28 GMT
+Connection: Keep-Alive
+
+{
+    "id": 2
+}
+Test passed.
+Request method:	GET
+Request URI:	http://localhost:3000/charges/-2147483648
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=-2147483648
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:24:33 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	DELETE
+Request URI:	http://localhost:3000/charges/%28kpTUs%5BZFFvpqir
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=(kpTUs[ZFFvpqir
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:24:38 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	PUT
+Request URI:	http://localhost:3000/charges/dfyhD.%5C%3CJV%5B%22fAH%3E%3E%27
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=dfyhD.\<JV["fAH>>'
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "amount": -340282346638528860000000000000000000000000001,
+    "credit_card_id": 4294967296
+}
+HTTP/1.1 404 Not Found
+X-Cascade: pass
+Content-Type: text/html;charset=utf-8
+Content-Length: 43
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:24:43 GMT
+Connection: Keep-Alive
+
+<html>
+  <body>PUT /charges/dfyhD./%3CJV%5B%22fAH%3E%3E%27</body>
+</html>
+Test passed.
+Request method:	PUT
+Request URI:	http://localhost:3000/charges/D%26wVl1tKYO9Y%28o
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=D&wVl1tKYO9Y(o
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "amount": "\\0",
+    "currency": null
+}
+OAS disconformity: Response status 422 not defined for path '/charges/{charge_id}'.
+Request method:	DELETE
+Request URI:	http://localhost:3000/charges/%21Z*%2F%3F%21VPQK%40F%5EB
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=!Z*/?!VPQK@F^B
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+X-Cascade: pass
+Content-Type: text/html;charset=utf-8
+Content-Length: 40
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:24:53 GMT
+Connection: Keep-Alive
+
+<html>
+  <body>DELETE /charges/%21Z*/%3F%21VPQK%40F%5EB</body>
+</html>
+Test passed.
+Request method:	GET
+Request URI:	http://localhost:3000/charges/4-Y*K%7E0X4r
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=4-Y*K~0X4r
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:24:58 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	PUT
+Request URI:	http://localhost:3000/charges/-9223372036854775808
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=-9223372036854775808
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "credit_card_id": -9223372036854775808,
+    "currency": "randomString"
+}
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:25:03 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	POST
+Request URI:	http://localhost:3000/charges
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "credit_card_id": 4294967296
+}
+OAS disconformity: Response status 422 not defined for path '/charges'.
+2021-12-31 05:25:08 INFO  RESTestRunner:130 - 16 tests run in 80 seconds. Successful: 11, Failures: 5, Ignored: 0
+2021-12-31 05:25:08 INFO  RESTestRunner:85 - Generating test report
+2021-12-31 05:25:15 INFO  RESTestRunner:90 - Generating CSV data
+2021-12-31 05:25:15 INFO  StatsReportManager:233 - Coverage report a priori generated.
+2021-12-31 05:25:15 INFO  StatsReportManager:238 - Coverage report a posteriori generated.
+2021-12-31 05:25:15 INFO  TestGenerationAndExecution:150 - Iteration 7. 112 test cases generated.
+2021-12-31 05:25:15 INFO  RESTestRunner:105 - Generating tests
+2021-12-31 05:25:15 INFO  RESTestRunner:116 - Writing 16 test cases to test class /Users/alexbrahastoll/Projects/mestrado/oas_db/restest_experiment/experiment_run_1640926129/payment_unexpected_payload_root_node/restest_tests/OasDbPaymentUnexpectedPayloadRootNode_r1dbxg1zlh7m.java
+2021-12-31 05:25:15 INFO  RESTestRunner:70 - Running tests
+2021-12-31 05:25:15 INFO  RESTestRunner:98 - Compiling and loading test class PaymentUnexpectedPayloadRootNode.OasDbPaymentUnexpectedPayloadRootNode_r1dbxg1zlh7m.java
+Request method:	POST
+Request URI:	http://localhost:3000/charges
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "amount": "",
+    "currency": null
+}
+OAS disconformity: Response status 422 not defined for path '/charges'.
+Request method:	DELETE
+Request URI:	http://localhost:3000/charges/%5C%7Cp%7DJX_J%3Dm0V%60%29o
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=\|p}JX_J=m0V`)o
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:25:25 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	GET
+Request URI:	http://localhost:3000/charges/W.S%29dqO2hhc%3B%5Bs%3FGY%5C
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=W.S)dqO2hhc;[s?GY\
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+X-Cascade: pass
+Content-Type: text/html;charset=utf-8
+Content-Length: 39
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:25:30 GMT
+Connection: Keep-Alive
+
+<html>
+  <body>GET /charges/W.S%29dqO2hhc%3B%5Bs%3FGY/</body>
+</html>
+Test passed.
+Request method:	PUT
+Request URI:	http://localhost:3000/charges/dq%2BVn%3B*X%3CcoeB%3D
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=dq+Vn;*X<coeB=
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "amount": 0
+}
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:25:35 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	PUT
+Request URI:	http://localhost:3000/charges/dijaEy%3Fz%3F%22C%3D%283
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=dijaEy?z?"C=(3
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "amount": 179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.000001,
+    "credit_card_id": 4294967296
+}
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:25:41 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	DELETE
+Request URI:	http://localhost:3000/charges/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=1
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:25:46 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	DELETE
+Request URI:	http://localhost:3000/charges/s%294Yw%3AWx%27vs%3F5
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=s)4Yw:Wx'vs?5
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:25:51 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	POST
+Request URI:	http://localhost:3000/charges
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "amount": 18446744073709551616,
+    "currency": "?wTWfM&3R*"
+}
+OAS disconformity: Response status 422 not defined for path '/charges'.
+Request method:	GET
+Request URI:	http://localhost:3000/charges/-2147483648
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=-2147483648
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:26:01 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	POST
+Request URI:	http://localhost:3000/charges
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "amount": "randomString"
+}
+OAS disconformity: Response status 422 not defined for path '/charges'.
+Request method:	PUT
+Request URI:	http://localhost:3000/charges/%3Fn_%5Cz05%26%5E%21%27D%22zE%272
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=?n_\z05&^!'D"zE'2
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    
+}
+HTTP/1.1 404 Not Found
+X-Cascade: pass
+Content-Type: text/html;charset=utf-8
+Content-Length: 44
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:26:11 GMT
+Connection: Keep-Alive
+
+<html>
+  <body>PUT /charges/%3Fn_/z05%26%5E%21%27D%22zE%272</body>
+</html>
+Test passed.
+Request method:	GET
+Request URI:	http://localhost:3000/charges/18446744073709551616
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=18446744073709551616
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:26:16 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	GET
+Request URI:	http://localhost:3000/charges/4294967296
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=4294967296
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:26:21 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	POST
+Request URI:	http://localhost:3000/charges
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "currency": "\\0"
+}
+OAS disconformity: Response status 422 not defined for path '/charges'.
+Request method:	PUT
+Request URI:	http://localhost:3000/charges/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=1
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "amount": "E[`kt$?Rgh&"
+}
+OAS disconformity: Response status 422 not defined for path '/charges/{charge_id}'.
+Request method:	DELETE
+Request URI:	http://localhost:3000/charges/-1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=-1
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:26:36 GMT
+Connection: Keep-Alive
+Test passed.
+2021-12-31 05:26:36 INFO  RESTestRunner:130 - 16 tests run in 80 seconds. Successful: 11, Failures: 5, Ignored: 0
+2021-12-31 05:26:36 INFO  RESTestRunner:85 - Generating test report
+2021-12-31 05:26:43 INFO  RESTestRunner:90 - Generating CSV data
+2021-12-31 05:26:43 INFO  StatsReportManager:233 - Coverage report a priori generated.
+2021-12-31 05:26:43 INFO  StatsReportManager:238 - Coverage report a posteriori generated.
+2021-12-31 05:26:43 INFO  TestGenerationAndExecution:150 - Iteration 8. 128 test cases generated.
+2021-12-31 05:26:43 INFO  RESTestRunner:105 - Generating tests
+2021-12-31 05:26:43 INFO  RESTestRunner:116 - Writing 16 test cases to test class /Users/alexbrahastoll/Projects/mestrado/oas_db/restest_experiment/experiment_run_1640926129/payment_unexpected_payload_root_node/restest_tests/OasDbPaymentUnexpectedPayloadRootNode_1iyc6olzgzp0i.java
+2021-12-31 05:26:43 INFO  RESTestRunner:70 - Running tests
+2021-12-31 05:26:43 INFO  RESTestRunner:98 - Compiling and loading test class PaymentUnexpectedPayloadRootNode.OasDbPaymentUnexpectedPayloadRootNode_1iyc6olzgzp0i.java
+Request method:	POST
+Request URI:	http://localhost:3000/charges
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "amount": -9223372036854775808,
+    "currency": null
+}
+OAS disconformity: Response status 422 not defined for path '/charges'.
+Request method:	GET
+Request URI:	http://localhost:3000/charges/2147483648
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=2147483648
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:26:53 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	POST
+Request URI:	http://localhost:3000/charges
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    
+}
+OAS disconformity: Response status 422 not defined for path '/charges'.
+Request method:	POST
+Request URI:	http://localhost:3000/charges
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "amount": "5*E_MZ.To\\Ofov7T9E{[",
+    "currency": "one space"
+}
+OAS disconformity: Response status 422 not defined for path '/charges'.
+Request method:	DELETE
+Request URI:	http://localhost:3000/charges/%3CBq%3EN%22%3B%3E5Tq%24%406%3ELr8
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=<Bq>N";>5Tq$@6>Lr8
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:27:08 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	GET
+Request URI:	http://localhost:3000/charges/OyGq%3Dd%28b4a
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=OyGq=d(b4a
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:27:14 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	GET
+Request URI:	http://localhost:3000/charges/%24%29he*bBnt1%21%7DQsy7%3Fh
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=$)he*bBnt1!}Qsy7?h
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:27:19 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	DELETE
+Request URI:	http://localhost:3000/charges/VL%5CRDY4%23A
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=VL\RDY4#A
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+X-Cascade: pass
+Content-Type: text/html;charset=utf-8
+Content-Length: 27
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:27:24 GMT
+Connection: Keep-Alive
+
+<html>
+  <body>DELETE /charges/VL/RDY4%23A</body>
+</html>
+Test passed.
+Request method:	DELETE
+Request URI:	http://localhost:3000/charges/FJdF%20K%28RxY%27bb.J
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=FJdF K(RxY'bb.J
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:27:29 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	POST
+Request URI:	http://localhost:3000/charges
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "amount": 9223372036854775808,
+    "credit_card_id": ""
+}
+OAS disconformity: Response status 422 not defined for path '/charges'.
+Request method:	PUT
+Request URI:	http://localhost:3000/charges/J%2Fkn%5E%28Kh3%24
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=J/kn^(Kh3$
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "credit_card_id": "\\0"
+}
+HTTP/1.1 404 Not Found
+X-Cascade: pass
+Content-Type: text/html;charset=utf-8
+Content-Length: 29
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:27:39 GMT
+Connection: Keep-Alive
+
+<html>
+  <body>PUT /charges/J/kn%5E%28Kh3%24</body>
+</html>
+Test passed.
+Request method:	PUT
+Request URI:	http://localhost:3000/charges/0
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=0
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "amount": -9223372036854775808,
+    "credit_card_id": "\\0",
+    "currency": "\\0"
+}
+OAS disconformity: Response status 422 not defined for path '/charges/{charge_id}'.
+Request method:	GET
+Request URI:	http://localhost:3000/charges/wNANr0%2B%3C%3C%21
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=wNANr0+<<!
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:27:49 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	DELETE
+Request URI:	http://localhost:3000/charges/y%26%3AK%40MFai%29BEv
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=y&:K@MFai)BEv
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:27:54 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	PUT
+Request URI:	http://localhost:3000/charges/J%23OzRbn%3CeC%29%25%23Dq%40U%5E
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=J#OzRbn<eC)%#Dq@U^
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "amount": -179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.000001,
+    "credit_card_id": 1,
+    "currency": "\\0"
+}
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:27:59 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	PUT
+Request URI:	http://localhost:3000/charges/4294967296
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=4294967296
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "amount": 18446744073709551616,
+    "currency": ""
+}
+OAS disconformity: Response status 422 not defined for path '/charges/{charge_id}'.
+2021-12-31 05:28:04 INFO  RESTestRunner:130 - 16 tests run in 80 seconds. Successful: 10, Failures: 6, Ignored: 0
+2021-12-31 05:28:04 INFO  RESTestRunner:85 - Generating test report
+2021-12-31 05:28:11 INFO  RESTestRunner:90 - Generating CSV data
+2021-12-31 05:28:11 INFO  StatsReportManager:233 - Coverage report a priori generated.
+2021-12-31 05:28:11 INFO  StatsReportManager:238 - Coverage report a posteriori generated.
+2021-12-31 05:28:11 INFO  TestGenerationAndExecution:150 - Iteration 9. 144 test cases generated.
+2021-12-31 05:28:11 INFO  RESTestRunner:105 - Generating tests
+2021-12-31 05:28:11 INFO  RESTestRunner:116 - Writing 16 test cases to test class /Users/alexbrahastoll/Projects/mestrado/oas_db/restest_experiment/experiment_run_1640926129/payment_unexpected_payload_root_node/restest_tests/OasDbPaymentUnexpectedPayloadRootNode_s15jm22ry5b9.java
+2021-12-31 05:28:11 INFO  RESTestRunner:70 - Running tests
+2021-12-31 05:28:11 INFO  RESTestRunner:98 - Compiling and loading test class PaymentUnexpectedPayloadRootNode.OasDbPaymentUnexpectedPayloadRootNode_s15jm22ry5b9.java
+Request method:	DELETE
+Request URI:	http://localhost:3000/charges/n%23%24%7DPp9%5DYq%2B%20Twu
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=n#$}Pp9]Yq+ Twu
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:28:16 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	GET
+Request URI:	http://localhost:3000/charges/-9223372036854775808
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=-9223372036854775808
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:28:21 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	DELETE
+Request URI:	http://localhost:3000/charges/9223372036854775808
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=9223372036854775808
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:28:26 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	GET
+Request URI:	http://localhost:3000/charges/null
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=null
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:28:31 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	DELETE
+Request URI:	http://localhost:3000/charges/9223372036854775808
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=9223372036854775808
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:28:36 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	PUT
+Request URI:	http://localhost:3000/charges/null
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=null
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "currency": "one space"
+}
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:28:41 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	POST
+Request URI:	http://localhost:3000/charges
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "amount": -2147483648,
+    "credit_card_id": -2147483648
+}
+OAS disconformity: Response status 422 not defined for path '/charges'.
+Request method:	POST
+Request URI:	http://localhost:3000/charges
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "amount": 1,
+    "currency": ""
+}
+OAS disconformity: Response status 422 not defined for path '/charges'.
+Request method:	GET
+Request URI:	http://localhost:3000/charges/-2147483648
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=-2147483648
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:28:57 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	GET
+Request URI:	http://localhost:3000/charges/%7C%60%2F-z%7CPGNpl%21-G
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=|`/-z|PGNpl!-G
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+X-Cascade: pass
+Content-Type: text/html;charset=utf-8
+Content-Length: 35
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:29:02 GMT
+Connection: Keep-Alive
+
+<html>
+  <body>GET /charges/%7C%60/-z%7CPGNpl%21-G</body>
+</html>
+Test passed.
+Request method:	POST
+Request URI:	http://localhost:3000/charges
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "currency": "\\0"
+}
+OAS disconformity: Response status 422 not defined for path '/charges'.
+Request method:	POST
+Request URI:	http://localhost:3000/charges
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "amount": null,
+    "currency": "randomString"
+}
+OAS disconformity: Response status 422 not defined for path '/charges'.
+Request method:	DELETE
+Request URI:	http://localhost:3000/charges/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=1
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:29:17 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	PUT
+Request URI:	http://localhost:3000/charges/14%28d%2Bx%23_Z%5E%3EXw%24
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=14(d+x#_Z^>Xw$
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "amount": -9223372036854775808,
+    "credit_card_id": -2147483648
+}
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:29:22 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	PUT
+Request URI:	http://localhost:3000/charges/9223372036854775808
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=9223372036854775808
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "credit_card_id": 2147483648
+}
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:29:27 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	PUT
+Request URI:	http://localhost:3000/charges/randomString
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=randomString
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "amount": 4294967296
+}
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:29:32 GMT
+Connection: Keep-Alive
+Test passed.
+2021-12-31 05:29:32 INFO  RESTestRunner:130 - 16 tests run in 80 seconds. Successful: 12, Failures: 4, Ignored: 0
+2021-12-31 05:29:32 INFO  RESTestRunner:85 - Generating test report
+2021-12-31 05:29:39 INFO  RESTestRunner:90 - Generating CSV data
+2021-12-31 05:29:39 INFO  StatsReportManager:233 - Coverage report a priori generated.
+2021-12-31 05:29:39 INFO  StatsReportManager:238 - Coverage report a posteriori generated.
+2021-12-31 05:29:39 INFO  TestGenerationAndExecution:150 - Iteration 10. 160 test cases generated.
+2021-12-31 05:29:39 INFO  RESTestRunner:105 - Generating tests
+2021-12-31 05:29:39 INFO  RESTestRunner:116 - Writing 16 test cases to test class /Users/alexbrahastoll/Projects/mestrado/oas_db/restest_experiment/experiment_run_1640926129/payment_unexpected_payload_root_node/restest_tests/OasDbPaymentUnexpectedPayloadRootNode_t4vqgwh8v9yr.java
+2021-12-31 05:29:39 INFO  RESTestRunner:70 - Running tests
+2021-12-31 05:29:39 INFO  RESTestRunner:98 - Compiling and loading test class PaymentUnexpectedPayloadRootNode.OasDbPaymentUnexpectedPayloadRootNode_t4vqgwh8v9yr.java
+Request method:	GET
+Request URI:	http://localhost:3000/charges/0
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=0
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:29:44 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	POST
+Request URI:	http://localhost:3000/charges
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "amount": 179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.000001
+}
+OAS disconformity: Response status 422 not defined for path '/charges'.
+Request method:	PUT
+Request URI:	http://localhost:3000/charges/gu%222%2C3Lhcqt.i
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=gu"2,3Lhcqt.i
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "amount": 2147483648,
+    "credit_card_id": 2147483648,
+    "currency": "\\0"
+}
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:29:55 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	POST
+Request URI:	http://localhost:3000/charges
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "credit_card_id": 1,
+    "currency": "randomString"
+}
+OAS disconformity: Response status 422 not defined for path '/charges'.
+Request method:	PUT
+Request URI:	http://localhost:3000/charges/2147483648
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=2147483648
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "currency": null
+}
+OAS disconformity: Response status 422 not defined for path '/charges/{charge_id}'.
+Request method:	POST
+Request URI:	http://localhost:3000/charges
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "credit_card_id": "randomString"
+}
+OAS disconformity: Response status 422 not defined for path '/charges'.
+Request method:	GET
+Request URI:	http://localhost:3000/charges/wk%2B%7DOvte7DG%22%5Ck%27F
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=wk+}Ovte7DG"\k'F
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+X-Cascade: pass
+Content-Type: text/html;charset=utf-8
+Content-Length: 37
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:30:15 GMT
+Connection: Keep-Alive
+
+<html>
+  <body>GET /charges/wk%2B%7DOvte7DG%22/k%27F</body>
+</html>
+Test passed.
+Request method:	PUT
+Request URI:	http://localhost:3000/charges/e8J%7C%3DPSF_lA5Q%293D4TU
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=e8J|=PSF_lA5Q)3D4TU
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    
+}
+OAS disconformity: Response status 422 not defined for path '/charges/{charge_id}'.
+Request method:	DELETE
+Request URI:	http://localhost:3000/charges/%2FF%3B%5D%3DTR%2F%2Bro%5E%2CBl_N%404
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=/F;]=TR/+ro^,Bl_N@4
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+X-Cascade: pass
+Content-Type: text/html;charset=utf-8
+Content-Length: 48
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:30:25 GMT
+Connection: Keep-Alive
+
+<html>
+  <body>DELETE /charges/F%3B%5D%3DTR/%2Bro%5E%2CBl_N%404</body>
+</html>
+Test passed.
+Request method:	DELETE
+Request URI:	http://localhost:3000/charges/null
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=null
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:30:30 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	GET
+Request URI:	http://localhost:3000/charges/randomString
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=randomString
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:30:35 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	PUT
+Request URI:	http://localhost:3000/charges/pTYL.ts%3Djqwq%2F7%5BX%3A
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=pTYL.ts=jqwq/7[X:
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "amount": "randomString",
+    "currency": "\\0"
+}
+HTTP/1.1 404 Not Found
+X-Cascade: pass
+Content-Type: text/html;charset=utf-8
+Content-Length: 36
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:30:40 GMT
+Connection: Keep-Alive
+
+<html>
+  <body>PUT /charges/pTYL.ts%3Djqwq/7%5BX%3A</body>
+</html>
+Test passed.
+Request method:	DELETE
+Request URI:	http://localhost:3000/charges/9223372036854775808
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=9223372036854775808
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:30:45 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	DELETE
+Request URI:	http://localhost:3000/charges/G%29b%20D8JHgK%23
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=G)b D8JHgK#
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:30:50 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	POST
+Request URI:	http://localhost:3000/charges
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "amount": 0
+}
+OAS disconformity: Response status 422 not defined for path '/charges'.
+Request method:	GET
+Request URI:	http://localhost:3000/charges/*R%3B2%7El8%3DGg8bysc%3A3%26ra
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=*R;2~l8=Gg8bysc:3&ra
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:31:00 GMT
+Connection: Keep-Alive
+Test passed.
+2021-12-31 05:31:00 INFO  RESTestRunner:130 - 16 tests run in 80 seconds. Successful: 10, Failures: 6, Ignored: 0
+2021-12-31 05:31:00 INFO  RESTestRunner:85 - Generating test report
+2021-12-31 05:31:07 INFO  RESTestRunner:90 - Generating CSV data
+2021-12-31 05:31:07 INFO  StatsReportManager:233 - Coverage report a priori generated.
+2021-12-31 05:31:07 INFO  StatsReportManager:238 - Coverage report a posteriori generated.
+2021-12-31 05:31:07 INFO  TestGenerationAndExecution:150 - Iteration 11. 176 test cases generated.
+2021-12-31 05:31:07 INFO  RESTestRunner:105 - Generating tests
+2021-12-31 05:31:07 INFO  RESTestRunner:116 - Writing 16 test cases to test class /Users/alexbrahastoll/Projects/mestrado/oas_db/restest_experiment/experiment_run_1640926129/payment_unexpected_payload_root_node/restest_tests/OasDbPaymentUnexpectedPayloadRootNode_ubre39ou9bua.java
+2021-12-31 05:31:07 INFO  RESTestRunner:70 - Running tests
+2021-12-31 05:31:07 INFO  RESTestRunner:98 - Compiling and loading test class PaymentUnexpectedPayloadRootNode.OasDbPaymentUnexpectedPayloadRootNode_ubre39ou9bua.java
+Request method:	PUT
+Request URI:	http://localhost:3000/charges/-9223372036854775808
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=-9223372036854775808
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "amount": -9223372036854775808
+}
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:31:13 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	POST
+Request URI:	http://localhost:3000/charges
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "currency": null
+}
+OAS disconformity: Response status 422 not defined for path '/charges'.
+Request method:	GET
+Request URI:	http://localhost:3000/charges/2147483648
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=2147483648
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:31:23 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	GET
+Request URI:	http://localhost:3000/charges/QGl7v%3A9%27fMD6a6
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=QGl7v:9'fMD6a6
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:31:28 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	DELETE
+Request URI:	http://localhost:3000/charges/%7EWtO%25%29%20a%5E1%5Edp%5D
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=~WtO%) a^1^dp]
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:31:33 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	DELETE
+Request URI:	http://localhost:3000/charges/4294967296
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=4294967296
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:31:38 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	POST
+Request URI:	http://localhost:3000/charges
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "amount": "randomString",
+    "currency": ""
+}
+OAS disconformity: Response status 422 not defined for path '/charges'.
+Request method:	POST
+Request URI:	http://localhost:3000/charges
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "currency": "\\0"
+}
+OAS disconformity: Response status 422 not defined for path '/charges'.
+Request method:	DELETE
+Request URI:	http://localhost:3000/charges/%29%2667%5CnGI0%2B
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=)&67\nGI0+
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+X-Cascade: pass
+Content-Type: text/html;charset=utf-8
+Content-Length: 32
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:31:53 GMT
+Connection: Keep-Alive
+
+<html>
+  <body>DELETE /charges/%29%2667/nGI0%2B</body>
+</html>
+Test passed.
+Request method:	GET
+Request URI:	http://localhost:3000/charges/2fY%3BFz%299yj
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=2fY;Fz)9yj
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:31:58 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	PUT
+Request URI:	http://localhost:3000/charges/%3EZPm%2B%25%3BQEpkQ5C5-
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=>ZPm+%;QEpkQ5C5-
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "amount": 179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.000001,
+    "currency": "\\0"
+}
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:32:03 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	DELETE
+Request URI:	http://localhost:3000/charges/randomString
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=randomString
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:32:08 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	GET
+Request URI:	http://localhost:3000/charges/null
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=null
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:32:13 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	PUT
+Request URI:	http://localhost:3000/charges/-2147483648
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=-2147483648
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "credit_card_id": 1.100000023841858
+}
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:32:18 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	POST
+Request URI:	http://localhost:3000/charges
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "amount": "randomString"
+}
+OAS disconformity: Response status 422 not defined for path '/charges'.
+Request method:	PUT
+Request URI:	http://localhost:3000/charges/eHH%40uvH4%3C%273M%24
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=eHH@uvH4<'3M$
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "amount": "randomString"
+}
+OAS disconformity: Response status 422 not defined for path '/charges/{charge_id}'.
+2021-12-31 05:32:28 INFO  RESTestRunner:130 - 16 tests run in 80 seconds. Successful: 11, Failures: 5, Ignored: 0
+2021-12-31 05:32:28 INFO  RESTestRunner:85 - Generating test report
+2021-12-31 05:32:36 INFO  RESTestRunner:90 - Generating CSV data
+2021-12-31 05:32:36 INFO  StatsReportManager:233 - Coverage report a priori generated.
+2021-12-31 05:32:36 INFO  StatsReportManager:238 - Coverage report a posteriori generated.
+2021-12-31 05:32:36 INFO  TestGenerationAndExecution:150 - Iteration 12. 192 test cases generated.
+2021-12-31 05:32:36 INFO  RESTestRunner:105 - Generating tests
+2021-12-31 05:32:36 INFO  RESTestRunner:116 - Writing 16 test cases to test class /Users/alexbrahastoll/Projects/mestrado/oas_db/restest_experiment/experiment_run_1640926129/payment_unexpected_payload_root_node/restest_tests/OasDbPaymentUnexpectedPayloadRootNode_qxzdx8b3dcv8.java
+2021-12-31 05:32:36 INFO  RESTestRunner:70 - Running tests
+2021-12-31 05:32:36 INFO  RESTestRunner:98 - Compiling and loading test class PaymentUnexpectedPayloadRootNode.OasDbPaymentUnexpectedPayloadRootNode_qxzdx8b3dcv8.java
+Request method:	POST
+Request URI:	http://localhost:3000/charges
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "currency": "GJHPDZ}'9*Eshe"
+}
+OAS disconformity: Response status 422 not defined for path '/charges'.
+Request method:	GET
+Request URI:	http://localhost:3000/charges/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=1
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:32:46 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	PUT
+Request URI:	http://localhost:3000/charges/uSY%3B%3A4qb%2Bs%29UN%5EX%25a
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=uSY;:4qb+s)UN^X%a
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "amount": "",
+    "credit_card_id": null
+}
+OAS disconformity: Response status 422 not defined for path '/charges/{charge_id}'.
+Request method:	DELETE
+Request URI:	http://localhost:3000/charges/%5BK%5BVh_fXsd9%3AD%3Flk
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=[K[Vh_fXsd9:D?lk
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:32:56 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	GET
+Request URI:	http://localhost:3000/charges/9%3F%2F%3CwV%5ESMRb
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=9?/<wV^SMRb
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+X-Cascade: pass
+Content-Type: text/html;charset=utf-8
+Content-Length: 30
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:33:01 GMT
+Connection: Keep-Alive
+
+<html>
+  <body>GET /charges/9%3F/%3CwV%5ESMRb</body>
+</html>
+Test passed.
+Request method:	PUT
+Request URI:	http://localhost:3000/charges/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=1
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "credit_card_id": "randomString"
+}
+OAS disconformity: Response status 422 not defined for path '/charges/{charge_id}'.
+Request method:	POST
+Request URI:	http://localhost:3000/charges
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "amount": "\\0",
+    "currency": "\\0"
+}
+OAS disconformity: Response status 422 not defined for path '/charges'.
+Request method:	GET
+Request URI:	http://localhost:3000/charges/lRy%5C6Vs%2CO.QdD0%2B%3Djl%22
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=lRy\6Vs,O.QdD0+=jl"
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+X-Cascade: pass
+Content-Type: text/html;charset=utf-8
+Content-Length: 40
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:33:16 GMT
+Connection: Keep-Alive
+
+<html>
+  <body>GET /charges/lRy/6Vs%2CO.QdD0%2B%3Djl%22</body>
+</html>
+Test passed.
+Request method:	DELETE
+Request URI:	http://localhost:3000/charges/%5D%3D%3FQPDu%3D%3BE%2C
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=]=?QPDu=;E,
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:33:21 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	PUT
+Request URI:	http://localhost:3000/charges/oH%3D%40p7%22%7D%2Bs
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=oH=@p7"}+s
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "amount": -1,
+    "credit_card_id": 1.100000023841858,
+    "currency": ""
+}
+OAS disconformity: Response status 422 not defined for path '/charges/{charge_id}'.
+Request method:	POST
+Request URI:	http://localhost:3000/charges
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "amount": 340282346638528860000000000000000000000.000001,
+    "credit_card_id": 2147483648,
+    "currency": "one space"
+}
+HTTP/1.1 201 Created
+Content-Type: application/json
+Content-Length: 8
+X-Content-Type-Options: nosniff
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:33:32 GMT
+Connection: Keep-Alive
+
+{
+    "id": 3
+}
+Test passed.
+Request method:	POST
+Request URI:	http://localhost:3000/charges
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "credit_card_id": "randomString"
+}
+OAS disconformity: Response status 422 not defined for path '/charges'.
+Request method:	DELETE
+Request URI:	http://localhost:3000/charges/9223372036854775808
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=9223372036854775808
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:33:42 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	GET
+Request URI:	http://localhost:3000/charges/randomString
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=randomString
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:33:47 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	PUT
+Request URI:	http://localhost:3000/charges/%5C0
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=\0
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "amount": 340282346638528860000000000000000000000.000001,
+    "credit_card_id": 9223372036854775808,
+    "currency": ""
+}
+OAS disconformity: Response status 422 not defined for path '/charges/{charge_id}'.
+Request method:	DELETE
+Request URI:	http://localhost:3000/charges/%5E%216lw%20Gb%264s%2F2k%7Ds2dI
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=^!6lw Gb&4s/2k}s2dI
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+X-Cascade: pass
+Content-Type: text/html;charset=utf-8
+Content-Length: 45
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:33:57 GMT
+Connection: Keep-Alive
+
+<html>
+  <body>DELETE /charges/%5E%216lw%20Gb%264s/2k%7Ds2dI</body>
+</html>
+Test passed.
+2021-12-31 05:33:57 INFO  RESTestRunner:130 - 16 tests run in 80 seconds. Successful: 9, Failures: 7, Ignored: 0
+2021-12-31 05:33:57 INFO  RESTestRunner:85 - Generating test report
+2021-12-31 05:34:04 INFO  RESTestRunner:90 - Generating CSV data
+2021-12-31 05:34:04 INFO  StatsReportManager:233 - Coverage report a priori generated.
+2021-12-31 05:34:04 INFO  StatsReportManager:238 - Coverage report a posteriori generated.
+2021-12-31 05:34:04 INFO  TestGenerationAndExecution:150 - Iteration 13. 208 test cases generated.
+2021-12-31 05:34:04 INFO  RESTestRunner:105 - Generating tests
+2021-12-31 05:34:04 INFO  RESTestRunner:116 - Writing 16 test cases to test class /Users/alexbrahastoll/Projects/mestrado/oas_db/restest_experiment/experiment_run_1640926129/payment_unexpected_payload_root_node/restest_tests/OasDbPaymentUnexpectedPayloadRootNode_1iusprdsgsz74.java
+2021-12-31 05:34:04 INFO  RESTestRunner:70 - Running tests
+2021-12-31 05:34:04 INFO  RESTestRunner:98 - Compiling and loading test class PaymentUnexpectedPayloadRootNode.OasDbPaymentUnexpectedPayloadRootNode_1iusprdsgsz74.java
+Request method:	GET
+Request URI:	http://localhost:3000/charges/0
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=0
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:34:10 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	POST
+Request URI:	http://localhost:3000/charges
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "amount": 340282346638528860000000000000000000000.000001
+}
+OAS disconformity: Response status 422 not defined for path '/charges'.
+Request method:	DELETE
+Request URI:	http://localhost:3000/charges/C9%3E%3B-kVF%7E*n7w
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=C9>;-kVF~*n7w
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:34:20 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	DELETE
+Request URI:	http://localhost:3000/charges/_QwG%5B%3D%20%2FX%2Cl
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=_QwG[= /X,l
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+X-Cascade: pass
+Content-Type: text/html;charset=utf-8
+Content-Length: 35
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:34:25 GMT
+Connection: Keep-Alive
+
+<html>
+  <body>DELETE /charges/_QwG%5B%3D%20/X%2Cl</body>
+</html>
+Test passed.
+Request method:	PUT
+Request URI:	http://localhost:3000/charges/4294967296
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=4294967296
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "amount": 9223372036854775808,
+    "currency": "\\0"
+}
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:34:30 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	GET
+Request URI:	http://localhost:3000/charges/_11%23M%3D1pfZ%22
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=_11#M=1pfZ"
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:34:35 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	POST
+Request URI:	http://localhost:3000/charges
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "amount": 2147483648,
+    "currency": "one space"
+}
+OAS disconformity: Response status 422 not defined for path '/charges'.
+Request method:	PUT
+Request URI:	http://localhost:3000/charges/null
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=null
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "amount": 1,
+    "credit_card_id": 18446744073709551616,
+    "currency": "\\0"
+}
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:34:45 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	POST
+Request URI:	http://localhost:3000/charges
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    
+}
+OAS disconformity: Response status 422 not defined for path '/charges'.
+Request method:	PUT
+Request URI:	http://localhost:3000/charges/%27m*%7D%5B%2BJiWoIh%5CX*%28vH%3A8
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id='m*}[+JiWoIh\X*(vH:8
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "amount": -1
+}
+HTTP/1.1 404 Not Found
+X-Cascade: pass
+Content-Type: text/html;charset=utf-8
+Content-Length: 45
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:34:55 GMT
+Connection: Keep-Alive
+
+<html>
+  <body>PUT /charges/%27m*%7D%5B%2BJiWoIh/X*%28vH%3A8</body>
+</html>
+Test passed.
+Request method:	GET
+Request URI:	http://localhost:3000/charges/%5CgKP%27Y6Km%2C%24%7E*XF%2FzmR
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=\gKP'Y6Km,$~*XF/zmR
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+X-Cascade: pass
+Content-Type: text/html;charset=utf-8
+Content-Length: 39
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:35:00 GMT
+Connection: Keep-Alive
+
+<html>
+  <body>GET /charges/gKP%27Y6Km%2C%24%7E*XF/zmR</body>
+</html>
+Test passed.
+Request method:	DELETE
+Request URI:	http://localhost:3000/charges/-1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=-1
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:35:05 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	POST
+Request URI:	http://localhost:3000/charges
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    
+}
+OAS disconformity: Response status 422 not defined for path '/charges'.
+Request method:	PUT
+Request URI:	http://localhost:3000/charges/4%22%22Y%7Dj%29N%3BE
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=4""Y}j)N;E
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "amount": -340282346638528860000000000000000000000000001,
+    "credit_card_id": "",
+    "currency": "\\0"
+}
+OAS disconformity: Response status 422 not defined for path '/charges/{charge_id}'.
+Request method:	GET
+Request URI:	http://localhost:3000/charges/null
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=null
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:35:20 GMT
+Connection: Keep-Alive
+Test passed.
+Request method:	DELETE
+Request URI:	http://localhost:3000/charges/c_%27E%7Do%21kCnCJ%29%5EaM
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	charge_id=c_'E}o!kCnCJ)^aM
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)
+Date: Fri, 31 Dec 2021 07:35:25 GMT
+Connection: Keep-Alive
+Test passed.
+2021-12-31 05:35:25 INFO  RESTestRunner:130 - 16 tests run in 80 seconds. Successful: 11, Failures: 5, Ignored: 0
+2021-12-31 05:35:25 INFO  RESTestRunner:85 - Generating test report
+2021-12-31 05:35:33 INFO  RESTestRunner:90 - Generating CSV data
+2021-12-31 05:35:33 INFO  StatsReportManager:233 - Coverage report a priori generated.
+2021-12-31 05:35:33 INFO  StatsReportManager:238 - Coverage report a posteriori generated.
+2021-12-31 05:35:33 INFO  TestGenerationAndExecution:150 - Iteration 14. 224 test cases generated.
+2021-12-31 05:35:33 INFO  TestGenerationAndExecution:283 - Time report generated.

@@ -1,0 +1,111 @@
+---
+auth:
+  required: true
+  queryParams: {}
+  headerParams: {}
+  apiKeysPath: null
+  headersPath: null
+  oauthPath: null
+testConfiguration:
+  operations:
+  - testPath: /projects
+    operationId: create_project
+    method: post
+    testParameters:
+    - name: body
+      in: body
+      weight: null
+      generators:
+      - type: ObjectPerturbator
+        genParameters:
+        - name: stringObjects
+          values:
+          - "{\"name\":\"Client A\",\"description\":\"An awesome project for Client\
+            \ A.\"}"
+          objectValues: null
+        valid: true
+    expectedResponse: 200
+  - testPath: "/projects/{project_id}"
+    operationId: read_project
+    method: get
+    testParameters:
+    - name: project_id
+      in: path
+      weight: null
+      generators:
+      - type: RandomNumber
+        genParameters:
+        - name: type
+          values:
+          - int64
+          objectValues: null
+        - name: min
+          values:
+          - 1
+          objectValues: null
+        - name: max
+          values:
+          - 100
+          objectValues: null
+        valid: true
+    expectedResponse: 200
+  - testPath: "/projects/{project_id}"
+    operationId: update_project
+    method: put
+    testParameters:
+    - name: project_id
+      in: path
+      weight: null
+      generators:
+      - type: RandomNumber
+        genParameters:
+        - name: type
+          values:
+          - int64
+          objectValues: null
+        - name: min
+          values:
+          - 1
+          objectValues: null
+        - name: max
+          values:
+          - 100
+          objectValues: null
+        valid: true
+    - name: body
+      in: body
+      weight: null
+      generators:
+      - type: ObjectPerturbator
+        genParameters:
+        - name: stringObjects
+          values:
+          - "{\"name\":\"Client A\",\"description\":\"An awesome project for Client\
+            \ A.\"}"
+          objectValues: null
+        valid: true
+    expectedResponse: 200
+  - testPath: "/projects/{project_id}"
+    operationId: delete_project
+    method: delete
+    testParameters:
+    - name: project_id
+      in: path
+      weight: null
+      generators:
+      - type: RandomNumber
+        genParameters:
+        - name: type
+          values:
+          - int64
+          objectValues: null
+        - name: min
+          values:
+          - 1
+          objectValues: null
+        - name: max
+          values:
+          - 100
+          objectValues: null
+        valid: true
+    expectedResponse: 200

@@ -1,0 +1,17 @@
+testResultId,statusCode,responseBody,outputContentType,passed,failReason
+test_1h7lgdorjse2e_deleteincident,404,,text/html;charset=utf-8,true,none
+test_1jeyv3fa0z9kk_createincident,422,,text/html;charset=utf-8,false,OAS disconformity: Response status 422 not defined for path '/incidents'.
+test_1jidb3oehd1rs_updateincident,500,<h1>Internal Server Error</h1>,text/html;charset=utf-8,false,Status code 5XX.
+test_1jyg19ts4gehw_readincident,404,,text/html;charset=utf-8,true,none
+test_qe11zz0v2hbn_readincident,404,,text/html;charset=utf-8,true,none
+test_qe9cjeowo8xd_deleteincident,404,DELETE /incidents/%40%3DF7%5E%224%21K/T/%277%3E%3A,text/html;charset=utf-8,true,none
+test_qxnstz7hkqqs_deleteincident,404,,text/html;charset=utf-8,true,none
+test_r1a3v5xgck6t_createincident,500,<h1>Internal Server Error</h1>,text/html;charset=utf-8,false,Status code 5XX.
+test_s1dwvpkfgmk5_createincident,500,<h1>Internal Server Error</h1>,text/html;charset=utf-8,false,Status code 5XX.
+test_s1h6nuz75ap0_readincident,404,,text/html;charset=utf-8,true,none
+test_s4mc9qff7p6g_readincident,404,,text/html;charset=utf-8,true,none
+test_s4rvd04hqa8y_updateincident,500,<h1>Internal Server Error</h1>,text/html;charset=utf-8,false,Status code 5XX.
+test_skk1516btxsx_updateincident,500,<h1>Internal Server Error</h1>,text/html;charset=utf-8,false,Status code 5XX.
+test_t84laumbthrn_updateincident,500,<h1>Internal Server Error</h1>,text/html;charset=utf-8,false,Status code 5XX.
+test_u7rbdlgafmg1_createincident,500,<h1>Internal Server Error</h1>,text/html;charset=utf-8,false,Status code 5XX.
+test_us3in7joqlwh_deleteincident,404,DELETE /incidents/_c%7Df%27%5BUS%25haf/mhK,text/html;charset=utf-8,true,none

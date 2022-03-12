@@ -1,0 +1,17 @@
+testResultId,statusCode,responseBody,outputContentType,passed,failReason
+test_1huzxtbmv6joz_deleteproject,404,DELETE /projects/a%3EdDg%26%20oCyg0A/a,text/html;charset=utf-8,true,none
+test_1hv2ofed3absk_createproject,500,<h1>Internal Server Error</h1>,text/html;charset=utf-8,false,Status code 5XX.
+test_1ibhkqrvawdb5_createproject,500,<h1>Internal Server Error</h1>,text/html;charset=utf-8,false,Status code 5XX.
+test_1iupzk07i7l84_updateproject,404,PUT /projects/oDtQ7%2BqAf/b9DY%21lQ,text/html;charset=utf-8,true,none
+test_1iuqflmursmle_deleteproject,404,,text/html;charset=utf-8,true,none
+test_1jygj6wyq3uwm_updateproject,500,<h1>Internal Server Error</h1>,text/html;charset=utf-8,false,Status code 5XX.
+test_1jygj70j8sgo2_deleteproject,404,DELETE /projects/%26sQLk/Rvy35%29kNB%3D%7D%3A,text/html;charset=utf-8,true,none
+test_rhroroc90tvb_readproject,404,,text/html;charset=utf-8,true,none
+test_rkwtzcq2w1f9_deleteproject,404,,text/html;charset=utf-8,true,none
+test_rl7x2s2j6mgk_createproject,500,<h1>Internal Server Error</h1>,text/html;charset=utf-8,false,Status code 5XX.
+test_rlb76e8d9fmt_readproject,404,GET /projects/xu1lqIXL%29/fD%29,text/html;charset=utf-8,true,none
+test_s4mcnpxmgpr5_updateproject,404,PUT /projects/k/P--0%28%7Eg%29CX,text/html;charset=utf-8,true,none
+test_ts4od7idfg34_readproject,404,,text/html;charset=utf-8,true,none
+test_u7u1nv8smfjr_readproject,404,,text/html;charset=utf-8,true,none
+test_uv8m8aq1a8o6_createproject,500,<h1>Internal Server Error</h1>,text/html;charset=utf-8,false,Status code 5XX.
+test_vb94i4gxvsc6_updateproject,404,,text/html;charset=utf-8,true,none

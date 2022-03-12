@@ -1,0 +1,17 @@
+testResultId,statusCode,responseBody,outputContentType,passed,failReason
+test_1hray6yrn5d2a_createproject,422,,text/html;charset=utf-8,false,OAS disconformity: Response status 422 not defined for path '/projects'.
+test_1ibbzycl49t9e_deleteproject,404,,text/html;charset=utf-8,true,none
+test_1jei7ci71wj79_updateproject,404,,text/html;charset=utf-8,true,none
+test_1jeytx4302hpx_deleteproject,404,,text/html;charset=utf-8,true,none
+test_1jxzw8hik4ab5_readproject,404,,text/html;charset=utf-8,true,none
+test_1k1zjr4ef6zqd_updateproject,422,,text/html;charset=utf-8,false,OAS disconformity: Response status 422 not defined for path '/projects/{project_id}'.
+test_qdvho3jqrnle_createproject,422,,text/html;charset=utf-8,false,OAS disconformity: Response status 422 not defined for path '/projects'.
+test_r1l4xyx6gr51_createproject,422,,text/html;charset=utf-8,false,OAS disconformity: Response status 422 not defined for path '/projects'.
+test_rhivijin7qk2_createproject,201,"{""id"":1}",application/json,true,none
+test_rl542i3og8kl_updateproject,422,,text/html;charset=utf-8,false,OAS disconformity: Response status 422 not defined for path '/projects/{project_id}'.
+test_soq6ks02it6c_deleteproject,404,,text/html;charset=utf-8,true,none
+test_tofotbrzla2f_readproject,404,,text/html;charset=utf-8,true,none
+test_trtl9mm3gjeb_updateproject,404,,text/html;charset=utf-8,true,none
+test_uvgx5v3adstw_readproject,404,,text/html;charset=utf-8,true,none
+test_vb9m49fgqnu9_readproject,200,"{""description"":""one space"",""name"":""one space"",""id"":1}",application/json,false,"OAS disconformity: Instance failed to match all required schemas (matched only 0 out of 2) --- Object instance has properties which are not allowed by the schema: [""description"";""id"";""name""]"
+test_vf6f29mmy06d_deleteproject,404,,text/html;charset=utf-8,true,none

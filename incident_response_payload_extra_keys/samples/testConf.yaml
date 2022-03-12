@@ -1,0 +1,111 @@
+---
+auth:
+  required: true
+  queryParams: {}
+  headerParams: {}
+  apiKeysPath: null
+  headersPath: null
+  oauthPath: null
+testConfiguration:
+  operations:
+  - testPath: /incidents
+    operationId: create_incident
+    method: post
+    testParameters:
+    - name: body
+      in: body
+      weight: null
+      generators:
+      - type: ObjectPerturbator
+        genParameters:
+        - name: stringObjects
+          values:
+          - "{\"title\":\"30 minutes outage due to someone tripping on the server's\
+            \ power cable.\",\"service_id\":101,\"assignee_id\":11}"
+          objectValues: null
+        valid: true
+    expectedResponse: 200
+  - testPath: "/incidents/{incident_id}"
+    operationId: read_incident
+    method: get
+    testParameters:
+    - name: incident_id
+      in: path
+      weight: null
+      generators:
+      - type: RandomNumber
+        genParameters:
+        - name: type
+          values:
+          - int64
+          objectValues: null
+        - name: min
+          values:
+          - 1
+          objectValues: null
+        - name: max
+          values:
+          - 100
+          objectValues: null
+        valid: true
+    expectedResponse: 200
+  - testPath: "/incidents/{incident_id}"
+    operationId: update_incident
+    method: put
+    testParameters:
+    - name: incident_id
+      in: path
+      weight: null
+      generators:
+      - type: RandomNumber
+        genParameters:
+        - name: type
+          values:
+          - int64
+          objectValues: null
+        - name: min
+          values:
+          - 1
+          objectValues: null
+        - name: max
+          values:
+          - 100
+          objectValues: null
+        valid: true
+    - name: body
+      in: body
+      weight: null
+      generators:
+      - type: ObjectPerturbator
+        genParameters:
+        - name: stringObjects
+          values:
+          - "{\"title\":\"30 minutes outage due to someone tripping on the server's\
+            \ power cable.\",\"service_id\":101,\"assignee_id\":11}"
+          objectValues: null
+        valid: true
+    expectedResponse: 200
+  - testPath: "/incidents/{incident_id}"
+    operationId: delete_incident
+    method: delete
+    testParameters:
+    - name: incident_id
+      in: path
+      weight: null
+      generators:
+      - type: RandomNumber
+        genParameters:
+        - name: type
+          values:
+          - int64
+          objectValues: null
+        - name: min
+          values:
+          - 1
+          objectValues: null
+        - name: max
+          values:
+          - 100
+          objectValues: null
+        valid: true
+    expectedResponse: 200

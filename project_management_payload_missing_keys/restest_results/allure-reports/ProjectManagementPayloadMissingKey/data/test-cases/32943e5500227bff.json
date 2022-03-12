@@ -1,0 +1,97 @@
+{
+  "uid" : "32943e5500227bff",
+  "name" : "test_s4se23xhdvee_updateproject",
+  "fullName" : "ProjectManagementPayloadMissingKey.OasDbProjectManagementPayloadMissingKey_1ji26ts99ytlx.test_s4se23xhdvee_updateproject",
+  "historyId" : "11f4ec481bd8c40943429a26eb22ac0d",
+  "time" : {
+    "start" : 1640929758880,
+    "stop" : 1640929758894,
+    "duration" : 14
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ea022ebf0053d23c",
+      "name" : "Request",
+      "source" : "ea022ebf0053d23c.html",
+      "type" : "text/html",
+      "size" : 501
+    }, {
+      "uid" : "84ea4295c8dd0f49",
+      "name" : "HTTP/1.1 404 Not Found",
+      "source" : "84ea4295c8dd0f49.html",
+      "type" : "text/html",
+      "size" : 670
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ProjectManagementPayloadMissingKey"
+  }, {
+    "name" : "testClass",
+    "value" : "ProjectManagementPayloadMissingKey.OasDbProjectManagementPayloadMissingKey_1ji26ts99ytlx"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_s4se23xhdvee_updateproject"
+  }, {
+    "name" : "suite",
+    "value" : "ProjectManagementPayloadMissingKey.OasDbProjectManagementPayloadMissingKey_1ji26ts99ytlx"
+  }, {
+    "name" : "host",
+    "value" : "Alexs-MacBook-Pro-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "56366@Alexs-MacBook-Pro-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "546c0aa096e78b3b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640929758880,
+          "stop" : 1640929758894,
+          "duration" : 14
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "32943e5500227bff.json",
+  "parameterValues" : [ ]
+}

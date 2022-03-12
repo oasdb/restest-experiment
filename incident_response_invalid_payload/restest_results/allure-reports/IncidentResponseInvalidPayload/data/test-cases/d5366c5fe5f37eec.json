@@ -1,0 +1,161 @@
+{
+  "uid" : "d5366c5fe5f37eec",
+  "name" : "test_rhr61x8rf5f6_readincident",
+  "fullName" : "IncidentResponseInvalidPayload.OasDbIncidentResponseInvalidPayload_vbbvvvmu7sxc.test_rhr61x8rf5f6_readincident",
+  "historyId" : "6e520c1847ead6242b25c62b39de98da",
+  "time" : {
+    "start" : 1640949064309,
+    "stop" : 1640949064324,
+    "duration" : 15
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "33e3ab3c356db5b8",
+      "name" : "Request",
+      "source" : "33e3ab3c356db5b8.html",
+      "type" : "text/html",
+      "size" : 291
+    }, {
+      "uid" : "cf4777bc19015a22",
+      "name" : "HTTP/1.1 404 Not Found",
+      "source" : "cf4777bc19015a22.html",
+      "type" : "text/html",
+      "size" : 546
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "IncidentResponseInvalidPayload"
+  }, {
+    "name" : "testClass",
+    "value" : "IncidentResponseInvalidPayload.OasDbIncidentResponseInvalidPayload_vbbvvvmu7sxc"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_rhr61x8rf5f6_readincident"
+  }, {
+    "name" : "suite",
+    "value" : "IncidentResponseInvalidPayload.OasDbIncidentResponseInvalidPayload_vbbvvvmu7sxc"
+  }, {
+    "name" : "host",
+    "value" : "Alexs-MacBook-Pro-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "67978@Alexs-MacBook-Pro-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 10,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "c0248ae1039f8acb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640949064309,
+          "stop" : 1640949064324,
+          "duration" : 15
+        }
+      }, {
+        "uid" : "5ff667a06be66282",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640949064309,
+          "stop" : 1640949064324,
+          "duration" : 15
+        }
+      }, {
+        "uid" : "e6114e18a698860f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640949064309,
+          "stop" : 1640949064324,
+          "duration" : 15
+        }
+      }, {
+        "uid" : "fe1601e916d70158",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640949064309,
+          "stop" : 1640949064324,
+          "duration" : 15
+        }
+      }, {
+        "uid" : "169a44fb3eb4f8b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640949064309,
+          "stop" : 1640949064324,
+          "duration" : 15
+        }
+      }, {
+        "uid" : "7f6193fa3435937",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640949064309,
+          "stop" : 1640949064324,
+          "duration" : 15
+        }
+      }, {
+        "uid" : "a11190c8c763bb26",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640949064309,
+          "stop" : 1640949064324,
+          "duration" : 15
+        }
+      }, {
+        "uid" : "6c2288185a904452",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640949064309,
+          "stop" : 1640949064324,
+          "duration" : 15
+        }
+      }, {
+        "uid" : "a57e693357680987",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640949064309,
+          "stop" : 1640949064324,
+          "duration" : 15
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d5366c5fe5f37eec.json",
+  "parameterValues" : [ ]
+}

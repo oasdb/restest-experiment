@@ -1,0 +1,679 @@
+[2021-12-31 07:22:20] INFO  WEBrick 1.6.0
+[2021-12-31 07:22:20] INFO  ruby 2.7.2 (2020-10-01) [x86_64-darwin18]
+== Sinatra (v2.1.0) has taken the stage on 3000 for production with backup from WEBrick
+[2021-12-31 07:22:20] INFO  WEBrick::HTTPServer#start: pid=66526 port=3000
+127.0.0.1 - - [31/Dec/2021:07:22:42 -0300] "POST /projects HTTP/1.1" 201 8 0.0021
+127.0.0.1 - - [31/Dec/2021:07:22:42 -03] "POST /projects HTTP/1.1" 201 8
+- -> /projects
+127.0.0.1 - - [31/Dec/2021:07:22:47 -0300] "PUT /projects/randomString HTTP/1.1" 404 - 0.0010
+127.0.0.1 - - [31/Dec/2021:07:22:47 -03] "PUT /projects/randomString HTTP/1.1" 404 0
+- -> /projects/randomString
+127.0.0.1 - - [31/Dec/2021:07:22:52 -0300] "GET /projects/-9223372036854775808 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:22:52 -03] "GET /projects/-9223372036854775808 HTTP/1.1" 404 0
+- -> /projects/-9223372036854775808
+127.0.0.1 - - [31/Dec/2021:07:22:57 -0300] "GET /projects/Z.*w%5Ef%29D%23sx HTTP/1.1" 404 - 0.0003
+127.0.0.1 - - [31/Dec/2021:07:22:57 -03] "GET /projects/Z.*w%5Ef%29D%23sx HTTP/1.1" 404 0
+- -> /projects/Z.*w%5Ef%29D%23sx
+127.0.0.1 - - [31/Dec/2021:07:23:02 -0300] "PUT /projects/%5C5%3BO-%2F%3E%27*9q7q%7CN9h%2CT HTTP/1.1" 404 42 0.0004
+127.0.0.1 - - [31/Dec/2021:07:23:02 -03] "PUT /projects/%5C5%3BO-%2F%3E%27*9q7q%7CN9h%2CT HTTP/1.1" 404 42
+- -> /projects/%5C5%3BO-%2F%3E%27*9q7q%7CN9h%2CT
+127.0.0.1 - - [31/Dec/2021:07:23:07 -0300] "POST /projects HTTP/1.1" 422 - 0.0003
+127.0.0.1 - - [31/Dec/2021:07:23:07 -03] "POST /projects HTTP/1.1" 422 0
+- -> /projects
+127.0.0.1 - - [31/Dec/2021:07:23:12 -0300] "POST /projects HTTP/1.1" 201 8 0.0004
+127.0.0.1 - - [31/Dec/2021:07:23:12 -03] "POST /projects HTTP/1.1" 201 8
+- -> /projects
+127.0.0.1 - - [31/Dec/2021:07:23:17 -0300] "GET /projects/T%26Dr9Xf%7E%21o%3Al%2By%3A43x HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:23:17 -03] "GET /projects/T%26Dr9Xf%7E%21o%3Al%2By%3A43x HTTP/1.1" 404 0
+- -> /projects/T%26Dr9Xf%7E%21o%3Al%2By%3A43x
+127.0.0.1 - - [31/Dec/2021:07:23:22 -0300] "PUT /projects/%608S%5E%23*%29c%21%2BMqb0o%25%3D HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:23:22 -03] "PUT /projects/%608S%5E%23*%29c%21%2BMqb0o%25%3D HTTP/1.1" 404 0
+- -> /projects/%608S%5E%23*%29c%21%2BMqb0o%25%3D
+127.0.0.1 - - [31/Dec/2021:07:23:27 -0300] "DELETE /projects/1%40v-Y%28-%3CfK%2F HTTP/1.1" 404 34 0.0004
+127.0.0.1 - - [31/Dec/2021:07:23:27 -03] "DELETE /projects/1%40v-Y%28-%3CfK%2F HTTP/1.1" 404 34
+- -> /projects/1%40v-Y%28-%3CfK%2F
+127.0.0.1 - - [31/Dec/2021:07:23:32 -0300] "POST /projects HTTP/1.1" 201 8 0.0004
+127.0.0.1 - - [31/Dec/2021:07:23:32 -03] "POST /projects HTTP/1.1" 201 8
+- -> /projects
+127.0.0.1 - - [31/Dec/2021:07:23:37 -0300] "DELETE /projects/%5B%40Wt%60N%26*%2FK9Ah. HTTP/1.1" 404 39 0.0004
+127.0.0.1 - - [31/Dec/2021:07:23:37 -03] "DELETE /projects/%5B%40Wt%60N%26*%2FK9Ah. HTTP/1.1" 404 39
+- -> /projects/%5B%40Wt%60N%26*%2FK9Ah.
+127.0.0.1 - - [31/Dec/2021:07:23:42 -0300] "PUT /projects/%5C_MJ%60P%29%21hX%40T%5DdFw6YJ HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:23:42 -03] "PUT /projects/%5C_MJ%60P%29%21hX%40T%5DdFw6YJ HTTP/1.1" 422 0
+- -> /projects/%5C_MJ%60P%29%21hX%40T%5DdFw6YJ
+127.0.0.1 - - [31/Dec/2021:07:23:47 -0300] "GET /projects/%7E9V2%7EVsYP*K%5D HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:23:47 -03] "GET /projects/%7E9V2%7EVsYP*K%5D HTTP/1.1" 404 0
+- -> /projects/%7E9V2%7EVsYP*K%5D
+127.0.0.1 - - [31/Dec/2021:07:23:52 -0300] "DELETE /projects/-9223372036854775808 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:23:52 -03] "DELETE /projects/-9223372036854775808 HTTP/1.1" 404 0
+- -> /projects/-9223372036854775808
+127.0.0.1 - - [31/Dec/2021:07:23:58 -0300] "DELETE /projects/z%3Bb5FAl%28Rj%25%3BJ* HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:23:58 -03] "DELETE /projects/z%3Bb5FAl%28Rj%25%3BJ* HTTP/1.1" 404 0
+- -> /projects/z%3Bb5FAl%28Rj%25%3BJ*
+127.0.0.1 - - [31/Dec/2021:07:24:10 -0300] "DELETE /projects/Dt%3FQ-c%22M%24Za*%28VF.%60b HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:24:10 -03] "DELETE /projects/Dt%3FQ-c%22M%24Za*%28VF.%60b HTTP/1.1" 404 0
+- -> /projects/Dt%3FQ-c%22M%24Za*%28VF.%60b
+127.0.0.1 - - [31/Dec/2021:07:24:15 -0300] "PUT /projects/e4%3F-NUQwaZLS*%3C%21Uw%3B HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:24:15 -03] "PUT /projects/e4%3F-NUQwaZLS*%3C%21Uw%3B HTTP/1.1" 422 0
+- -> /projects/e4%3F-NUQwaZLS*%3C%21Uw%3B
+127.0.0.1 - - [31/Dec/2021:07:24:20 -0300] "GET /projects/9223372036854775808 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:24:20 -03] "GET /projects/9223372036854775808 HTTP/1.1" 404 0
+- -> /projects/9223372036854775808
+127.0.0.1 - - [31/Dec/2021:07:24:25 -0300] "DELETE /projects/%3F%3F%5E%7D%21x58%7DUy4aka%5E%2C1LE HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:24:25 -03] "DELETE /projects/%3F%3F%5E%7D%21x58%7DUy4aka%5E%2C1LE HTTP/1.1" 404 0
+- -> /projects/%3F%3F%5E%7D%21x58%7DUy4aka%5E%2C1LE
+127.0.0.1 - - [31/Dec/2021:07:24:30 -0300] "DELETE /projects/2147483648 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:24:30 -03] "DELETE /projects/2147483648 HTTP/1.1" 404 0
+- -> /projects/2147483648
+127.0.0.1 - - [31/Dec/2021:07:24:35 -0300] "PUT /projects/4%20okt1x%26r%27%3A*kh7eZB HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:24:35 -03] "PUT /projects/4%20okt1x%26r%27%3A*kh7eZB HTTP/1.1" 422 0
+- -> /projects/4%20okt1x%26r%27%3A*kh7eZB
+127.0.0.1 - - [31/Dec/2021:07:24:40 -0300] "PUT /projects/-1 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:24:40 -03] "PUT /projects/-1 HTTP/1.1" 404 0
+- -> /projects/-1
+127.0.0.1 - - [31/Dec/2021:07:24:45 -0300] "PUT /projects/9223372036854775808 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:24:45 -03] "PUT /projects/9223372036854775808 HTTP/1.1" 404 0
+- -> /projects/9223372036854775808
+127.0.0.1 - - [31/Dec/2021:07:24:50 -0300] "POST /projects HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:24:50 -03] "POST /projects HTTP/1.1" 422 0
+- -> /projects
+127.0.0.1 - - [31/Dec/2021:07:24:55 -0300] "POST /projects HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:24:55 -03] "POST /projects HTTP/1.1" 422 0
+- -> /projects
+127.0.0.1 - - [31/Dec/2021:07:25:00 -0300] "GET /projects/null HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:25:00 -03] "GET /projects/null HTTP/1.1" 404 0
+- -> /projects/null
+127.0.0.1 - - [31/Dec/2021:07:25:05 -0300] "GET /projects/%5C0 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:25:05 -03] "GET /projects/%5C0 HTTP/1.1" 404 0
+- -> /projects/%5C0
+127.0.0.1 - - [31/Dec/2021:07:25:10 -0300] "POST /projects HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:25:10 -03] "POST /projects HTTP/1.1" 422 0
+- -> /projects
+127.0.0.1 - - [31/Dec/2021:07:25:15 -0300] "POST /projects HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:25:15 -03] "POST /projects HTTP/1.1" 422 0
+- -> /projects
+127.0.0.1 - - [31/Dec/2021:07:25:20 -0300] "GET /projects/kw%28_Y%27%3Ce%7EQ%405uo%60%7E2c- HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:25:20 -03] "GET /projects/kw%28_Y%27%3Ce%7EQ%405uo%60%7E2c- HTTP/1.1" 404 0
+- -> /projects/kw%28_Y%27%3Ce%7EQ%405uo%60%7E2c-
+127.0.0.1 - - [31/Dec/2021:07:25:25 -0300] "DELETE /projects/xT*oZn.0PH%60C%5DJ HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:25:25 -03] "DELETE /projects/xT*oZn.0PH%60C%5DJ HTTP/1.1" 404 0
+- -> /projects/xT*oZn.0PH%60C%5DJ
+127.0.0.1 - - [31/Dec/2021:07:25:37 -0300] "POST /projects HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:25:37 -03] "POST /projects HTTP/1.1" 422 0
+- -> /projects
+127.0.0.1 - - [31/Dec/2021:07:25:42 -0300] "PUT /projects/eg%3Ef1zd%22e%25f%22-au_ HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:25:42 -03] "PUT /projects/eg%3Ef1zd%22e%25f%22-au_ HTTP/1.1" 422 0
+- -> /projects/eg%3Ef1zd%22e%25f%22-au_
+127.0.0.1 - - [31/Dec/2021:07:25:47 -0300] "PUT /projects/1.1 HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:25:47 -03] "PUT /projects/1.1 HTTP/1.1" 422 0
+- -> /projects/1.1
+127.0.0.1 - - [31/Dec/2021:07:25:52 -0300] "GET /projects/-2147483648 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:25:52 -03] "GET /projects/-2147483648 HTTP/1.1" 404 0
+- -> /projects/-2147483648
+127.0.0.1 - - [31/Dec/2021:07:25:57 -0300] "DELETE /projects/nTStS5En2Q%7E%21%7DHiS%3FX HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:25:57 -03] "DELETE /projects/nTStS5En2Q%7E%21%7DHiS%3FX HTTP/1.1" 404 0
+- -> /projects/nTStS5En2Q%7E%21%7DHiS%3FX
+127.0.0.1 - - [31/Dec/2021:07:26:02 -0300] "POST /projects HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:26:02 -03] "POST /projects HTTP/1.1" 422 0
+- -> /projects
+127.0.0.1 - - [31/Dec/2021:07:26:07 -0300] "PUT /projects/-2147483648 HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:26:07 -03] "PUT /projects/-2147483648 HTTP/1.1" 422 0
+- -> /projects/-2147483648
+127.0.0.1 - - [31/Dec/2021:07:26:12 -0300] "GET /projects/%40I%5C9Y9%21%5Bzn%3E%29 HTTP/1.1" 404 36 0.0004
+127.0.0.1 - - [31/Dec/2021:07:26:12 -03] "GET /projects/%40I%5C9Y9%21%5Bzn%3E%29 HTTP/1.1" 404 36
+- -> /projects/%40I%5C9Y9%21%5Bzn%3E%29
+127.0.0.1 - - [31/Dec/2021:07:26:18 -0300] "PUT /projects/9223372036854775808 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:26:18 -03] "PUT /projects/9223372036854775808 HTTP/1.1" 404 0
+- -> /projects/9223372036854775808
+127.0.0.1 - - [31/Dec/2021:07:26:23 -0300] "POST /projects HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:26:23 -03] "POST /projects HTTP/1.1" 422 0
+- -> /projects
+127.0.0.1 - - [31/Dec/2021:07:26:28 -0300] "DELETE /projects/%3BlxTgm1uk30%60a%28%23I%5D%60%7D HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:26:28 -03] "DELETE /projects/%3BlxTgm1uk30%60a%28%23I%5D%60%7D HTTP/1.1" 404 0
+- -> /projects/%3BlxTgm1uk30%60a%28%23I%5D%60%7D
+127.0.0.1 - - [31/Dec/2021:07:26:33 -0300] "GET /projects/5oz%2FIkYCNwL%2Fyqg%5D1k4%29 HTTP/1.1" 404 38 0.0005
+127.0.0.1 - - [31/Dec/2021:07:26:33 -03] "GET /projects/5oz%2FIkYCNwL%2Fyqg%5D1k4%29 HTTP/1.1" 404 38
+- -> /projects/5oz%2FIkYCNwL%2Fyqg%5D1k4%29
+127.0.0.1 - - [31/Dec/2021:07:26:38 -0300] "POST /projects HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:26:38 -03] "POST /projects HTTP/1.1" 422 0
+- -> /projects
+127.0.0.1 - - [31/Dec/2021:07:26:43 -0300] "DELETE /projects/-9223372036854775808 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:26:43 -03] "DELETE /projects/-9223372036854775808 HTTP/1.1" 404 0
+- -> /projects/-9223372036854775808
+127.0.0.1 - - [31/Dec/2021:07:26:48 -0300] "DELETE /projects/4294967296 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:26:48 -03] "DELETE /projects/4294967296 HTTP/1.1" 404 0
+- -> /projects/4294967296
+127.0.0.1 - - [31/Dec/2021:07:26:53 -0300] "GET /projects/tF7%2C2U%7C%3C4-%3DTnfbn4uu HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:26:53 -03] "GET /projects/tF7%2C2U%7C%3C4-%3DTnfbn4uu HTTP/1.1" 404 0
+- -> /projects/tF7%2C2U%7C%3C4-%3DTnfbn4uu
+127.0.0.1 - - [31/Dec/2021:07:27:05 -0300] "DELETE /projects/null HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:27:05 -03] "DELETE /projects/null HTTP/1.1" 404 0
+- -> /projects/null
+127.0.0.1 - - [31/Dec/2021:07:27:10 -0300] "POST /projects HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:27:10 -03] "POST /projects HTTP/1.1" 422 0
+- -> /projects
+127.0.0.1 - - [31/Dec/2021:07:27:15 -0300] "PUT /projects/C%5Bm%28G%28%5E%26%24%2BW HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:27:15 -03] "PUT /projects/C%5Bm%28G%28%5E%26%24%2BW HTTP/1.1" 422 0
+- -> /projects/C%5Bm%28G%28%5E%26%24%2BW
+127.0.0.1 - - [31/Dec/2021:07:27:20 -0300] "POST /projects HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:27:20 -03] "POST /projects HTTP/1.1" 422 0
+- -> /projects
+127.0.0.1 - - [31/Dec/2021:07:27:25 -0300] "PUT /projects/-9223372036854775808 HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:27:25 -03] "PUT /projects/-9223372036854775808 HTTP/1.1" 422 0
+- -> /projects/-9223372036854775808
+127.0.0.1 - - [31/Dec/2021:07:27:30 -0300] "POST /projects HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:27:30 -03] "POST /projects HTTP/1.1" 422 0
+- -> /projects
+127.0.0.1 - - [31/Dec/2021:07:27:35 -0300] "DELETE /projects/%5B%21%3EBh%2C%27K%3EU%3B%5CI%28%3CSv HTTP/1.1" 404 52 0.0005
+127.0.0.1 - - [31/Dec/2021:07:27:35 -03] "DELETE /projects/%5B%21%3EBh%2C%27K%3EU%3B%5CI%28%3CSv HTTP/1.1" 404 52
+- -> /projects/%5B%21%3EBh%2C%27K%3EU%3B%5CI%28%3CSv
+127.0.0.1 - - [31/Dec/2021:07:27:40 -0300] "PUT /projects/0 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:27:40 -03] "PUT /projects/0 HTTP/1.1" 404 0
+- -> /projects/0
+127.0.0.1 - - [31/Dec/2021:07:27:45 -0300] "GET /projects/%2BnT%60kfbKx%23gY%7Dv HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:27:45 -03] "GET /projects/%2BnT%60kfbKx%23gY%7Dv HTTP/1.1" 404 0
+- -> /projects/%2BnT%60kfbKx%23gY%7Dv
+127.0.0.1 - - [31/Dec/2021:07:27:50 -0300] "GET /projects/18446744073709551616 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:27:50 -03] "GET /projects/18446744073709551616 HTTP/1.1" 404 0
+- -> /projects/18446744073709551616
+127.0.0.1 - - [31/Dec/2021:07:27:55 -0300] "POST /projects HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:27:55 -03] "POST /projects HTTP/1.1" 422 0
+- -> /projects
+127.0.0.1 - - [31/Dec/2021:07:28:00 -0300] "DELETE /projects/%23Sh%2Fo%3F0%3D-bQ%3DPxP%28W%258f HTTP/1.1" 404 49 0.0004
+127.0.0.1 - - [31/Dec/2021:07:28:00 -03] "DELETE /projects/%23Sh%2Fo%3F0%3D-bQ%3DPxP%28W%258f HTTP/1.1" 404 49
+- -> /projects/%23Sh%2Fo%3F0%3D-bQ%3DPxP%28W%258f
+127.0.0.1 - - [31/Dec/2021:07:28:05 -0300] "DELETE /projects/0 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:28:05 -03] "DELETE /projects/0 HTTP/1.1" 404 0
+- -> /projects/0
+127.0.0.1 - - [31/Dec/2021:07:28:10 -0300] "GET /projects/1 HTTP/1.1" 200 50 0.0004
+127.0.0.1 - - [31/Dec/2021:07:28:10 -03] "GET /projects/1 HTTP/1.1" 200 50
+- -> /projects/1
+127.0.0.1 - - [31/Dec/2021:07:28:15 -0300] "GET /projects/%28uxo%22KM%5Ec9%3D%2Fu%21%7C%5C%203%60 HTTP/1.1" 404 49 0.0004
+127.0.0.1 - - [31/Dec/2021:07:28:15 -03] "GET /projects/%28uxo%22KM%5Ec9%3D%2Fu%21%7C%5C%203%60 HTTP/1.1" 404 49
+- -> /projects/%28uxo%22KM%5Ec9%3D%2Fu%21%7C%5C%203%60
+127.0.0.1 - - [31/Dec/2021:07:28:20 -0300] "PUT /projects/4294967296 HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:28:20 -03] "PUT /projects/4294967296 HTTP/1.1" 422 0
+- -> /projects/4294967296
+127.0.0.1 - - [31/Dec/2021:07:28:33 -0300] "DELETE /projects/A%2C%5BvX%3BF%24PUJa%21v5 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:28:33 -03] "DELETE /projects/A%2C%5BvX%3BF%24PUJa%21v5 HTTP/1.1" 404 0
+- -> /projects/A%2C%5BvX%3BF%24PUJa%21v5
+127.0.0.1 - - [31/Dec/2021:07:28:38 -0300] "GET /projects/%2CERj8stw%3B%5EnC%205ahV HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:28:38 -03] "GET /projects/%2CERj8stw%3B%5EnC%205ahV HTTP/1.1" 404 0
+- -> /projects/%2CERj8stw%3B%5EnC%205ahV
+127.0.0.1 - - [31/Dec/2021:07:28:43 -0300] "GET /projects/fJ-y%5D_qdG2DsJpO%5B9%5D HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:28:43 -03] "GET /projects/fJ-y%5D_qdG2DsJpO%5B9%5D HTTP/1.1" 404 0
+- -> /projects/fJ-y%5D_qdG2DsJpO%5B9%5D
+127.0.0.1 - - [31/Dec/2021:07:28:48 -0300] "GET /projects/%7Ev%3E%7EZ5K%7Cbp_.Q2%2Fw HTTP/1.1" 404 38 0.0004
+127.0.0.1 - - [31/Dec/2021:07:28:48 -03] "GET /projects/%7Ev%3E%7EZ5K%7Cbp_.Q2%2Fw HTTP/1.1" 404 38
+- -> /projects/%7Ev%3E%7EZ5K%7Cbp_.Q2%2Fw
+127.0.0.1 - - [31/Dec/2021:07:28:53 -0300] "PUT /projects/-9223372036854775808 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:28:53 -03] "PUT /projects/-9223372036854775808 HTTP/1.1" 404 0
+- -> /projects/-9223372036854775808
+127.0.0.1 - - [31/Dec/2021:07:28:58 -0300] "DELETE /projects/1.1 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:28:58 -03] "DELETE /projects/1.1 HTTP/1.1" 404 0
+- -> /projects/1.1
+127.0.0.1 - - [31/Dec/2021:07:29:03 -0300] "PUT /projects/%602jw3_-%24j-%28%5C3U HTTP/1.1" 404 34 0.0005
+127.0.0.1 - - [31/Dec/2021:07:29:03 -03] "PUT /projects/%602jw3_-%24j-%28%5C3U HTTP/1.1" 404 34
+- -> /projects/%602jw3_-%24j-%28%5C3U
+127.0.0.1 - - [31/Dec/2021:07:29:08 -0300] "POST /projects HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:29:08 -03] "POST /projects HTTP/1.1" 422 0
+- -> /projects
+127.0.0.1 - - [31/Dec/2021:07:29:13 -0300] "PUT /projects/785%7D%29TodDr%3Bo8 HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:29:13 -03] "PUT /projects/785%7D%29TodDr%3Bo8 HTTP/1.1" 422 0
+- -> /projects/785%7D%29TodDr%3Bo8
+127.0.0.1 - - [31/Dec/2021:07:29:18 -0300] "POST /projects HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:29:18 -03] "POST /projects HTTP/1.1" 422 0
+- -> /projects
+127.0.0.1 - - [31/Dec/2021:07:29:23 -0300] "DELETE /projects/randomString HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:29:23 -03] "DELETE /projects/randomString HTTP/1.1" 404 0
+- -> /projects/randomString
+127.0.0.1 - - [31/Dec/2021:07:29:28 -0300] "PUT /projects/F%20I%2CG%5BU%3C%3DV HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:29:28 -03] "PUT /projects/F%20I%2CG%5BU%3C%3DV HTTP/1.1" 422 0
+- -> /projects/F%20I%2CG%5BU%3C%3DV
+127.0.0.1 - - [31/Dec/2021:07:29:33 -0300] "POST /projects HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:29:33 -03] "POST /projects HTTP/1.1" 422 0
+- -> /projects
+127.0.0.1 - - [31/Dec/2021:07:29:38 -0300] "GET /projects/1 HTTP/1.1" 200 50 0.0005
+127.0.0.1 - - [31/Dec/2021:07:29:38 -03] "GET /projects/1 HTTP/1.1" 200 50
+- -> /projects/1
+127.0.0.1 - - [31/Dec/2021:07:29:43 -0300] "POST /projects HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:29:43 -03] "POST /projects HTTP/1.1" 422 0
+- -> /projects
+127.0.0.1 - - [31/Dec/2021:07:29:48 -0300] "DELETE /projects/%5C0 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:29:48 -03] "DELETE /projects/%5C0 HTTP/1.1" 404 0
+- -> /projects/%5C0
+127.0.0.1 - - [31/Dec/2021:07:30:00 -0300] "DELETE /projects/4294967296 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:30:00 -03] "DELETE /projects/4294967296 HTTP/1.1" 404 0
+- -> /projects/4294967296
+127.0.0.1 - - [31/Dec/2021:07:30:05 -0300] "PUT /projects/randomString HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:30:05 -03] "PUT /projects/randomString HTTP/1.1" 422 0
+- -> /projects/randomString
+127.0.0.1 - - [31/Dec/2021:07:30:10 -0300] "POST /projects HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:30:10 -03] "POST /projects HTTP/1.1" 422 0
+- -> /projects
+127.0.0.1 - - [31/Dec/2021:07:30:15 -0300] "POST /projects HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:30:15 -03] "POST /projects HTTP/1.1" 422 0
+- -> /projects
+127.0.0.1 - - [31/Dec/2021:07:30:20 -0300] "GET /projects/2147483648 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:30:20 -03] "GET /projects/2147483648 HTTP/1.1" 404 0
+- -> /projects/2147483648
+127.0.0.1 - - [31/Dec/2021:07:30:25 -0300] "PUT /projects/-9223372036854775808 HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:30:25 -03] "PUT /projects/-9223372036854775808 HTTP/1.1" 422 0
+- -> /projects/-9223372036854775808
+127.0.0.1 - - [31/Dec/2021:07:30:31 -0300] "GET /projects/-9223372036854775808 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:30:31 -03] "GET /projects/-9223372036854775808 HTTP/1.1" 404 0
+- -> /projects/-9223372036854775808
+127.0.0.1 - - [31/Dec/2021:07:30:36 -0300] "POST /projects HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:30:36 -03] "POST /projects HTTP/1.1" 422 0
+- -> /projects
+127.0.0.1 - - [31/Dec/2021:07:30:41 -0300] "GET /projects/%5Dm%2C%26W5FHLaP7PRNx%5C5J HTTP/1.1" 404 39 0.0004
+127.0.0.1 - - [31/Dec/2021:07:30:41 -03] "GET /projects/%5Dm%2C%26W5FHLaP7PRNx%5C5J HTTP/1.1" 404 39
+- -> /projects/%5Dm%2C%26W5FHLaP7PRNx%5C5J
+127.0.0.1 - - [31/Dec/2021:07:30:46 -0300] "POST /projects HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:30:46 -03] "POST /projects HTTP/1.1" 422 0
+- -> /projects
+127.0.0.1 - - [31/Dec/2021:07:30:51 -0300] "DELETE /projects/U%7DW%7Cmx_Xbj HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:30:51 -03] "DELETE /projects/U%7DW%7Cmx_Xbj HTTP/1.1" 404 0
+- -> /projects/U%7DW%7Cmx_Xbj
+127.0.0.1 - - [31/Dec/2021:07:30:56 -0300] "DELETE /projects/4294967296 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:30:56 -03] "DELETE /projects/4294967296 HTTP/1.1" 404 0
+- -> /projects/4294967296
+127.0.0.1 - - [31/Dec/2021:07:31:01 -0300] "PUT /projects/null HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:31:01 -03] "PUT /projects/null HTTP/1.1" 422 0
+- -> /projects/null
+127.0.0.1 - - [31/Dec/2021:07:31:06 -0300] "GET /projects/%7D%5D%2C2mcxcI5%3A%3DGI%2B%3B HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:31:06 -03] "GET /projects/%7D%5D%2C2mcxcI5%3A%3DGI%2B%3B HTTP/1.1" 404 0
+- -> /projects/%7D%5D%2C2mcxcI5%3A%3DGI%2B%3B
+127.0.0.1 - - [31/Dec/2021:07:31:11 -0300] "PUT /projects/-1 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:31:11 -03] "PUT /projects/-1 HTTP/1.1" 404 0
+- -> /projects/-1
+127.0.0.1 - - [31/Dec/2021:07:31:16 -0300] "DELETE /projects/og%7C%7DDcET%3CL%26JX4Z%3CU HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:31:16 -03] "DELETE /projects/og%7C%7DDcET%3CL%26JX4Z%3CU HTTP/1.1" 404 0
+- -> /projects/og%7C%7DDcET%3CL%26JX4Z%3CU
+127.0.0.1 - - [31/Dec/2021:07:31:28 -0300] "DELETE /projects/J3yb9L%27dKUS%7DrKwL%40 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:31:28 -03] "DELETE /projects/J3yb9L%27dKUS%7DrKwL%40 HTTP/1.1" 404 0
+- -> /projects/J3yb9L%27dKUS%7DrKwL%40
+127.0.0.1 - - [31/Dec/2021:07:31:33 -0300] "GET /projects/Ci%23cIyt%3ETaQ%5D HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:31:33 -03] "GET /projects/Ci%23cIyt%3ETaQ%5D HTTP/1.1" 404 0
+- -> /projects/Ci%23cIyt%3ETaQ%5D
+127.0.0.1 - - [31/Dec/2021:07:31:38 -0300] "PUT /projects/0 HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:31:38 -03] "PUT /projects/0 HTTP/1.1" 422 0
+- -> /projects/0
+127.0.0.1 - - [31/Dec/2021:07:31:43 -0300] "POST /projects HTTP/1.1" 201 8 0.0004
+127.0.0.1 - - [31/Dec/2021:07:31:43 -03] "POST /projects HTTP/1.1" 201 8
+- -> /projects
+127.0.0.1 - - [31/Dec/2021:07:31:48 -0300] "POST /projects HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:31:48 -03] "POST /projects HTTP/1.1" 422 0
+- -> /projects
+127.0.0.1 - - [31/Dec/2021:07:31:53 -0300] "PUT /projects/oPVC%24%21Q0%2CE%3C4Ahiij HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:31:53 -03] "PUT /projects/oPVC%24%21Q0%2CE%3C4Ahiij HTTP/1.1" 404 0
+- -> /projects/oPVC%24%21Q0%2CE%3C4Ahiij
+127.0.0.1 - - [31/Dec/2021:07:31:58 -0300] "GET /projects/1 HTTP/1.1" 200 50 0.0005
+127.0.0.1 - - [31/Dec/2021:07:31:58 -03] "GET /projects/1 HTTP/1.1" 200 50
+- -> /projects/1
+127.0.0.1 - - [31/Dec/2021:07:32:03 -0300] "DELETE /projects/u36%3A.%20%7DEa%7C_C%3FbJ7%3E%3A%25 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:32:03 -03] "DELETE /projects/u36%3A.%20%7DEa%7C_C%3FbJ7%3E%3A%25 HTTP/1.1" 404 0
+- -> /projects/u36%3A.%20%7DEa%7C_C%3FbJ7%3E%3A%25
+127.0.0.1 - - [31/Dec/2021:07:32:08 -0300] "GET /projects/%3BFDeZ%233nVnsY HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:32:08 -03] "GET /projects/%3BFDeZ%233nVnsY HTTP/1.1" 404 0
+- -> /projects/%3BFDeZ%233nVnsY
+127.0.0.1 - - [31/Dec/2021:07:32:13 -0300] "GET /projects/9223372036854775808 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:32:13 -03] "GET /projects/9223372036854775808 HTTP/1.1" 404 0
+- -> /projects/9223372036854775808
+127.0.0.1 - - [31/Dec/2021:07:32:18 -0300] "POST /projects HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:32:18 -03] "POST /projects HTTP/1.1" 422 0
+- -> /projects
+127.0.0.1 - - [31/Dec/2021:07:32:23 -0300] "DELETE /projects/W%7Cb%29%3F%3F%7Ex6%40 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:32:23 -03] "DELETE /projects/W%7Cb%29%3F%3F%7Ex6%40 HTTP/1.1" 404 0
+- -> /projects/W%7Cb%29%3F%3F%7Ex6%40
+127.0.0.1 - - [31/Dec/2021:07:32:29 -0300] "PUT /projects/%5D.3S%20%40R%26qfJs0-%24 HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:32:29 -03] "PUT /projects/%5D.3S%20%40R%26qfJs0-%24 HTTP/1.1" 422 0
+- -> /projects/%5D.3S%20%40R%26qfJs0-%24
+127.0.0.1 - - [31/Dec/2021:07:32:34 -0300] "POST /projects HTTP/1.1" 201 8 0.0004
+127.0.0.1 - - [31/Dec/2021:07:32:34 -03] "POST /projects HTTP/1.1" 201 8
+- -> /projects
+127.0.0.1 - - [31/Dec/2021:07:32:39 -0300] "PUT /projects/9223372036854775808 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:32:39 -03] "PUT /projects/9223372036854775808 HTTP/1.1" 404 0
+- -> /projects/9223372036854775808
+127.0.0.1 - - [31/Dec/2021:07:32:44 -0300] "DELETE /projects/9223372036854775808 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:32:44 -03] "DELETE /projects/9223372036854775808 HTTP/1.1" 404 0
+- -> /projects/9223372036854775808
+127.0.0.1 - - [31/Dec/2021:07:32:56 -0300] "DELETE /projects/9223372036854775808 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:32:56 -03] "DELETE /projects/9223372036854775808 HTTP/1.1" 404 0
+- -> /projects/9223372036854775808
+127.0.0.1 - - [31/Dec/2021:07:33:01 -0300] "PUT /projects/4294967296 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:33:01 -03] "PUT /projects/4294967296 HTTP/1.1" 404 0
+- -> /projects/4294967296
+127.0.0.1 - - [31/Dec/2021:07:33:06 -0300] "POST /projects HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:33:06 -03] "POST /projects HTTP/1.1" 422 0
+- -> /projects
+127.0.0.1 - - [31/Dec/2021:07:33:11 -0300] "DELETE /projects/null HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:33:11 -03] "DELETE /projects/null HTTP/1.1" 404 0
+- -> /projects/null
+127.0.0.1 - - [31/Dec/2021:07:33:16 -0300] "POST /projects HTTP/1.1" 201 8 0.0004
+127.0.0.1 - - [31/Dec/2021:07:33:16 -03] "POST /projects HTTP/1.1" 201 8
+- -> /projects
+127.0.0.1 - - [31/Dec/2021:07:33:21 -0300] "POST /projects HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:33:21 -03] "POST /projects HTTP/1.1" 422 0
+- -> /projects
+127.0.0.1 - - [31/Dec/2021:07:33:26 -0300] "PUT /projects/0nA%23%26ZF%5DBXuBQPo%60cy HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:33:26 -03] "PUT /projects/0nA%23%26ZF%5DBXuBQPo%60cy HTTP/1.1" 422 0
+- -> /projects/0nA%23%26ZF%5DBXuBQPo%60cy
+127.0.0.1 - - [31/Dec/2021:07:33:31 -0300] "GET /projects/%2FHIS-Mv5nnPMyd HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:33:31 -03] "GET /projects/%2FHIS-Mv5nnPMyd HTTP/1.1" 404 0
+- -> /projects/%2FHIS-Mv5nnPMyd
+127.0.0.1 - - [31/Dec/2021:07:33:36 -0300] "DELETE /projects/M%24*r%3F%3CPA%7E- HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:33:36 -03] "DELETE /projects/M%24*r%3F%3CPA%7E- HTTP/1.1" 404 0
+- -> /projects/M%24*r%3F%3CPA%7E-
+127.0.0.1 - - [31/Dec/2021:07:33:41 -0300] "GET /projects/null HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:33:41 -03] "GET /projects/null HTTP/1.1" 404 0
+- -> /projects/null
+127.0.0.1 - - [31/Dec/2021:07:33:46 -0300] "PUT /projects/%2BKNd8B%7CTzg HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:33:46 -03] "PUT /projects/%2BKNd8B%7CTzg HTTP/1.1" 422 0
+- -> /projects/%2BKNd8B%7CTzg
+127.0.0.1 - - [31/Dec/2021:07:33:51 -0300] "GET /projects/%28U%7E0S%26%2C%7C%22*%7E%29%23B HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:33:51 -03] "GET /projects/%28U%7E0S%26%2C%7C%22*%7E%29%23B HTTP/1.1" 404 0
+- -> /projects/%28U%7E0S%26%2C%7C%22*%7E%29%23B
+127.0.0.1 - - [31/Dec/2021:07:33:56 -0300] "POST /projects HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:33:56 -03] "POST /projects HTTP/1.1" 422 0
+- -> /projects
+127.0.0.1 - - [31/Dec/2021:07:34:01 -0300] "DELETE /projects/-1 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:34:01 -03] "DELETE /projects/-1 HTTP/1.1" 404 0
+- -> /projects/-1
+127.0.0.1 - - [31/Dec/2021:07:34:06 -0300] "PUT /projects/%60Yu%21Uq2Hp7G4sL%3D HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:34:06 -03] "PUT /projects/%60Yu%21Uq2Hp7G4sL%3D HTTP/1.1" 422 0
+- -> /projects/%60Yu%21Uq2Hp7G4sL%3D
+127.0.0.1 - - [31/Dec/2021:07:34:11 -0300] "GET /projects/WFO%60cVn%3F%22DO%2F31vCP%24 HTTP/1.1" 404 40 0.0004
+127.0.0.1 - - [31/Dec/2021:07:34:11 -03] "GET /projects/WFO%60cVn%3F%22DO%2F31vCP%24 HTTP/1.1" 404 40
+- -> /projects/WFO%60cVn%3F%22DO%2F31vCP%24
+127.0.0.1 - - [31/Dec/2021:07:34:24 -0300] "POST /projects HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:34:24 -03] "POST /projects HTTP/1.1" 422 0
+- -> /projects
+127.0.0.1 - - [31/Dec/2021:07:34:29 -0300] "DELETE /projects/null HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:34:29 -03] "DELETE /projects/null HTTP/1.1" 404 0
+- -> /projects/null
+127.0.0.1 - - [31/Dec/2021:07:34:34 -0300] "GET /projects/18446744073709551616 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:34:34 -03] "GET /projects/18446744073709551616 HTTP/1.1" 404 0
+- -> /projects/18446744073709551616
+127.0.0.1 - - [31/Dec/2021:07:34:39 -0300] "POST /projects HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:34:39 -03] "POST /projects HTTP/1.1" 422 0
+- -> /projects
+127.0.0.1 - - [31/Dec/2021:07:34:44 -0300] "GET /projects/%5B8y%237b%5CsAcT%3D2p%3APL9q HTTP/1.1" 404 41 0.0005
+127.0.0.1 - - [31/Dec/2021:07:34:44 -03] "GET /projects/%5B8y%237b%5CsAcT%3D2p%3APL9q HTTP/1.1" 404 41
+- -> /projects/%5B8y%237b%5CsAcT%3D2p%3APL9q
+127.0.0.1 - - [31/Dec/2021:07:34:49 -0300] "PUT /projects/randomString HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:34:49 -03] "PUT /projects/randomString HTTP/1.1" 422 0
+- -> /projects/randomString
+127.0.0.1 - - [31/Dec/2021:07:34:54 -0300] "DELETE /projects/3%3C%28-_70yYz%22%27tJ* HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:34:54 -03] "DELETE /projects/3%3C%28-_70yYz%22%27tJ* HTTP/1.1" 404 0
+- -> /projects/3%3C%28-_70yYz%22%27tJ*
+127.0.0.1 - - [31/Dec/2021:07:34:59 -0300] "PUT /projects/null HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:34:59 -03] "PUT /projects/null HTTP/1.1" 404 0
+- -> /projects/null
+127.0.0.1 - - [31/Dec/2021:07:35:04 -0300] "DELETE /projects/18446744073709551616 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:35:04 -03] "DELETE /projects/18446744073709551616 HTTP/1.1" 404 0
+- -> /projects/18446744073709551616
+127.0.0.1 - - [31/Dec/2021:07:35:09 -0300] "DELETE /projects/%22y%5BV%26o%5BokU-Ze%5C%60xp HTTP/1.1" 404 44 0.0005
+127.0.0.1 - - [31/Dec/2021:07:35:09 -03] "DELETE /projects/%22y%5BV%26o%5BokU-Ze%5C%60xp HTTP/1.1" 404 44
+- -> /projects/%22y%5BV%26o%5BokU-Ze%5C%60xp
+127.0.0.1 - - [31/Dec/2021:07:35:14 -0300] "PUT /projects/null HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:35:14 -03] "PUT /projects/null HTTP/1.1" 404 0
+- -> /projects/null
+127.0.0.1 - - [31/Dec/2021:07:35:19 -0300] "PUT /projects/-1 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:35:19 -03] "PUT /projects/-1 HTTP/1.1" 404 0
+- -> /projects/-1
+127.0.0.1 - - [31/Dec/2021:07:35:24 -0300] "POST /projects HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:35:24 -03] "POST /projects HTTP/1.1" 422 0
+- -> /projects
+127.0.0.1 - - [31/Dec/2021:07:35:29 -0300] "GET /projects/hMq%3Dim%3AVJv-9%2BQ%3B%3DfW%24%24 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:35:29 -03] "GET /projects/hMq%3Dim%3AVJv-9%2BQ%3B%3DfW%24%24 HTTP/1.1" 404 0
+- -> /projects/hMq%3Dim%3AVJv-9%2BQ%3B%3DfW%24%24
+127.0.0.1 - - [31/Dec/2021:07:35:34 -0300] "GET /projects/V%2B%3D%21%29W%3AG%40d8CI HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:35:34 -03] "GET /projects/V%2B%3D%21%29W%3AG%40d8CI HTTP/1.1" 404 0
+- -> /projects/V%2B%3D%21%29W%3AG%40d8CI
+127.0.0.1 - - [31/Dec/2021:07:35:39 -0300] "POST /projects HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:35:39 -03] "POST /projects HTTP/1.1" 422 0
+- -> /projects
+127.0.0.1 - - [31/Dec/2021:07:35:52 -0300] "GET /projects/eu%29%5B%2BN5%27B%25pmzTYgLYp HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:35:52 -03] "GET /projects/eu%29%5B%2BN5%27B%25pmzTYgLYp HTTP/1.1" 404 0
+- -> /projects/eu%29%5B%2BN5%27B%25pmzTYgLYp
+127.0.0.1 - - [31/Dec/2021:07:35:57 -0300] "POST /projects HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:35:57 -03] "POST /projects HTTP/1.1" 422 0
+- -> /projects
+127.0.0.1 - - [31/Dec/2021:07:36:02 -0300] "GET /projects/-1 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:36:02 -03] "GET /projects/-1 HTTP/1.1" 404 0
+- -> /projects/-1
+127.0.0.1 - - [31/Dec/2021:07:36:07 -0300] "PUT /projects/%5C0 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:36:07 -03] "PUT /projects/%5C0 HTTP/1.1" 404 0
+- -> /projects/%5C0
+127.0.0.1 - - [31/Dec/2021:07:36:12 -0300] "POST /projects HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:36:12 -03] "POST /projects HTTP/1.1" 422 0
+- -> /projects
+127.0.0.1 - - [31/Dec/2021:07:36:17 -0300] "GET /projects/%24Y16.etvK%3FQ%3Ce3 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:36:17 -03] "GET /projects/%24Y16.etvK%3FQ%3Ce3 HTTP/1.1" 404 0
+- -> /projects/%24Y16.etvK%3FQ%3Ce3
+127.0.0.1 - - [31/Dec/2021:07:36:22 -0300] "PUT /projects/%5C0 HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:36:22 -03] "PUT /projects/%5C0 HTTP/1.1" 422 0
+- -> /projects/%5C0
+127.0.0.1 - - [31/Dec/2021:07:36:27 -0300] "GET /projects/a%40k%26Z%21%26%3F%7DFtH%3B%5EZ%5EX HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:36:27 -03] "GET /projects/a%40k%26Z%21%26%3F%7DFtH%3B%5EZ%5EX HTTP/1.1" 404 0
+- -> /projects/a%40k%26Z%21%26%3F%7DFtH%3B%5EZ%5EX
+127.0.0.1 - - [31/Dec/2021:07:36:32 -0300] "DELETE /projects/0 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:36:32 -03] "DELETE /projects/0 HTTP/1.1" 404 0
+- -> /projects/0
+127.0.0.1 - - [31/Dec/2021:07:36:37 -0300] "PUT /projects/9223372036854775808 HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:36:37 -03] "PUT /projects/9223372036854775808 HTTP/1.1" 422 0
+- -> /projects/9223372036854775808
+127.0.0.1 - - [31/Dec/2021:07:36:42 -0300] "POST /projects HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:36:42 -03] "POST /projects HTTP/1.1" 422 0
+- -> /projects
+127.0.0.1 - - [31/Dec/2021:07:36:47 -0300] "DELETE /projects/l%5BV*oA8-%27%7CAT HTTP/1.1" 404 - 0.0003
+127.0.0.1 - - [31/Dec/2021:07:36:47 -03] "DELETE /projects/l%5BV*oA8-%27%7CAT HTTP/1.1" 404 0
+- -> /projects/l%5BV*oA8-%27%7CAT
+127.0.0.1 - - [31/Dec/2021:07:36:52 -0300] "DELETE /projects/1.1 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:36:52 -03] "DELETE /projects/1.1 HTTP/1.1" 404 0
+- -> /projects/1.1
+127.0.0.1 - - [31/Dec/2021:07:36:57 -0300] "POST /projects HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:36:57 -03] "POST /projects HTTP/1.1" 422 0
+- -> /projects
+127.0.0.1 - - [31/Dec/2021:07:37:02 -0300] "PUT /projects/0 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:37:02 -03] "PUT /projects/0 HTTP/1.1" 404 0
+- -> /projects/0
+127.0.0.1 - - [31/Dec/2021:07:37:07 -0300] "DELETE /projects/%27cX%2F%20OnyxbK%60 HTTP/1.1" 404 35 0.0004
+127.0.0.1 - - [31/Dec/2021:07:37:07 -03] "DELETE /projects/%27cX%2F%20OnyxbK%60 HTTP/1.1" 404 35
+- -> /projects/%27cX%2F%20OnyxbK%60
+127.0.0.1 - - [31/Dec/2021:07:37:20 -0300] "PUT /projects/yl%2FlID.uw%282I%5B%7C%3Ci HTTP/1.1" 404 38 0.0004
+127.0.0.1 - - [31/Dec/2021:07:37:20 -03] "PUT /projects/yl%2FlID.uw%282I%5B%7C%3Ci HTTP/1.1" 404 38
+- -> /projects/yl%2FlID.uw%282I%5B%7C%3Ci
+127.0.0.1 - - [31/Dec/2021:07:37:25 -0300] "GET /projects/1.1 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:37:25 -03] "GET /projects/1.1 HTTP/1.1" 404 0
+- -> /projects/1.1
+127.0.0.1 - - [31/Dec/2021:07:37:30 -0300] "GET /projects/-1 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:37:30 -03] "GET /projects/-1 HTTP/1.1" 404 0
+- -> /projects/-1
+127.0.0.1 - - [31/Dec/2021:07:37:35 -0300] "DELETE /projects/%2C%2C%22%22D8*zwKIuV HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:37:35 -03] "DELETE /projects/%2C%2C%22%22D8*zwKIuV HTTP/1.1" 404 0
+- -> /projects/%2C%2C%22%22D8*zwKIuV
+127.0.0.1 - - [31/Dec/2021:07:37:40 -0300] "POST /projects HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:37:40 -03] "POST /projects HTTP/1.1" 422 0
+- -> /projects
+127.0.0.1 - - [31/Dec/2021:07:37:45 -0300] "PUT /projects/%3FEyHpI%23Xj%5CO%5E HTTP/1.1" 404 32 0.0004
+127.0.0.1 - - [31/Dec/2021:07:37:45 -03] "PUT /projects/%3FEyHpI%23Xj%5CO%5E HTTP/1.1" 404 32
+- -> /projects/%3FEyHpI%23Xj%5CO%5E
+127.0.0.1 - - [31/Dec/2021:07:37:50 -0300] "DELETE /projects/XDv%3E%3A%7Cr%24I%7Eh29%2BAc%5E%2Br HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:37:50 -03] "DELETE /projects/XDv%3E%3A%7Cr%24I%7Eh29%2BAc%5E%2Br HTTP/1.1" 404 0
+- -> /projects/XDv%3E%3A%7Cr%24I%7Eh29%2BAc%5E%2Br
+127.0.0.1 - - [31/Dec/2021:07:37:55 -0300] "POST /projects HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:37:55 -03] "POST /projects HTTP/1.1" 422 0
+- -> /projects
+127.0.0.1 - - [31/Dec/2021:07:38:00 -0300] "DELETE /projects/u7bsSBM%29%29%2BDwre%23H HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:38:00 -03] "DELETE /projects/u7bsSBM%29%29%2BDwre%23H HTTP/1.1" 404 0
+- -> /projects/u7bsSBM%29%29%2BDwre%23H
+127.0.0.1 - - [31/Dec/2021:07:38:05 -0300] "GET /projects/0 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:38:05 -03] "GET /projects/0 HTTP/1.1" 404 0
+- -> /projects/0
+127.0.0.1 - - [31/Dec/2021:07:38:10 -0300] "POST /projects HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:38:10 -03] "POST /projects HTTP/1.1" 422 0
+- -> /projects
+127.0.0.1 - - [31/Dec/2021:07:38:15 -0300] "PUT /projects/18446744073709551616 HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:38:15 -03] "PUT /projects/18446744073709551616 HTTP/1.1" 422 0
+- -> /projects/18446744073709551616
+127.0.0.1 - - [31/Dec/2021:07:38:20 -0300] "DELETE /projects/V%2FEkliiiy%3CC6 HTTP/1.1" 404 31 0.0004
+127.0.0.1 - - [31/Dec/2021:07:38:20 -03] "DELETE /projects/V%2FEkliiiy%3CC6 HTTP/1.1" 404 31
+- -> /projects/V%2FEkliiiy%3CC6
+127.0.0.1 - - [31/Dec/2021:07:38:25 -0300] "PUT /projects/.9jI%60NaHic%2CVaaxG%284%2C%20 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:38:25 -03] "PUT /projects/.9jI%60NaHic%2CVaaxG%284%2C%20 HTTP/1.1" 404 0
+- -> /projects/.9jI%60NaHic%2CVaaxG%284%2C%20
+127.0.0.1 - - [31/Dec/2021:07:38:30 -0300] "GET /projects/%2FE.%3D%2CnaQ%3D%22e HTTP/1.1" 404 - 0.0006
+127.0.0.1 - - [31/Dec/2021:07:38:30 -03] "GET /projects/%2FE.%3D%2CnaQ%3D%22e HTTP/1.1" 404 0
+- -> /projects/%2FE.%3D%2CnaQ%3D%22e
+127.0.0.1 - - [31/Dec/2021:07:38:35 -0300] "POST /projects HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:38:35 -03] "POST /projects HTTP/1.1" 422 0
+- -> /projects
+127.0.0.1 - - [31/Dec/2021:07:38:48 -0300] "PUT /projects/randomString HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:38:48 -03] "PUT /projects/randomString HTTP/1.1" 422 0
+- -> /projects/randomString
+127.0.0.1 - - [31/Dec/2021:07:38:53 -0300] "PUT /projects/%7Dtx%21%3E%7D%40%3EG7 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:38:53 -03] "PUT /projects/%7Dtx%21%3E%7D%40%3EG7 HTTP/1.1" 404 0
+- -> /projects/%7Dtx%21%3E%7D%40%3EG7
+127.0.0.1 - - [31/Dec/2021:07:38:58 -0300] "GET /projects/F5u2w%2FZYi8-BF*%28YF%3Fn HTTP/1.1" 404 37 0.0005
+127.0.0.1 - - [31/Dec/2021:07:38:58 -03] "GET /projects/F5u2w%2FZYi8-BF*%28YF%3Fn HTTP/1.1" 404 37
+- -> /projects/F5u2w%2FZYi8-BF*%28YF%3Fn
+127.0.0.1 - - [31/Dec/2021:07:39:03 -0300] "GET /projects/null HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:39:03 -03] "GET /projects/null HTTP/1.1" 404 0
+- -> /projects/null
+127.0.0.1 - - [31/Dec/2021:07:39:08 -0300] "GET /projects/.Xki%29Wu%40%2FS0.%5EOWJB%7Di HTTP/1.1" 404 41 0.0005
+127.0.0.1 - - [31/Dec/2021:07:39:08 -03] "GET /projects/.Xki%29Wu%40%2FS0.%5EOWJB%7Di HTTP/1.1" 404 41
+- -> /projects/.Xki%29Wu%40%2FS0.%5EOWJB%7Di
+127.0.0.1 - - [31/Dec/2021:07:39:13 -0300] "DELETE /projects/mIyh%221%5C%22iBmb HTTP/1.1" 404 33 0.0005
+127.0.0.1 - - [31/Dec/2021:07:39:13 -03] "DELETE /projects/mIyh%221%5C%22iBmb HTTP/1.1" 404 33
+- -> /projects/mIyh%221%5C%22iBmb
+127.0.0.1 - - [31/Dec/2021:07:39:18 -0300] "DELETE /projects/%25%3C%21WhJP%3A%21%22B%21Kf5aR HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:39:18 -03] "DELETE /projects/%25%3C%21WhJP%3A%21%22B%21Kf5aR HTTP/1.1" 404 0
+- -> /projects/%25%3C%21WhJP%3A%21%22B%21Kf5aR
+127.0.0.1 - - [31/Dec/2021:07:39:23 -0300] "POST /projects HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:39:23 -03] "POST /projects HTTP/1.1" 422 0
+- -> /projects
+127.0.0.1 - - [31/Dec/2021:07:39:28 -0300] "GET /projects/2147483648 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:39:28 -03] "GET /projects/2147483648 HTTP/1.1" 404 0
+- -> /projects/2147483648
+127.0.0.1 - - [31/Dec/2021:07:39:33 -0300] "PUT /projects/Fb%5Dx.x%5D2%3A%2C%21D8NW%7DMQ HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:39:33 -03] "PUT /projects/Fb%5Dx.x%5D2%3A%2C%21D8NW%7DMQ HTTP/1.1" 422 0
+- -> /projects/Fb%5Dx.x%5D2%3A%2C%21D8NW%7DMQ
+127.0.0.1 - - [31/Dec/2021:07:39:38 -0300] "PUT /projects/1 HTTP/1.1" 200 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:39:38 -03] "PUT /projects/1 HTTP/1.1" 200 0
+- -> /projects/1
+127.0.0.1 - - [31/Dec/2021:07:39:43 -0300] "POST /projects HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:39:43 -03] "POST /projects HTTP/1.1" 422 0
+- -> /projects
+127.0.0.1 - - [31/Dec/2021:07:39:48 -0300] "DELETE /projects/Tg5Ub65rtmv%2C. HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:39:48 -03] "DELETE /projects/Tg5Ub65rtmv%2C. HTTP/1.1" 404 0
+- -> /projects/Tg5Ub65rtmv%2C.
+127.0.0.1 - - [31/Dec/2021:07:39:53 -0300] "DELETE /projects/1.1 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:39:53 -03] "DELETE /projects/1.1 HTTP/1.1" 404 0
+- -> /projects/1.1
+127.0.0.1 - - [31/Dec/2021:07:39:58 -0300] "POST /projects HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:39:58 -03] "POST /projects HTTP/1.1" 422 0
+- -> /projects
+127.0.0.1 - - [31/Dec/2021:07:40:03 -0300] "POST /projects HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:40:03 -03] "POST /projects HTTP/1.1" 422 0
+- -> /projects
+127.0.0.1 - - [31/Dec/2021:07:40:16 -0300] "POST /projects HTTP/1.1" 201 8 0.0004
+127.0.0.1 - - [31/Dec/2021:07:40:16 -03] "POST /projects HTTP/1.1" 201 8
+- -> /projects
+127.0.0.1 - - [31/Dec/2021:07:40:21 -0300] "GET /projects/4%5B%28%3C%7ELt%244i%24YLsp2UG%3E HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:40:21 -03] "GET /projects/4%5B%28%3C%7ELt%244i%24YLsp2UG%3E HTTP/1.1" 404 0
+- -> /projects/4%5B%28%3C%7ELt%244i%24YLsp2UG%3E
+127.0.0.1 - - [31/Dec/2021:07:40:26 -0300] "PUT /projects/s1K%25L%251_x%27b%21q*QmR%28 HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:40:26 -03] "PUT /projects/s1K%25L%251_x%27b%21q*QmR%28 HTTP/1.1" 422 0
+- -> /projects/s1K%25L%251_x%27b%21q*QmR%28
+127.0.0.1 - - [31/Dec/2021:07:40:31 -0300] "POST /projects HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:40:31 -03] "POST /projects HTTP/1.1" 422 0
+- -> /projects
+127.0.0.1 - - [31/Dec/2021:07:40:36 -0300] "GET /projects/18446744073709551616 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:40:36 -03] "GET /projects/18446744073709551616 HTTP/1.1" 404 0
+- -> /projects/18446744073709551616
+127.0.0.1 - - [31/Dec/2021:07:40:41 -0300] "DELETE /projects/18446744073709551616 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:40:41 -03] "DELETE /projects/18446744073709551616 HTTP/1.1" 404 0
+- -> /projects/18446744073709551616
+127.0.0.1 - - [31/Dec/2021:07:40:46 -0300] "DELETE /projects/Tr%3Aa%25l_3o%3A4D%7ElR8 HTTP/1.1" 404 - 0.0006
+127.0.0.1 - - [31/Dec/2021:07:40:46 -03] "DELETE /projects/Tr%3Aa%25l_3o%3A4D%7ElR8 HTTP/1.1" 404 0
+- -> /projects/Tr%3Aa%25l_3o%3A4D%7ElR8
+127.0.0.1 - - [31/Dec/2021:07:40:51 -0300] "PUT /projects/0 HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:40:51 -03] "PUT /projects/0 HTTP/1.1" 422 0
+- -> /projects/0
+127.0.0.1 - - [31/Dec/2021:07:40:56 -0300] "GET /projects/-2147483648 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:40:56 -03] "GET /projects/-2147483648 HTTP/1.1" 404 0
+- -> /projects/-2147483648
+127.0.0.1 - - [31/Dec/2021:07:41:02 -0300] "POST /projects HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:41:02 -03] "POST /projects HTTP/1.1" 422 0
+- -> /projects
+127.0.0.1 - - [31/Dec/2021:07:41:07 -0300] "GET /projects/null HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:41:07 -03] "GET /projects/null HTTP/1.1" 404 0
+- -> /projects/null
+127.0.0.1 - - [31/Dec/2021:07:41:12 -0300] "PUT /projects/2147483648 HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:41:12 -03] "PUT /projects/2147483648 HTTP/1.1" 422 0
+- -> /projects/2147483648
+127.0.0.1 - - [31/Dec/2021:07:41:17 -0300] "POST /projects HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:41:17 -03] "POST /projects HTTP/1.1" 422 0
+- -> /projects
+127.0.0.1 - - [31/Dec/2021:07:41:22 -0300] "DELETE /projects/4294967296 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:41:22 -03] "DELETE /projects/4294967296 HTTP/1.1" 404 0
+- -> /projects/4294967296
+127.0.0.1 - - [31/Dec/2021:07:41:27 -0300] "DELETE /projects/%22Jg_%60m%3A%25%2Cwv%20_%2Blh HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:41:27 -03] "DELETE /projects/%22Jg_%60m%3A%25%2Cwv%20_%2Blh HTTP/1.1" 404 0
+- -> /projects/%22Jg_%60m%3A%25%2Cwv%20_%2Blh
+127.0.0.1 - - [31/Dec/2021:07:41:32 -0300] "PUT /projects/null HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:41:32 -03] "PUT /projects/null HTTP/1.1" 422 0
+- -> /projects/null
+127.0.0.1 - - [31/Dec/2021:07:41:45 -0300] "POST /projects HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:41:45 -03] "POST /projects HTTP/1.1" 422 0
+- -> /projects
+127.0.0.1 - - [31/Dec/2021:07:41:50 -0300] "DELETE /projects/18446744073709551616 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:41:50 -03] "DELETE /projects/18446744073709551616 HTTP/1.1" 404 0
+- -> /projects/18446744073709551616
+127.0.0.1 - - [31/Dec/2021:07:41:55 -0300] "PUT /projects/k%5E0%3AUev_E-%2F5qP%213 HTTP/1.1" 404 36 0.0005
+127.0.0.1 - - [31/Dec/2021:07:41:55 -03] "PUT /projects/k%5E0%3AUev_E-%2F5qP%213 HTTP/1.1" 404 36
+- -> /projects/k%5E0%3AUev_E-%2F5qP%213
+127.0.0.1 - - [31/Dec/2021:07:42:00 -0300] "GET /projects/9223372036854775808 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:42:00 -03] "GET /projects/9223372036854775808 HTTP/1.1" 404 0
+- -> /projects/9223372036854775808
+127.0.0.1 - - [31/Dec/2021:07:42:05 -0300] "PUT /projects/null HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:42:05 -03] "PUT /projects/null HTTP/1.1" 422 0
+- -> /projects/null
+127.0.0.1 - - [31/Dec/2021:07:42:10 -0300] "POST /projects HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:42:10 -03] "POST /projects HTTP/1.1" 422 0
+- -> /projects
+127.0.0.1 - - [31/Dec/2021:07:42:15 -0300] "GET /projects/klMp2%5Btv%20%5D%7D HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:42:15 -03] "GET /projects/klMp2%5Btv%20%5D%7D HTTP/1.1" 404 0
+- -> /projects/klMp2%5Btv%20%5D%7D
+127.0.0.1 - - [31/Dec/2021:07:42:20 -0300] "PUT /projects/18446744073709551616 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:42:20 -03] "PUT /projects/18446744073709551616 HTTP/1.1" 404 0
+- -> /projects/18446744073709551616
+127.0.0.1 - - [31/Dec/2021:07:42:25 -0300] "POST /projects HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:42:25 -03] "POST /projects HTTP/1.1" 422 0
+- -> /projects
+127.0.0.1 - - [31/Dec/2021:07:42:30 -0300] "DELETE /projects/%25%3B2DpX%5Eqm8oz75%28 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:42:30 -03] "DELETE /projects/%25%3B2DpX%5Eqm8oz75%28 HTTP/1.1" 404 0
+- -> /projects/%25%3B2DpX%5Eqm8oz75%28
+127.0.0.1 - - [31/Dec/2021:07:42:35 -0300] "GET /projects/v5pSxShVd5%2Bc HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:42:35 -03] "GET /projects/v5pSxShVd5%2Bc HTTP/1.1" 404 0
+- -> /projects/v5pSxShVd5%2Bc
+127.0.0.1 - - [31/Dec/2021:07:42:40 -0300] "DELETE /projects/null HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:42:40 -03] "DELETE /projects/null HTTP/1.1" 404 0
+- -> /projects/null
+127.0.0.1 - - [31/Dec/2021:07:42:45 -0300] "POST /projects HTTP/1.1" 422 - 0.0011
+127.0.0.1 - - [31/Dec/2021:07:42:45 -03] "POST /projects HTTP/1.1" 422 0
+- -> /projects
+127.0.0.1 - - [31/Dec/2021:07:42:50 -0300] "PUT /projects/0 HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:42:50 -03] "PUT /projects/0 HTTP/1.1" 422 0
+- -> /projects/0
+127.0.0.1 - - [31/Dec/2021:07:42:55 -0300] "GET /projects/Eh%2CX2%5Bl-6%40%7C%3F2h%7C%7D HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:07:42:55 -03] "GET /projects/Eh%2CX2%5Bl-6%40%7C%3F2h%7C%7D HTTP/1.1" 404 0
+- -> /projects/Eh%2CX2%5Bl-6%40%7C%3F2h%7C%7D
+127.0.0.1 - - [31/Dec/2021:07:43:00 -0300] "DELETE /projects/uUiag%5E%40B%5D%5E HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:07:43:00 -03] "DELETE /projects/uUiag%5E%40B%5D%5E HTTP/1.1" 404 0
+- -> /projects/uUiag%5E%40B%5D%5E
+== Sinatra has ended his set (crowd applauds)
+[2021-12-31 07:43:09] INFO  going to shutdown ...
+[2021-12-31 07:43:09] INFO  WEBrick::HTTPServer#start done.

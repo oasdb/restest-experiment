@@ -1,0 +1,78 @@
+{
+  "uid" : "43bdd0074522acc1",
+  "name" : "test_trz78b7lrv3k_readproject",
+  "fullName" : "ProjectManagementInvalidExample.OasDbProjectManagementInvalidExample_1iynbo28fstvd.test_trz78b7lrv3k_readproject",
+  "historyId" : "ea928d77aee0e85097a0e62a63032443",
+  "time" : {
+    "start" : 1640951127482,
+    "stop" : 1640951127494,
+    "duration" : 12
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e330ab4f2121f6a3",
+      "name" : "Request",
+      "source" : "e330ab4f2121f6a3.html",
+      "type" : "text/html",
+      "size" : 245
+    }, {
+      "uid" : "326788cd898f76c5",
+      "name" : "HTTP/1.1 404 Not Found",
+      "source" : "326788cd898f76c5.html",
+      "type" : "text/html",
+      "size" : 546
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ProjectManagementInvalidExample"
+  }, {
+    "name" : "testClass",
+    "value" : "ProjectManagementInvalidExample.OasDbProjectManagementInvalidExample_1iynbo28fstvd"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_trz78b7lrv3k_readproject"
+  }, {
+    "name" : "suite",
+    "value" : "ProjectManagementInvalidExample.OasDbProjectManagementInvalidExample_1iynbo28fstvd"
+  }, {
+    "name" : "host",
+    "value" : "Alexs-MacBook-Pro-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "68692@Alexs-MacBook-Pro-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "43bdd0074522acc1.json",
+  "parameterValues" : [ ]
+}

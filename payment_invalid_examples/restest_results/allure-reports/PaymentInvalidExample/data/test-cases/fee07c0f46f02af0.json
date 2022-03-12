@@ -1,0 +1,78 @@
+{
+  "uid" : "fee07c0f46f02af0",
+  "name" : "test_vbf4fey6gvub_deletecharge",
+  "fullName" : "PaymentInvalidExample.OasDbPaymentInvalidExample_s1b56mcqefxs.test_vbf4fey6gvub_deletecharge",
+  "historyId" : "69cd6add668bb2679ee34379d4dff2ad",
+  "time" : {
+    "start" : 1640942378265,
+    "stop" : 1640942378278,
+    "duration" : 13
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b4ce8781460f9f71",
+      "name" : "Request",
+      "source" : "b4ce8781460f9f71.html",
+      "type" : "text/html",
+      "size" : 249
+    }, {
+      "uid" : "d9806097193e0f93",
+      "name" : "HTTP/1.1 404 Not Found",
+      "source" : "d9806097193e0f93.html",
+      "type" : "text/html",
+      "size" : 546
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "PaymentInvalidExample"
+  }, {
+    "name" : "testClass",
+    "value" : "PaymentInvalidExample.OasDbPaymentInvalidExample_s1b56mcqefxs"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_vbf4fey6gvub_deletecharge"
+  }, {
+    "name" : "suite",
+    "value" : "PaymentInvalidExample.OasDbPaymentInvalidExample_s1b56mcqefxs"
+  }, {
+    "name" : "host",
+    "value" : "Alexs-MacBook-Pro-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "63598@Alexs-MacBook-Pro-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fee07c0f46f02af0.json",
+  "parameterValues" : [ ]
+}

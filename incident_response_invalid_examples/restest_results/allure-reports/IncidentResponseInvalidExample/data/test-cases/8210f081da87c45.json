@@ -1,0 +1,97 @@
+{
+  "uid" : "8210f081da87c45",
+  "name" : "test_ubrytulx5ffl_updateincident",
+  "fullName" : "IncidentResponseInvalidExample.OasDbIncidentResponseInvalidExample_1ibbhpev2xnar.test_ubrytulx5ffl_updateincident",
+  "historyId" : "a2cb2f5fd19f57c30165cb5924a96728",
+  "time" : {
+    "start" : 1640948532800,
+    "stop" : 1640948532813,
+    "duration" : 13
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b6b6294da569e238",
+      "name" : "Request",
+      "source" : "b6b6294da569e238.html",
+      "type" : "text/html",
+      "size" : 603
+    }, {
+      "uid" : "1759a95bf9f3ac63",
+      "name" : "HTTP/1.1 404 Not Found",
+      "source" : "1759a95bf9f3ac63.html",
+      "type" : "text/html",
+      "size" : 546
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "IncidentResponseInvalidExample"
+  }, {
+    "name" : "testClass",
+    "value" : "IncidentResponseInvalidExample.OasDbIncidentResponseInvalidExample_1ibbhpev2xnar"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_ubrytulx5ffl_updateincident"
+  }, {
+    "name" : "suite",
+    "value" : "IncidentResponseInvalidExample.OasDbIncidentResponseInvalidExample_1ibbhpev2xnar"
+  }, {
+    "name" : "host",
+    "value" : "Alexs-MacBook-Pro-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "67256@Alexs-MacBook-Pro-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "94898e440c4aa48e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640948532800,
+          "stop" : 1640948532813,
+          "duration" : 13
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "8210f081da87c45.json",
+  "parameterValues" : [ ]
+}

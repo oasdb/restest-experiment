@@ -1,0 +1,169 @@
+{
+  "uid" : "f05692805991cb3b",
+  "name" : "test_qe73h3nvu9mh_updatecharge",
+  "fullName" : "PaymentBrokenRecordDeletion.OasDbPaymentBrokenRecordDeletion_tnz1bfir1f7b.test_qe73h3nvu9mh_updatecharge",
+  "historyId" : "bff31ef0d60e892f451d71e4f5166b7f",
+  "time" : {
+    "start" : 1640951462627,
+    "stop" : 1640951462643,
+    "duration" : 16
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d72378e50238d7ee",
+      "name" : "Request",
+      "source" : "d72378e50238d7ee.html",
+      "type" : "text/html",
+      "size" : 705
+    }, {
+      "uid" : "9ce35de9aae0e3be",
+      "name" : "HTTP/1.1 404 Not Found",
+      "source" : "9ce35de9aae0e3be.html",
+      "type" : "text/html",
+      "size" : 546
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "PaymentBrokenRecordDeletion"
+  }, {
+    "name" : "testClass",
+    "value" : "PaymentBrokenRecordDeletion.OasDbPaymentBrokenRecordDeletion_tnz1bfir1f7b"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_qe73h3nvu9mh_updatecharge"
+  }, {
+    "name" : "suite",
+    "value" : "PaymentBrokenRecordDeletion.OasDbPaymentBrokenRecordDeletion_tnz1bfir1f7b"
+  }, {
+    "name" : "host",
+    "value" : "Alexs-MacBook-Pro-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "69421@Alexs-MacBook-Pro-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 11,
+        "unknown" : 0,
+        "total" : 11
+      },
+      "items" : [ {
+        "uid" : "11cea02c56e617fe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640951462627,
+          "stop" : 1640951462643,
+          "duration" : 16
+        }
+      }, {
+        "uid" : "e248853d8560c99f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640951462627,
+          "stop" : 1640951462643,
+          "duration" : 16
+        }
+      }, {
+        "uid" : "bab1925611c3f5a5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640951462627,
+          "stop" : 1640951462643,
+          "duration" : 16
+        }
+      }, {
+        "uid" : "2026141360d96eab",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640951462627,
+          "stop" : 1640951462643,
+          "duration" : 16
+        }
+      }, {
+        "uid" : "dea8974d563d5d11",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640951462627,
+          "stop" : 1640951462643,
+          "duration" : 16
+        }
+      }, {
+        "uid" : "8af55d20fd9213d8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640951462627,
+          "stop" : 1640951462643,
+          "duration" : 16
+        }
+      }, {
+        "uid" : "3a596bda44091b00",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640951462627,
+          "stop" : 1640951462643,
+          "duration" : 16
+        }
+      }, {
+        "uid" : "ceb9efc5e19b8a7c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640951462627,
+          "stop" : 1640951462643,
+          "duration" : 16
+        }
+      }, {
+        "uid" : "65d1265ba2f0f902",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640951462627,
+          "stop" : 1640951462643,
+          "duration" : 16
+        }
+      }, {
+        "uid" : "c1a2b45014d9b95f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640951462627,
+          "stop" : 1640951462643,
+          "duration" : 16
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f05692805991cb3b.json",
+  "parameterValues" : [ ]
+}

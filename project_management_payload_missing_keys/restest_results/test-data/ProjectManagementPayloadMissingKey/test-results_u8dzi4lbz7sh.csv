@@ -1,0 +1,17 @@
+testResultId,statusCode,responseBody,outputContentType,passed,failReason
+test_1iey9r4oa6cz8_createproject,500,<h1>Internal Server Error</h1>,text/html;charset=utf-8,false,Status code 5XX.
+test_1iuvh58i1io2q_readproject,404,,text/html;charset=utf-8,true,none
+test_1iyhqjsdpb04j_updateproject,500,<h1>Internal Server Error</h1>,text/html;charset=utf-8,false,Status code 5XX.
+test_1k22tgevntruc_createproject,500,<h1>Internal Server Error</h1>,text/html;charset=utf-8,false,Status code 5XX.
+test_qe3w1kq7nnfo_updateproject,404,PUT /projects/nMD2_/%26T%28%3BX%24%29,text/html;charset=utf-8,true,none
+test_qxr434k3hkc0_readproject,404,,text/html;charset=utf-8,true,none
+test_qxw2nx0ubyuv_deleteproject,404,,text/html;charset=utf-8,true,none
+test_rh8anzk5hb93_readproject,404,,text/html;charset=utf-8,true,none
+test_rhajq0dh6k37_updateproject,500,<h1>Internal Server Error</h1>,text/html;charset=utf-8,false,Status code 5XX.
+test_rl7xgxhu1yrd_createproject,201,"{""id"":4}",application/json,true,none
+test_s18ei0vb1bnd_createproject,422,,text/html;charset=utf-8,false,OAS disconformity: Response status 422 not defined for path '/projects'.
+test_s1h7r5bbll4m_readproject,404,,text/html;charset=utf-8,true,none
+test_t4yik70jhzjl_deleteproject,404,DELETE /projects/wWj*p%29%2783L/z/D%5Eh%3B%5E,text/html;charset=utf-8,true,none
+test_toihb0y6yyic_updateproject,500,<h1>Internal Server Error</h1>,text/html;charset=utf-8,false,Status code 5XX.
+test_u8dgspp48kkw_deleteproject,404,,text/html;charset=utf-8,true,none
+test_u8e0o9x7o01e_deleteproject,404,,text/html;charset=utf-8,true,none

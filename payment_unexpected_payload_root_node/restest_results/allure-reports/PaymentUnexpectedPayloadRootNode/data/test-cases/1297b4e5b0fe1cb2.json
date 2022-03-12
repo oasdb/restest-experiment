@@ -1,0 +1,78 @@
+{
+  "uid" : "1297b4e5b0fe1cb2",
+  "name" : "test_1hbd8xz563wwz_readcharge",
+  "fullName" : "PaymentUnexpectedPayloadRootNode.OasDbPaymentUnexpectedPayloadRootNode_1iusprdsgsz74.test_1hbd8xz563wwz_readcharge",
+  "historyId" : "88e11f9480bbec61aaea2dd2fc6f7390",
+  "time" : {
+    "start" : 1640936050042,
+    "stop" : 1640936050056,
+    "duration" : 14
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6f184cd8e0de5c3c",
+      "name" : "Request",
+      "source" : "6f184cd8e0de5c3c.html",
+      "type" : "text/html",
+      "size" : 225
+    }, {
+      "uid" : "2524a70d8896fd9f",
+      "name" : "HTTP/1.1 404 Not Found",
+      "source" : "2524a70d8896fd9f.html",
+      "type" : "text/html",
+      "size" : 546
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "PaymentUnexpectedPayloadRootNode"
+  }, {
+    "name" : "testClass",
+    "value" : "PaymentUnexpectedPayloadRootNode.OasDbPaymentUnexpectedPayloadRootNode_1iusprdsgsz74"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_1hbd8xz563wwz_readcharge"
+  }, {
+    "name" : "suite",
+    "value" : "PaymentUnexpectedPayloadRootNode.OasDbPaymentUnexpectedPayloadRootNode_1iusprdsgsz74"
+  }, {
+    "name" : "host",
+    "value" : "Alexs-MacBook-Pro-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "59992@Alexs-MacBook-Pro-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1297b4e5b0fe1cb2.json",
+  "parameterValues" : [ ]
+}

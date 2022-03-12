@@ -1,0 +1,78 @@
+{
+  "uid" : "1da827ca4c5772bd",
+  "name" : "test_ure1vv097337_createcharge",
+  "fullName" : "PaymentPayloadWrongDataType.OasDbPaymentPayloadWrongDataType_t4yyjnz4v12q.test_ure1vv097337_createcharge",
+  "historyId" : "7ede9fca46a5c9b50ceac2a0dc5fdf45",
+  "time" : {
+    "start" : 1640946125581,
+    "stop" : 1640946125595,
+    "duration" : 14
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f0ee666c1beb7b1e",
+      "name" : "Request",
+      "source" : "f0ee666c1beb7b1e.html",
+      "type" : "text/html",
+      "size" : 655
+    }, {
+      "uid" : "56fc9ff4358192c7",
+      "name" : "HTTP/1.1 201 Created",
+      "source" : "56fc9ff4358192c7.html",
+      "type" : "text/html",
+      "size" : 466
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "PaymentPayloadWrongDataType"
+  }, {
+    "name" : "testClass",
+    "value" : "PaymentPayloadWrongDataType.OasDbPaymentPayloadWrongDataType_t4yyjnz4v12q"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_ure1vv097337_createcharge"
+  }, {
+    "name" : "suite",
+    "value" : "PaymentPayloadWrongDataType.OasDbPaymentPayloadWrongDataType_t4yyjnz4v12q"
+  }, {
+    "name" : "host",
+    "value" : "Alexs-MacBook-Pro-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "65822@Alexs-MacBook-Pro-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1da827ca4c5772bd.json",
+  "parameterValues" : [ ]
+}

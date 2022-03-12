@@ -1,0 +1,121 @@
+{
+  "uid" : "c46e3bac9ddc5815",
+  "name" : "test_vbf4f2qe4aic_deleteproject",
+  "fullName" : "ProjectManagementBrokenRecordDeletion.OasDbProjectManagementBrokenRecordDeletion_todew9vikbp0.test_vbf4f2qe4aic_deleteproject",
+  "historyId" : "a623de71ad8c6fedbd83ec5f1ee75edc",
+  "time" : {
+    "start" : 1640947027827,
+    "stop" : 1640947027841,
+    "duration" : 14
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "eefc04d3d719f625",
+      "name" : "Request",
+      "source" : "eefc04d3d719f625.html",
+      "type" : "text/html",
+      "size" : 271
+    }, {
+      "uid" : "97e5ddb19a663b84",
+      "name" : "HTTP/1.1 404 Not Found",
+      "source" : "97e5ddb19a663b84.html",
+      "type" : "text/html",
+      "size" : 671
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ProjectManagementBrokenRecordDeletion"
+  }, {
+    "name" : "testClass",
+    "value" : "ProjectManagementBrokenRecordDeletion.OasDbProjectManagementBrokenRecordDeletion_todew9vikbp0"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_vbf4f2qe4aic_deleteproject"
+  }, {
+    "name" : "suite",
+    "value" : "ProjectManagementBrokenRecordDeletion.OasDbProjectManagementBrokenRecordDeletion_todew9vikbp0"
+  }, {
+    "name" : "host",
+    "value" : "Alexs-MacBook-Pro-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "66534@Alexs-MacBook-Pro-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "130da068b279d5b2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640947027827,
+          "stop" : 1640947027841,
+          "duration" : 14
+        }
+      }, {
+        "uid" : "ce69b296893abfa9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640947027827,
+          "stop" : 1640947027841,
+          "duration" : 14
+        }
+      }, {
+        "uid" : "97f76473bcce3c25",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640947027827,
+          "stop" : 1640947027841,
+          "duration" : 14
+        }
+      }, {
+        "uid" : "44e4af18a68a7a37",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640947027827,
+          "stop" : 1640947027841,
+          "duration" : 14
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c46e3bac9ddc5815.json",
+  "parameterValues" : [ ]
+}

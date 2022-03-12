@@ -1,0 +1,17 @@
+testResultId,statusCode,responseBody,outputContentType,passed,failReason
+test_1h7z84r13e1wz_deletecharge,404,,text/html;charset=utf-8,true,none
+test_1hbd7b1q6qnna_readcharge,200,"{""amount"":-1,""credit_card_id"":0,""currency"":""\\0"",""id"":1}",application/json,false,"OAS disconformity: Instance failed to match all required schemas (matched only 0 out of 2) --- Object instance has properties which are not allowed by the schema: [""amount"";""credit_card_id"";""currency"";""id""]"
+test_1hv8apbfnpttd_readcharge,404,,text/html;charset=utf-8,true,none
+test_r1l6vukf7qzp_createcharge,500,<h1>Internal Server Error</h1>,text/html;charset=utf-8,false,Status code 5XX.
+test_s4xcn498vho1_createcharge,500,<h1>Internal Server Error</h1>,text/html;charset=utf-8,false,Status code 5XX.
+test_skvmmjaqs01g_readcharge,404,,text/html;charset=utf-8,true,none
+test_sl3wbfmn45ly_updatecharge,404,PUT /charges/q8/l%26u%3C%7Ez07%403CEjz,text/html;charset=utf-8,true,none
+test_t4l3a5tudz5k_deletecharge,404,,text/html;charset=utf-8,true,none
+test_t81aw68gx835_updatecharge,404,PUT /charges/K%3E%22hSs%7D%28A%7C2%40/Bv%60c,text/html;charset=utf-8,true,none
+test_t84lp1oq09bo_updatecharge,404,,text/html;charset=utf-8,true,none
+test_t8cdlmhha33s_updatecharge,500,<h1>Internal Server Error</h1>,text/html;charset=utf-8,false,Status code 5XX.
+test_tol5ye0mpaw4_readcharge,404,GET /charges/A*/%7CQ%7C%24%60%3A%60k,text/html;charset=utf-8,true,none
+test_ts1wle1gek3d_deletecharge,404,,text/html;charset=utf-8,true,none
+test_u856bl932c85_createcharge,500,<h1>Internal Server Error</h1>,text/html;charset=utf-8,false,Status code 5XX.
+test_u8dh6ssahve9_deletecharge,404,,text/html;charset=utf-8,true,none
+test_us2z311a68tv_createcharge,500,<h1>Internal Server Error</h1>,text/html;charset=utf-8,false,Status code 5XX.

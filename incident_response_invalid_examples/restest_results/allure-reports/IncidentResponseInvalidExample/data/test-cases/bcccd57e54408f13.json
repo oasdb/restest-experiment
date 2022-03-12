@@ -1,0 +1,78 @@
+{
+  "uid" : "bcccd57e54408f13",
+  "name" : "test_vbbu0efkzkfq_readincident",
+  "fullName" : "IncidentResponseInvalidExample.OasDbIncidentResponseInvalidExample_rhovqy5dmqu9.test_vbbu0efkzkfq_readincident",
+  "historyId" : "4a31ca4f99eaa3d81114fb95dbe55a70",
+  "time" : {
+    "start" : 1640948631051,
+    "stop" : 1640948631063,
+    "duration" : 12
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5a4b5f652feae3cc",
+      "name" : "Request",
+      "source" : "5a4b5f652feae3cc.html",
+      "type" : "text/html",
+      "size" : 235
+    }, {
+      "uid" : "cc5dfa7f5bcf489",
+      "name" : "HTTP/1.1 404 Not Found",
+      "source" : "cc5dfa7f5bcf489.html",
+      "type" : "text/html",
+      "size" : 546
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "IncidentResponseInvalidExample"
+  }, {
+    "name" : "testClass",
+    "value" : "IncidentResponseInvalidExample.OasDbIncidentResponseInvalidExample_rhovqy5dmqu9"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_vbbu0efkzkfq_readincident"
+  }, {
+    "name" : "suite",
+    "value" : "IncidentResponseInvalidExample.OasDbIncidentResponseInvalidExample_rhovqy5dmqu9"
+  }, {
+    "name" : "host",
+    "value" : "Alexs-MacBook-Pro-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "67256@Alexs-MacBook-Pro-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bcccd57e54408f13.json",
+  "parameterValues" : [ ]
+}

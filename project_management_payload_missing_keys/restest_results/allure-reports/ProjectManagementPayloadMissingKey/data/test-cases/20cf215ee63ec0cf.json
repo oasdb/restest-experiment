@@ -1,0 +1,97 @@
+{
+  "uid" : "20cf215ee63ec0cf",
+  "name" : "test_s4ru97obtsu1_readproject",
+  "fullName" : "ProjectManagementPayloadMissingKey.OasDbProjectManagementPayloadMissingKey_1ji26ts99ytlx.test_s4ru97obtsu1_readproject",
+  "historyId" : "aa29f2f5b85c4ae4704423b8b946a765",
+  "time" : {
+    "start" : 1640929753864,
+    "stop" : 1640929753876,
+    "duration" : 12
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "efb674b9969f3d3c",
+      "name" : "Request",
+      "source" : "efb674b9969f3d3c.html",
+      "type" : "text/html",
+      "size" : 233
+    }, {
+      "uid" : "73e3e2406b9cefdd",
+      "name" : "HTTP/1.1 404 Not Found",
+      "source" : "73e3e2406b9cefdd.html",
+      "type" : "text/html",
+      "size" : 546
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ProjectManagementPayloadMissingKey"
+  }, {
+    "name" : "testClass",
+    "value" : "ProjectManagementPayloadMissingKey.OasDbProjectManagementPayloadMissingKey_1ji26ts99ytlx"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_s4ru97obtsu1_readproject"
+  }, {
+    "name" : "suite",
+    "value" : "ProjectManagementPayloadMissingKey.OasDbProjectManagementPayloadMissingKey_1ji26ts99ytlx"
+  }, {
+    "name" : "host",
+    "value" : "Alexs-MacBook-Pro-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "56366@Alexs-MacBook-Pro-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "aafc3d8049a7680d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640929753864,
+          "stop" : 1640929753876,
+          "duration" : 12
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "20cf215ee63ec0cf.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,17 @@
+testResultId,statusCode,responseBody,outputContentType,passed,failReason
+test_1h84u0lcpaiib_createproject,422,,text/html;charset=utf-8,false,OAS disconformity: Response status 422 not defined for path '/projects'.
+test_1hr8mva3nlxyo_readproject,200,"{""description"":""one space"",""name"":""one space"",""id"":1}",application/json,false,"OAS disconformity: Instance failed to match all required schemas (matched only 0 out of 2) --- Object instance has properties which are not allowed by the schema: [""description"";""id"";""name""]"
+test_1ibbk1lijsl0m_readproject,200,"{""description"":""one space"",""name"":""one space"",""id"":1}",application/json,false,"OAS disconformity: Instance failed to match all required schemas (matched only 0 out of 2) --- Object instance has properties which are not allowed by the schema: [""description"";""id"";""name""]"
+test_1ibbzya9bu2xy_updateproject,422,,text/html;charset=utf-8,false,OAS disconformity: Response status 422 not defined for path '/projects/{project_id}'.
+test_1iyq13n3coo4x_createproject,422,,text/html;charset=utf-8,false,OAS disconformity: Response status 422 not defined for path '/projects'.
+test_1ji4ga5ndvlnl_deleteproject,404,DELETE /projects/%20nEhZ/Gb/J,text/html;charset=utf-8,true,none
+test_1jyljbxserlgi_updateproject,422,,text/html;charset=utf-8,false,OAS disconformity: Response status 422 not defined for path '/projects/{project_id}'.
+test_r1g3ppbzk5er_createproject,422,,text/html;charset=utf-8,false,OAS disconformity: Response status 422 not defined for path '/projects'.
+test_rhofdpk1phly_readproject,404,,text/html;charset=utf-8,true,none
+test_s18be5t8e0de_deleteproject,404,,text/html;charset=utf-8,true,none
+test_s1b5kr11y2wj_createproject,201,"{""id"":3}",application/json,true,none
+test_t86ur2tr6z4y_deleteproject,404,,text/html;charset=utf-8,true,none
+test_to52sqhydbn5_deleteproject,404,,text/html;charset=utf-8,true,none
+test_urhbzcwbk27k_updateproject,404,,text/html;charset=utf-8,true,none
+test_urp5dtkw1ooi_readproject,404,,text/html;charset=utf-8,true,none
+test_vf9p5jlsow1g_updateproject,404,,text/html;charset=utf-8,true,none

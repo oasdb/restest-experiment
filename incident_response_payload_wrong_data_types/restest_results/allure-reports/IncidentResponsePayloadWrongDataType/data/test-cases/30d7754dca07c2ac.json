@@ -1,0 +1,97 @@
+{
+  "uid" : "30d7754dca07c2ac",
+  "name" : "test_skpjwsle8oyu_readincident",
+  "fullName" : "IncidentResponsePayloadWrongDataType.OasDbIncidentResponsePayloadWrongDataType_1iyqk9q4w6s0z.test_skpjwsle8oyu_readincident",
+  "historyId" : "b0d7f0e36bf8ace6907ade42130a4a19",
+  "time" : {
+    "start" : 1640944766326,
+    "stop" : 1640944766339,
+    "duration" : 13
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "cc78521f628be1f2",
+      "name" : "Request",
+      "source" : "cc78521f628be1f2.html",
+      "type" : "text/html",
+      "size" : 285
+    }, {
+      "uid" : "c4f403e75decd29f",
+      "name" : "HTTP/1.1 404 Not Found",
+      "source" : "c4f403e75decd29f.html",
+      "type" : "text/html",
+      "size" : 678
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "IncidentResponsePayloadWrongDataType"
+  }, {
+    "name" : "testClass",
+    "value" : "IncidentResponsePayloadWrongDataType.OasDbIncidentResponsePayloadWrongDataType_1iyqk9q4w6s0z"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_skpjwsle8oyu_readincident"
+  }, {
+    "name" : "suite",
+    "value" : "IncidentResponsePayloadWrongDataType.OasDbIncidentResponsePayloadWrongDataType_1iyqk9q4w6s0z"
+  }, {
+    "name" : "host",
+    "value" : "Alexs-MacBook-Pro-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "65099@Alexs-MacBook-Pro-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "656bdf090fbb5d77",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640944766326,
+          "stop" : 1640944766339,
+          "duration" : 13
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "30d7754dca07c2ac.json",
+  "parameterValues" : [ ]
+}

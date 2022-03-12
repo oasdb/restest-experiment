@@ -1,0 +1,109 @@
+---
+auth:
+  required: true
+  queryParams: {}
+  headerParams: {}
+  apiKeysPath: null
+  headersPath: null
+  oauthPath: null
+testConfiguration:
+  operations:
+  - testPath: /charges
+    operationId: create_charge
+    method: post
+    testParameters:
+    - name: body
+      in: body
+      weight: null
+      generators:
+      - type: ObjectPerturbator
+        genParameters:
+        - name: stringObjects
+          values:
+          - "{\"amount\":20.5,\"currency\":\"USD\",\"credit_card_id\":1}"
+          objectValues: null
+        valid: true
+    expectedResponse: 200
+  - testPath: "/charges/{charge_id}"
+    operationId: read_charge
+    method: get
+    testParameters:
+    - name: charge_id
+      in: path
+      weight: null
+      generators:
+      - type: RandomNumber
+        genParameters:
+        - name: type
+          values:
+          - int64
+          objectValues: null
+        - name: min
+          values:
+          - 1
+          objectValues: null
+        - name: max
+          values:
+          - 100
+          objectValues: null
+        valid: true
+    expectedResponse: 200
+  - testPath: "/charges/{charge_id}"
+    operationId: update_charge
+    method: put
+    testParameters:
+    - name: charge_id
+      in: path
+      weight: null
+      generators:
+      - type: RandomNumber
+        genParameters:
+        - name: type
+          values:
+          - int64
+          objectValues: null
+        - name: min
+          values:
+          - 1
+          objectValues: null
+        - name: max
+          values:
+          - 100
+          objectValues: null
+        valid: true
+    - name: body
+      in: body
+      weight: null
+      generators:
+      - type: ObjectPerturbator
+        genParameters:
+        - name: stringObjects
+          values:
+          - "{\"amount\":20.5,\"currency\":\"USD\",\"credit_card_id\":1}"
+          objectValues: null
+        valid: true
+    expectedResponse: 200
+  - testPath: "/charges/{charge_id}"
+    operationId: delete_charge
+    method: delete
+    testParameters:
+    - name: charge_id
+      in: path
+      weight: null
+      generators:
+      - type: RandomNumber
+        genParameters:
+        - name: type
+          values:
+          - int64
+          objectValues: null
+        - name: min
+          values:
+          - 1
+          objectValues: null
+        - name: max
+          values:
+          - 100
+          objectValues: null
+        valid: true
+    expectedResponse: 200

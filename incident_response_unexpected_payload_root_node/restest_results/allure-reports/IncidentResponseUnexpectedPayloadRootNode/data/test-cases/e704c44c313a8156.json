@@ -1,0 +1,78 @@
+{
+  "uid" : "e704c44c313a8156",
+  "name" : "test_1k1wsotpb92k4_updateincident",
+  "fullName" : "IncidentResponseUnexpectedPayloadRootNode.OasDbIncidentResponseUnexpectedPayloadRootNode_uruq3cpp5u8x.test_1k1wsotpb92k4_updateincident",
+  "historyId" : "8c3f40c8178eb58126af7f4fb59746c3",
+  "time" : {
+    "start" : 1640943589143,
+    "stop" : 1640943589156,
+    "duration" : 13
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "de63fec8fdd1f158",
+      "name" : "Request",
+      "source" : "de63fec8fdd1f158.html",
+      "type" : "text/html",
+      "size" : 667
+    }, {
+      "uid" : "bb1e306e0c8ff611",
+      "name" : "HTTP/1.1 404 Not Found",
+      "source" : "bb1e306e0c8ff611.html",
+      "type" : "text/html",
+      "size" : 546
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "IncidentResponseUnexpectedPayloadRootNode"
+  }, {
+    "name" : "testClass",
+    "value" : "IncidentResponseUnexpectedPayloadRootNode.OasDbIncidentResponseUnexpectedPayloadRootNode_uruq3cpp5u8x"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_1k1wsotpb92k4_updateincident"
+  }, {
+    "name" : "suite",
+    "value" : "IncidentResponseUnexpectedPayloadRootNode.OasDbIncidentResponseUnexpectedPayloadRootNode_uruq3cpp5u8x"
+  }, {
+    "name" : "host",
+    "value" : "Alexs-MacBook-Pro-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "64315@Alexs-MacBook-Pro-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e704c44c313a8156.json",
+  "parameterValues" : [ ]
+}

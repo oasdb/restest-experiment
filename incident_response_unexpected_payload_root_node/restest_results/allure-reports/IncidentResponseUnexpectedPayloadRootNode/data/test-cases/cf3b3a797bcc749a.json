@@ -1,0 +1,197 @@
+{
+  "uid" : "cf3b3a797bcc749a",
+  "name" : "test_1huzx1hcbinhh_readincident",
+  "fullName" : "IncidentResponseUnexpectedPayloadRootNode.OasDbIncidentResponseUnexpectedPayloadRootNode_qhl2q13wanvm.test_1huzx1hcbinhh_readincident",
+  "historyId" : "74bddcd57c13101ce5282696c8e8c7ae",
+  "time" : {
+    "start" : 1640942590521,
+    "stop" : 1640942590549,
+    "duration" : 28
+  },
+  "status" : "failed",
+  "statusMessage" : "OAS disconformity: Instance failed to match all required schemas (matched only 0 out of 2) --- Object instance has properties which are not allowed by the schema: [\"assignee_id\";\"id\";\"service_id\";\"title\"]",
+  "statusTrace" : "java.lang.AssertionError: OAS disconformity: Instance failed to match all required schemas (matched only 0 out of 2) --- Object instance has properties which are not allowed by the schema: [\"assignee_id\";\"id\";\"service_id\";\"title\"]\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat IncidentResponseUnexpectedPayloadRootNode.OasDbIncidentResponseUnexpectedPayloadRootNode_qhl2q13wanvm.test_1huzx1hcbinhh_readincident(OasDbIncidentResponseUnexpectedPayloadRootNode_qhl2q13wanvm.java:267)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:115)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:105)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:94)\n\tat es.us.isa.restest.runners.RESTestRunner.testExecution(RESTestRunner.java:127)\n\tat es.us.isa.restest.runners.RESTestRunner.run(RESTestRunner.java:72)\n\tat es.us.isa.restest.main.TestGenerationAndExecution.main(TestGenerationAndExecution.java:148)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "OAS disconformity: Instance failed to match all required schemas (matched only 0 out of 2) --- Object instance has properties which are not allowed by the schema: [\"assignee_id\";\"id\";\"service_id\";\"title\"]",
+    "statusTrace" : "java.lang.AssertionError: OAS disconformity: Instance failed to match all required schemas (matched only 0 out of 2) --- Object instance has properties which are not allowed by the schema: [\"assignee_id\";\"id\";\"service_id\";\"title\"]\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat IncidentResponseUnexpectedPayloadRootNode.OasDbIncidentResponseUnexpectedPayloadRootNode_qhl2q13wanvm.test_1huzx1hcbinhh_readincident(OasDbIncidentResponseUnexpectedPayloadRootNode_qhl2q13wanvm.java:267)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:115)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:105)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:94)\n\tat es.us.isa.restest.runners.RESTestRunner.testExecution(RESTestRunner.java:127)\n\tat es.us.isa.restest.runners.RESTestRunner.run(RESTestRunner.java:72)\n\tat es.us.isa.restest.main.TestGenerationAndExecution.main(TestGenerationAndExecution.java:148)\n",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b8e5246892535396",
+      "name" : "Request",
+      "source" : "b8e5246892535396.html",
+      "type" : "text/html",
+      "size" : 229
+    }, {
+      "uid" : "4667bd54f2eba0cf",
+      "name" : "HTTP/1.1 200 OK",
+      "source" : "4667bd54f2eba0cf.html",
+      "type" : "text/html",
+      "size" : 621
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "IncidentResponseUnexpectedPayloadRootNode"
+  }, {
+    "name" : "testClass",
+    "value" : "IncidentResponseUnexpectedPayloadRootNode.OasDbIncidentResponseUnexpectedPayloadRootNode_qhl2q13wanvm"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_1huzx1hcbinhh_readincident"
+  }, {
+    "name" : "suite",
+    "value" : "IncidentResponseUnexpectedPayloadRootNode.OasDbIncidentResponseUnexpectedPayloadRootNode_qhl2q13wanvm"
+  }, {
+    "name" : "host",
+    "value" : "Alexs-MacBook-Pro-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "64315@Alexs-MacBook-Pro-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "SEVERITY 1: Disconformity with OAS",
+      "messageRegex" : "OAS disconformity.*",
+      "matchedStatuses" : [ "failed" ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 12,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 12
+      },
+      "items" : [ {
+        "uid" : "10b2cdbe63cab2e7",
+        "status" : "failed",
+        "statusDetails" : "OAS disconformity: Instance failed to match all required schemas (matched only 0 out of 2) --- Object instance has properties which are not allowed by the schema: [\"assignee_id\";\"id\";\"service_id\";\"title\"]",
+        "time" : {
+          "start" : 1640942590521,
+          "stop" : 1640942590549,
+          "duration" : 28
+        }
+      }, {
+        "uid" : "88a7320020acd0b3",
+        "status" : "failed",
+        "statusDetails" : "OAS disconformity: Instance failed to match all required schemas (matched only 0 out of 2) --- Object instance has properties which are not allowed by the schema: [\"assignee_id\";\"id\";\"service_id\";\"title\"]",
+        "time" : {
+          "start" : 1640942590521,
+          "stop" : 1640942590549,
+          "duration" : 28
+        }
+      }, {
+        "uid" : "bc87eaa3641235b1",
+        "status" : "failed",
+        "statusDetails" : "OAS disconformity: Instance failed to match all required schemas (matched only 0 out of 2) --- Object instance has properties which are not allowed by the schema: [\"assignee_id\";\"id\";\"service_id\";\"title\"]",
+        "time" : {
+          "start" : 1640942590521,
+          "stop" : 1640942590549,
+          "duration" : 28
+        }
+      }, {
+        "uid" : "ddf8c43bd1fad263",
+        "status" : "failed",
+        "statusDetails" : "OAS disconformity: Instance failed to match all required schemas (matched only 0 out of 2) --- Object instance has properties which are not allowed by the schema: [\"assignee_id\";\"id\";\"service_id\";\"title\"]",
+        "time" : {
+          "start" : 1640942590521,
+          "stop" : 1640942590549,
+          "duration" : 28
+        }
+      }, {
+        "uid" : "d60f4b74be58e06b",
+        "status" : "failed",
+        "statusDetails" : "OAS disconformity: Instance failed to match all required schemas (matched only 0 out of 2) --- Object instance has properties which are not allowed by the schema: [\"assignee_id\";\"id\";\"service_id\";\"title\"]",
+        "time" : {
+          "start" : 1640942590521,
+          "stop" : 1640942590549,
+          "duration" : 28
+        }
+      }, {
+        "uid" : "93be26d0da8f28c3",
+        "status" : "failed",
+        "statusDetails" : "OAS disconformity: Instance failed to match all required schemas (matched only 0 out of 2) --- Object instance has properties which are not allowed by the schema: [\"assignee_id\";\"id\";\"service_id\";\"title\"]",
+        "time" : {
+          "start" : 1640942590521,
+          "stop" : 1640942590549,
+          "duration" : 28
+        }
+      }, {
+        "uid" : "c9abc1b4b34511ac",
+        "status" : "failed",
+        "statusDetails" : "OAS disconformity: Instance failed to match all required schemas (matched only 0 out of 2) --- Object instance has properties which are not allowed by the schema: [\"assignee_id\";\"id\";\"service_id\";\"title\"]",
+        "time" : {
+          "start" : 1640942590521,
+          "stop" : 1640942590549,
+          "duration" : 28
+        }
+      }, {
+        "uid" : "aab9e1beacfec12d",
+        "status" : "failed",
+        "statusDetails" : "OAS disconformity: Instance failed to match all required schemas (matched only 0 out of 2) --- Object instance has properties which are not allowed by the schema: [\"assignee_id\";\"id\";\"service_id\";\"title\"]",
+        "time" : {
+          "start" : 1640942590521,
+          "stop" : 1640942590549,
+          "duration" : 28
+        }
+      }, {
+        "uid" : "b5611155569c0472",
+        "status" : "failed",
+        "statusDetails" : "OAS disconformity: Instance failed to match all required schemas (matched only 0 out of 2) --- Object instance has properties which are not allowed by the schema: [\"assignee_id\";\"id\";\"service_id\";\"title\"]",
+        "time" : {
+          "start" : 1640942590521,
+          "stop" : 1640942590549,
+          "duration" : 28
+        }
+      }, {
+        "uid" : "102616449790a72c",
+        "status" : "failed",
+        "statusDetails" : "OAS disconformity: Instance failed to match all required schemas (matched only 0 out of 2) --- Object instance has properties which are not allowed by the schema: [\"assignee_id\";\"id\";\"service_id\";\"title\"]",
+        "time" : {
+          "start" : 1640942590521,
+          "stop" : 1640942590549,
+          "duration" : 28
+        }
+      }, {
+        "uid" : "345dba2d9d2eb7f",
+        "status" : "failed",
+        "statusDetails" : "OAS disconformity: Instance failed to match all required schemas (matched only 0 out of 2) --- Object instance has properties which are not allowed by the schema: [\"assignee_id\";\"id\";\"service_id\";\"title\"]",
+        "time" : {
+          "start" : 1640942590521,
+          "stop" : 1640942590549,
+          "duration" : 28
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "cf3b3a797bcc749a.json",
+  "parameterValues" : [ ]
+}

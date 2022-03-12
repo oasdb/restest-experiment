@@ -1,0 +1,145 @@
+{
+  "uid" : "34f3cefe494eda55",
+  "name" : "test_to523amum9np_readcharge",
+  "fullName" : "PaymentInvalidExample.OasDbPaymentInvalidExample_s13cw02qubmp.test_to523amum9np_readcharge",
+  "historyId" : "9c1a7e879f16e195f3a9b144f7fecc58",
+  "time" : {
+    "start" : 1640941740847,
+    "stop" : 1640941740860,
+    "duration" : 13
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a58d1e69e1a41d66",
+      "name" : "Request",
+      "source" : "a58d1e69e1a41d66.html",
+      "type" : "text/html",
+      "size" : 263
+    }, {
+      "uid" : "da62891451ff9736",
+      "name" : "HTTP/1.1 404 Not Found",
+      "source" : "da62891451ff9736.html",
+      "type" : "text/html",
+      "size" : 546
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "PaymentInvalidExample"
+  }, {
+    "name" : "testClass",
+    "value" : "PaymentInvalidExample.OasDbPaymentInvalidExample_s13cw02qubmp"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_to523amum9np_readcharge"
+  }, {
+    "name" : "suite",
+    "value" : "PaymentInvalidExample.OasDbPaymentInvalidExample_s13cw02qubmp"
+  }, {
+    "name" : "host",
+    "value" : "Alexs-MacBook-Pro-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "63598@Alexs-MacBook-Pro-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "90293746684caec",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640941740847,
+          "stop" : 1640941740860,
+          "duration" : 13
+        }
+      }, {
+        "uid" : "476c1106f58a2367",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640941740847,
+          "stop" : 1640941740860,
+          "duration" : 13
+        }
+      }, {
+        "uid" : "551b3ad3b1d6e4fd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640941740847,
+          "stop" : 1640941740860,
+          "duration" : 13
+        }
+      }, {
+        "uid" : "c5f16b9f45d42908",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640941740847,
+          "stop" : 1640941740860,
+          "duration" : 13
+        }
+      }, {
+        "uid" : "d98dc6df13f63fe8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640941740847,
+          "stop" : 1640941740860,
+          "duration" : 13
+        }
+      }, {
+        "uid" : "d59f2d5c51c94908",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640941740847,
+          "stop" : 1640941740860,
+          "duration" : 13
+        }
+      }, {
+        "uid" : "2acd1386c14f8c75",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640941740847,
+          "stop" : 1640941740860,
+          "duration" : 13
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "34f3cefe494eda55.json",
+  "parameterValues" : [ ]
+}

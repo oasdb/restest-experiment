@@ -1,0 +1,17 @@
+testResultId,statusCode,responseBody,outputContentType,passed,failReason
+test_1h7qzxagc26gg_createincident,422,,text/html;charset=utf-8,false,OAS disconformity: Response status 422 not defined for path '/incidents'.
+test_1hbdp8oxx5co1_createincident,422,,text/html;charset=utf-8,false,OAS disconformity: Response status 422 not defined for path '/incidents'.
+test_1ib3pehfxa8tv_updateincident,422,,text/html;charset=utf-8,false,OAS disconformity: Response status 422 not defined for path '/incidents/{incident_id}'.
+test_1ies6s4h88g8g_createincident,422,,text/html;charset=utf-8,false,OAS disconformity: Response status 422 not defined for path '/incidents'.
+test_1ji9ztxa37v50_readincident,404,,text/html;charset=utf-8,true,none
+test_qecnqgq2m6np_readincident,404,,text/html;charset=utf-8,true,none
+test_rkxbga87l54o_deleteincident,404,,text/html;charset=utf-8,true,none
+test_s1bmpvy81pvd_createincident,422,,text/html;charset=utf-8,false,OAS disconformity: Response status 422 not defined for path '/incidents'.
+test_s1eevsvkvj1t_readincident,404,,text/html;charset=utf-8,true,none
+test_sl8xmbw9e4a9_updateincident,404,,text/html;charset=utf-8,true,none
+test_t4klcv51q629_readincident,404,,text/html;charset=utf-8,true,none
+test_toogfksnffqa_deleteincident,404,,text/html;charset=utf-8,true,none
+test_u7okruj6udyt_deleteincident,404,,text/html;charset=utf-8,true,none
+test_uve6kai5p4kh_deleteincident,404,,text/html;charset=utf-8,true,none
+test_vbmxi0rfihwx_updateincident,404,PUT /incidents/%25T/%26%7EJd%28%3Dbts%3CkaM/Va,text/html;charset=utf-8,true,none
+test_vbt02o0m97c2_updateincident,422,,text/html;charset=utf-8,false,OAS disconformity: Response status 422 not defined for path '/incidents/{incident_id}'.

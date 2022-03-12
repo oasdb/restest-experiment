@@ -1,0 +1,17 @@
+testResultId,statusCode,responseBody,outputContentType,passed,failReason
+test_1hbgi6m4pwe2b_createcharge,422,,text/html;charset=utf-8,false,OAS disconformity: Response status 422 not defined for path '/charges'.
+test_1iextg70r6r02_deletecharge,404,,text/html;charset=utf-8,true,none
+test_1if0krkx5nrqt_updatecharge,422,,text/html;charset=utf-8,false,OAS disconformity: Response status 422 not defined for path '/charges/{charge_id}'.
+test_1ji77adf187ck_deletecharge,404,,text/html;charset=utf-8,true,none
+test_1ji9zwkcc6ng7_createcharge,422,,text/html;charset=utf-8,false,OAS disconformity: Response status 422 not defined for path '/charges'.
+test_qe3u5zwvoy7l_updatecharge,404,,text/html;charset=utf-8,true,none
+test_qhq4qj3xunn7_updatecharge,422,,text/html;charset=utf-8,false,OAS disconformity: Response status 422 not defined for path '/charges/{charge_id}'.
+test_qxtebwdsyp2e_createcharge,422,,text/html;charset=utf-8,false,OAS disconformity: Response status 422 not defined for path '/charges'.
+test_rl53d0l8ymuu_readcharge,404,,text/html;charset=utf-8,true,none
+test_s1h5vmico4mc_readcharge,404,,text/html;charset=utf-8,true,none
+test_s1h6nmp97kft_createcharge,422,,text/html;charset=utf-8,false,OAS disconformity: Response status 422 not defined for path '/charges'.
+test_skvl2cx6jyw2_deletecharge,404,,text/html;charset=utf-8,true,none
+test_sohv8z0dxhsx_readcharge,404,,text/html;charset=utf-8,true,none
+test_to1u9gnc7zu9_deletecharge,404,,text/html;charset=utf-8,true,none
+test_uvk795enh65d_updatecharge,404,PUT /charges/f5/4N%7D%27Rdu%5Bt%20i2.R,text/html;charset=utf-8,true,none
+test_vevdl60w7of7_readcharge,404,,text/html;charset=utf-8,true,none

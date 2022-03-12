@@ -1,0 +1,78 @@
+{
+  "uid" : "52e77bc8594c2af2",
+  "name" : "test_1k1rp6q9jd65h_updateproject",
+  "fullName" : "ProjectManagementPayloadWrongDataType.OasDbProjectManagementPayloadWrongDataType_somvb8tqz6g2.test_1k1rp6q9jd65h_updateproject",
+  "historyId" : "b990826d84a99db75d89855e82b302f2",
+  "time" : {
+    "start" : 1640927321818,
+    "stop" : 1640927321833,
+    "duration" : 15
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f173a83d9a35acf2",
+      "name" : "Request",
+      "source" : "f173a83d9a35acf2.html",
+      "type" : "text/html",
+      "size" : 607
+    }, {
+      "uid" : "b87a5800e9f07f0a",
+      "name" : "HTTP/1.1 404 Not Found",
+      "source" : "b87a5800e9f07f0a.html",
+      "type" : "text/html",
+      "size" : 546
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ProjectManagementPayloadWrongDataType"
+  }, {
+    "name" : "testClass",
+    "value" : "ProjectManagementPayloadWrongDataType.OasDbProjectManagementPayloadWrongDataType_somvb8tqz6g2"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_1k1rp6q9jd65h_updateproject"
+  }, {
+    "name" : "suite",
+    "value" : "ProjectManagementPayloadWrongDataType.OasDbProjectManagementPayloadWrongDataType_somvb8tqz6g2"
+  }, {
+    "name" : "host",
+    "value" : "Alexs-MacBook-Pro-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "54924@Alexs-MacBook-Pro-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "52e77bc8594c2af2.json",
+  "parameterValues" : [ ]
+}

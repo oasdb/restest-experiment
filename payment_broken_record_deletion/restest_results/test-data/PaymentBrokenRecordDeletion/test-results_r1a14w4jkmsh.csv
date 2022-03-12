@@ -1,0 +1,17 @@
+testResultId,statusCode,responseBody,outputContentType,passed,failReason
+test_1h85cc7q5cuoy_createcharge,422,,text/html;charset=utf-8,false,OAS disconformity: Response status 422 not defined for path '/charges'.
+test_1iexso4qhaxx2_readcharge,404,,text/html;charset=utf-8,true,none
+test_1jeaf1gj0uvdx_readcharge,200,"{""amount"":1.100000023841858,""credit_card_id"":-1,""currency"":""randomString"",""id"":1}",application/json,false,"OAS disconformity: Instance failed to match all required schemas (matched only 0 out of 2) --- Object instance has properties which are not allowed by the schema: [""amount"";""credit_card_id"";""currency"";""id""]"
+test_1jictxxqwzak6_updatecharge,404,,text/html;charset=utf-8,true,none
+test_1jy7qbx7f55bo_readcharge,404,,text/html;charset=utf-8,true,none
+test_1jym2cxbubkfn_createcharge,422,,text/html;charset=utf-8,false,OAS disconformity: Response status 422 not defined for path '/charges'.
+test_qec69fp6v86x_updatecharge,404,,text/html;charset=utf-8,true,none
+test_qxia285igeuq_createcharge,422,,text/html;charset=utf-8,false,OAS disconformity: Response status 422 not defined for path '/charges'.
+test_rh8b1oufkt9y_deletecharge,404,,text/html;charset=utf-8,true,none
+test_s0v1k6piajat_deletecharge,404,,text/html;charset=utf-8,true,none
+test_skxvaz5g7dit_updatecharge,404,,text/html;charset=utf-8,true,none
+test_sohe18zrmtdj_readcharge,404,,text/html;charset=utf-8,true,none
+test_tnz2yaly8rqb_deletecharge,404,DELETE /charges/%3BLx/iV%26%3Dg-kr%7CP%23%20,text/html;charset=utf-8,true,none
+test_u88g13zrkfoj_createcharge,422,,text/html;charset=utf-8,false,OAS disconformity: Response status 422 not defined for path '/charges'.
+test_urv78wzj2k3b_updatecharge,404,PUT /charges/u8v*RlH/E0%2CC*,text/html;charset=utf-8,true,none
+test_vbbvkewm32as_deletecharge,404,,text/html;charset=utf-8,true,none

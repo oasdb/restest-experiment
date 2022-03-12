@@ -1,0 +1,78 @@
+{
+  "uid" : "45dbab85765e54e1",
+  "name" : "test_qxw3u4b6yla0_readproject",
+  "fullName" : "ProjectManagementPayloadExtraKey.OasDbProjectManagementPayloadExtraKey_1hraylhn49b3a.test_qxw3u4b6yla0_readproject",
+  "historyId" : "e8161a10e5d7d6d88d8b771fbfcf4073",
+  "time" : {
+    "start" : 1640933579391,
+    "stop" : 1640933579403,
+    "duration" : 12
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "dd20f06cbbf67258",
+      "name" : "Request",
+      "source" : "dd20f06cbbf67258.html",
+      "type" : "text/html",
+      "size" : 249
+    }, {
+      "uid" : "953cb9edd4ad8548",
+      "name" : "HTTP/1.1 404 Not Found",
+      "source" : "953cb9edd4ad8548.html",
+      "type" : "text/html",
+      "size" : 546
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ProjectManagementPayloadExtraKey"
+  }, {
+    "name" : "testClass",
+    "value" : "ProjectManagementPayloadExtraKey.OasDbProjectManagementPayloadExtraKey_1hraylhn49b3a"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_qxw3u4b6yla0_readproject"
+  }, {
+    "name" : "suite",
+    "value" : "ProjectManagementPayloadExtraKey.OasDbProjectManagementPayloadExtraKey_1hraylhn49b3a"
+  }, {
+    "name" : "host",
+    "value" : "Alexs-MacBook-Pro-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "58538@Alexs-MacBook-Pro-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "45dbab85765e54e1.json",
+  "parameterValues" : [ ]
+}

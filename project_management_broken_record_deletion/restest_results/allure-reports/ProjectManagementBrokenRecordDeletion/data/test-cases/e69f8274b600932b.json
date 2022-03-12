@@ -1,0 +1,78 @@
+{
+  "uid" : "e69f8274b600932b",
+  "name" : "test_t4ca1bn4zeid_deleteproject",
+  "fullName" : "ProjectManagementBrokenRecordDeletion.OasDbProjectManagementBrokenRecordDeletion_t4voghzh48q8.test_t4ca1bn4zeid_deleteproject",
+  "historyId" : "849e29edde41492ff5df8121aa5d32ce",
+  "time" : {
+    "start" : 1640947350573,
+    "stop" : 1640947350586,
+    "duration" : 13
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "25a4621d4ddd5c9a",
+      "name" : "Request",
+      "source" : "25a4621d4ddd5c9a.html",
+      "type" : "text/html",
+      "size" : 277
+    }, {
+      "uid" : "bd67715cb5cdf1ef",
+      "name" : "HTTP/1.1 404 Not Found",
+      "source" : "bd67715cb5cdf1ef.html",
+      "type" : "text/html",
+      "size" : 546
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ProjectManagementBrokenRecordDeletion"
+  }, {
+    "name" : "testClass",
+    "value" : "ProjectManagementBrokenRecordDeletion.OasDbProjectManagementBrokenRecordDeletion_t4voghzh48q8"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_t4ca1bn4zeid_deleteproject"
+  }, {
+    "name" : "suite",
+    "value" : "ProjectManagementBrokenRecordDeletion.OasDbProjectManagementBrokenRecordDeletion_t4voghzh48q8"
+  }, {
+    "name" : "host",
+    "value" : "Alexs-MacBook-Pro-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "66534@Alexs-MacBook-Pro-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e69f8274b600932b.json",
+  "parameterValues" : [ ]
+}

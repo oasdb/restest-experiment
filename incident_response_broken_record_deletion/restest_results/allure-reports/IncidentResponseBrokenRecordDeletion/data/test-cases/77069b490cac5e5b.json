@@ -1,0 +1,97 @@
+{
+  "uid" : "77069b490cac5e5b",
+  "name" : "test_s4v3w60rm9tj_readincident",
+  "fullName" : "IncidentResponseBrokenRecordDeletion.OasDbIncidentResponseBrokenRecordDeletion_1hr5wnerj24bl.test_s4v3w60rm9tj_readincident",
+  "historyId" : "ca4ca60da5b9d03fea02ae0aeae4bd3d",
+  "time" : {
+    "start" : 1640931004430,
+    "stop" : 1640931004441,
+    "duration" : 11
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "187f02beab213027",
+      "name" : "Request",
+      "source" : "187f02beab213027.html",
+      "type" : "text/html",
+      "size" : 231
+    }, {
+      "uid" : "7f762c60a2b5ce76",
+      "name" : "HTTP/1.1 404 Not Found",
+      "source" : "7f762c60a2b5ce76.html",
+      "type" : "text/html",
+      "size" : 546
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "IncidentResponseBrokenRecordDeletion"
+  }, {
+    "name" : "testClass",
+    "value" : "IncidentResponseBrokenRecordDeletion.OasDbIncidentResponseBrokenRecordDeletion_1hr5wnerj24bl"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_s4v3w60rm9tj_readincident"
+  }, {
+    "name" : "suite",
+    "value" : "IncidentResponseBrokenRecordDeletion.OasDbIncidentResponseBrokenRecordDeletion_1hr5wnerj24bl"
+  }, {
+    "name" : "host",
+    "value" : "Alexs-MacBook-Pro-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "57085@Alexs-MacBook-Pro-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "edd10d6c5a39d078",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640931004430,
+          "stop" : 1640931004441,
+          "duration" : 11
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "77069b490cac5e5b.json",
+  "parameterValues" : [ ]
+}

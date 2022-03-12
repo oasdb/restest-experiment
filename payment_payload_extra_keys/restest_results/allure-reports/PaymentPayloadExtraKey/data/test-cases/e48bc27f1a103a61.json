@@ -1,0 +1,78 @@
+{
+  "uid" : "e48bc27f1a103a61",
+  "name" : "test_1h7fwd3dt3cdf_updatecharge",
+  "fullName" : "PaymentPayloadExtraKey.OasDbPaymentPayloadExtraKey_t84m2v8zvs53.test_1h7fwd3dt3cdf_updatecharge",
+  "historyId" : "12f04f941d9abb00ef47020cdd830814",
+  "time" : {
+    "start" : 1640939801994,
+    "stop" : 1640939802009,
+    "duration" : 15
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ff3b8dbf984fa3de",
+      "name" : "Request",
+      "source" : "ff3b8dbf984fa3de.html",
+      "type" : "text/html",
+      "size" : 1275
+    }, {
+      "uid" : "bb9018a866d0d028",
+      "name" : "HTTP/1.1 404 Not Found",
+      "source" : "bb9018a866d0d028.html",
+      "type" : "text/html",
+      "size" : 546
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "PaymentPayloadExtraKey"
+  }, {
+    "name" : "testClass",
+    "value" : "PaymentPayloadExtraKey.OasDbPaymentPayloadExtraKey_t84m2v8zvs53"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_1h7fwd3dt3cdf_updatecharge"
+  }, {
+    "name" : "suite",
+    "value" : "PaymentPayloadExtraKey.OasDbPaymentPayloadExtraKey_t84m2v8zvs53"
+  }, {
+    "name" : "host",
+    "value" : "Alexs-MacBook-Pro-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "62150@Alexs-MacBook-Pro-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e48bc27f1a103a61.json",
+  "parameterValues" : [ ]
+}

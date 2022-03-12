@@ -1,0 +1,97 @@
+{
+  "uid" : "351c32c453fb451d",
+  "name" : "test_rhb21u9s808k_deletecharge",
+  "fullName" : "PaymentInvalidPayload.OasDbPaymentInvalidPayload_1iukdnwdtyxr8.test_rhb21u9s808k_deletecharge",
+  "historyId" : "afadfc6520db82fda75eb7bcc69da4",
+  "time" : {
+    "start" : 1640940993854,
+    "stop" : 1640940993866,
+    "duration" : 12
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4f7f7141b5997db8",
+      "name" : "Request",
+      "source" : "4f7f7141b5997db8.html",
+      "type" : "text/html",
+      "size" : 251
+    }, {
+      "uid" : "a42e53c39117b262",
+      "name" : "HTTP/1.1 404 Not Found",
+      "source" : "a42e53c39117b262.html",
+      "type" : "text/html",
+      "size" : 661
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "PaymentInvalidPayload"
+  }, {
+    "name" : "testClass",
+    "value" : "PaymentInvalidPayload.OasDbPaymentInvalidPayload_1iukdnwdtyxr8"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_rhb21u9s808k_deletecharge"
+  }, {
+    "name" : "suite",
+    "value" : "PaymentInvalidPayload.OasDbPaymentInvalidPayload_1iukdnwdtyxr8"
+  }, {
+    "name" : "host",
+    "value" : "Alexs-MacBook-Pro-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "62876@Alexs-MacBook-Pro-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "8c0d22d875a8fdd2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640940993854,
+          "stop" : 1640940993866,
+          "duration" : 12
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "351c32c453fb451d.json",
+  "parameterValues" : [ ]
+}

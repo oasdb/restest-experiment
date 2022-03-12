@@ -1,0 +1,17 @@
+testResultId,statusCode,responseBody,outputContentType,passed,failReason
+test_1hbdp8sixqxpy_deleteincident,404,,text/html;charset=utf-8,true,none
+test_1ibc14hvdshnq_readincident,404,,text/html;charset=utf-8,true,none
+test_1iv9ucfkbrp6b_deleteincident,404,,text/html;charset=utf-8,true,none
+test_1ji1o71pbsze9_updateincident,422,,text/html;charset=utf-8,false,OAS disconformity: Response status 422 not defined for path '/incidents/{incident_id}'.
+test_1ji7rjgyz54km_updateincident,422,,text/html;charset=utf-8,false,OAS disconformity: Response status 422 not defined for path '/incidents/{incident_id}'.
+test_1jy4x08sewit4_readincident,404,,text/html;charset=utf-8,true,none
+test_qdqhzugeow1g_updateincident,404,,text/html;charset=utf-8,true,none
+test_qhnbq55x2a1x_deleteincident,404,,text/html;charset=utf-8,true,none
+test_rhrnzk5pzs4z_createincident,422,,text/html;charset=utf-8,false,OAS disconformity: Response status 422 not defined for path '/incidents'.
+test_s4xck9oqw6sl_createincident,201,"{""id"":1}",application/json,true,none
+test_s505iecmvkva_updateincident,422,,text/html;charset=utf-8,false,OAS disconformity: Response status 422 not defined for path '/incidents/{incident_id}'.
+test_t4qogqjvurfm_deleteincident,404,,text/html;charset=utf-8,true,none
+test_to1tvnstkv36_createincident,422,,text/html;charset=utf-8,false,OAS disconformity: Response status 422 not defined for path '/incidents'.
+test_to1uc1ewl5x2_readincident,404,,text/html;charset=utf-8,true,none
+test_u8573tea7jvm_readincident,200,"{""service_id"":-2147483648,""title"":""one space"",""assignee_id"":-9223372036854775808,""id"":1}",application/json,false,"OAS disconformity: Instance failed to match all required schemas (matched only 0 out of 2) --- Object instance has properties which are not allowed by the schema: [""assignee_id"";""id"";""service_id"";""title""]"
+test_vb9ky1s2ly76_createincident,422,,text/html;charset=utf-8,false,OAS disconformity: Response status 422 not defined for path '/incidents'.

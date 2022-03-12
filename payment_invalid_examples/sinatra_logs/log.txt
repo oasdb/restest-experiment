@@ -1,0 +1,679 @@
+[2021-12-31 05:58:56] INFO  WEBrick 1.6.0
+[2021-12-31 05:58:56] INFO  ruby 2.7.2 (2020-10-01) [x86_64-darwin18]
+== Sinatra (v2.1.0) has taken the stage on 3000 for production with backup from WEBrick
+[2021-12-31 05:58:56] INFO  WEBrick::HTTPServer#start: pid=63590 port=3000
+127.0.0.1 - - [31/Dec/2021:05:59:19 -0300] "POST /charges HTTP/1.1" 422 - 0.0007
+127.0.0.1 - - [31/Dec/2021:05:59:19 -03] "POST /charges HTTP/1.1" 422 0
+- -> /charges
+127.0.0.1 - - [31/Dec/2021:05:59:24 -0300] "DELETE /charges/O%24H%2FDwNH%5B.vW9%28a.U HTTP/1.1" 404 39 0.0040
+127.0.0.1 - - [31/Dec/2021:05:59:24 -03] "DELETE /charges/O%24H%2FDwNH%5B.vW9%28a.U HTTP/1.1" 404 39
+- -> /charges/O%24H%2FDwNH%5B.vW9%28a.U
+127.0.0.1 - - [31/Dec/2021:05:59:29 -0300] "POST /charges HTTP/1.1" 422 - 0.0003
+127.0.0.1 - - [31/Dec/2021:05:59:29 -03] "POST /charges HTTP/1.1" 422 0
+- -> /charges
+127.0.0.1 - - [31/Dec/2021:05:59:34 -0300] "PUT /charges/f.igcwE%3FK%2C%26z1X%5Bo%40VvY HTTP/1.1" 422 - 0.0010
+127.0.0.1 - - [31/Dec/2021:05:59:34 -03] "PUT /charges/f.igcwE%3FK%2C%26z1X%5Bo%40VvY HTTP/1.1" 422 0
+- -> /charges/f.igcwE%3FK%2C%26z1X%5Bo%40VvY
+127.0.0.1 - - [31/Dec/2021:05:59:39 -0300] "PUT /charges/1 HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:05:59:39 -03] "PUT /charges/1 HTTP/1.1" 422 0
+- -> /charges/1
+127.0.0.1 - - [31/Dec/2021:05:59:44 -0300] "PUT /charges/4294967296 HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:05:59:44 -03] "PUT /charges/4294967296 HTTP/1.1" 422 0
+- -> /charges/4294967296
+127.0.0.1 - - [31/Dec/2021:05:59:49 -0300] "POST /charges HTTP/1.1" 422 - 0.0003
+127.0.0.1 - - [31/Dec/2021:05:59:49 -03] "POST /charges HTTP/1.1" 422 0
+- -> /charges
+127.0.0.1 - - [31/Dec/2021:05:59:54 -0300] "PUT /charges/18446744073709551616 HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:05:59:54 -03] "PUT /charges/18446744073709551616 HTTP/1.1" 422 0
+- -> /charges/18446744073709551616
+127.0.0.1 - - [31/Dec/2021:05:59:59 -0300] "GET /charges/%3AK.-4196V%24 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:05:59:59 -03] "GET /charges/%3AK.-4196V%24 HTTP/1.1" 404 0
+- -> /charges/%3AK.-4196V%24
+127.0.0.1 - - [31/Dec/2021:06:00:04 -0300] "DELETE /charges/_gTKyL%22%5DnB HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:00:04 -03] "DELETE /charges/_gTKyL%22%5DnB HTTP/1.1" 404 0
+- -> /charges/_gTKyL%22%5DnB
+127.0.0.1 - - [31/Dec/2021:06:00:09 -0300] "GET /charges/1 HTTP/1.1" 404 - 0.0003
+127.0.0.1 - - [31/Dec/2021:06:00:09 -03] "GET /charges/1 HTTP/1.1" 404 0
+- -> /charges/1
+127.0.0.1 - - [31/Dec/2021:06:00:14 -0300] "POST /charges HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:00:14 -03] "POST /charges HTTP/1.1" 422 0
+- -> /charges
+127.0.0.1 - - [31/Dec/2021:06:00:19 -0300] "DELETE /charges/Z%2C%7D%3ClW%7Ccml%5BFz HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:00:19 -03] "DELETE /charges/Z%2C%7D%3ClW%7Ccml%5BFz HTTP/1.1" 404 0
+- -> /charges/Z%2C%7D%3ClW%7Ccml%5BFz
+127.0.0.1 - - [31/Dec/2021:06:00:24 -0300] "GET /charges/null HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:00:24 -03] "GET /charges/null HTTP/1.1" 404 0
+- -> /charges/null
+127.0.0.1 - - [31/Dec/2021:06:00:29 -0300] "GET /charges/.Jao5%23%2Ch%5D HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:00:29 -03] "GET /charges/.Jao5%23%2Ch%5D HTTP/1.1" 404 0
+- -> /charges/.Jao5%23%2Ch%5D
+127.0.0.1 - - [31/Dec/2021:06:00:34 -0300] "DELETE /charges/a*Hz6%3E%5C%7C3%26p5%3E7iNN HTTP/1.1" 404 41 0.0004
+127.0.0.1 - - [31/Dec/2021:06:00:34 -03] "DELETE /charges/a*Hz6%3E%5C%7C3%26p5%3E7iNN HTTP/1.1" 404 41
+- -> /charges/a*Hz6%3E%5C%7C3%26p5%3E7iNN
+127.0.0.1 - - [31/Dec/2021:06:00:47 -0300] "DELETE /charges/null HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:00:47 -03] "DELETE /charges/null HTTP/1.1" 404 0
+- -> /charges/null
+127.0.0.1 - - [31/Dec/2021:06:00:52 -0300] "PUT /charges/%27%28G18K8%25%29sK HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:00:52 -03] "PUT /charges/%27%28G18K8%25%29sK HTTP/1.1" 422 0
+- -> /charges/%27%28G18K8%25%29sK
+127.0.0.1 - - [31/Dec/2021:06:00:57 -0300] "GET /charges/null HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:00:57 -03] "GET /charges/null HTTP/1.1" 404 0
+- -> /charges/null
+127.0.0.1 - - [31/Dec/2021:06:01:02 -0300] "POST /charges HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:01:02 -03] "POST /charges HTTP/1.1" 422 0
+- -> /charges
+127.0.0.1 - - [31/Dec/2021:06:01:07 -0300] "PUT /charges/null HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:01:07 -03] "PUT /charges/null HTTP/1.1" 422 0
+- -> /charges/null
+127.0.0.1 - - [31/Dec/2021:06:01:12 -0300] "PUT /charges/BzT%40tJL%3CPse69%29.d%29h HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:01:12 -03] "PUT /charges/BzT%40tJL%3CPse69%29.d%29h HTTP/1.1" 404 0
+- -> /charges/BzT%40tJL%3CPse69%29.d%29h
+127.0.0.1 - - [31/Dec/2021:06:01:17 -0300] "PUT /charges/9223372036854775808 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:01:17 -03] "PUT /charges/9223372036854775808 HTTP/1.1" 404 0
+- -> /charges/9223372036854775808
+127.0.0.1 - - [31/Dec/2021:06:01:22 -0300] "POST /charges HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:01:22 -03] "POST /charges HTTP/1.1" 422 0
+- -> /charges
+127.0.0.1 - - [31/Dec/2021:06:01:27 -0300] "POST /charges HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:01:27 -03] "POST /charges HTTP/1.1" 422 0
+- -> /charges
+127.0.0.1 - - [31/Dec/2021:06:01:32 -0300] "POST /charges HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:01:32 -03] "POST /charges HTTP/1.1" 422 0
+- -> /charges
+127.0.0.1 - - [31/Dec/2021:06:01:37 -0300] "GET /charges/-9223372036854775808 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:01:37 -03] "GET /charges/-9223372036854775808 HTTP/1.1" 404 0
+- -> /charges/-9223372036854775808
+127.0.0.1 - - [31/Dec/2021:06:01:42 -0300] "GET /charges/-9223372036854775808 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:01:42 -03] "GET /charges/-9223372036854775808 HTTP/1.1" 404 0
+- -> /charges/-9223372036854775808
+127.0.0.1 - - [31/Dec/2021:06:01:47 -0300] "DELETE /charges/Cr.%40%3A%5B%267RWH4%20Qv%28%2CQ%5E HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:01:47 -03] "DELETE /charges/Cr.%40%3A%5B%267RWH4%20Qv%28%2CQ%5E HTTP/1.1" 404 0
+- -> /charges/Cr.%40%3A%5B%267RWH4%20Qv%28%2CQ%5E
+127.0.0.1 - - [31/Dec/2021:06:01:52 -0300] "GET /charges/5o%22yqs%5Bflh-qEH%2B%23%3FaxH HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:01:52 -03] "GET /charges/5o%22yqs%5Bflh-qEH%2B%23%3FaxH HTTP/1.1" 404 0
+- -> /charges/5o%22yqs%5Bflh-qEH%2B%23%3FaxH
+127.0.0.1 - - [31/Dec/2021:06:01:57 -0300] "DELETE /charges/null HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:01:57 -03] "DELETE /charges/null HTTP/1.1" 404 0
+- -> /charges/null
+127.0.0.1 - - [31/Dec/2021:06:02:02 -0300] "DELETE /charges/4294967296 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:02:02 -03] "DELETE /charges/4294967296 HTTP/1.1" 404 0
+- -> /charges/4294967296
+127.0.0.1 - - [31/Dec/2021:06:02:14 -0300] "POST /charges HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:02:14 -03] "POST /charges HTTP/1.1" 422 0
+- -> /charges
+127.0.0.1 - - [31/Dec/2021:06:02:19 -0300] "GET /charges/null HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:02:19 -03] "GET /charges/null HTTP/1.1" 404 0
+- -> /charges/null
+127.0.0.1 - - [31/Dec/2021:06:02:24 -0300] "GET /charges/1Jw%7D2%5CD%40%7D41TH%3E%3B HTTP/1.1" 404 38 0.0004
+127.0.0.1 - - [31/Dec/2021:06:02:24 -03] "GET /charges/1Jw%7D2%5CD%40%7D41TH%3E%3B HTTP/1.1" 404 38
+- -> /charges/1Jw%7D2%5CD%40%7D41TH%3E%3B
+127.0.0.1 - - [31/Dec/2021:06:02:29 -0300] "DELETE /charges/0 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:02:29 -03] "DELETE /charges/0 HTTP/1.1" 404 0
+- -> /charges/0
+127.0.0.1 - - [31/Dec/2021:06:02:34 -0300] "DELETE /charges/18446744073709551616 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:02:34 -03] "DELETE /charges/18446744073709551616 HTTP/1.1" 404 0
+- -> /charges/18446744073709551616
+127.0.0.1 - - [31/Dec/2021:06:02:39 -0300] "POST /charges HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:02:39 -03] "POST /charges HTTP/1.1" 422 0
+- -> /charges
+127.0.0.1 - - [31/Dec/2021:06:02:44 -0300] "PUT /charges/i%21CcQPKbaO%21Im9V%24xBv5 HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:02:44 -03] "PUT /charges/i%21CcQPKbaO%21Im9V%24xBv5 HTTP/1.1" 422 0
+- -> /charges/i%21CcQPKbaO%21Im9V%24xBv5
+127.0.0.1 - - [31/Dec/2021:06:02:49 -0300] "PUT /charges/-9223372036854775808 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:02:49 -03] "PUT /charges/-9223372036854775808 HTTP/1.1" 404 0
+- -> /charges/-9223372036854775808
+127.0.0.1 - - [31/Dec/2021:06:02:54 -0300] "DELETE /charges/PlbX%28%5CNw%3C%3DO HTTP/1.1" 404 33 0.0005
+127.0.0.1 - - [31/Dec/2021:06:02:54 -03] "DELETE /charges/PlbX%28%5CNw%3C%3DO HTTP/1.1" 404 33
+- -> /charges/PlbX%28%5CNw%3C%3DO
+127.0.0.1 - - [31/Dec/2021:06:02:59 -0300] "PUT /charges/null HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:02:59 -03] "PUT /charges/null HTTP/1.1" 422 0
+- -> /charges/null
+127.0.0.1 - - [31/Dec/2021:06:03:04 -0300] "GET /charges/4294967296 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:03:04 -03] "GET /charges/4294967296 HTTP/1.1" 404 0
+- -> /charges/4294967296
+127.0.0.1 - - [31/Dec/2021:06:03:09 -0300] "GET /charges/%5C0 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:03:09 -03] "GET /charges/%5C0 HTTP/1.1" 404 0
+- -> /charges/%5C0
+127.0.0.1 - - [31/Dec/2021:06:03:14 -0300] "POST /charges HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:03:14 -03] "POST /charges HTTP/1.1" 422 0
+- -> /charges
+127.0.0.1 - - [31/Dec/2021:06:03:19 -0300] "PUT /charges/t%2BK%2BL%3EJZZ%23 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:03:19 -03] "PUT /charges/t%2BK%2BL%3EJZZ%23 HTTP/1.1" 404 0
+- -> /charges/t%2BK%2BL%3EJZZ%23
+127.0.0.1 - - [31/Dec/2021:06:03:25 -0300] "POST /charges HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:03:25 -03] "POST /charges HTTP/1.1" 422 0
+- -> /charges
+127.0.0.1 - - [31/Dec/2021:06:03:30 -0300] "DELETE /charges/-9223372036854775808 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:03:30 -03] "DELETE /charges/-9223372036854775808 HTTP/1.1" 404 0
+- -> /charges/-9223372036854775808
+127.0.0.1 - - [31/Dec/2021:06:03:42 -0300] "GET /charges/1 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:03:42 -03] "GET /charges/1 HTTP/1.1" 404 0
+- -> /charges/1
+127.0.0.1 - - [31/Dec/2021:06:03:47 -0300] "PUT /charges/TQd9%5D%3FC2q HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:03:47 -03] "PUT /charges/TQd9%5D%3FC2q HTTP/1.1" 422 0
+- -> /charges/TQd9%5D%3FC2q
+127.0.0.1 - - [31/Dec/2021:06:03:52 -0300] "POST /charges HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:03:52 -03] "POST /charges HTTP/1.1" 422 0
+- -> /charges
+127.0.0.1 - - [31/Dec/2021:06:03:57 -0300] "POST /charges HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:03:57 -03] "POST /charges HTTP/1.1" 422 0
+- -> /charges
+127.0.0.1 - - [31/Dec/2021:06:04:02 -0300] "DELETE /charges/WJucj%5Bg8%2CRO HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:04:02 -03] "DELETE /charges/WJucj%5Bg8%2CRO HTTP/1.1" 404 0
+- -> /charges/WJucj%5Bg8%2CRO
+127.0.0.1 - - [31/Dec/2021:06:04:07 -0300] "PUT /charges/c%2F9_KBtSge%25R2YbSU HTTP/1.1" 404 32 0.0005
+127.0.0.1 - - [31/Dec/2021:06:04:07 -03] "PUT /charges/c%2F9_KBtSge%25R2YbSU HTTP/1.1" 404 32
+- -> /charges/c%2F9_KBtSge%25R2YbSU
+127.0.0.1 - - [31/Dec/2021:06:04:12 -0300] "POST /charges HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:04:12 -03] "POST /charges HTTP/1.1" 422 0
+- -> /charges
+127.0.0.1 - - [31/Dec/2021:06:04:17 -0300] "DELETE /charges/s%22ws%23NH0F%5E3X%5E%5B%7D%22 HTTP/1.1" 404 - 0.0010
+127.0.0.1 - - [31/Dec/2021:06:04:17 -03] "DELETE /charges/s%22ws%23NH0F%5E3X%5E%5B%7D%22 HTTP/1.1" 404 0
+- -> /charges/s%22ws%23NH0F%5E3X%5E%5B%7D%22
+127.0.0.1 - - [31/Dec/2021:06:04:22 -0300] "PUT /charges/%26%7C%60*Iu_mERbr4FI HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:04:22 -03] "PUT /charges/%26%7C%60*Iu_mERbr4FI HTTP/1.1" 422 0
+- -> /charges/%26%7C%60*Iu_mERbr4FI
+127.0.0.1 - - [31/Dec/2021:06:04:27 -0300] "DELETE /charges/0 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:04:27 -03] "DELETE /charges/0 HTTP/1.1" 404 0
+- -> /charges/0
+127.0.0.1 - - [31/Dec/2021:06:04:32 -0300] "GET /charges/%20r5q1%2C8*ngnO HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:04:32 -03] "GET /charges/%20r5q1%2C8*ngnO HTTP/1.1" 404 0
+- -> /charges/%20r5q1%2C8*ngnO
+127.0.0.1 - - [31/Dec/2021:06:04:37 -0300] "GET /charges/-1 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:04:37 -03] "GET /charges/-1 HTTP/1.1" 404 0
+- -> /charges/-1
+127.0.0.1 - - [31/Dec/2021:06:04:42 -0300] "DELETE /charges/.IfZo0%3Do%5E%3B2%28FK%2CV HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:04:42 -03] "DELETE /charges/.IfZo0%3Do%5E%3B2%28FK%2CV HTTP/1.1" 404 0
+- -> /charges/.IfZo0%3Do%5E%3B2%28FK%2CV
+127.0.0.1 - - [31/Dec/2021:06:04:47 -0300] "GET /charges/-2147483648 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:04:47 -03] "GET /charges/-2147483648 HTTP/1.1" 404 0
+- -> /charges/-2147483648
+127.0.0.1 - - [31/Dec/2021:06:04:52 -0300] "POST /charges HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:04:52 -03] "POST /charges HTTP/1.1" 422 0
+- -> /charges
+127.0.0.1 - - [31/Dec/2021:06:04:57 -0300] "PUT /charges/Lt%3C0LSpa4%20h%5EKf73%7D%249 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:04:57 -03] "PUT /charges/Lt%3C0LSpa4%20h%5EKf73%7D%249 HTTP/1.1" 404 0
+- -> /charges/Lt%3C0LSpa4%20h%5EKf73%7D%249
+127.0.0.1 - - [31/Dec/2021:06:05:10 -0300] "PUT /charges/-2147483648 HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:05:10 -03] "PUT /charges/-2147483648 HTTP/1.1" 422 0
+- -> /charges/-2147483648
+127.0.0.1 - - [31/Dec/2021:06:05:15 -0300] "GET /charges/2147483648 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:05:15 -03] "GET /charges/2147483648 HTTP/1.1" 404 0
+- -> /charges/2147483648
+127.0.0.1 - - [31/Dec/2021:06:05:20 -0300] "DELETE /charges/VV%26B%26-%5C%40yL. HTTP/1.1" 404 33 0.0005
+127.0.0.1 - - [31/Dec/2021:06:05:20 -03] "DELETE /charges/VV%26B%26-%5C%40yL. HTTP/1.1" 404 33
+- -> /charges/VV%26B%26-%5C%40yL.
+127.0.0.1 - - [31/Dec/2021:06:05:25 -0300] "POST /charges HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:05:25 -03] "POST /charges HTTP/1.1" 422 0
+- -> /charges
+127.0.0.1 - - [31/Dec/2021:06:05:30 -0300] "PUT /charges/18446744073709551616 HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:05:30 -03] "PUT /charges/18446744073709551616 HTTP/1.1" 422 0
+- -> /charges/18446744073709551616
+127.0.0.1 - - [31/Dec/2021:06:05:35 -0300] "POST /charges HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:05:35 -03] "POST /charges HTTP/1.1" 422 0
+- -> /charges
+127.0.0.1 - - [31/Dec/2021:06:05:40 -0300] "GET /charges/1 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:05:40 -03] "GET /charges/1 HTTP/1.1" 404 0
+- -> /charges/1
+127.0.0.1 - - [31/Dec/2021:06:05:45 -0300] "GET /charges/muC%27%60ZMU%228U%2F HTTP/1.1" 404 31 0.0004
+127.0.0.1 - - [31/Dec/2021:06:05:45 -03] "GET /charges/muC%27%60ZMU%228U%2F HTTP/1.1" 404 31
+- -> /charges/muC%27%60ZMU%228U%2F
+127.0.0.1 - - [31/Dec/2021:06:05:50 -0300] "DELETE /charges/%2FWs%3B%3Ez%26*%3FM%2Fk%3FT%29k HTTP/1.1" 404 43 0.0004
+127.0.0.1 - - [31/Dec/2021:06:05:50 -03] "DELETE /charges/%2FWs%3B%3Ez%26*%3FM%2Fk%3FT%29k HTTP/1.1" 404 43
+- -> /charges/%2FWs%3B%3Ez%26*%3FM%2Fk%3FT%29k
+127.0.0.1 - - [31/Dec/2021:06:05:55 -0300] "DELETE /charges/-2147483648 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:05:55 -03] "DELETE /charges/-2147483648 HTTP/1.1" 404 0
+- -> /charges/-2147483648
+127.0.0.1 - - [31/Dec/2021:06:06:00 -0300] "GET /charges/KQ%7Cy%3ES%214FeBSKq9%2B HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:06:00 -03] "GET /charges/KQ%7Cy%3ES%214FeBSKq9%2B HTTP/1.1" 404 0
+- -> /charges/KQ%7Cy%3ES%214FeBSKq9%2B
+127.0.0.1 - - [31/Dec/2021:06:06:05 -0300] "PUT /charges/null HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:06:05 -03] "PUT /charges/null HTTP/1.1" 422 0
+- -> /charges/null
+127.0.0.1 - - [31/Dec/2021:06:06:10 -0300] "DELETE /charges/PN%3A%22D_hbd.%28%24 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:06:10 -03] "DELETE /charges/PN%3A%22D_hbd.%28%24 HTTP/1.1" 404 0
+- -> /charges/PN%3A%22D_hbd.%28%24
+127.0.0.1 - - [31/Dec/2021:06:06:15 -0300] "POST /charges HTTP/1.1" 201 8 0.0005
+127.0.0.1 - - [31/Dec/2021:06:06:15 -03] "POST /charges HTTP/1.1" 201 8
+- -> /charges
+127.0.0.1 - - [31/Dec/2021:06:06:20 -0300] "PUT /charges/18446744073709551616 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:06:20 -03] "PUT /charges/18446744073709551616 HTTP/1.1" 404 0
+- -> /charges/18446744073709551616
+127.0.0.1 - - [31/Dec/2021:06:06:25 -0300] "POST /charges HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:06:25 -03] "POST /charges HTTP/1.1" 422 0
+- -> /charges
+127.0.0.1 - - [31/Dec/2021:06:06:37 -0300] "DELETE /charges/18446744073709551616 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:06:37 -03] "DELETE /charges/18446744073709551616 HTTP/1.1" 404 0
+- -> /charges/18446744073709551616
+127.0.0.1 - - [31/Dec/2021:06:06:42 -0300] "GET /charges/p2%28.%2Cz%25%23Up%253ZZ4v0 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:06:42 -03] "GET /charges/p2%28.%2Cz%25%23Up%253ZZ4v0 HTTP/1.1" 404 0
+- -> /charges/p2%28.%2Cz%25%23Up%253ZZ4v0
+127.0.0.1 - - [31/Dec/2021:06:06:47 -0300] "DELETE /charges/1.1 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:06:47 -03] "DELETE /charges/1.1 HTTP/1.1" 404 0
+- -> /charges/1.1
+127.0.0.1 - - [31/Dec/2021:06:06:52 -0300] "PUT /charges/pe9J-%5E74_%40%24%20RJfiS HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:06:52 -03] "PUT /charges/pe9J-%5E74_%40%24%20RJfiS HTTP/1.1" 422 0
+- -> /charges/pe9J-%5E74_%40%24%20RJfiS
+127.0.0.1 - - [31/Dec/2021:06:06:57 -0300] "DELETE /charges/-9223372036854775808 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:06:57 -03] "DELETE /charges/-9223372036854775808 HTTP/1.1" 404 0
+- -> /charges/-9223372036854775808
+127.0.0.1 - - [31/Dec/2021:06:07:02 -0300] "GET /charges/null HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:07:02 -03] "GET /charges/null HTTP/1.1" 404 0
+- -> /charges/null
+127.0.0.1 - - [31/Dec/2021:06:07:07 -0300] "GET /charges/-2147483648 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:07:07 -03] "GET /charges/-2147483648 HTTP/1.1" 404 0
+- -> /charges/-2147483648
+127.0.0.1 - - [31/Dec/2021:06:07:12 -0300] "GET /charges/2147483648 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:07:12 -03] "GET /charges/2147483648 HTTP/1.1" 404 0
+- -> /charges/2147483648
+127.0.0.1 - - [31/Dec/2021:06:07:17 -0300] "PUT /charges/cP-Lfyr%22gN%3A%2C%3B*xNeU%3A%22 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:07:17 -03] "PUT /charges/cP-Lfyr%22gN%3A%2C%3B*xNeU%3A%22 HTTP/1.1" 404 0
+- -> /charges/cP-Lfyr%22gN%3A%2C%3B*xNeU%3A%22
+127.0.0.1 - - [31/Dec/2021:06:07:23 -0300] "DELETE /charges/E%5E%7D%5B%5Dn%7Dp%27RgbF%213 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:07:23 -03] "DELETE /charges/E%5E%7D%5B%5Dn%7Dp%27RgbF%213 HTTP/1.1" 404 0
+- -> /charges/E%5E%7D%5B%5Dn%7Dp%27RgbF%213
+127.0.0.1 - - [31/Dec/2021:06:07:28 -0300] "POST /charges HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:07:28 -03] "POST /charges HTTP/1.1" 422 0
+- -> /charges
+127.0.0.1 - - [31/Dec/2021:06:07:33 -0300] "PUT /charges/1 HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:07:33 -03] "PUT /charges/1 HTTP/1.1" 422 0
+- -> /charges/1
+127.0.0.1 - - [31/Dec/2021:06:07:38 -0300] "POST /charges HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:07:38 -03] "POST /charges HTTP/1.1" 422 0
+- -> /charges
+127.0.0.1 - - [31/Dec/2021:06:07:43 -0300] "POST /charges HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:07:43 -03] "POST /charges HTTP/1.1" 422 0
+- -> /charges
+127.0.0.1 - - [31/Dec/2021:06:07:48 -0300] "POST /charges HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:07:48 -03] "POST /charges HTTP/1.1" 422 0
+- -> /charges
+127.0.0.1 - - [31/Dec/2021:06:07:53 -0300] "PUT /charges/zg%7DuvlIG.%7E%2CN%5Cq%40%3AJ%271 HTTP/1.1" 404 44 0.0004
+127.0.0.1 - - [31/Dec/2021:06:07:53 -03] "PUT /charges/zg%7DuvlIG.%7E%2CN%5Cq%40%3AJ%271 HTTP/1.1" 404 44
+- -> /charges/zg%7DuvlIG.%7E%2CN%5Cq%40%3AJ%271
+127.0.0.1 - - [31/Dec/2021:06:08:05 -0300] "PUT /charges/T%3C%27NQIU%5Cbl%2Fbv HTTP/1.1" 404 30 0.0005
+127.0.0.1 - - [31/Dec/2021:06:08:05 -03] "PUT /charges/T%3C%27NQIU%5Cbl%2Fbv HTTP/1.1" 404 30
+- -> /charges/T%3C%27NQIU%5Cbl%2Fbv
+127.0.0.1 - - [31/Dec/2021:06:08:10 -0300] "PUT /charges/5rv%7C3S%5Df*%3FU%3BseM HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:08:10 -03] "PUT /charges/5rv%7C3S%5Df*%3FU%3BseM HTTP/1.1" 422 0
+- -> /charges/5rv%7C3S%5Df*%3FU%3BseM
+127.0.0.1 - - [31/Dec/2021:06:08:15 -0300] "DELETE /charges/r%27%5DU%20KB%5E%240At HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:08:15 -03] "DELETE /charges/r%27%5DU%20KB%5E%240At HTTP/1.1" 404 0
+- -> /charges/r%27%5DU%20KB%5E%240At
+127.0.0.1 - - [31/Dec/2021:06:08:20 -0300] "GET /charges/%26%5D1%25*J%20%5DOBN%20El%22 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:08:20 -03] "GET /charges/%26%5D1%25*J%20%5DOBN%20El%22 HTTP/1.1" 404 0
+- -> /charges/%26%5D1%25*J%20%5DOBN%20El%22
+127.0.0.1 - - [31/Dec/2021:06:08:25 -0300] "DELETE /charges/-9223372036854775808 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:08:25 -03] "DELETE /charges/-9223372036854775808 HTTP/1.1" 404 0
+- -> /charges/-9223372036854775808
+127.0.0.1 - - [31/Dec/2021:06:08:30 -0300] "GET /charges/2147483648 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:08:30 -03] "GET /charges/2147483648 HTTP/1.1" 404 0
+- -> /charges/2147483648
+127.0.0.1 - - [31/Dec/2021:06:08:35 -0300] "PUT /charges/randomString HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:08:35 -03] "PUT /charges/randomString HTTP/1.1" 422 0
+- -> /charges/randomString
+127.0.0.1 - - [31/Dec/2021:06:08:40 -0300] "POST /charges HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:08:40 -03] "POST /charges HTTP/1.1" 422 0
+- -> /charges
+127.0.0.1 - - [31/Dec/2021:06:08:45 -0300] "POST /charges HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:08:45 -03] "POST /charges HTTP/1.1" 422 0
+- -> /charges
+127.0.0.1 - - [31/Dec/2021:06:08:50 -0300] "GET /charges/2147483648 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:08:50 -03] "GET /charges/2147483648 HTTP/1.1" 404 0
+- -> /charges/2147483648
+127.0.0.1 - - [31/Dec/2021:06:08:55 -0300] "PUT /charges/Nd-XJU0%296oizltH HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:08:55 -03] "PUT /charges/Nd-XJU0%296oizltH HTTP/1.1" 422 0
+- -> /charges/Nd-XJU0%296oizltH
+127.0.0.1 - - [31/Dec/2021:06:09:00 -0300] "GET /charges/18446744073709551616 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:09:00 -03] "GET /charges/18446744073709551616 HTTP/1.1" 404 0
+- -> /charges/18446744073709551616
+127.0.0.1 - - [31/Dec/2021:06:09:05 -0300] "DELETE /charges/Y%3AUc%3FN9Qh%2CZ%27%25 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:09:05 -03] "DELETE /charges/Y%3AUc%3FN9Qh%2CZ%27%25 HTTP/1.1" 404 0
+- -> /charges/Y%3AUc%3FN9Qh%2CZ%27%25
+127.0.0.1 - - [31/Dec/2021:06:09:10 -0300] "DELETE /charges/2147483648 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:09:10 -03] "DELETE /charges/2147483648 HTTP/1.1" 404 0
+- -> /charges/2147483648
+127.0.0.1 - - [31/Dec/2021:06:09:15 -0300] "POST /charges HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:09:15 -03] "POST /charges HTTP/1.1" 422 0
+- -> /charges
+127.0.0.1 - - [31/Dec/2021:06:09:20 -0300] "POST /charges HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:09:20 -03] "POST /charges HTTP/1.1" 422 0
+- -> /charges
+127.0.0.1 - - [31/Dec/2021:06:09:33 -0300] "PUT /charges/null HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:09:33 -03] "PUT /charges/null HTTP/1.1" 404 0
+- -> /charges/null
+127.0.0.1 - - [31/Dec/2021:06:09:38 -0300] "PUT /charges/%5C0 HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:09:38 -03] "PUT /charges/%5C0 HTTP/1.1" 422 0
+- -> /charges/%5C0
+127.0.0.1 - - [31/Dec/2021:06:09:43 -0300] "GET /charges/4294967296 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:09:43 -03] "GET /charges/4294967296 HTTP/1.1" 404 0
+- -> /charges/4294967296
+127.0.0.1 - - [31/Dec/2021:06:09:48 -0300] "DELETE /charges/oW%2B%2CQ%3D%20h%5D%3A_1D%7E HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:09:48 -03] "DELETE /charges/oW%2B%2CQ%3D%20h%5D%3A_1D%7E HTTP/1.1" 404 0
+- -> /charges/oW%2B%2CQ%3D%20h%5D%3A_1D%7E
+127.0.0.1 - - [31/Dec/2021:06:09:53 -0300] "DELETE /charges/1 HTTP/1.1" 200 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:09:53 -03] "DELETE /charges/1 HTTP/1.1" 200 0
+- -> /charges/1
+127.0.0.1 - - [31/Dec/2021:06:09:58 -0300] "DELETE /charges/18446744073709551616 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:09:58 -03] "DELETE /charges/18446744073709551616 HTTP/1.1" 404 0
+- -> /charges/18446744073709551616
+127.0.0.1 - - [31/Dec/2021:06:10:03 -0300] "POST /charges HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:10:03 -03] "POST /charges HTTP/1.1" 422 0
+- -> /charges
+127.0.0.1 - - [31/Dec/2021:06:10:08 -0300] "GET /charges/0 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:10:08 -03] "GET /charges/0 HTTP/1.1" 404 0
+- -> /charges/0
+127.0.0.1 - - [31/Dec/2021:06:10:13 -0300] "POST /charges HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:10:13 -03] "POST /charges HTTP/1.1" 422 0
+- -> /charges
+127.0.0.1 - - [31/Dec/2021:06:10:18 -0300] "PUT /charges/9223372036854775808 HTTP/1.1" 404 - 0.0006
+127.0.0.1 - - [31/Dec/2021:06:10:18 -03] "PUT /charges/9223372036854775808 HTTP/1.1" 404 0
+- -> /charges/9223372036854775808
+127.0.0.1 - - [31/Dec/2021:06:10:23 -0300] "GET /charges/-2147483648 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:10:23 -03] "GET /charges/-2147483648 HTTP/1.1" 404 0
+- -> /charges/-2147483648
+127.0.0.1 - - [31/Dec/2021:06:10:28 -0300] "PUT /charges/-2147483648 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:10:28 -03] "PUT /charges/-2147483648 HTTP/1.1" 404 0
+- -> /charges/-2147483648
+127.0.0.1 - - [31/Dec/2021:06:10:33 -0300] "DELETE /charges/-1 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:10:33 -03] "DELETE /charges/-1 HTTP/1.1" 404 0
+- -> /charges/-1
+127.0.0.1 - - [31/Dec/2021:06:10:38 -0300] "POST /charges HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:10:38 -03] "POST /charges HTTP/1.1" 422 0
+- -> /charges
+127.0.0.1 - - [31/Dec/2021:06:10:43 -0300] "GET /charges/5T4-qlfYQ%29%224XY1 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:10:43 -03] "GET /charges/5T4-qlfYQ%29%224XY1 HTTP/1.1" 404 0
+- -> /charges/5T4-qlfYQ%29%224XY1
+127.0.0.1 - - [31/Dec/2021:06:10:48 -0300] "POST /charges HTTP/1.1" 422 - 0.0003
+127.0.0.1 - - [31/Dec/2021:06:10:48 -03] "POST /charges HTTP/1.1" 422 0
+- -> /charges
+127.0.0.1 - - [31/Dec/2021:06:11:01 -0300] "DELETE /charges/%3D2ImJjXha77Ew%26WVI HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:11:01 -03] "DELETE /charges/%3D2ImJjXha77Ew%26WVI HTTP/1.1" 404 0
+- -> /charges/%3D2ImJjXha77Ew%26WVI
+127.0.0.1 - - [31/Dec/2021:06:11:06 -0300] "DELETE /charges/%7Cyl9mh%27%3Dx%2B%7DZVv HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:11:06 -03] "DELETE /charges/%7Cyl9mh%27%3Dx%2B%7DZVv HTTP/1.1" 404 0
+- -> /charges/%7Cyl9mh%27%3Dx%2B%7DZVv
+127.0.0.1 - - [31/Dec/2021:06:11:11 -0300] "PUT /charges/dXR%20%3Elu7%25O6%3DN HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:11:11 -03] "PUT /charges/dXR%20%3Elu7%25O6%3DN HTTP/1.1" 404 0
+- -> /charges/dXR%20%3Elu7%25O6%3DN
+127.0.0.1 - - [31/Dec/2021:06:11:16 -0300] "GET /charges/1 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:11:16 -03] "GET /charges/1 HTTP/1.1" 404 0
+- -> /charges/1
+127.0.0.1 - - [31/Dec/2021:06:11:21 -0300] "DELETE /charges/1.1 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:11:21 -03] "DELETE /charges/1.1 HTTP/1.1" 404 0
+- -> /charges/1.1
+127.0.0.1 - - [31/Dec/2021:06:11:26 -0300] "POST /charges HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:11:26 -03] "POST /charges HTTP/1.1" 422 0
+- -> /charges
+127.0.0.1 - - [31/Dec/2021:06:11:31 -0300] "POST /charges HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:11:31 -03] "POST /charges HTTP/1.1" 422 0
+- -> /charges
+127.0.0.1 - - [31/Dec/2021:06:11:36 -0300] "PUT /charges/2147483648 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:11:36 -03] "PUT /charges/2147483648 HTTP/1.1" 404 0
+- -> /charges/2147483648
+127.0.0.1 - - [31/Dec/2021:06:11:41 -0300] "POST /charges HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:11:41 -03] "POST /charges HTTP/1.1" 422 0
+- -> /charges
+127.0.0.1 - - [31/Dec/2021:06:11:46 -0300] "GET /charges/2147483648 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:11:46 -03] "GET /charges/2147483648 HTTP/1.1" 404 0
+- -> /charges/2147483648
+127.0.0.1 - - [31/Dec/2021:06:11:51 -0300] "GET /charges/2147483648 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:11:51 -03] "GET /charges/2147483648 HTTP/1.1" 404 0
+- -> /charges/2147483648
+127.0.0.1 - - [31/Dec/2021:06:11:56 -0300] "GET /charges/zXcF%2Brh_q7 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:11:56 -03] "GET /charges/zXcF%2Brh_q7 HTTP/1.1" 404 0
+- -> /charges/zXcF%2Brh_q7
+127.0.0.1 - - [31/Dec/2021:06:12:01 -0300] "DELETE /charges/18446744073709551616 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:12:01 -03] "DELETE /charges/18446744073709551616 HTTP/1.1" 404 0
+- -> /charges/18446744073709551616
+127.0.0.1 - - [31/Dec/2021:06:12:06 -0300] "PUT /charges/OFJDqvT%5CKjlpo1HZ HTTP/1.1" 404 29 0.0003
+127.0.0.1 - - [31/Dec/2021:06:12:06 -03] "PUT /charges/OFJDqvT%5CKjlpo1HZ HTTP/1.1" 404 29
+- -> /charges/OFJDqvT%5CKjlpo1HZ
+127.0.0.1 - - [31/Dec/2021:06:12:11 -0300] "POST /charges HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:12:11 -03] "POST /charges HTTP/1.1" 422 0
+- -> /charges
+127.0.0.1 - - [31/Dec/2021:06:12:16 -0300] "PUT /charges/9223372036854775808 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:12:16 -03] "PUT /charges/9223372036854775808 HTTP/1.1" 404 0
+- -> /charges/9223372036854775808
+127.0.0.1 - - [31/Dec/2021:06:12:29 -0300] "POST /charges HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:12:29 -03] "POST /charges HTTP/1.1" 422 0
+- -> /charges
+127.0.0.1 - - [31/Dec/2021:06:12:34 -0300] "PUT /charges/%7E%60%3FmUw%7D%2F9xtJ%5EfZJa%26%5B HTTP/1.1" 404 46 0.0004
+127.0.0.1 - - [31/Dec/2021:06:12:34 -03] "PUT /charges/%7E%60%3FmUw%7D%2F9xtJ%5EfZJa%26%5B HTTP/1.1" 404 46
+- -> /charges/%7E%60%3FmUw%7D%2F9xtJ%5EfZJa%26%5B
+127.0.0.1 - - [31/Dec/2021:06:12:39 -0300] "GET /charges/F%2Cyys8WzU3%3BG4P HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:12:39 -03] "GET /charges/F%2Cyys8WzU3%3BG4P HTTP/1.1" 404 0
+- -> /charges/F%2Cyys8WzU3%3BG4P
+127.0.0.1 - - [31/Dec/2021:06:12:44 -0300] "DELETE /charges/atY19A%3CRS%5D%5D%3E%3E%60P HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:12:44 -03] "DELETE /charges/atY19A%3CRS%5D%5D%3E%3E%60P HTTP/1.1" 404 0
+- -> /charges/atY19A%3CRS%5D%5D%3E%3E%60P
+127.0.0.1 - - [31/Dec/2021:06:12:49 -0300] "GET /charges/Soo%7E%7EN8%3BW%7ECz HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:12:49 -03] "GET /charges/Soo%7E%7EN8%3BW%7ECz HTTP/1.1" 404 0
+- -> /charges/Soo%7E%7EN8%3BW%7ECz
+127.0.0.1 - - [31/Dec/2021:06:12:54 -0300] "GET /charges/4294967296 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:12:54 -03] "GET /charges/4294967296 HTTP/1.1" 404 0
+- -> /charges/4294967296
+127.0.0.1 - - [31/Dec/2021:06:12:59 -0300] "DELETE /charges/null HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:12:59 -03] "DELETE /charges/null HTTP/1.1" 404 0
+- -> /charges/null
+127.0.0.1 - - [31/Dec/2021:06:13:04 -0300] "POST /charges HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:13:04 -03] "POST /charges HTTP/1.1" 422 0
+- -> /charges
+127.0.0.1 - - [31/Dec/2021:06:13:09 -0300] "POST /charges HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:13:09 -03] "POST /charges HTTP/1.1" 422 0
+- -> /charges
+127.0.0.1 - - [31/Dec/2021:06:13:14 -0300] "PUT /charges/1.1 HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:13:14 -03] "PUT /charges/1.1 HTTP/1.1" 422 0
+- -> /charges/1.1
+127.0.0.1 - - [31/Dec/2021:06:13:19 -0300] "GET /charges/QaEOHp%2Fkixgc%25%3A*%286%60R2 HTTP/1.1" 404 41 0.0004
+127.0.0.1 - - [31/Dec/2021:06:13:19 -03] "GET /charges/QaEOHp%2Fkixgc%25%3A*%286%60R2 HTTP/1.1" 404 41
+- -> /charges/QaEOHp%2Fkixgc%25%3A*%286%60R2
+127.0.0.1 - - [31/Dec/2021:06:13:24 -0300] "DELETE /charges/1 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:13:24 -03] "DELETE /charges/1 HTTP/1.1" 404 0
+- -> /charges/1
+127.0.0.1 - - [31/Dec/2021:06:13:29 -0300] "DELETE /charges/null HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:13:29 -03] "DELETE /charges/null HTTP/1.1" 404 0
+- -> /charges/null
+127.0.0.1 - - [31/Dec/2021:06:13:34 -0300] "POST /charges HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:13:34 -03] "POST /charges HTTP/1.1" 422 0
+- -> /charges
+127.0.0.1 - - [31/Dec/2021:06:13:39 -0300] "PUT /charges/%21%3BN5E%23d%2F-wIN HTTP/1.1" 404 31 0.0005
+127.0.0.1 - - [31/Dec/2021:06:13:39 -03] "PUT /charges/%21%3BN5E%23d%2F-wIN HTTP/1.1" 404 31
+- -> /charges/%21%3BN5E%23d%2F-wIN
+127.0.0.1 - - [31/Dec/2021:06:13:44 -0300] "PUT /charges/e.%3Fz2%5C*%29%3B2 HTTP/1.1" 404 29 0.0005
+127.0.0.1 - - [31/Dec/2021:06:13:44 -03] "PUT /charges/e.%3Fz2%5C*%29%3B2 HTTP/1.1" 404 29
+- -> /charges/e.%3Fz2%5C*%29%3B2
+127.0.0.1 - - [31/Dec/2021:06:13:57 -0300] "POST /charges HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:13:57 -03] "POST /charges HTTP/1.1" 422 0
+- -> /charges
+127.0.0.1 - - [31/Dec/2021:06:14:02 -0300] "GET /charges/%21%3BqFuU%25%60%60OjkA HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:14:02 -03] "GET /charges/%21%3BqFuU%25%60%60OjkA HTTP/1.1" 404 0
+- -> /charges/%21%3BqFuU%25%60%60OjkA
+127.0.0.1 - - [31/Dec/2021:06:14:07 -0300] "POST /charges HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:14:07 -03] "POST /charges HTTP/1.1" 422 0
+- -> /charges
+127.0.0.1 - - [31/Dec/2021:06:14:12 -0300] "DELETE /charges/-2147483648 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:14:12 -03] "DELETE /charges/-2147483648 HTTP/1.1" 404 0
+- -> /charges/-2147483648
+127.0.0.1 - - [31/Dec/2021:06:14:17 -0300] "POST /charges HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:14:17 -03] "POST /charges HTTP/1.1" 422 0
+- -> /charges
+127.0.0.1 - - [31/Dec/2021:06:14:22 -0300] "POST /charges HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:14:22 -03] "POST /charges HTTP/1.1" 422 0
+- -> /charges
+127.0.0.1 - - [31/Dec/2021:06:14:27 -0300] "GET /charges/%5C0 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:14:27 -03] "GET /charges/%5C0 HTTP/1.1" 404 0
+- -> /charges/%5C0
+127.0.0.1 - - [31/Dec/2021:06:14:32 -0300] "DELETE /charges/k%21%3C%3Cd*Lre%5DP000%2B0q HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:14:32 -03] "DELETE /charges/k%21%3C%3Cd*Lre%5DP000%2B0q HTTP/1.1" 404 0
+- -> /charges/k%21%3C%3Cd*Lre%5DP000%2B0q
+127.0.0.1 - - [31/Dec/2021:06:14:37 -0300] "PUT /charges/%29%7DhQERkv4%27s HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:14:37 -03] "PUT /charges/%29%7DhQERkv4%27s HTTP/1.1" 422 0
+- -> /charges/%29%7DhQERkv4%27s
+127.0.0.1 - - [31/Dec/2021:06:14:42 -0300] "GET /charges/randomString HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:14:42 -03] "GET /charges/randomString HTTP/1.1" 404 0
+- -> /charges/randomString
+127.0.0.1 - - [31/Dec/2021:06:14:47 -0300] "DELETE /charges/1.1 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:14:47 -03] "DELETE /charges/1.1 HTTP/1.1" 404 0
+- -> /charges/1.1
+127.0.0.1 - - [31/Dec/2021:06:14:52 -0300] "PUT /charges/RU%25%5C%5DQn*0%22uf%29n%7C2 HTTP/1.1" 404 39 0.0004
+127.0.0.1 - - [31/Dec/2021:06:14:52 -03] "PUT /charges/RU%25%5C%5DQn*0%22uf%29n%7C2 HTTP/1.1" 404 39
+- -> /charges/RU%25%5C%5DQn*0%22uf%29n%7C2
+127.0.0.1 - - [31/Dec/2021:06:14:57 -0300] "PUT /charges/%20-%3E8mg%2Flsv%28Bi6r7 HTTP/1.1" 404 35 0.0004
+127.0.0.1 - - [31/Dec/2021:06:14:57 -03] "PUT /charges/%20-%3E8mg%2Flsv%28Bi6r7 HTTP/1.1" 404 35
+- -> /charges/%20-%3E8mg%2Flsv%28Bi6r7
+127.0.0.1 - - [31/Dec/2021:06:15:02 -0300] "PUT /charges/-2147483648 HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:15:02 -03] "PUT /charges/-2147483648 HTTP/1.1" 422 0
+- -> /charges/-2147483648
+127.0.0.1 - - [31/Dec/2021:06:15:07 -0300] "DELETE /charges/1 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:15:07 -03] "DELETE /charges/1 HTTP/1.1" 404 0
+- -> /charges/1
+127.0.0.1 - - [31/Dec/2021:06:15:12 -0300] "GET /charges/2147483648 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:15:12 -03] "GET /charges/2147483648 HTTP/1.1" 404 0
+- -> /charges/2147483648
+127.0.0.1 - - [31/Dec/2021:06:15:25 -0300] "DELETE /charges/4294967296 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:15:25 -03] "DELETE /charges/4294967296 HTTP/1.1" 404 0
+- -> /charges/4294967296
+127.0.0.1 - - [31/Dec/2021:06:15:30 -0300] "POST /charges HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:15:30 -03] "POST /charges HTTP/1.1" 422 0
+- -> /charges
+127.0.0.1 - - [31/Dec/2021:06:15:35 -0300] "POST /charges HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:15:35 -03] "POST /charges HTTP/1.1" 422 0
+- -> /charges
+127.0.0.1 - - [31/Dec/2021:06:15:40 -0300] "POST /charges HTTP/1.1" 422 - 0.0003
+127.0.0.1 - - [31/Dec/2021:06:15:40 -03] "POST /charges HTTP/1.1" 422 0
+- -> /charges
+127.0.0.1 - - [31/Dec/2021:06:15:45 -0300] "DELETE /charges/1 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:15:45 -03] "DELETE /charges/1 HTTP/1.1" 404 0
+- -> /charges/1
+127.0.0.1 - - [31/Dec/2021:06:15:50 -0300] "PUT /charges/%3DZF%7EoamyQCO_h%2F%23S%7Cl5 HTTP/1.1" 404 40 0.0004
+127.0.0.1 - - [31/Dec/2021:06:15:50 -03] "PUT /charges/%3DZF%7EoamyQCO_h%2F%23S%7Cl5 HTTP/1.1" 404 40
+- -> /charges/%3DZF%7EoamyQCO_h%2F%23S%7Cl5
+127.0.0.1 - - [31/Dec/2021:06:15:55 -0300] "DELETE /charges/G5xh%29%22g%2Fq%5E%29MK%3FU6%40t%5Da HTTP/1.1" 404 50 0.0005
+127.0.0.1 - - [31/Dec/2021:06:15:55 -03] "DELETE /charges/G5xh%29%22g%2Fq%5E%29MK%3FU6%40t%5Da HTTP/1.1" 404 50
+- -> /charges/G5xh%29%22g%2Fq%5E%29MK%3FU6%40t%5Da
+127.0.0.1 - - [31/Dec/2021:06:16:00 -0300] "GET /charges/%25i%21Ka%5EwCi%3B%7E3%7E HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:16:00 -03] "GET /charges/%25i%21Ka%5EwCi%3B%7E3%7E HTTP/1.1" 404 0
+- -> /charges/%25i%21Ka%5EwCi%3B%7E3%7E
+127.0.0.1 - - [31/Dec/2021:06:16:05 -0300] "DELETE /charges/0 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:16:05 -03] "DELETE /charges/0 HTTP/1.1" 404 0
+- -> /charges/0
+127.0.0.1 - - [31/Dec/2021:06:16:10 -0300] "GET /charges/null HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:16:10 -03] "GET /charges/null HTTP/1.1" 404 0
+- -> /charges/null
+127.0.0.1 - - [31/Dec/2021:06:16:15 -0300] "PUT /charges/null HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:16:15 -03] "PUT /charges/null HTTP/1.1" 404 0
+- -> /charges/null
+127.0.0.1 - - [31/Dec/2021:06:16:20 -0300] "POST /charges HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:16:20 -03] "POST /charges HTTP/1.1" 422 0
+- -> /charges
+127.0.0.1 - - [31/Dec/2021:06:16:25 -0300] "GET /charges/0 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:16:25 -03] "GET /charges/0 HTTP/1.1" 404 0
+- -> /charges/0
+127.0.0.1 - - [31/Dec/2021:06:16:30 -0300] "PUT /charges/p%5DJ%5E9D2%24t%5EX%3AF3%26 HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:16:30 -03] "PUT /charges/p%5DJ%5E9D2%24t%5EX%3AF3%26 HTTP/1.1" 422 0
+- -> /charges/p%5DJ%5E9D2%24t%5EX%3AF3%26
+127.0.0.1 - - [31/Dec/2021:06:16:35 -0300] "PUT /charges/null HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:16:35 -03] "PUT /charges/null HTTP/1.1" 422 0
+- -> /charges/null
+127.0.0.1 - - [31/Dec/2021:06:16:40 -0300] "GET /charges/a_%27%5B7%21w%23%2B%2F%2BK4%5D HTTP/1.1" 404 41 0.0004
+127.0.0.1 - - [31/Dec/2021:06:16:40 -03] "GET /charges/a_%27%5B7%21w%23%2B%2F%2BK4%5D HTTP/1.1" 404 41
+- -> /charges/a_%27%5B7%21w%23%2B%2F%2BK4%5D
+127.0.0.1 - - [31/Dec/2021:06:16:53 -0300] "DELETE /charges/nJt%7E-2fovC%7ED HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:16:53 -03] "DELETE /charges/nJt%7E-2fovC%7ED HTTP/1.1" 404 0
+- -> /charges/nJt%7E-2fovC%7ED
+127.0.0.1 - - [31/Dec/2021:06:16:58 -0300] "GET /charges/randomString HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:16:58 -03] "GET /charges/randomString HTTP/1.1" 404 0
+- -> /charges/randomString
+127.0.0.1 - - [31/Dec/2021:06:17:03 -0300] "DELETE /charges/%29z%239%26x%26T%5C%5E%3E%25A%5C%7C HTTP/1.1" 404 47 0.0005
+127.0.0.1 - - [31/Dec/2021:06:17:03 -03] "DELETE /charges/%29z%239%26x%26T%5C%5E%3E%25A%5C%7C HTTP/1.1" 404 47
+- -> /charges/%29z%239%26x%26T%5C%5E%3E%25A%5C%7C
+127.0.0.1 - - [31/Dec/2021:06:17:08 -0300] "POST /charges HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:17:08 -03] "POST /charges HTTP/1.1" 422 0
+- -> /charges
+127.0.0.1 - - [31/Dec/2021:06:17:13 -0300] "PUT /charges/0 HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:17:13 -03] "PUT /charges/0 HTTP/1.1" 422 0
+- -> /charges/0
+127.0.0.1 - - [31/Dec/2021:06:17:18 -0300] "POST /charges HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:17:18 -03] "POST /charges HTTP/1.1" 422 0
+- -> /charges
+127.0.0.1 - - [31/Dec/2021:06:17:23 -0300] "PUT /charges/null HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:17:23 -03] "PUT /charges/null HTTP/1.1" 422 0
+- -> /charges/null
+127.0.0.1 - - [31/Dec/2021:06:17:28 -0300] "POST /charges HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:17:28 -03] "POST /charges HTTP/1.1" 422 0
+- -> /charges
+127.0.0.1 - - [31/Dec/2021:06:17:33 -0300] "DELETE /charges/randomString HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:17:33 -03] "DELETE /charges/randomString HTTP/1.1" 404 0
+- -> /charges/randomString
+127.0.0.1 - - [31/Dec/2021:06:17:38 -0300] "POST /charges HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:17:38 -03] "POST /charges HTTP/1.1" 422 0
+- -> /charges
+127.0.0.1 - - [31/Dec/2021:06:17:43 -0300] "PUT /charges/isj-%21FR%5C%3DHeG%3F HTTP/1.1" 404 32 0.0004
+127.0.0.1 - - [31/Dec/2021:06:17:43 -03] "PUT /charges/isj-%21FR%5C%3DHeG%3F HTTP/1.1" 404 32
+- -> /charges/isj-%21FR%5C%3DHeG%3F
+127.0.0.1 - - [31/Dec/2021:06:17:48 -0300] "GET /charges/0 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:17:48 -03] "GET /charges/0 HTTP/1.1" 404 0
+- -> /charges/0
+127.0.0.1 - - [31/Dec/2021:06:17:54 -0300] "GET /charges/J%26w2p.I3r*P%25%5E HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:17:54 -03] "GET /charges/J%26w2p.I3r*P%25%5E HTTP/1.1" 404 0
+- -> /charges/J%26w2p.I3r*P%25%5E
+127.0.0.1 - - [31/Dec/2021:06:17:59 -0300] "DELETE /charges/rK7cO%5EBC%23%3C%3A HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:17:59 -03] "DELETE /charges/rK7cO%5EBC%23%3C%3A HTTP/1.1" 404 0
+- -> /charges/rK7cO%5EBC%23%3C%3A
+127.0.0.1 - - [31/Dec/2021:06:18:04 -0300] "PUT /charges/%2CJ%23%3C%60ZdB%3AzLKf HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:18:04 -03] "PUT /charges/%2CJ%23%3C%60ZdB%3AzLKf HTTP/1.1" 404 0
+- -> /charges/%2CJ%23%3C%60ZdB%3AzLKf
+127.0.0.1 - - [31/Dec/2021:06:18:09 -0300] "GET /charges/rLSWXW%5B%21m-8_Q%7CT HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:18:09 -03] "GET /charges/rLSWXW%5B%21m-8_Q%7CT HTTP/1.1" 404 0
+- -> /charges/rLSWXW%5B%21m-8_Q%7CT
+127.0.0.1 - - [31/Dec/2021:06:18:22 -0300] "DELETE /charges/F%4064Hxi%5DN%3E HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:18:22 -03] "DELETE /charges/F%4064Hxi%5DN%3E HTTP/1.1" 404 0
+- -> /charges/F%4064Hxi%5DN%3E
+127.0.0.1 - - [31/Dec/2021:06:18:27 -0300] "POST /charges HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:18:27 -03] "POST /charges HTTP/1.1" 422 0
+- -> /charges
+127.0.0.1 - - [31/Dec/2021:06:18:33 -0300] "PUT /charges/9%2BJ%3Cl72uV%206%7E%5E-%5CsWa%20h HTTP/1.1" 404 45 0.0004
+127.0.0.1 - - [31/Dec/2021:06:18:33 -03] "PUT /charges/9%2BJ%3Cl72uV%206%7E%5E-%5CsWa%20h HTTP/1.1" 404 45
+- -> /charges/9%2BJ%3Cl72uV%206%7E%5E-%5CsWa%20h
+127.0.0.1 - - [31/Dec/2021:06:18:38 -0300] "GET /charges/%23%26B%5B%3D4Y%3DJ%60cZC%5ComJ%27N HTTP/1.1" 404 46 0.0005
+127.0.0.1 - - [31/Dec/2021:06:18:38 -03] "GET /charges/%23%26B%5B%3D4Y%3DJ%60cZC%5ComJ%27N HTTP/1.1" 404 46
+- -> /charges/%23%26B%5B%3D4Y%3DJ%60cZC%5ComJ%27N
+127.0.0.1 - - [31/Dec/2021:06:18:43 -0300] "PUT /charges/null HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:18:43 -03] "PUT /charges/null HTTP/1.1" 404 0
+- -> /charges/null
+127.0.0.1 - - [31/Dec/2021:06:18:48 -0300] "DELETE /charges/zLy.%26_D%3E%5Bko%2Fo%3F6%3FJGZ%2F HTTP/1.1" 404 46 0.0005
+127.0.0.1 - - [31/Dec/2021:06:18:48 -03] "DELETE /charges/zLy.%26_D%3E%5Bko%2Fo%3F6%3FJGZ%2F HTTP/1.1" 404 46
+- -> /charges/zLy.%26_D%3E%5Bko%2Fo%3F6%3FJGZ%2F
+127.0.0.1 - - [31/Dec/2021:06:18:53 -0300] "PUT /charges/%3D6%5DE6O9Xe%7D%29%3AM0%21dl1 HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:18:53 -03] "PUT /charges/%3D6%5DE6O9Xe%7D%29%3AM0%21dl1 HTTP/1.1" 422 0
+- -> /charges/%3D6%5DE6O9Xe%7D%29%3AM0%21dl1
+127.0.0.1 - - [31/Dec/2021:06:18:58 -0300] "DELETE /charges/%5C0 HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:18:58 -03] "DELETE /charges/%5C0 HTTP/1.1" 404 0
+- -> /charges/%5C0
+127.0.0.1 - - [31/Dec/2021:06:19:03 -0300] "POST /charges HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:19:03 -03] "POST /charges HTTP/1.1" 422 0
+- -> /charges
+127.0.0.1 - - [31/Dec/2021:06:19:08 -0300] "GET /charges/K%3F%2B%24h%5C*%5DM5iZo4%3A HTTP/1.1" 404 38 0.0004
+127.0.0.1 - - [31/Dec/2021:06:19:08 -03] "GET /charges/K%3F%2B%24h%5C*%5DM5iZo4%3A HTTP/1.1" 404 38
+- -> /charges/K%3F%2B%24h%5C*%5DM5iZo4%3A
+127.0.0.1 - - [31/Dec/2021:06:19:13 -0300] "POST /charges HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:19:13 -03] "POST /charges HTTP/1.1" 422 0
+- -> /charges
+127.0.0.1 - - [31/Dec/2021:06:19:18 -0300] "GET /charges/%3C%24%60lc%2C.%2Bx%5E%3Ekgc-%25W1Zx HTTP/1.1" 404 - 0.0006
+127.0.0.1 - - [31/Dec/2021:06:19:18 -03] "GET /charges/%3C%24%60lc%2C.%2Bx%5E%3Ekgc-%25W1Zx HTTP/1.1" 404 0
+- -> /charges/%3C%24%60lc%2C.%2Bx%5E%3Ekgc-%25W1Zx
+127.0.0.1 - - [31/Dec/2021:06:19:23 -0300] "PUT /charges/T%25DUem.18gW%27%7C%3A52r_ HTTP/1.1" 422 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:19:23 -03] "PUT /charges/T%25DUem.18gW%27%7C%3A52r_ HTTP/1.1" 422 0
+- -> /charges/T%25DUem.18gW%27%7C%3A52r_
+127.0.0.1 - - [31/Dec/2021:06:19:28 -0300] "POST /charges HTTP/1.1" 422 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:19:28 -03] "POST /charges HTTP/1.1" 422 0
+- -> /charges
+127.0.0.1 - - [31/Dec/2021:06:19:33 -0300] "GET /charges/QXms%7DpDMPFW0tdLHpNO HTTP/1.1" 404 - 0.0005
+127.0.0.1 - - [31/Dec/2021:06:19:33 -03] "GET /charges/QXms%7DpDMPFW0tdLHpNO HTTP/1.1" 404 0
+- -> /charges/QXms%7DpDMPFW0tdLHpNO
+127.0.0.1 - - [31/Dec/2021:06:19:38 -0300] "DELETE /charges/2147483648 HTTP/1.1" 404 - 0.0004
+127.0.0.1 - - [31/Dec/2021:06:19:38 -03] "DELETE /charges/2147483648 HTTP/1.1" 404 0
+- -> /charges/2147483648
+== Sinatra has ended his set (crowd applauds)
+[2021-12-31 06:19:46] INFO  going to shutdown ...
+[2021-12-31 06:19:46] INFO  WEBrick::HTTPServer#start done.

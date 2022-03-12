@@ -1,0 +1,113 @@
+{
+  "uid" : "e6bbba85c97412fc",
+  "name" : "test_qy4dzmhsc1gk_readcharge",
+  "fullName" : "PaymentUnexpectedPayloadRootNode.OasDbPaymentUnexpectedPayloadRootNode_t4vqgwh8v9yr.test_qy4dzmhsc1gk_readcharge",
+  "historyId" : "1590a4c8e84f92f220c4d4e7e71f688f",
+  "time" : {
+    "start" : 1640935815074,
+    "stop" : 1640935815088,
+    "duration" : 14
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "36763348ca3dbcca",
+      "name" : "Request",
+      "source" : "36763348ca3dbcca.html",
+      "type" : "text/html",
+      "size" : 275
+    }, {
+      "uid" : "fde6f8218b109e75",
+      "name" : "HTTP/1.1 404 Not Found",
+      "source" : "fde6f8218b109e75.html",
+      "type" : "text/html",
+      "size" : 673
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "PaymentUnexpectedPayloadRootNode"
+  }, {
+    "name" : "testClass",
+    "value" : "PaymentUnexpectedPayloadRootNode.OasDbPaymentUnexpectedPayloadRootNode_t4vqgwh8v9yr"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_qy4dzmhsc1gk_readcharge"
+  }, {
+    "name" : "suite",
+    "value" : "PaymentUnexpectedPayloadRootNode.OasDbPaymentUnexpectedPayloadRootNode_t4vqgwh8v9yr"
+  }, {
+    "name" : "host",
+    "value" : "Alexs-MacBook-Pro-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "59992@Alexs-MacBook-Pro-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "95726689ab5056e7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640935815074,
+          "stop" : 1640935815088,
+          "duration" : 14
+        }
+      }, {
+        "uid" : "81d975a856546d1f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640935815074,
+          "stop" : 1640935815088,
+          "duration" : 14
+        }
+      }, {
+        "uid" : "969537591f9f12ac",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640935815074,
+          "stop" : 1640935815088,
+          "duration" : 14
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e6bbba85c97412fc.json",
+  "parameterValues" : [ ]
+}

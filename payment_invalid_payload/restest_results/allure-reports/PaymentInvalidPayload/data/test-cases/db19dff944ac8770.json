@@ -1,0 +1,161 @@
+{
+  "uid" : "db19dff944ac8770",
+  "name" : "test_qdta34cgaqt3_deletecharge",
+  "fullName" : "PaymentInvalidPayload.OasDbPaymentInvalidPayload_1jygjnop4hge1.test_qdta34cgaqt3_deletecharge",
+  "historyId" : "5563aa9866b158b1b756f0018addf0d",
+  "time" : {
+    "start" : 1640940285110,
+    "stop" : 1640940285125,
+    "duration" : 15
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1df127e87c3435c",
+      "name" : "Request",
+      "source" : "1df127e87c3435c.html",
+      "type" : "text/html",
+      "size" : 267
+    }, {
+      "uid" : "baae4b5ea362ca11",
+      "name" : "HTTP/1.1 404 Not Found",
+      "source" : "baae4b5ea362ca11.html",
+      "type" : "text/html",
+      "size" : 669
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "PaymentInvalidPayload"
+  }, {
+    "name" : "testClass",
+    "value" : "PaymentInvalidPayload.OasDbPaymentInvalidPayload_1jygjnop4hge1"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_qdta34cgaqt3_deletecharge"
+  }, {
+    "name" : "suite",
+    "value" : "PaymentInvalidPayload.OasDbPaymentInvalidPayload_1jygjnop4hge1"
+  }, {
+    "name" : "host",
+    "value" : "Alexs-MacBook-Pro-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "62876@Alexs-MacBook-Pro-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 10,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "d7d75a290fde5d44",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640940285110,
+          "stop" : 1640940285125,
+          "duration" : 15
+        }
+      }, {
+        "uid" : "248cdbf14ff6d0fb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640940285110,
+          "stop" : 1640940285125,
+          "duration" : 15
+        }
+      }, {
+        "uid" : "3125260d08a2373e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640940285110,
+          "stop" : 1640940285125,
+          "duration" : 15
+        }
+      }, {
+        "uid" : "b86a43e13fc12f07",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640940285110,
+          "stop" : 1640940285125,
+          "duration" : 15
+        }
+      }, {
+        "uid" : "c94ae4add769ec99",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640940285110,
+          "stop" : 1640940285125,
+          "duration" : 15
+        }
+      }, {
+        "uid" : "5b0211990a5496af",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640940285110,
+          "stop" : 1640940285125,
+          "duration" : 15
+        }
+      }, {
+        "uid" : "5ca2fa3e689aaaa2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640940285110,
+          "stop" : 1640940285125,
+          "duration" : 15
+        }
+      }, {
+        "uid" : "6762ccebb1f49d9b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640940285110,
+          "stop" : 1640940285125,
+          "duration" : 15
+        }
+      }, {
+        "uid" : "be86fddc41d477b5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640940285110,
+          "stop" : 1640940285125,
+          "duration" : 15
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "db19dff944ac8770.json",
+  "parameterValues" : [ ]
+}

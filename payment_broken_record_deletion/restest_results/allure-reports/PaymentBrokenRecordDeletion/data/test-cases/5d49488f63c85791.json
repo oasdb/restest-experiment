@@ -1,0 +1,97 @@
+{
+  "uid" : "5d49488f63c85791",
+  "name" : "test_vevdl60w7of7_readcharge",
+  "fullName" : "PaymentBrokenRecordDeletion.OasDbPaymentBrokenRecordDeletion_1ji4h4smhyofq.test_vevdl60w7of7_readcharge",
+  "historyId" : "10d5f366cbd34572eda0c3d3adc1b7cf",
+  "time" : {
+    "start" : 1640952294276,
+    "stop" : 1640952294290,
+    "duration" : 14
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "715157ccdcf9b284",
+      "name" : "Request",
+      "source" : "715157ccdcf9b284.html",
+      "type" : "text/html",
+      "size" : 263
+    }, {
+      "uid" : "6c67577a3a84876a",
+      "name" : "HTTP/1.1 404 Not Found",
+      "source" : "6c67577a3a84876a.html",
+      "type" : "text/html",
+      "size" : 546
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "PaymentBrokenRecordDeletion"
+  }, {
+    "name" : "testClass",
+    "value" : "PaymentBrokenRecordDeletion.OasDbPaymentBrokenRecordDeletion_1ji4h4smhyofq"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_vevdl60w7of7_readcharge"
+  }, {
+    "name" : "suite",
+    "value" : "PaymentBrokenRecordDeletion.OasDbPaymentBrokenRecordDeletion_1ji4h4smhyofq"
+  }, {
+    "name" : "host",
+    "value" : "Alexs-MacBook-Pro-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "69421@Alexs-MacBook-Pro-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "80de3d55f9512af9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640952294276,
+          "stop" : 1640952294290,
+          "duration" : 14
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "5d49488f63c85791.json",
+  "parameterValues" : [ ]
+}

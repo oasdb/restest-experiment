@@ -1,0 +1,78 @@
+{
+  "uid" : "da7c32df9915ebbb",
+  "name" : "test_1jed7o8rug6si_deleteproject",
+  "fullName" : "ProjectManagementUnexpectedPayloadRootNode.OasDbProjectManagementUnexpectedPayloadRootNode_1iv1i8pun5l4m.test_1jed7o8rug6si_deleteproject",
+  "historyId" : "99ac90a596e3cd26498dd921ac0031c8",
+  "time" : {
+    "start" : 1640934834773,
+    "stop" : 1640934834785,
+    "duration" : 12
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d71cb66d82efd44d",
+      "name" : "Request",
+      "source" : "d71cb66d82efd44d.html",
+      "type" : "text/html",
+      "size" : 279
+    }, {
+      "uid" : "85feadbbc882bb93",
+      "name" : "HTTP/1.1 404 Not Found",
+      "source" : "85feadbbc882bb93.html",
+      "type" : "text/html",
+      "size" : 546
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ProjectManagementUnexpectedPayloadRootNode"
+  }, {
+    "name" : "testClass",
+    "value" : "ProjectManagementUnexpectedPayloadRootNode.OasDbProjectManagementUnexpectedPayloadRootNode_1iv1i8pun5l4m"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_1jed7o8rug6si_deleteproject"
+  }, {
+    "name" : "suite",
+    "value" : "ProjectManagementUnexpectedPayloadRootNode.OasDbProjectManagementUnexpectedPayloadRootNode_1iv1i8pun5l4m"
+  }, {
+    "name" : "host",
+    "value" : "Alexs-MacBook-Pro-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "59277@Alexs-MacBook-Pro-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "da7c32df9915ebbb.json",
+  "parameterValues" : [ ]
+}
